@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Voici une description du guide de l’utilisateur qui s’affichera sur la page de destination.
-source-git-commit: 5d57d42623343ef5b968a4dc4368cc9ea4932d9d
+source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '81'
 ht-degree: 39%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 39%
    + [Engagement](/help/opportunity-types/engagement.md)
    + [Santé du site](/help/opportunity-types/site-health.md)
    + [Position de sécurité](/help/opportunity-types/security-posture.md)
-   + [Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
 + Documentation {#documentation}
    + [Vue d’ensemble](/help/documentation/overview.md)
    + [Concepts de base](/help/documentation/basics.md)
@@ -35,8 +34,6 @@ ht-degree: 39%
       + [Métadonnées non valides ou manquantes](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Données structurées manquantes ou non valides](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Texte secondaire manquant](/help/documentation/opportunities/missing-alt-text.md)
-      + [Conversions faibles](/help/documentation/opportunities/low-conversions.md)
-      + [Vues basses](/help/documentation/opportunities/low-views.md)
       + [Problèmes de plan de site](/help/documentation/opportunities/sitemap-issues.md)
       + [Autorisations de site web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnérabilités du site web](/help/documentation/opportunities/website-vulnerabilities.md)
