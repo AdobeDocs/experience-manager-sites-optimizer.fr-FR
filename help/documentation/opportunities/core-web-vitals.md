@@ -2,7 +2,7 @@
 title: Documentation sur les opportunités des vitales web principales
 description: Découvrez l’opportunité principale liée aux paramètres web et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeSiteHealth: label="Santé du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Santé du site"
-source-git-commit: 81343812472477448fd0ee8be89bd6ae784a9e61
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -42,8 +42,9 @@ L’opportunité Web vitaux principale fournit des suggestions de correctifs gé
 
 Chaque catégorie peut contenir plusieurs problèmes. Veillez donc à faire défiler l’écran vers le bas pour afficher la liste complète des problèmes et des recommandations.  En outre, il existe deux jauges de performances pour les appareils mobiles et les ordinateurs de bureau pour chaque mesure.
 
-## Optimisation automatique d’[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimisation automatique
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimisation automatique des opportunités vitales du web principal](./assets/core-web-vitals/auto-optimize.png){align="center"}
 

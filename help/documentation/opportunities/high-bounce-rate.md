@@ -2,7 +2,7 @@
 title: Documentation sur l’opportunité à taux de rebond élevé
 description: Découvrez l’opportunité de vues basses et comment l’utiliser pour améliorer l’engagement des formulaires sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: 393feffe477eff99a026b7ad7cad5531c20254ea
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -50,7 +50,9 @@ Cliquez sur chaque variation pour la prévisualiser dans la partie droite de l�
 
 >[!ENDTABS]
 
-## Optimisation automatique d’[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimisation automatique
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimisation automatique du taux de rebond élevé](./assets/high-bounce-rate/auto-optimize.png){align="center"}
 

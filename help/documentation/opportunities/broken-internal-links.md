@@ -2,7 +2,7 @@
 title: Documentation sur l’opportunité des liens internes rompus
 description: Découvrez l’opportunité Liens rompus et comment l’utiliser pour améliorer l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: 40ed1b3d60bd4eb1e5410c8c76a7d45856a3d79b
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -61,8 +61,9 @@ Vous pouvez choisir d’ignorer les entrées avec les URL rompues ciblées. Sél
 >[!ENDTABS]
 
 
-## Optimisation automatique d’[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimisation automatique
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 

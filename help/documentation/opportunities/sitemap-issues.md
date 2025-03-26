@@ -2,7 +2,7 @@
 title: Documentation sur l’opportunité des événements du plan du site
 description: Découvrez l’opportunité des problèmes du plan du site et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
-source-git-commit: d812a49e4b49d329717586b9f3c7a235aff3e69a
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
@@ -75,8 +75,9 @@ Chaque problème de plan de site [qui répond aux critères de filtrage](#auto-i
 
 Les suggestions incluent généralement un chemin de site mis à jour pour corriger l’entrée du plan du site. Dans certains cas, ils peuvent également fournir des instructions plus détaillées, telles que la spécification de la cible de redirection correcte.
 
-## Optimisation automatique d’[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimisation automatique
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimisation automatique des problèmes de plan de site](./assets/sitemap-issues/auto-optimize.png){align="center"}
 

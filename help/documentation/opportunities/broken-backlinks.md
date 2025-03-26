@@ -2,7 +2,7 @@
 title: Documentation sur l’opportunité de liens rétroactifs rompus
 description: Découvrez l’opportunité de liens retour rompus et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
-source-git-commit: d2f8df0515265f6bc983cf906e07e9bf7230becf
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 1%
@@ -60,9 +60,9 @@ Vous pouvez choisir d’ignorer les entrées avec l’URL cible rompue. Sélecti
 
 >[!ENDTABS]
 
+## Optimisation automatique
 
-## Optimisation automatique d’[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimiser automatiquement les liens retour rompus](./assets/broken-backlinks/auto-optimize.png){align="center"}
 

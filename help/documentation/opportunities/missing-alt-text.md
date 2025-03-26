@@ -2,7 +2,7 @@
 title: Documentation sur le texte de remplacement manquant
 description: Découvrez l’opportunité de texte secondaire manquante et comment l’utiliser pour améliorer l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: 84f922b5d0f788c1affe47a9013ed640947d0ec4
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -57,8 +57,9 @@ Vous pouvez choisir d’ignorer les entrées de la liste des opportunités. Sél
 
 >[!ENDTABS]
 
-## Optimisation automatique d’[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimisation automatique
 
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimisation automatique du texte secondaire manquant](./assets/missing-alt-text/auto-optimize.png){align="center"}
 

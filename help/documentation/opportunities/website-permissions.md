@@ -2,7 +2,7 @@
 title: Documentation sur l’opportunité d’autorisations de site web
 description: Découvrez l’opportunité d’autorisations du site web et comment l’utiliser pour renforcer la sécurité de sur votre site web.
 badgeSecurityPosture: label="Position de sécurité" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Position de sécurité"
-source-git-commit: 5d1ae616ddde74f69b73ba5b44297c14b2dea36b
+source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 2%
@@ -33,7 +33,9 @@ La fonctionnalité **Autorisations de site web** identifie et répertorie automa
 
 La suggestion automatique fournit des recommandations générées par l’IA dans le champ **Autorisations suggérées**, ce qui vous permet de remplacer toutes les autorisations marquées par des alternatives sécurisées.
 
-## Optimisation automatique d’[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+## Optimisation automatique
+
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
 ![Optimisation automatique des autorisations de site web](./assets/website-permissions/auto-optimize.png){align="center"}
 
