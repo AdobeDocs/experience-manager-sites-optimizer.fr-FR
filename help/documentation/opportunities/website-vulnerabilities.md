@@ -1,53 +1,53 @@
 ---
-title: Documentation sur les vulnérabilités du site web - Opportunités
-description: Découvrez l’opportunité des vulnérabilités du site web et comment l’utiliser pour renforcer la sécurité de sur votre site web.
-badgeSecurityPosture: label="Position de sécurité" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Position de sécurité"
+title: Documentation sur l’opportunité des vulnérabilités du site web
+description: Découvrez l’opportunité des vulnérabilités du site web et comment l’utiliser pour renforcer la sécurité de votre site web.
+badgeSecurityPosture: label="Posture de sécurité" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posture de sécurité"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 1%
+ht-degree: 99%
 
 ---
 
 
-# Opportunité de vulnérabilités de site web
+# Opportunité des vulnérabilités du site web
 
-![Opportunité de vulnérabilités de site web](./assets/website-vulnerabilities/hero.png){align="center"}
+![Opportunité des vulnérabilités du site web](./assets/website-vulnerabilities/hero.png){align="center"}
 
-L’opportunité de vulnérabilités du site web identifie les vulnérabilités de sécurité dans les bibliothèques tierces utilisées par le code de votre application. Ces vulnérabilités peuvent être exploitées par un attaquant malveillant, ce qui augmente les risques et réduit la sécurité de votre site web.
+L’opportunité des vulnérabilités du site web identifie les vulnérabilités de sécurité dans les bibliothèques tierces utilisées par le code de votre application. Ces vulnérabilités peuvent être exploitées par une personne malveillante, ce qui augmente les risques et réduit la sécurité de votre site web.
 
-L’opportunité Vulnérabilités du site Web affiche un résumé en haut de la page, comprenant les éléments suivants :
+L’opportunité des vulnérabilités du site web affiche un résumé en haut de la page, comprenant les éléments suivants :
 
-* **Problèmes détectés** - Nombre de vulnérabilités détectées, classées par risque de sécurité qu’elles représentent (faible, moyen, élevé).
-* **Risque de sécurité agrégé** - Risque de sécurité global associé à votre site web en fonction des vulnérabilités identifiées par l’opportunité.
+* **Problèmes détectés** : nombre de vulnérabilités détectées, classées par risque de sécurité qu’elles représentent (faible, moyen, élevé).
+* **Risque de sécurité agrégé** : risque de sécurité global associé à votre site web en fonction des vulnérabilités identifiées par l’opportunité.
 
-## Auto-identification
+## Identification automatique
 
 ![Identification automatique des vulnérabilités du site web](./assets/website-vulnerabilities/auto-identify.png){align="center"}
 
-La fonctionnalité **Opportunité des vulnérabilités du site web** identifie et répertorie automatiquement les vulnérabilités trouvées dans les bibliothèques tierces utilisées par le code de votre application. Elle fournit les détails suivants :
+La fonctionnalité **Opportunité des vulnérabilités du site web** identifie et répertorie automatiquement les vulnérabilités trouvées dans les bibliothèques tierces utilisées par le code de votre application. Elle fournit les détails suivants :
 
-* **Bibliothèque** - Bibliothèque tierce contenant la vulnérabilité. Une seule bibliothèque peut comporter plusieurs vulnérabilités.
-* **Version actuelle** - Version de la bibliothèque actuellement utilisée.
-* **Version recommandée** - Version suggérée pour résoudre la vulnérabilité.
-* **Score** - Évaluation de la gravité de la vulnérabilité, également résumée en haut de la page.
-* **Vulnérabilité** - L’identifiant de la vulnérabilité, une brève description et un lien vers la base de données nationale sur les vulnérabilités (NVD) pour plus de détails. Accédez au lien NVD en cliquant sur l’identifiant ou sur le lien en regard de la description.
+* **Bibliothèque** : bibliothèque tierce contenant la vulnérabilité. Une seule bibliothèque peut comporter plusieurs vulnérabilités.
+* **Version actuelle** : version de la bibliothèque actuellement utilisée.
+* **Version recommandée** : version suggérée qui résout la vulnérabilité.
+* **Score** : évaluation de la gravité de la vulnérabilité, également résumée en haut de la page.
+* **Vulnérabilité** : l’identifiant de la vulnérabilité, une brève description et un lien vers la base de données nationale sur les vulnérabilités (NVD) pour plus de détails. Accédez au lien NVD en cliquant sur l’identifiant ou sur le lien en regard de la description.
 
 ## Suggestion automatique
 
-![Suggérer automatiquement des vulnérabilités de site web](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
+![Suggestion automatiquement des vulnérabilités de site web](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
 
-La fonction de suggestion automatique fournit des suggestions générées par l’IA pour la **version recommandée** de la bibliothèque vulnérable vers laquelle vous devez effectuer la mise à niveau. Chaque entrée comporte un **Score** indiquant sa gravité globale, ce qui permet de hiérarchiser les vulnérabilités les plus critiques.
+La fonction de suggestion automatique fournit des suggestions générées par l’IA pour la **version recommandée** de la bibliothèque vulnérable vers laquelle vous devez effectuer la mise à niveau. Chaque entrée comporte un **score** indiquant sa gravité globale, ce qui permet de hiérarchiser les vulnérabilités les plus critiques.
 
 >[!BEGINTABS]
 
->[!TAB Informations sur les vulnérabilités]
+>[!TAB Détails sur les vulnérabilités]
 
-Chaque vulnérabilité contient un lien vers les informations détaillées de la [Base de données nationale sur les vulnérabilités (NVD)](https://nvd.nist.gov/). Cliquez sur l’identifiant de la vulnérabilité ou sur l’élément de lien situé à droite de la description pour accéder à la page NVD de cette vulnérabilité.
+Chaque vulnérabilité contient un lien vers les informations détaillées de la [base de données nationale sur les vulnérabilités (NVD)](https://nvd.nist.gov/). Cliquez sur l’identifiant de la vulnérabilité ou sur l’élément de lien situé à droite de la description pour accéder à la page NVD de cette vulnérabilité.
 
 >[!TAB Ignorer les entrées]
 
-Vous pouvez choisir d’ignorer les entrées de la liste des vulnérabilités. Sélectionner l’icône **ignorer** supprime l’entrée de la liste. Les entrées ignorées peuvent être réengagées à partir de l’onglet **Ignorées** en haut de la page de l’opportunité.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
+Vous pouvez choisir d’ignorer les entrées de la liste des vulnérabilités. Sélectionner l’**icône Ignorer** supprime l’entrée de la liste. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignorées** en haut de la page des opportunités.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
 
 >[!ENDTABS]
 
@@ -56,9 +56,9 @@ Vous pouvez choisir d’ignorer les entrées de la liste des vulnérabilités. S
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Optimisation automatique des vulnérabilités des sites web](./assets/website-vulnerabilities/auto-optimize.png){align="center"}
+![Identification automatique des vulnérabilités du site web](./assets/website-vulnerabilities/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate offre la possibilité de déployer une optimisation automatique pour les vulnérabilités détectées.
+Sites Optimizer Ultimate permet de déployer une optimisation automatique pour les vulnérabilités détectées.
 
 >[!BEGINTABS]
 

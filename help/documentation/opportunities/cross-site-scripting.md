@@ -1,33 +1,33 @@
 ---
 title: Documentation sur l’opportunité de cross-site scripting
 description: Découvrez l’opportunité de cross-site scripting et identifiez et corrigez les vulnérabilités de sécurité du site.
-badgeSecurityPosture: label="Position de sécurité" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Position de sécurité"
+badgeSecurityPosture: label="Posture de sécurité" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posture de sécurité"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 4%
+ht-degree: 98%
 
 ---
 
 
 # Opportunité de cross-site scripting
 
-![Opportunité intersite](./assets/cross-site-scripting/hero.png){align="center"}
+![Opportunité de cross-site scripting](./assets/cross-site-scripting/hero.png){align="center"}
 
-L’opportunité de cross-site scripting identifie et corrige les vulnérabilités du code de votre site qui peuvent être exploitées par des attaquant(e)s afin d’injecter des scripts malveillants dans des pages web consultées par d’autres utilisateurs et utilisatrices. Ces scripts peuvent voler des informations sensibles, telles que des cookies de session, ou effectuer des actions pour le compte de l’utilisateur, comme modifier son mot de passe.
+L’opportunité de cross-site scripting identifie et corrige les vulnérabilités du code de votre site qui peuvent être exploitées par des personnes malveillantes afin d’injecter des scripts malveillants dans des pages web consultées par d’autres utilisateurs et utilisatrices. Ces scripts peuvent voler des informations sensibles, telles que des cookies de session, ou effectuer des actions pour le compte de l’utilisateur ou utilisatrice, comme modifier son mot de passe.
 
-## Auto-identification
+## Identification automatique
 
-![Identification automatique de l’opportunité intersite](./assets/cross-site-scripting/auto-identify.png){align="center"}
+![Identification automatique de l’opportunité de cross-site scripting](./assets/cross-site-scripting/auto-identify.png){align="center"}
 
-* **Code vulnérable** - Tout code vulnérable aux attaques de script entre sites.
-* **Lien à reproduire** - Lien vers la page où la vulnérabilité a été trouvée.
+* **Code vulnérable** : tout code vulnérable aux attaques de cross-site scripting.
+* **Lien à reproduire** : lien vers la page où la vulnérabilité a été trouvée.
 
 ## Suggestion automatique
 
-![Suggestion automatique d’opportunité intersite](./assets/cross-site-scripting/auto-suggest.png){align="center"}
+![Suggestion automatique de l’opportunité de cross-site scripting](./assets/cross-site-scripting/auto-suggest.png){align="center"}
 
-* **Correctif suggéré** - Une suggestion générée par l’IA sur la façon de corriger la vulnérabilité.
+* **Correctif suggéré** : suggestion générée par l’IA sur la façon de corriger la vulnérabilité.
 
 ## Optimisation automatique
 

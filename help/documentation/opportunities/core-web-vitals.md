@@ -1,44 +1,44 @@
 ---
-title: Documentation sur les opportunités des vitales web principales
-description: Découvrez l’opportunité principale liée aux paramètres web et comment l’utiliser pour améliorer l’acquisition du trafic.
-badgeSiteHealth: label="Santé du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Santé du site"
+title: Documentation sur l’opportunité des valeurs web principales
+description: Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.
+badgeSiteHealth: label="Intégrité du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Intégrité du site"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 1%
+ht-degree: 99%
 
 ---
 
 
-# Opportunité des éléments vitaux du web principal
+# Opportunité des valeurs web principales
 
-![opportunité des principaux éléments web](./assets/core-web-vitals/hero.png){align="center"}
+![opportunité des valeurs web principales](./assets/core-web-vitals/hero.png){align="center"}
 
-L’opportunité Web vitaux principale identifie les problèmes qui peuvent dégrader l’expérience utilisateur et les performances de recherche organiques de vos pages web. Ces problèmes proviennent de nombreux facteurs, tels que : les polices personnalisées, les dépendances JavaScript non optimisées, les scripts tiers, etc. L’opportunité des éléments web vitaux de base pointe ces éléments défectueux et suggère des correctifs qui peuvent améliorer les performances de votre page web. Notez que seules les pages qui ont au moins 1 000 pages vues peuvent être analysées.
+L’opportunité des valeurs web principales identifie les problèmes qui peuvent dégrader l’expérience client et les performances de référencement naturel de vos pages web. Ces problèmes proviennent de nombreux facteurs, tels que les suivants : polices personnalisées, dépendances JavaScript non optimisées, scripts tiers, etc. L’opportunité des valeurs web principales pointe ces éléments défectueux et suggère des correctifs qui peuvent améliorer les performances de votre page web. Notez que seules les pages qui ont au moins 1 000 vues peuvent être analysées.
 
-Pour commencer, l’opportunité des éléments vitaux du web principal affiche un résumé en haut de la page, y compris un résumé du problème et de son impact sur votre site et votre entreprise.
+Pour commencer, l’opportunité des valeurs web principales affiche un résumé en haut de la page, y compris une synthèse du problème et de son impact sur votre site et votre entreprise.
 
-* **Perte de trafic prévue** - Estimation de la perte de trafic due aux éléments vitaux du web principal qui sont inférieurs aux seuils de performance.
-* **Valeur prévue du trafic** - Valeur estimée du trafic perdu.
+* **Perte de trafic prévue** : estimation de la perte de trafic due aux valeurs web principales qui sont inférieures aux seuils de performance.
+* **Valeur prévue du trafic** : valeur estimée du trafic perdu.
 
-## Auto-identification
+## Identification automatique
 
-![Identification automatique des principaux éléments vitaux du web](./assets/core-web-vitals/auto-identify.png){align="center"}
+![Identification automatique des valeurs web principales](./assets/core-web-vitals/auto-identify.png){align="center"}
 
-Dans la partie inférieure de la page, vous trouverez la liste de tous les événements actuels, regroupés comme suit :
+Dans la partie inférieure de la page, vous trouverez la liste de tous les problèmes actuels, regroupés comme suit :
 
-* **Problèmes mobiles** - Liste des problèmes affectant la version mobile de la page.
-* **Problèmes liés au bureau** - Liste des problèmes affectant la version bureau de la page.
+* **Problèmes sur la version mobile** : liste des problèmes affectant la version mobile de la page.
+* **Problèmes sur la version de bureau** : liste des problèmes affectant la version de bureau de la page.
 
-Chaque événement est présenté dans un tableau, avec la colonne **Page** identifiant l’entrée de page concernée.
+Chaque problème est présenté dans un tableau, avec la colonne **Page** identifiant l’entrée de page concernée.
 
-En outre, ces problèmes sont également regroupés selon les mesures de performances standard du rapport des éléments vitaux du web principal : la plus grande peinture contentée **LCP**, l’interaction avec la peinture suivante **INP** et le changement de disposition cumulé **CLS**.
+En outre, ces problèmes sont également regroupés selon les mesures de performances standard du rapport des valeurs web principales : Largest Contentful Paint (**LCP**), Interaction to Next Paint (**INP**) et Cumulative Layout Shift (**CLS**).
 
 ## Suggestion automatique
 
-![Suggérer automatiquement l’opportunité des éléments vitaux du web](./assets/core-web-vitals/auto-suggest.png){align="center"}
+![Suggestion automatique de l’opportunité des valeurs web principales](./assets/core-web-vitals/auto-suggest.png){align="center"}
 
-L’opportunité Web vitaux principale fournit des suggestions de correctifs générés par l’IA. Lorsque vous cliquez sur le bouton de suggestions, une nouvelle fenêtre s’affiche. Elle contient les mesures de performances **LCP**, **INP** et **CLS** sous forme de catégories. Vous pouvez basculer entre ces catégories pour afficher une liste de problèmes spécifiques.
+L’opportunité des valeurs web principales fournit des suggestions de correctifs générés par l’IA. Lorsque vous cliquez sur le bouton des suggestions, une fenêtre contenant les mesures de performances **LCP**, **INP** et **CLS** sous forme de catégories s’affiche. Vous pouvez basculer entre ces catégories pour afficher une liste de problèmes spécifiques.
 
 Chaque catégorie peut contenir plusieurs problèmes. Veillez donc à faire défiler l’écran vers le bas pour afficher la liste complète des problèmes et des recommandations.  En outre, il existe deux jauges de performances pour les appareils mobiles et les ordinateurs de bureau pour chaque mesure.
 
@@ -46,9 +46,9 @@ Chaque catégorie peut contenir plusieurs problèmes. Veillez donc à faire déf
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Optimisation automatique des opportunités vitales du web principal](./assets/core-web-vitals/auto-optimize.png){align="center"}
+![Optimisation automatique de l’opportunité des valeurs web principales](./assets/core-web-vitals/auto-optimize.png){align="center"}
 
-Sites Optimizer Ultimate offre la possibilité de déployer l’optimisation automatique pour les problèmes détectés par l’opportunité web vitale principale. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
+Sites Optimizer Ultimate permet de déployer l’optimisation automatique pour les problèmes détectés par l’opportunité des valeurs web principales. <!--- TBD-need more in-depth and opportunity specific information here. What does the auto-optimization do?-->
 
 >[!BEGINTABS]
 

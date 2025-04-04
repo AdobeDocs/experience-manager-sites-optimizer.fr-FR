@@ -1,21 +1,21 @@
 ---
-title: AEM Sites Optimizer
+title: AEM Sites Optimizer
 description: 'Améliorez les performances de votre site web avec Sites Optimizer : améliorez la vitesse, réduisez les coûts et améliorez la fiabilité pour un meilleur engagement.'
 source-git-commit: 80d1bb016dedcff9b3b6293008b43070ff24867c
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 5%
+ht-degree: 87%
 
 ---
 
 
-# AEM Sites Optimizer
+# AEM Sites Optimizer
 
 >[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)
 
-Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le cloud qui analyse et améliore les performances des sites web créés sur AEM. Il identifie les domaines dans lesquels le chargement des pages, l’utilisation des composants et la diffusion de contenu peuvent être améliorés, ce qui vous permet d’améliorer les performances de votre site web et de réduire les coûts de maintenance et de mise à jour. En utilisant Sites Optimizer, vous pouvez garantir une expérience en ligne fluide et fiable, ce qui est important pour maintenir l’engagement et les conversions.
+Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le cloud qui analyse et améliore les performances des sites web créés sur AEM. Il identifie les domaines dans lesquels le chargement des pages, l’utilisation des composants et la diffusion de contenu peuvent être améliorés, ce qui vous permet d’améliorer les performances de votre site web et de réduire les coûts de maintenance et de mise à jour. En utilisant Sites Optimizer, vous pouvez garantir une expérience en ligne fluide et fiable, ce qui est important pour maintenir l’engagement et les conversions.
 
-## Prise en main de Sites Optimizer
+## Commencer avec Sites Optimizer
 
 <!-- CARDS 
 
@@ -44,11 +44,11 @@ Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le cloud
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" title="Types d’opportunités">Types d’opportunités</a>
                     </p>
-                    <p class="is-size-6">Découvrez les opportunités de l’optimisateur de site disponibles et comment les utiliser pour améliorer les performances de votre site.</p>
+                    <p class="is-size-6">Découvrez les opportunités de Sites Optimizer disponibles et comment les utiliser pour améliorer les performances de votre site.</p>
                 </div>
                 <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -67,11 +67,11 @@ Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le cloud
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Documentation">Documentation</a>
                     </p>
-                    <p class="is-size-6">Consultez la documentation de Sites Optimizer pour en savoir plus sur toutes ses fonctionnalités.</p>
+                    <p class="is-size-6">Consultez la documentation de Sites Optimizer pour en savoir plus sur toutes ses fonctionnalités.</p>
                 </div>
                 <a href="./documentation/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
