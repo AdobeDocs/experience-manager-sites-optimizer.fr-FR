@@ -1,10 +1,10 @@
 ---
-title: Optimisation de l’engagement avec Sites Optimizer
-description: Découvrez comment améliorer l’engagement avec Sites Optimizer.
+title: Optimisation de l’engagement avec Sites Optimizer
+description: Découvrez comment améliorer l’engagement avec Sites Optimizer.
 source-git-commit: 62909a9c65a62beb202896d98bb9ab058bcd984a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 ![Opportunités d’engagement](./assets/engagement/hero.png){align="center"}
 
-Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles pour améliorer les expériences digitales en fournissant des informations exploitables sur la manière dont les utilisateurs interagissent avec les pages web. En identifiant les points à améliorer - tels que les problèmes d’accessibilité, les liens internes rompus, les taux de rebond élevés et le texte de remplacement manquant - les spécialistes du marketing et les auteurs de contenu peuvent optimiser leurs sites pour de meilleures performances et une meilleure interaction client. Ces opportunités permettent de s’assurer que le contenu est efficace, détectable et attrayant, ce qui entraîne des conversions plus élevées et un parcours client plus transparent. L’utilisation des recommandations d’AEM Sites Optimizer permet aux équipes d’affiner en permanence leur stratégie numérique et de fournir des expériences à fort impact à grande échelle.
+Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles pour améliorer les expériences numériques en fournissant des informations exploitables sur la manière dont les utilisateurs et utilisatrices interagissent avec les pages web. En identifiant les points à améliorer, tels que les problèmes d’accessibilité, les liens internes rompus, les taux de rebond élevés et le texte secondaire manquant, les spécialistes du marketing et les créateurs et créatrices de contenu peuvent optimiser leurs sites pour de meilleures performances et une meilleure interaction client. Ces opportunités permettent de s’assurer que le contenu est efficace, détectable et attrayant, ce qui entraîne des conversions plus élevées et un parcours client plus transparent. L’utilisation des recommandations d’AEM Sites Optimizer permet aux équipes d’affiner en permanence leur stratégie numérique et de fournir des expériences à fort impact et à grande échelle.
 
 
 ## Opportunités
@@ -52,11 +52,11 @@ Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles pour
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" title="Problèmes d’accessibilité">Problèmes d’accessibilité</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité des problèmes d’accessibilité et comment l’utiliser pour renforcer la sécurité de sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité des problèmes d’accessibilité et comment l’utiliser pour renforcer la sécurité de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -75,11 +75,11 @@ Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles pour
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//broken-internal-links.md" target="_blank" rel="referrer" title="Liens internes rompus">Liens internes rompus</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité Liens rompus et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité des liens rompus et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities//broken-internal-links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -96,13 +96,13 @@ Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles pour
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Taux de rebond élevé"> Taux de rebond élevé </a>
+                        <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Taux de rebond élevé">Taux de rebond élevé</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de vues basses et comment l’utiliser pour améliorer l’engagement des formulaires sur votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -121,11 +121,11 @@ Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles pour
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" title="Texte secondaire manquant">Texte secondaire manquant</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité de texte secondaire manquante et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité de texte secondaire manquant et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>

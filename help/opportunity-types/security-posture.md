@@ -1,10 +1,10 @@
 ---
-title: Optimisation de la posture de sécurité avec Sites Optimizer
-description: Découvrez comment améliorer la sécurité de votre site avec Sites Optimizer.
+title: Optimisation de la posture de sécurité avec Sites Optimizer
+description: Découvrez comment améliorer la sécurité de votre site avec Sites Optimizer.
 source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 13%
 
 ![Opportunités de posture de sécurité](./assets/security-posture/hero.png){align="center"}
 
-Le maintien d’une posture de sécurité solide dans AEM Sites Optimizer est essentiel pour protéger les expériences digitales et les données utilisateur. En identifiant les possibilités d&#39;amélioration, telles que la configuration CORS, les scripts entre sites, les autorisations de sites web et les vulnérabilités des sites web, les équipes peuvent anticiper les risques de sécurité potentiels et garantir la conformité aux bonnes pratiques. Le renforcement des mesures de sécurité non seulement protège les informations sensibles, mais améliore également la confiance des utilisateurs et la fiabilité du site. L’utilisation des informations d’AEM Sites Optimizer permet aux entreprises de surveiller et d’améliorer en permanence leur position en matière de sécurité, de réduire les risques et de maintenir un environnement numérique sécurisé.
+Conserver une posture de sécurité solide dans AEM Sites Optimizer est essentiel pour protéger les expériences numériques et les données de vos utilisateurs et utilisatrices. En identifiant les possibilités d’amélioration, telles que la configuration CORS, le cross-site scripting, les autorisations et les vulnérabilités des sites web, les équipes peuvent anticiper les risques de sécurité potentiels et garantir la conformité aux bonnes pratiques. Le renforcement des mesures de sécurité non seulement protège les informations sensibles, mais améliore également la confiance des utilisateurs et des utilisatrices ainsi que la fiabilité du site. Exploiter les informations d’AEM Sites Optimizer permet aux entreprises de surveiller et d’améliorer en permanence leur position en matière de sécurité, de réduire les risques et de maintenir un environnement numérique sécurisé.
 
 ## Opportunités
 
@@ -40,8 +40,8 @@ Le maintien d’une posture de sécurité solide dans AEM Sites Optimizer est es
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/cors-configuration.md" title="Configuration CORS." target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-code.png" alt="Configuration CORS."
+                    <a href="../documentation/opportunities/cors-configuration.md" title="Configuration CORS" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-code.png" alt="Configuration CORS"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -49,13 +49,13 @@ Le maintien d’une posture de sécurité solide dans AEM Sites Optimizer est es
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" title="Configuration CORS.">Configuration CORS.</a>
+                        <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" title="Configuration CORS">Configuration CORS</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de configuration CORS et identifiez et corrigez les vulnérabilités de sécurité du site.</p>
                 </div>
                 <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -72,13 +72,13 @@ Le maintien d’une posture de sécurité solide dans AEM Sites Optimizer est es
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" title="Cross-site scripting"> Cross-site scripting </a>
+                        <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" title="Cross-site scripting">Cross-site scripting</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de cross-site scripting et identifiez et corrigez les vulnérabilités de sécurité du site.</p>
                 </div>
                 <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -86,8 +86,8 @@ Le maintien d’une posture de sécurité solide dans AEM Sites Optimizer est es
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../documentation/opportunities/website-permissions.md" title="Autorisations de site web" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-people.png" alt="Autorisations de site web"
+                    <a href="../documentation/opportunities/website-permissions.md" title="Autorisations du site web" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/common/card-people.png" alt="Autorisations du site web"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -95,13 +95,13 @@ Le maintien d’une posture de sécurité solide dans AEM Sites Optimizer est es
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Autorisations de site web">Autorisations de site web</a>
+                        <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" title="Autorisations du site web">Autorisations du site web</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité d’autorisations du site web et comment l’utiliser pour renforcer la sécurité de sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité des autorisations du site web et comment l’utiliser pour renforcer la sécurité de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -118,13 +118,13 @@ Le maintien d’une posture de sécurité solide dans AEM Sites Optimizer est es
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" title="Vulnérabilités du site web">Vulnérabilités de site web</a>
+                        <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" title="Vulnérabilités du site web">Vulnérabilités du site web</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité des vulnérabilités du site web et comment l’utiliser pour renforcer la sécurité de sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité des vulnérabilités du site web et comment l’utiliser pour renforcer la sécurité de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>

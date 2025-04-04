@@ -1,10 +1,10 @@
 ---
-title: Optimisation de l’acquisition du trafic avec Sites Optimizer
-description: Découvrez comment augmenter l’acquisition du trafic avec Sites Optimizer.
+title: Optimisation de l’acquisition du trafic avec Sites Optimizer
+description: Découvrez comment augmenter l’acquisition du trafic avec Sites Optimizer.
 source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 20%
 
 ![Opportunités d’acquisition de trafic](./assets/traffic-acquisition/hero.png){align="center"}
 
-L’acquisition du trafic est essentielle pour attirer des clients potentiels sur votre site web et créer des opportunités de vente ou de génération de pistes. En utilisant des stratégies telles que l’optimisation pour les moteurs de recherche (SEO), les entreprises peuvent améliorer la visibilité des recherches et faciliter la découverte de leur contenu pour les utilisateurs et les utilisatrices. Un flux constant de visiteurs augmente non seulement la notoriété et la confiance de la marque, mais fournit également des informations précieuses sur le comportement des utilisateurs, ce qui aide les équipes à affiner leurs offres et à améliorer l’expérience globale. L’utilisation des informations d’AEM Sites Optimizer permet une optimisation continue, ce qui garantit une croissance soutenue et des taux de conversion améliorés au fil du temps.
+L’acquisition du trafic est essentielle pour attirer une clientèle potentielle sur votre site web et créer des opportunités de vente ou de génération de leads. En utilisant des stratégies telles que l’optimisation pour les moteurs de recherche (SEO), les entreprises peuvent améliorer la visibilité des recherches et faciliter la découverte de leur contenu pour les utilisateurs et les utilisatrices. Un flux constant de visites augmente non seulement la notoriété et la confiance de la marque, mais fournit également des informations précieuses sur le comportement des utilisateurs et des utilisatrices, ce qui aide les équipes à affiner leurs offres et à améliorer l’expérience globale. L’utilisation des informations d’AEM Sites Optimizer permet une optimisation continue, ce qui garantit une croissance soutenue et des taux de conversion améliorés au fil du temps.
 
 ## Opportunités
 
@@ -50,11 +50,11 @@ L’acquisition du trafic est essentielle pour attirer des clients potentiels su
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/broken-backlinks.md" target="_blank" rel="referrer" title="Backlinks rompus">Backlinks rompus</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité de liens retour rompus et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
+                    <p class="is-size-6">Découvrez l’opportunité des backlinks rompus et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="../documentation/opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -73,11 +73,11 @@ L’acquisition du trafic est essentielle pour attirer des clients potentiels su
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" title="Métadonnées non valides ou manquantes">Métadonnées non valides ou manquantes</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité de métadonnées non valide ou manquante et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
+                    <p class="is-size-6">Découvrez l’opportunité des métadonnées non valides ou manquantes et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="../documentation/opportunities/invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -96,11 +96,11 @@ L’acquisition du trafic est essentielle pour attirer des clients potentiels su
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/missing-invalid-structured-data.md" target="_blank" rel="referrer" title="Données structurées manquantes ou non valides">Données structurées manquantes ou non valides</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité de données structurées manquantes ou non valides et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
+                    <p class="is-size-6">Découvrez l’opportunité des données structurées manquantes ou non valides et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="../documentation/opportunities/missing-invalid-structured-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -119,11 +119,11 @@ L’acquisition du trafic est essentielle pour attirer des clients potentiels su
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" title="Problèmes de plan de site">Problèmes de plan de site</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité des problèmes du plan du site et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
+                    <p class="is-size-6">Découvrez l’opportunité des problèmes de plan de site et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="../documentation/opportunities/sitemap-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
