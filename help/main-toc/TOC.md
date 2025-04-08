@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Voici une description du guide d’utilisation qui s’affichera sur la page de destination.
-source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
+source-git-commit: 80d40840aecf1bc2506ccbb5f1cb9a32e74d5fd5
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 92%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 # Experience Manager Sites Optimizer {#content}
 
 + [Sites Optimizer](/help/home.md)
-+ Types d’opportunité{#opportunity-types}
++ Types d’opportunités{#opportunity-types}
    + [Vue d’ensemble](/help/opportunity-types/overview.md)
    + [Acquisition de trafic](/help/opportunity-types/traffic-acquisition.md)
    + [Engagement](/help/opportunity-types/engagement.md)
@@ -38,3 +38,4 @@ ht-degree: 100%
       + [Autorisations du site web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnérabilités du site web](/help/documentation/opportunities/website-vulnerabilities.md)
    + [Paramètres](/help/documentation/settings.md)
++ [Fichier masqué pour déclencher la mise à jour de la table des matières Loc](hidden-delete-me.md)
