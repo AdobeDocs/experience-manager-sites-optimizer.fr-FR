@@ -3,9 +3,9 @@ title: Documentation sur l’opportunité des valeurs web principales
 description: Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeSiteHealth: label="Intégrité du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Intégrité du site"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ L’opportunité des valeurs web principales fournit des suggestions de correcti
 
 Chaque catégorie peut contenir plusieurs problèmes. Veillez donc à faire défiler l’écran vers le bas pour afficher la liste complète des problèmes et des recommandations.  En outre, il existe deux jauges de performances pour les appareils mobiles et les ordinateurs de bureau pour chaque mesure.
 
-## Optimisation automatique
+## Optimiser automatiquement
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 

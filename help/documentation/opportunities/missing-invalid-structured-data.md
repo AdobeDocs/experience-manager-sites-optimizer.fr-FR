@@ -3,9 +3,9 @@ title: Documentation des données structurées manquantes ou non valides
 description: Découvrez l’opportunité des données structurées manquantes ou non valides et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ L’opportunité des données structurées non valides ou manquantes fournit ég
 * **Problèmes** : champ qui contient le nombre de problèmes et un menu déroulant qui répertorie tous les problèmes.
 * **Champ des suggestions** : description et suggestions générées par l’IA pour des mises à jour de données structurées appropriées. Vous pouvez faire défiler l’écran vers le bas pour consulter d’autres suggestions et problèmes.
 
-## Optimisation automatique
+## Optimiser automatiquement
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 

@@ -3,9 +3,9 @@ title: Documentation sur l’opportunité de métadonnées non valides ou manqua
 description: Découvrez l’opportunité des métadonnées non valides ou manquantes et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Vous pouvez choisir d’ignorer les entrées avec les métadonnées cibles rompu
 
 >[!ENDTABS]
 
-## Optimisation automatique
+## Optimiser automatiquement
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 

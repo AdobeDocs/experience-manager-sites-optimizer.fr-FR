@@ -3,9 +3,9 @@ title: Documentation sur l’opportunité de cross-site scripting
 description: Découvrez l’opportunité de cross-site scripting et identifiez et corrigez les vulnérabilités de sécurité du site.
 badgeSecurityPosture: label="Posture de sécurité" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posture de sécurité"
 source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ L’opportunité de cross-site scripting identifie et corrige les vulnérabilit�
 
 * **Correctif suggéré** : suggestion générée par l’IA sur la façon de corriger la vulnérabilité.
 
-## Optimisation automatique
+## Optimiser automatiquement
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 

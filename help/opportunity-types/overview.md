@@ -2,9 +2,9 @@
 title: Types d’opportunité de Sites Optimizer
 description: Découvrez les principaux types d’opportunité de Sites Optimizer et comment ils peuvent vous aider à améliorer les performances de votre site.
 source-git-commit: fbcd038d52f4761fc328404c410ef25534071f22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 71%
 
 ![Types d’opportunité](./assets/overview/hero.png){align="center"}
 
-AEM Sites Optimizer fournit des informations et des recommandations utiles pour vous aider à améliorer les performances, la convivialité et la sécurité de votre site web. Ces informations sont regroupées en domaines d’opportunités clés : engagement, acquisition du trafic, posture de sécurité et intégrité du site. Chaque catégorie met en évidence des moyens spécifiques d’améliorer votre site, que ce soit en augmentant l’interaction des visiteurs, en améliorant la visibilité, en renforçant la sécurité ou en maintenant la stabilité du site.
+AEM Sites Optimizer fournit des informations et des recommandations utiles pour vous aider à améliorer les performances, la convivialité et la sécurité de votre site web. Ces informations sont regroupées dans des domaines clés d’opportunités : engagement, acquisition du trafic, posture de sécurité et intégrité du site. Chaque catégorie met en évidence des moyens spécifiques d’améliorer votre site, que ce soit en augmentant l’interaction des visiteurs et visiteuses, en améliorant la visibilité, en renforçant la sécurité ou en maintenant la stabilité du site.
 
 L’exploitation de ces opportunités améliore l’expérience client, attire l’audience appropriée et maintient la sécurité et la fiabilité de votre site. L’amélioration de l’engagement et de l’acquisition du trafic favorise les interactions et la visibilité, tandis qu’une posture de sécurité et une intégrité du site solides contribuent à assurer la confiance et la stabilité.  Consultez les liens ci-dessous pour voir les opportunités organisées par catégorie et découvrez comment améliorer votre site.
 
