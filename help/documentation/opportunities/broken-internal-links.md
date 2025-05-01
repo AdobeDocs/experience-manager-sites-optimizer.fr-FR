@@ -2,15 +2,15 @@
 title: Documentation sur l’opportunité des liens internes rompus
 description: Découvrez l’opportunité des liens rompus et comment l’utiliser pour améliorer l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: c2bd3f7dc998b103ecdd02c239b1ea0312db20f1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 99%
 
 ---
 
 
-# Opportunité de métadonnées non valides ou manquantes
+# Opportunité de liens internes rompus
 
 ![Opportunité de liens internes rompus](./assets/broken-internal-links/hero.png){align="center"}
 
