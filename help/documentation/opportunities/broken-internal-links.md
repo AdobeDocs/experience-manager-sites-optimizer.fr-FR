@@ -3,9 +3,9 @@ title: Documentation sur l’opportunité des liens internes rompus
 description: Découvrez l’opportunité des liens rompus et comment l’utiliser pour améliorer l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
 source-git-commit: c2bd3f7dc998b103ecdd02c239b1ea0312db20f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
