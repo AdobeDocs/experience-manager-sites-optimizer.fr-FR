@@ -2,10 +2,10 @@
 title: Documentation sur l’opportunité de métadonnées non valides ou manquantes
 description: Découvrez l’opportunité des métadonnées non valides ou manquantes et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ L’opportunité de métadonnées non valides ou manquantes affiche un résumé 
 L’opportunité de métadonnées non valides ou manquantes répertorie toutes les métadonnées défectueuses sur vos pages et inclut les éléments suivants :
 
 * **Page** : page contenant les métadonnées non valides ou manquantes.
-* **Problème** : indique le type de problème ayant un impact sur la balise de métadonnées. Il peut s’agir de titres manquants, de doublons H1, etc.
+* **Problème** : indique le type de problème ayant un impact sur la balise de métadonnées. Ces problèmes peuvent aller de titres manquants à des doublons de H1, etc.
 * **Valeur** : valeur actuelle de balise de métadonnées qui doit être modifiée.
 * **Suggestion** : suggestion générée par l’IA pour les mises à jour de balises appropriées. Consultez la section ci-dessous pour plus de détails.
 
@@ -42,25 +42,25 @@ L’opportunité de métadonnées non valides ou manquantes fournit également d
 
 >[!TAB Justification de l’IA]
 
-Sélectionner l’**icône Informations** fournit une justification générée par l’IA pour la mise à jour suggérée.
+Sélectionner ![icône d’information](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) fournit la justification par l’IA de la mise à jour suggérée.
 
 >[!TAB Modifier la valeur de métadonnées suggérée]
 
 ![Modifier les métadonnées non valides ou manquantes suggérées](./assets/missing-or-invalid-metadata/edit-suggested-metadata-value.png){align="center"}
 
-Si vous n’êtes pas d’accord avec la suggestion générée par l’IA, vous pouvez modifier la valeur des métadonnées suggérées en sélectionnant l’**icône Modifier**. Vous pouvez ainsi saisir manuellement la valeur qui, selon vous, convient le mieux aux métadonnées. La fenêtre de modification contient les éléments suivants :
+Si vous n’êtes pas d’accord avec la suggestion générée par l’IA, vous pouvez modifier la valeur de métadonnées suggérée en sélectionnant ![Icône Supprimer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg). Cette fonctionnalité vous permet de saisir manuellement la valeur qui, selon vous, convient le mieux aux métadonnées. La fenêtre de modification contient les éléments suivants :
 
 * **Chemin** : chemin d’accès à la page contenant les métadonnées (ou qui comporte un manque de métadonnées).
 * **Description du problème** : indique le type de problème ayant un impact sur la balise de métadonnées et fournit une brève description.
 * **Suggestion pour la valeur de balise** : suggestion générée par l’IA sur la modification ou la mise à jour de la balise de métadonnées. Par exemple, le nombre de caractères que la mise à jour de balise doit contenir, etc.
 * **Contenu de balise d’origine** : valeur de balise d’origine.
-* **Valeur de balise cible** : modifiez ce champ et ajoutez manuellement la valeur de balise souhaitée. Lorsque vous sélectionnez **Enregistrer**, il s’agit de la valeur qui sera appliquée à la mise à jour proposée.
+* **Valeur de balise cible** : modifiez ce champ et ajoutez manuellement la valeur de balise souhaitée. Lorsque vous sélectionnez **Enregistrer**, la valeur est appliquée à la mise à jour proposée.
 * **Suggestion** : suggestion générée par l’IA pour modifier la valeur.
 * **Enregistrer** : enregistre et applique la valeur du champ **Valeur de balise cible**.
 
 >[!TAB Ignorer les entrées]
 
-Vous pouvez choisir d’ignorer les entrées avec les métadonnées cibles rompues ou non valides. Sélectionner l’**icône Ignorer** supprime l’entrée de la liste des opportunités. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignoré** en haut de la page des opportunités.
+Vous pouvez choisir d’ignorer les entrées avec les métadonnées cibles rompues ou non valides. Sélectionner ![Icône Supprimer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) supprime l’entrée de la liste des opportunités. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignoré** en haut de la page des opportunités.
 
 >[!ENDTABS]
 

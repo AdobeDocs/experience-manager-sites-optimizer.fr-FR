@@ -2,10 +2,10 @@
 title: Documentation sur l’opportunité des problèmes de plan de site
 description: Découvrez l’opportunité des problèmes de plan de site et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '486'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 88%
 
 ---
 
@@ -36,11 +36,11 @@ Les problèmes de plan de site peuvent être filtrés à l’aide des critères 
 
 ![Identification automatique des erreurs du client du plan du site](./assets/sitemap-issues/auto-identify-client-errors.png){align="center"}
 
-Si les URL de votre plan de site renvoient ces informations, les moteurs de recherche peuvent supposer que votre plan de site est obsolète ou que les pages ont été supprimées par erreur. Le client indique que la requête du client (navigateur ou robot d’exploration) n’était pas valide. Parmi les plus courantes figurent :
+Si les URL présentes dans votre plan de site renvoient ces erreurs, les moteurs de recherche peuvent supposer que votre plan de site est obsolète ou que les pages ont été supprimées par erreur. Le client indique que la requête du client (navigateur ou robot d’exploration) n’était pas valide. Parmi les plus courantes figurent :
 
-* **404 Introuvable**  la page demandée n’existe pas.
+* **404 Introuvable** - La page demandée n&#39;existe pas.
 * **403 Accès interdit** : le serveur refuse l’accès à la page demandée.
-* **410 Gone** : la page a été supprimée intentionnellement et ne reviendra pas.
+* **410 Gone** - La page a été supprimée intentionnellement et n&#39;est pas renvoyée.
 * **401 Non autorisé** : l’authentification est requise mais non fournie.
 
 Ces erreurs peuvent nuire au SEO, en particulier si des pages importantes renvoient des erreurs **404 ou 410**, car les moteurs de recherche peuvent les désindexer.

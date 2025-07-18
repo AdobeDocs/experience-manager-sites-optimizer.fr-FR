@@ -1,10 +1,10 @@
 ---
 title: Concepts de base de Sites Optimizer
 description: Découvrez les concepts de base de Sites Optimizer et comment y naviguer.
-source-git-commit: 38e6921ab511b34e54fe97e7317ba1442a4d2121
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ Le menu contextuel du gestionnaire de domaines vous permet de choisir le site AE
 La section Navigation permet d’accéder rapidement et de manière persistante à des zones essentielles de Sites Optimizer, où que vous soyez dans Sites Optimizer, notamment :
 
 * **Accueil** : tableau de bord principal offrant une vue d’ensemble sur les performances de votre site et les opportunités d’amélioration.
-* **Opportunités** : affichez et gérez les opportunités identifiées par Sites Optimizer, y compris celles qui ont été optimisées et celles qui ne le sont pas encore.
+* **Opportunités** - Affichez et gérez les opportunités identifiées par Sites Optimizer, y compris celles qui ont été optimisées ou qui ne le sont toujours pas.
 * **Paramètres** : configurez vos paramètres Sites Optimizer, y compris les sites que vous surveillez et les notifications que vous recevez.
 
 ## Résumé du site
@@ -50,7 +50,8 @@ La section Résumé du site fournit un instantané des performances de votre sit
 
 La section Opportunités à fort impact met en évidence les opportunités d’amélioration en attente les plus importantes, en fonction de leur impact potentiel sur les performances de votre site. Ces opportunités sont organisées par type, ce qui facilite la hiérarchisation des efforts d’optimisation.
 
-Les opportunités peuvent être filtrées par mots-clés, balises, URL ou [type d’opportunité](../opportunity-types/overview.md) pour vous aider à vous concentrer sur les domaines d’amélioration les plus critiques.
+Filtrez les opportunités par mots-clés, balises, URL ou [type d’opportunité](../opportunity-types/overview.md) pour vous concentrer sur les améliorations les plus importantes.
+
 
 ### Détails de l’opportunité
 
@@ -59,9 +60,9 @@ Les opportunités peuvent être filtrées par mots-clés, balises, URL ou [type 
 Chaque opportunité fournit une brève description du problème, son impact potentiel sur votre site et un lien vers des détails complets. Vous pouvez également consulter son statut, qui indique si elle a été optimisée ou si elle est toujours en attente.
 
 * **Titre de l’opportunité** : brève description du problème et de son impact potentiel sur les performances de votre site.
-* **Dernière mise à jour** : date de la dernière mise à jour de l’opportunité par Sites Optimizer avec de nouvelles données.
+* **Dernière mise à jour** - Sites Optimizer a mis à jour l’opportunité pour la dernière fois avec de nouvelles données à cette date.
 * **Nombre de problèmes** : nombre d’occurrences du problème identifié sur votre site.
-* **Types d’opportunité** : [types d’opportunité](../opportunity-types/overview.md) dont fait partie cette opportunité (par exemple, acquisition du trafic, engagement ou intégrité du site).
+* **Types d’opportunité** - Les [types d’opportunité](../opportunity-types/overview.md) dont cette opportunité fait partie, comme l’acquisition du trafic, l’engagement ou l’intégrité du site.
 
 Les informations récapitulatives de chaque opportunité varient selon le type et peuvent inclure des détails sur l’impact sur le chiffre d’affaires, le trafic, l’interaction client ou les menaces pour la sécurité.
 

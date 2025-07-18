@@ -1,10 +1,10 @@
 ---
 title: Optimisation des formulaires avec Sites Optimizer
 description: En savoir plus sur l’optimisation des formulaires avec Sites Optimizer.
-source-git-commit: 84f922b5d0f788c1affe47a9013ed640947d0ec4
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunités d’optimisation des formulaires](./assets/form-optimization/hero.png){align="center"}
 
-L’optimisation des formulaires dans AEM Sites Optimizer est essentielle pour améliorer les interactions client et optimiser les conversions. En identifiant les points à améliorer (tels que les vues basses et les conversions faibles de formulaires), les équipes peuvent affiner la conception, l’emplacement et le contenu des formulaires pour améliorer l’engagement. Les formulaires optimisés garantissent une expérience client fluide, ce qui facilite la réalisation d’actions et l’obtention de résultats commerciaux par les visiteurs et visiteuses. Exploiter les informations d’AEM Sites Optimizer permet aux spécialistes marketing d’identifier en permanence les améliorations à apporter, ce qui accroît l’efficacité et améliore les performances globales du site.
+L’optimisation des formulaires dans AEM Sites Optimizer est essentielle pour améliorer les interactions client et optimiser les conversions. En identifiant les points à améliorer (tels que les vues basses et les conversions faibles de formulaires), les équipes peuvent affiner la conception, l’emplacement et le contenu des formulaires pour améliorer l’engagement. Les formulaires optimisés garantissent une expérience client fluide, ce qui facilite la réalisation d’actions et l’obtention de résultats commerciaux par les visiteurs et visiteuses. L’utilisation des informations d’AEM Sites Optimizer permet aux spécialistes marketing d’identifier en permanence les améliorations à apporter, ce qui accroît l’efficacité et améliore les performances globales du site.
 
 ## Opportunités
 

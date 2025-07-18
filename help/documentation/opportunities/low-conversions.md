@@ -2,9 +2,9 @@
 title: Documentation sur les opportunités de conversions faibles
 description: Découvrez l’opportunité des conversions faibles et comment l’utiliser pour améliorer l’engagement des formulaires sur votre site web.
 badgeFormOptimization: label="Optimisation des formulaires" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimisation des formulaires"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '343'
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Chaque page web avec un formulaire à conversions faibles est répertoriée comm
 
 ![Suggestion automatique des conversions faibles](./assets/low-conversions/auto-suggest.png){align="center"}
 
-La suggestion automatique fournit des variations de page web générées par l’IA conçues pour augmenter les conversions de vos formulaires. Chaque variation affiche l’**augmentation du taux de conversion du projet** en fonction des améliorations possibles pour l’engagement du formulaire, ce qui vous permet de prioriser les suggestions les plus efficaces.
+La suggestion automatique fournit des variations de page web générées par l’IA conçues pour augmenter les conversions de vos formulaires. Chaque variation affiche l’**augmentation du taux de conversion prévue** en fonction des améliorations possibles pour l’engagement du formulaire, ce qui vous permet de prioriser les suggestions les plus efficaces.
 
 >[!BEGINTABS]
 

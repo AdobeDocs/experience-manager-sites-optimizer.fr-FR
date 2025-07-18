@@ -1,10 +1,10 @@
 ---
 title: Optimisation de la posture de sécurité avec Sites Optimizer
 description: Découvrez comment améliorer la sécurité de votre site avec Sites Optimizer.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunités de posture de sécurité](./assets/security-posture/hero.png){align="center"}
 
-Conserver une posture de sécurité solide dans AEM Sites Optimizer est essentiel pour protéger les expériences numériques et les données de vos utilisateurs et utilisatrices. En identifiant les possibilités d’amélioration, telles que la configuration CORS, le cross-site scripting, les autorisations et les vulnérabilités des sites web, les équipes peuvent anticiper les risques de sécurité potentiels et garantir la conformité aux bonnes pratiques. Le renforcement des mesures de sécurité non seulement protège les informations sensibles, mais améliore également la confiance des utilisateurs et des utilisatrices ainsi que la fiabilité du site. Exploiter les informations d’AEM Sites Optimizer permet aux entreprises de surveiller et d’améliorer en permanence leur position en matière de sécurité, de réduire les risques et de maintenir un environnement numérique sécurisé.
+Conserver une posture de sécurité solide dans AEM Sites Optimizer est essentiel pour protéger les expériences numériques et les données de vos utilisateurs et utilisatrices. En identifiant les possibilités d’amélioration, telles que la configuration CORS, le cross-site scripting, les autorisations et les vulnérabilités des sites web, les équipes peuvent anticiper les risques de sécurité potentiels et garantir la conformité aux bonnes pratiques. Le renforcement des mesures de sécurité non seulement protège les informations sensibles, mais améliore également la confiance des utilisateurs et des utilisatrices ainsi que la fiabilité du site. L’utilisation d’AEM Sites Optimizer Insights permet aux entreprises de surveiller et d’améliorer en permanence leur position en matière de sécurité, de réduire les risques et de maintenir un environnement numérique sécurisé.
 
 ## Opportunités
 

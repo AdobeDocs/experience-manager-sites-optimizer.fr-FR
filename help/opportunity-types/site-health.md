@@ -1,10 +1,10 @@
 ---
 title: Optimisation de l’intégrité du site avec Sites Optimizer
 description: Découvrez comment améliorer l’intégrité de votre site avec Sites Optimizer.
-source-git-commit: ab2d75b1d986d83e3303e29a25d2babd1598394a
-workflow-type: ht
+source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
+workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunités d’intégrité du site](./assets/site-health/hero.png){align="center"}
 
-Conserver une bonne intégrité de votre site dans AEM Sites Optimizer est essentiel pour offrir des expériences numériques rapides, fiables et hautement performantes. En identifiant les possibilités d’amélioration, telles que les valeurs web principales, les équipes peuvent optimiser la vitesse des pages, l’interactivité et la stabilité visuelle pour améliorer l’expérience client et le classement dans les moteurs de recherche. Un site bien entretenu garantit une navigation plus fluide, un meilleur engagement et des performances globales optimisées. Exploiter les informations d’AEM Sites Optimizer permet une surveillance et un affinement continus, ce qui garantit l’efficacité du site au fil du temps.
+Conserver une bonne intégrité de votre site dans AEM Sites Optimizer est essentiel pour offrir des expériences numériques rapides, fiables et hautement performantes. En identifiant les possibilités d’amélioration, telles que les valeurs web principales, les équipes peuvent optimiser la vitesse des pages, l’interactivité et la stabilité visuelle pour améliorer l’expérience client et le classement dans les moteurs de recherche. Un site bien entretenu garantit une navigation plus fluide, un meilleur engagement et des performances globales optimisées. L’utilisation des informations d’AEM Sites Optimizer permet une surveillance et un affinement continus, ce qui garantit l’efficacité du site au fil du temps.
 
 ## Opportunités
 
@@ -41,7 +41,7 @@ Conserver une bonne intégrité de votre site dans AEM Sites Optimizer est ess
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Valeurs web principales">Valeurs web principales</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
+                    <p class="is-size-6">Découvrez l’opportunité Core Web Vitals et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="../documentation/opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
