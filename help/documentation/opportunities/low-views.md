@@ -2,10 +2,10 @@
 title: Documentation sur les opportunités de vues basses
 description: Découvrez l’opportunité de vues basses et comment l’utiliser pour améliorer l’engagement des formulaires sur votre site web.
 badgeFormOptimization: label="Optimisation des formulaires" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimisation des formulaires"
-source-git-commit: c99bd0ab418c1eb0693f39ea16ee41f8a1263099
-workflow-type: ht
-source-wordcount: '342'
-ht-degree: 100%
+source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
