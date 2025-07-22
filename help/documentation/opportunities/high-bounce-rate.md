@@ -2,10 +2,10 @@
 title: Documentation sur l’opportunité de taux de rebond élevé
 description: Découvrez l’opportunité de vues basses et comment l’utiliser pour améliorer l’engagement des formulaires sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: e103b37bbc0bdae7554bdc1f058083c64143a235
+source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 61%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ![Opportunité de taux de rebond élevé](./assets/high-bounce-rate/hero.png){align="center"}
 
-L’opportunité de taux de rebond élevé identifie les formulaires de votre site web qui présentent un taux de rebond élevé. Cette opportunité vous aide à identifier les formulaires qui ne fonctionnent pas correctement. En outre, elle fournit des suggestions d’amélioration des taux d’engagement. En optimisant les vues de vos formulaires, vous pouvez augmenter le nombre d’envois de formulaires et améliorer les performances globales de votre site web.
+L’opportunité de taux de rebond élevé identifie les formulaires de votre site web qui présentent un taux de rebond élevé. Ce type d’opportunité vous aide à comprendre quels formulaires ne fonctionnent pas correctement et fournit des suggestions sur la manière d’améliorer leurs taux d’engagement. En optimisant les vues de vos formulaires, vous pouvez augmenter le nombre d’envois de formulaires et améliorer les performances globales de votre site web.
 
 ## Identification automatique
 
 ![Identification automatique du taux de rebond élevé](./assets/high-bounce-rate/auto-identify.png){align="center"}
 
-Chaque page web comportant un formulaire avec des vues basses est répertoriée comme sa propre opportunité de **taux de rebond élevé**. Un bref résumé de l’opportunité et une justification basée sur l’IA s’affichent en haut de la page de l’opportunité.
+Chaque page web avec des formulaires peu consultés est répertoriée comme sa propre opportunité **taux de rebond élevé**. Un bref résumé de l’opportunité et une justification basée sur l’IA s’affichent en haut de la page de l’opportunité.
 
 ## Suggestion automatique
 
 ![Suggestion automatique de taux de rebond élevé](./assets/high-bounce-rate/auto-suggest.png){align="center"}
 
-La suggestion automatique fournit des variations de page web générées par l’IA conçues pour augmenter les vues de vos formulaires. Chaque variation affiche l’**augmentation du taux de conversion prévue** en fonction des améliorations possibles pour l’engagement du formulaire, ce qui vous permet de prioriser les suggestions les plus efficaces.
+La suggestion automatique fournit des variations de page web générées par l’IA conçues pour augmenter les vues de vos formulaires. Chaque variation affiche l’augmentation du taux de conversion du **projet** en fonction de son potentiel d’amélioration de l’engagement des formulaires, ce qui vous permet de hiérarchiser les suggestions les plus efficaces.
 
 >[!BEGINTABS]
 
@@ -34,13 +34,13 @@ La suggestion automatique fournit des variations de page web générées par l�
 
 ![Variations d’origine](./assets/high-bounce-rate/original-variation.png){align="center"}
 
-La variation de contrôle est le formulaire d’origine actif sur votre site web. Cette variation est utilisée comme référence pour comparer les performances des variations suggérées.
+La variation de contrôle correspond aux formulaires d’origine qui sont actuellement actifs sur votre site web. Cette variation est utilisée comme référence pour comparer les performances des variations suggérées.
 
 >[!TAB Variations suggérées]
 
 ![Variations suggérées](./assets/high-bounce-rate/suggested-variations.png){align="center"}
 
-Les variations suggérées sont des variations de page web générées par l’IA qui sont conçues pour réduire le taux de rebond du formulaire. Chaque variation affiche l’**augmentation du taux de clic prévue** en fonction des améliorations possibles pour l’engagement du formulaire, ce qui vous permet de prioriser les suggestions les plus efficaces.
+Les variations suggérées sont des variations de page web générées par l’IA qui sont conçues pour réduire le taux de rebond des formulaires. Chaque variation affiche l’**augmentation prévue du taux de clics** en fonction de son potentiel d’amélioration de l’engagement des formulaires, ce qui vous permet de hiérarchiser les suggestions les plus efficaces.
 
 Cliquez sur chaque variation pour la prévisualiser dans la partie droite de l’écran. Dans la partie supérieure de la prévisualisation, les actions et informations suivantes sont disponibles :
 
