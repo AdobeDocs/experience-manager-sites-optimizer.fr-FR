@@ -4,7 +4,7 @@ description: Découvrez toutes les opportunités de Sites Optimizer disponibles
 source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -44,7 +44,7 @@ Liste historique des opportunités optimisées.
 
 ## Opportunités
 
-Lorsque le [statut de l’opportunité](#opportunity-status) est sélectionné, vous pouvez afficher une liste d’opportunités. Vous pouvez filtrer la liste des opportunités des manières suivantes :
+Lorsque le [statut de l’opportunité](#opportunity-status) est sélectionné, vous pouvez afficher une liste d’opportunités. Vous pouvez filtrer la liste des opportunités des façons suivantes :
 
 * **Recherche** : recherche d’opportunités par **mots-clés, balises ou URL**.
 * **Type d’opportunité** : utilisez la liste déroulante **Type** pour filtrer les opportunités par [type d’opportunité](/help/opportunity-types/overview.md).
@@ -56,7 +56,7 @@ Lorsque le [statut de l’opportunité](#opportunity-status) est sélectionné, 
 Chaque opportunité fournit une brève description du problème, son impact potentiel sur votre site et un lien vers des détails complets. Vous pouvez également consulter son statut, qui indique si elle a été optimisée ou si elle est toujours en attente.
 
 * **Titre de l’opportunité** : brève description du problème et de son impact potentiel sur les performances de votre site.
-* **Dernière mise à jour** - Sites Optimizer a mis à jour l’opportunité pour la dernière fois avec de nouvelles données à cette date.
+* **Dernière mise à jour** : Sites Optimizer a mis à jour l’opportunité avec de nouvelles données pour la dernière fois à cette date.
 * **Nombre de problèmes** : nombre d’occurrences du problème identifié sur votre site.
 * **Types d’opportunité** - Les [types d’opportunité](/help/opportunity-types/overview.md) dont cette opportunité fait partie, tels que l’acquisition du trafic, l’engagement, la conversion ou l’intégrité du site.
 

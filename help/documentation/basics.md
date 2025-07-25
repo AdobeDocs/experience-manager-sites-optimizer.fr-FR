@@ -4,7 +4,7 @@ description: Découvrez les concepts de base de Sites Optimizer et comment y na
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Le menu contextuel du gestionnaire de domaines vous permet de choisir le site AE
 La section Navigation permet d’accéder rapidement et de manière persistante à des zones essentielles de Sites Optimizer, où que vous soyez dans Sites Optimizer, notamment :
 
 * **Accueil** : tableau de bord principal offrant une vue d’ensemble sur les performances de votre site et les opportunités d’amélioration.
-* **Opportunités** - Affichez et gérez les opportunités identifiées par Sites Optimizer, y compris celles qui ont été optimisées ou qui ne le sont toujours pas.
+* **Opportunités** : affichez et gérez les opportunités identifiées par Sites Optimizer, y compris celles qui ont été optimisées et celles qui ne le sont pas encore.
 * **Paramètres** : configurez vos paramètres Sites Optimizer, y compris les sites que vous surveillez et les notifications que vous recevez.
 
 ## Résumé du site
@@ -60,7 +60,7 @@ Filtrez les opportunités par mots-clés, balises, URL ou [type d’opportunité
 Chaque opportunité fournit une brève description du problème, son impact potentiel sur votre site et un lien vers des détails complets. Vous pouvez également consulter son statut, qui indique si elle a été optimisée ou si elle est toujours en attente.
 
 * **Titre de l’opportunité** : brève description du problème et de son impact potentiel sur les performances de votre site.
-* **Dernière mise à jour** - Sites Optimizer a mis à jour l’opportunité pour la dernière fois avec de nouvelles données à cette date.
+* **Dernière mise à jour** : Sites Optimizer a mis à jour l’opportunité avec de nouvelles données pour la dernière fois à cette date.
 * **Nombre de problèmes** : nombre d’occurrences du problème identifié sur votre site.
 * **Types d’opportunité** - Les [types d’opportunité](../opportunity-types/overview.md) dont cette opportunité fait partie, tels que l’acquisition du trafic, l’engagement, la conversion ou l’intégrité du site.
 

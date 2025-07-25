@@ -5,7 +5,7 @@ badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 71%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 71%
 
 ![Opportunité des problèmes d’accessibilité](./assets/accessibility-issues/hero.png){align="center"}
 
-L’opportunité des problèmes d’accessibilité identifie dans quelle mesure votre site web est conforme aux besoins des personnes en situation de handicap et si elles suivent les [Directives d’accessibilité du contenu web (WCAG)](https://www.w3.org/TR/WCAG21/). En évaluant la conformité de votre site au WCAG, vous contribuez à créer une expérience en ligne inclusive. En retour, il permet aux personnes ayant des déficiences visuelles, auditives, cognitives et motrices de naviguer dans votre contenu, d’interagir avec celui-ci et d’en bénéficier. Non seulement cette fonctionnalité est essentielle pour des raisons éthiques, mais elle favorise également la conformité aux exigences légales, améliore le référencement et peut augmenter la portée de votre audience, améliorant à la fois l’expérience utilisateur et les performances commerciales.
+L’opportunité des problèmes d’accessibilité identifie dans quelle mesure votre site web est conforme aux besoins des personnes en situation de handicap et si elles suivent les [Directives d’accessibilité du contenu web (WCAG)](https://www.w3.org/TR/WCAG21/). En évaluant la conformité de votre site aux directives WCAG, vous contribuez à créer une expérience en ligne inclusive. En retour, cela permet aux personnes ayant des déficiences visuelles, auditives, cognitives et motrices de naviguer dans votre contenu, d’interagir avec celui-ci et d’en bénéficier. Non seulement cela est essentiel pour des raisons éthiques, mais cela favorise également la conformité aux exigences légales, améliore le référencement et peut augmenter la portée de votre audience. Ainsi, vous pourrez proposer une meilleure expérience clientèle et bénéficierez de performances commerciales plus efficaces.
 
 ## Identification automatique
 

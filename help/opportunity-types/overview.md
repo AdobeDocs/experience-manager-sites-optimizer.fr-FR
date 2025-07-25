@@ -4,7 +4,7 @@ description: Découvrez les principaux types d’opportunité de Sites Optimize
 source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 48%
+ht-degree: 75%
 
 ---
 
@@ -14,16 +14,16 @@ ht-degree: 48%
 ![Types d’opportunité](./assets/overview/hero.png){align="center"}
 
 
-AEM Sites Optimizer fournit des informations et des recommandations utiles pour vous aider à améliorer les performances, la convivialité et la sécurité de votre site web. Ces informations sont regroupées dans les domaines clés d’opportunité suivants :
+AEM Sites Optimizer fournit des informations et des recommandations utiles pour vous aider à améliorer les performances, la convivialité et la sécurité de votre site web. Ces informations sont regroupées dans les domaines clés d’opportunité suivants :
 
 * Engagement
 * Acquisition de trafic
-* Posture De Sécurité
+* Posture de sécurité
 * Intégrité du site
 
-Chaque catégorie met en évidence une manière différente d’améliorer votre site. Une catégorie peut augmenter l’interaction des visiteurs. Un autre peut améliorer la découvrabilité. D&#39;autres se concentrent sur le renforcement de la sécurité ou le maintien de la stabilité du site.
+Chaque catégorie met en évidence une manière différente d’améliorer votre site. Une catégorie peut augmenter l’interaction des visiteurs et visiteuses. Une autre peut améliorer la visibilité. D’autres se concentrent sur le renforcement de la sécurité ou le maintien de la stabilité du site.
 
-L’utilisation de ces opportunités améliore l’expérience client, attire le public approprié et maintient votre site sûr et fiable. L’amélioration de l’engagement et de l’acquisition du trafic favorise les interactions et la visibilité, tandis qu’une posture de sécurité et une intégrité du site solides contribuent à assurer la confiance et la stabilité.  Consultez les liens ci-dessous pour voir les opportunités organisées par catégorie et découvrez comment améliorer votre site.
+Faire appel à ces opportunités améliore l’expérience clientèle, attire l’audience appropriée et maintient la sécurité et la fiabilité de votre site. L’amélioration de l’engagement et de l’acquisition du trafic favorise les interactions et la visibilité, tandis qu’une posture de sécurité et une intégrité du site solides contribuent à assurer la confiance et la stabilité.  Consultez les liens ci-dessous pour voir les opportunités organisées par catégorie et découvrez comment améliorer votre site.
 
 ## Types d’opportunité
 
