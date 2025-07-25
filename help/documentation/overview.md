@@ -2,9 +2,9 @@
 title: Documentation de Sites Optimizer
 description: Documentation d’Experience Manager Sites Optimizer.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 ![Sites Optimizer](./assets/overview/hero.png){align="center"}
 
-Bienvenue dans la documentation de Sites Optimizer. Vous trouverez ici des informations sur l’utilisation de Sites Optimizer pour optimiser vos sites AEM.
+Bienvenue dans la documentation de Sites Optimizer. Vous trouverez ici des informations sur l’utilisation de Sites Optimizer pour optimiser AEM Sites.
 
 ## Concepts de base de Sites Optimizer
 

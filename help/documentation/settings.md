@@ -2,9 +2,9 @@
 title: Paramètres de Sites Optimizer
 description: Découvrez comment configurer les paramètres de Sites Optimizer et les intégrer à d’autres outils.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 ![Paramètres de Sites Optimizer](./assets/settings/hero.png){align="center"}
 
-Les paramètres de Site Optimizer servent de hub central pour configurer votre expérience Sites Optimizer.
+Les paramètres de Sites Optimizer servent de hub central pour configurer votre expérience Sites Optimizer.
 
 ## Google Search Console
 

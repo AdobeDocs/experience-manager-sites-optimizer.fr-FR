@@ -3,9 +3,9 @@ title: Documentation sur le texte secondaire manquant
 description: Découvrez l’opportunité de texte secondaire manquant et comment l’utiliser pour améliorer l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 81%
 
 ![Opportunité de texte secondaire manquant](./assets/missing-alt-text/hero.png){align="center"}
 
-L’opportunité de texte secondaire manquant identifie les images sans texte secondaire descriptif sur votre site web. Les moteurs de recherche ne peuvent pas correctement indexer ou comprendre les images sans texte de remplacement. Cette fonctionnalité réduit considérablement la capacité de découverte et le classement de votre contenu, ce qui limite finalement la portée de votre audience. En outre, l’absence de texte secondaire pour les images exclut les personnes malvoyantes qui comptent sur les lecteurs d’écran pour comprendre le contenu web, ce qui crée des obstacles à l’accès à l’information.
+L’opportunité de texte secondaire manquant identifie les images sans texte secondaire descriptif sur votre site web. Les moteurs de recherche ne peuvent pas correctement indexer ou comprendre les images sans texte secondaire. Cette fonctionnalité réduit considérablement la visibilité et le classement de votre contenu, ce qui limite finalement la portée de votre audience. En outre, l’absence de texte secondaire pour les images exclut les personnes malvoyantes qui comptent sur les lecteurs d’écran pour comprendre le contenu web, ce qui crée des obstacles à l’accès à l’information.
 
 L’opportunité de texte secondaire manquant affiche un résumé en haut de la page, y compris une synthèse du problème et de son impact sur votre site et votre entreprise.
 
@@ -37,7 +37,7 @@ L’opportunité de texte secondaire manquant répertorie toutes les images de v
 
 ![Suggestion automatique du texte secondaire manquant](./assets/missing-alt-text/auto-suggest.png){align="center"}
 
-La suggestion automatique fournit des suggestions générées par l’IA pour le texte secondaire des images. Les suggestions générées par l’IA sont conçues pour vous aider à ajouter rapidement du texte secondaire aux images sans avoir à analyser manuellement chaque image.
+La suggestion automatique fournit des suggestions générées par l’IA pour le texte secondaire des images. Les suggestions générées par l’IA sont conçues pour vous aider à ajouter rapidement du texte de remplacement aux images sans avoir à analyser manuellement chaque image.
 
 >[!BEGINTABS]
 
@@ -45,15 +45,15 @@ La suggestion automatique fournit des suggestions générées par l’IA pour le
 
 ![Modifier le texte secondaire manquant](./assets/missing-alt-text/edit-alt-text-value.png){align="center"}
 
-Si vous n’êtes pas d’accord avec la suggestion générée par l’IA, vous pouvez modifier le texte secondaire suggéré en sélectionnant l’**icône Modifier**. Cette fonctionnalité vous permet d’ajuster manuellement le texte que vous pensez être le mieux adapté à l’image. La fenêtre de modification contient les éléments suivants :
+Si vous n’êtes pas d’accord avec la suggestion générée par l’IA, vous pouvez modifier le texte secondaire suggéré en sélectionnant l’**icône Modifier**. Cela vous permet d’ajuster manuellement le texte qui, selon vous, est le plus adapté à l’image. La fenêtre de modification contient les éléments suivants :
 
 * **Chemin de la page** : champ en lecture seule affichant le chemin d’accès à la page où le problème de texte secondaire manquant se produit. Cliquez sur la flèche en regard du chemin d’accès pour ouvrir la page correspondante.
 * **Image** : prévisualisation en lecture seule de l’image qui nécessite du texte secondaire.
-* **Texte secondaire cible** : champ modifiable dans lequel vous pouvez saisir manuellement un texte secondaire descriptif pour l’image. Assurez-vous que le texte secondaire traduit clairement le contenu et l’objectif de l’image de manière concise. Le cas échéant, incluez naturellement les mots-clés sans les surcharger.
+* **Texte secondaire cible** : champ modifiable dans lequel vous pouvez saisir manuellement un texte secondaire descriptif pour l’image. Veillez à ce que le texte de remplacement communique clairement le contenu et l’objectif de l’image de manière concise. Le cas échéant, incluez naturellement les mots-clés sans les surcharger.
 
 >[!TAB Ignorer les entrées]
 
-Vous pouvez choisir d’ignorer les entrées de la liste des opportunités. Sélectionner ![Icône Supprimer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) supprime l’entrée de la liste. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignoré** en haut de la page des opportunités.
+Vous pouvez choisir d’ignorer les entrées de la liste des opportunités. Sélectionner l’![icône Ignorer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) supprime l’entrée de la liste. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignoré** en haut de la page des opportunités.
 
 >[!ENDTABS]
 

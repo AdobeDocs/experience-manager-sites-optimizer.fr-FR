@@ -2,9 +2,9 @@
 title: Optimisation de l’acquisition du trafic avec Sites Optimizer
 description: Découvrez comment augmenter l’acquisition du trafic avec Sites Optimizer.
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 ![Opportunités d’acquisition de trafic](./assets/traffic-acquisition/hero.png){align="center"}
 
-L’acquisition du trafic pousse les clients potentiels vers votre site web et crée des opportunités de vente ou de prospection. En utilisant des stratégies telles que l’optimisation pour les moteurs de recherche (SEO), les entreprises peuvent améliorer la visibilité des recherches et faciliter la découverte de leur contenu pour les utilisateurs et les utilisatrices. Un flux constant de visiteurs augmente la notoriété de la marque et renforce la confiance. Il fournit également des informations précieuses sur le comportement des utilisateurs et utilisatrices. Ces informations aident les équipes à affiner leurs offres et à améliorer l’expérience globale. L’utilisation des informations d’AEM Sites Optimizer permet une optimisation continue, ce qui garantit une croissance soutenue et des taux de conversion améliorés au fil du temps.
+L’acquisition du trafic pousse les clientes et clients potentiels vers votre site web et crée des opportunités de vente ou de prospection. En utilisant des stratégies telles que l’optimisation des moteurs de recherche (SEO), les entreprises peuvent améliorer la visibilité des recherches et faciliter la découverte de leur contenu. Un flux constant de visiteurs et visiteuses augmente la notoriété de la marque et renforce la confiance. Il fournit également des informations précieuses sur le comportement des utilisateurs et utilisatrices. Ces informations aident les équipes à affiner leurs offres et à améliorer l’expérience globale. L’utilisation des informations d’AEM Sites Optimizer permet une optimisation continue, ce qui garantit une croissance soutenue et des taux de conversion améliorés au fil du temps.
 
 ## Opportunités
 

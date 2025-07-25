@@ -3,9 +3,9 @@ title: Documentation sur l’opportunité des valeurs web principales
 description: Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeSiteHealth: label="Intégrité du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Intégrité du site"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 ![opportunité des valeurs web principales](./assets/core-web-vitals/hero.png){align="center"}
 
-L’opportunité des valeurs web principales identifie les problèmes qui peuvent dégrader l’expérience client et les performances de référencement naturel de vos pages web. Ces problèmes proviennent de nombreux facteurs, tels que : les polices personnalisées, les dépendances JavaScript non optimisées, les scripts tiers, etc. L’opportunité des valeurs web principales pointe ces éléments défectueux et suggère des correctifs qui peuvent améliorer les performances de votre page web. Notez que seules les pages qui ont au moins 1 000 vues peuvent être analysées.
+L’opportunité des valeurs web principales identifie les problèmes qui peuvent dégrader l’expérience client et les performances de référencement naturel de vos pages web. Ces problèmes proviennent de nombreux facteurs, tels que les suivants : polices personnalisées, dépendances JavaScript non optimisées, scripts tiers, etc. L’opportunité des valeurs web principales pointe ces éléments défectueux et suggère des correctifs qui peuvent améliorer les performances de votre page web. Notez que seules les pages qui ont au moins 1 000 vues peuvent être analysées.
 
 Pour commencer, l’opportunité des valeurs web principales affiche un résumé en haut de la page, y compris une synthèse du problème et de son impact sur votre site et votre entreprise.
 
@@ -32,11 +32,11 @@ Dans la partie inférieure de la page, vous trouverez la liste de tous les probl
 
 Chaque problème est présenté dans un tableau, avec la colonne **Page** identifiant l’entrée de page concernée.
 
-Le système regroupe ces problèmes en fonction des mesures de performances standard du rapport Core Web Vitals :
+Le système regroupe ces problèmes en fonction des mesures de performances standard du rapport Signaux web essentiels :
 
-* plus grande peinture contentful **LCP**
-* interaction avec la peinture suivante **INP**
-* décalage de disposition cumulé **CLS**
+* Largest Contentful Paint **LCP**
+* Interaction to Next Paint **INP**
+* Cumulative Layout Shift **CLS**
 
 ## Suggestion automatique
 

@@ -3,9 +3,9 @@ title: Documentation sur l’opportunité des vulnérabilités du site web
 description: Découvrez l’opportunité des vulnérabilités du site web et comment l’utiliser pour renforcer la sécurité de votre site web.
 badgeSecurityPosture: label="Posture de sécurité" type="Caution" url="../../opportunity-types/security-posture.md" tooltip="Posture de sécurité"
 source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 
 ![Opportunité des vulnérabilités du site web](./assets/website-vulnerabilities/hero.png){align="center"}
 
-L’opportunité Vulnérabilités du site Web identifie les vulnérabilités de sécurité dans les bibliothèques tierces utilisées par le code de votre application. Les attaquant(e)s malveillants exploitent ces vulnérabilités, augmentant les risques et réduisant la posture de sécurité de votre site web.
+L’opportunité des vulnérabilités du site web identifie les vulnérabilités de sécurité dans les bibliothèques tierces utilisées par le code de votre application. Des personnes malveillantes exploitent ces vulnérabilités, ce qui augmente les risques et amoindrit la posture de sécurité de votre site web.
 
 L’opportunité des vulnérabilités du site web affiche un résumé en haut de la page, comprenant les éléments suivants :
 
@@ -37,17 +37,17 @@ La fonctionnalité **Opportunité des vulnérabilités du site web** identifie e
 
 ![Suggestion automatiquement des vulnérabilités du site web](./assets/website-vulnerabilities/auto-suggest.png){align="center"}
 
-La fonction de suggestion automatique fournit des suggestions générées par l’IA pour la **version recommandée** d’une bibliothèque vulnérable vers laquelle vous devez effectuer la mise à niveau. Chaque entrée comporte un **score** indiquant sa gravité globale, ce qui permet de hiérarchiser les vulnérabilités les plus critiques.
+La fonction de suggestion automatique fournit des suggestions générées par l’IA en termes de **version recommandée** de la bibliothèque vulnérable pour laquelle vous devez effectuer la mise à niveau. Chaque entrée comporte un **score** indiquant sa gravité globale, ce qui permet de hiérarchiser les vulnérabilités les plus critiques.
 
 >[!BEGINTABS]
 
 >[!TAB Détails sur les vulnérabilités]
 
-Chaque vulnérabilité contient un lien vers les informations détaillées de la [base de données nationale sur les vulnérabilités (NVD)](https://nvd.nist.gov/). Cliquez sur l’identifiant de vulnérabilité ou sur l’élément de lien situé à droite de la description pour accéder à la page NVD de cette vulnérabilité.
+Chaque vulnérabilité contient un lien vers les informations détaillées de la [base de données nationale sur les vulnérabilités (NVD)](https://nvd.nist.gov/). Cliquez sur l’identifiant de la vulnérabilité ou sur l’élément de lien situé à droite de la description pour accéder à la page NVD de cette vulnérabilité.
 
 >[!TAB Ignorer les entrées]
 
-Vous pouvez choisir d’ignorer les entrées de la liste des vulnérabilités. Sélectionner ![Icône Supprimer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) supprime l’entrée de la liste. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignorées** en haut de la page des opportunités.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
+Vous pouvez choisir d’ignorer les entrées de la liste des vulnérabilités. Sélectionner l’![icône Supprimer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) supprime l’entrée de la liste. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignoré** en haut de la page des opportunités.<!---right now it does not seem to be implemented, but the page description mentions this functionality-->
 
 >[!ENDTABS]
 
