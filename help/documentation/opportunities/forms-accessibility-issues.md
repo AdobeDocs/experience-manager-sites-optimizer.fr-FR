@@ -4,17 +4,15 @@ description: Découvrez l’opportunité des problèmes d’accessibilité des f
 badgeFormOptimization: label="Forms Optimization" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimization"
 hide: true
 hidefromtoc: true
-source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
+source-git-commit: ccabd2c9d0c08dbbb7872be7bf1232661ca17bd9
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
 
 
 # Opportunité relative aux problèmes d’accessibilité de Forms
-
-<span class="preview"> La fonctionnalité Forms Optimization est disponible dans le programme d’accès anticipé. Vous pouvez écrire à aem-forms-ea@adobe.com à partir de votre ID d’e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à la fonctionnalité. </span>
 
 ![opportunité de problèmes d’accessibilité Forms](./assets/forms-accessibility-issues/hero.png){align="center"}
 
