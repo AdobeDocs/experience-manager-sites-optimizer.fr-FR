@@ -4,15 +4,17 @@ description: Découvrez l’opportunité de vues basses et comment l’utiliser 
 badgeFormOptimization: label="Forms Optimization" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Forms Optimization"
 hide: true
 hidefromtoc: true
-source-git-commit: ccabd2c9d0c08dbbb7872be7bf1232661ca17bd9
+source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 35%
+source-wordcount: '323'
+ht-degree: 32%
 
 ---
 
 
 # Opportunité de vues basses Forms
+
+<span class="preview"> La fonctionnalité Forms Optimization est disponible dans le programme d’accès anticipé. Vous pouvez écrire à aem-forms-ea@adobe.com à partir de votre ID d’e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à la fonctionnalité. </span>
 
 ![Opportunité de vues basses](./assets/low-views/hero.png){align="center"}
 
