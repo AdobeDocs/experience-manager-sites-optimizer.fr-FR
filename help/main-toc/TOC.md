@@ -3,9 +3,9 @@ user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Voici une description du guide d’utilisation qui s’affichera sur la page de destination.
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 83%
    + [Engagement](/help/opportunity-types/engagement.md)
    + [Intégrité du site](/help/opportunity-types/site-health.md)
    + [Posture de sécurité](/help/opportunity-types/security-posture.md)
-   + [Forms Optimization](/help/opportunity-types/form-optimization.md)
-   + [Accessibilité de Forms](/help/opportunity-types/form-accesibility.md)
+   + [Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
+   + [Accessibilité des formulaires](/help/opportunity-types/form-accesibility.md)
 + Documentation{#documentation}
    + [Vue d’ensemble](/help/documentation/overview.md)
    + [Concepts de base](/help/documentation/basics.md)
@@ -36,10 +36,10 @@ ht-degree: 83%
       + [Métadonnées non valides ou manquantes](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Données structurées manquantes ou non valides](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Texte secondaire manquant](/help/documentation/opportunities/missing-alt-text.md)
-      + [Conversions faibles de Forms](/help/documentation/opportunities/low-conversions.md)
-      + [Vues basses de Forms](/help/documentation/opportunities/low-views.md)
-      + [Navigation basse dans Forms](/help/documentation/opportunities/low-navigation.md)
-      + [Problème d’accessibilité de Forms](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + [Conversions faibles pour les formulaires](/help/documentation/opportunities/low-conversions.md)
+      + [Faible nombre de vues pour les formulaires](/help/documentation/opportunities/low-views.md)
+      + [Faible taux de navigation pour les formulaires](/help/documentation/opportunities/low-navigation.md)
+      + [Problème d’accessibilité des formulaires](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Problèmes de plan de site](/help/documentation/opportunities/sitemap-issues.md)
       + [Autorisations du site web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnérabilités du site web](/help/documentation/opportunities/website-vulnerabilities.md)

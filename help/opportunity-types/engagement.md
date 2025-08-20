@@ -2,9 +2,9 @@
 title: Optimisation de l’engagement avec Sites Optimizer
 description: Découvrez comment améliorer l’engagement avec Sites Optimizer.
 source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles po
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" title="Taux de rebond élevé">Taux de rebond élevé</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité de vues basses et comment l’utiliser pour améliorer l’engagement des formulaires sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité de faible nombre de vues et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities//high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>

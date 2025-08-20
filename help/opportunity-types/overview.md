@@ -2,9 +2,9 @@
 title: Types d’opportunité de Sites Optimizer
 description: Découvrez les principaux types d’opportunité de Sites Optimizer et comment ils peuvent vous aider à améliorer les performances de votre site.
 source-git-commit: 8645876161e475b0e8c641ba8f5fa2ff7906d3cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -139,8 +139,8 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./form-optimization.md" title="Forms Optimization" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Forms Optimization"
+                    <a href="./form-optimization.md" title="Optimisation des formulaires" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Optimisation des formulaires"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -148,9 +148,9 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Forms Optimization">Optimisation de Forms</a>
+                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Optimisation des formulaires">Optimisation des formulaires</a>
                     </p>
-                    <p class="is-size-6">Découvrez comment améliorer votre conversion de formulaires avec Forms Optimization.</p>
+                    <p class="is-size-6">Découvrez comment améliorer la conversion de vos formulaires avec l’optimisation des formulaires.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -162,8 +162,8 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./form-optimization.md" title="Accessibilité de Forms" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Accessibilité de Forms"
+                    <a href="./form-optimization.md" title="Accessibilité des formulaires" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/form-optimization/hero.png" alt="Accessibilité des formulaires"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -171,9 +171,9 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Accessibilité de Forms">Accessibilité de Forms</a>
+                        <a href="./form-optimization.md" target="_blank" rel="referrer" title="Accessibilité des formulaires">Accessibilité des formulaires</a>
                     </p>
-                    <p class="is-size-6">Découvrez comment améliorer l’accessibilité de vos formulaires avec Forms Optimization.</p>
+                    <p class="is-size-6">Découvrez comment améliorer l’accessibilité de vos formulaires avec l’optimisation des formulaires.</p>
                 </div>
                 <a href="./form-optimization.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -185,4 +185,4 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<span class="preview"> Les fonctionnalités d’optimisation de Forms et d’accessibilité de Forms sont disponibles dans le programme d’accès anticipé. Vous pouvez écrire à aem-forms-ea@adobe.com à partir de votre ID d’e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à la fonctionnalité. </span>
+<span class="preview"> Les fonctionnalités d’optimisation des formulaires et d’accessibilité des formulaires sont disponibles dans le cadre du programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
