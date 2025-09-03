@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Voici une description du guide d’utilisation qui s’affichera sur la page de destination.
-source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: ht
-source-wordcount: '97'
-ht-degree: 100%
+source-git-commit: fcdda7414b56f40ec0feaa9cdbfbe896643d0556
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [Posture de sécurité](/help/opportunity-types/security-posture.md)
    + [Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
    + [Accessibilité des formulaires](/help/opportunity-types/form-accesibility.md)
+   + [Opportunités de contrôle en amont](/help/opportunity-types/preflight.md)
 + Documentation{#documentation}
    + [Vue d’ensemble](/help/documentation/overview.md)
    + [Concepts de base](/help/documentation/basics.md)
