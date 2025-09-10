@@ -5,7 +5,7 @@ user-guide-description: Voici une description du guide d’utilisation qui s’a
 source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
    + [Posture de sécurité](/help/opportunity-types/security-posture.md)
    + [Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
    + [Accessibilité des formulaires](/help/opportunity-types/form-accesibility.md)
-   + [Opportunités de contrôle en amont](/help/opportunity-types/preflight.md)
+   + [Opportunités de Preflight](/help/opportunity-types/preflight.md)
 + Documentation{#documentation}
    + [Vue d’ensemble](/help/documentation/overview.md)
    + [Concepts de base](/help/documentation/basics.md)
