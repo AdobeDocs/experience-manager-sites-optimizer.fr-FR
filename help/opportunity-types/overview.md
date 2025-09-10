@@ -2,9 +2,9 @@
 title: Types d’opportunité de Sites Optimizer
 description: Découvrez les principaux types d’opportunité de Sites Optimizer et comment ils peuvent vous aider à améliorer les performances de votre site.
 source-git-commit: 469370cfcb19e25bf8da5f7f9e08b8b0da52dbb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ AEM Sites Optimizer fournit des informations et des recommandations utiles pou
 * Acquisition de trafic
 * Posture de sécurité
 * Intégrité du site
-* Contrôle en amont
+* Preflight
 
-Chaque catégorie met en évidence une manière différente d’améliorer votre site. Une catégorie peut augmenter l’interaction des visiteurs et visiteuses. Une autre peut améliorer la visibilité. D&#39;autres se concentrent sur le renforcement de la sécurité ou le maintien de la stabilité du site. Le contrôle en amont permet d’analyser et d’optimiser les pages avant leur publication.
+Chaque catégorie met en évidence une manière différente d’améliorer votre site. Une catégorie peut augmenter l’interaction des visiteurs et visiteuses. Une autre peut améliorer la visibilité. D’autres se concentrent sur le renforcement de la sécurité ou le maintien de la stabilité du site. Le contrôle en amont permet d’analyser et d’optimiser les pages avant de les publier.
 
-Faire appel à ces opportunités améliore l’expérience clientèle, attire l’audience appropriée et maintient la sécurité et la fiabilité de votre site. L’amélioration de l’engagement et de l’acquisition du trafic favorise les interactions et la visibilité, tandis qu’une posture de sécurité et une intégrité du site solides contribuent à assurer la confiance et la stabilité. L’analyse en amont garantit que votre contenu est optimisé avant sa mise en ligne. Consultez les liens ci-dessous pour voir les opportunités organisées par catégorie et découvrez comment améliorer votre site.
+Faire appel à ces opportunités améliore l’expérience clientèle, attire l’audience appropriée et maintient la sécurité et la fiabilité de votre site. L’amélioration de l’engagement et de l’acquisition du trafic favorise les interactions et la visibilité, tandis qu’une bonne posture de sécurité et un niveau d’intégrité du site contribuent à assurer la confiance et la stabilité. L’analyse en amont garantit que votre contenu est optimisé avant sa mise en ligne. Consultez les liens ci-dessous pour voir les opportunités organisées par catégorie et découvrez comment améliorer votre site.
 
 ## Types d’opportunité
 
@@ -188,8 +188,8 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./preflight.md" title="Contrôle en amont" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/preflight/hero.png" alt="Contrôle en amont"
+                    <a href="./preflight.md" title="Preflight" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="assets/preflight/hero.png" alt="Preflight"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -197,9 +197,9 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./preflight.md" target="_blank" rel="referrer" title="Contrôle en amont">Contrôle en amont</a>
+                        <a href="./preflight.md" target="_blank" rel="referrer" title="Preflight">Contrôle en amont</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’analyse de contrôle en amont et comment configurer les opportunités de contrôle en amont dans Sites Optimizer.</p>
+                    <p class="is-size-6">Découvrez l’analyse en amont et comment configurer les opportunités de contrôle en amont dans Sites Optimizer.</p>
                 </div>
                 <a href="./preflight.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
