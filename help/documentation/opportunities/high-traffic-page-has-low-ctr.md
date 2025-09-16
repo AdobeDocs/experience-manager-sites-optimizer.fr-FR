@@ -2,7 +2,7 @@
 title: La page à trafic élevé contient la documentation sur les opportunités à faible taux de clics .
 description: Découvrez que la page à trafic élevé présente une opportunité de faible taux de clics et comment l’utiliser pour augmenter l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
+source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 4%
@@ -10,9 +10,9 @@ ht-degree: 4%
 ---
 
 
-# Page à trafic élevé Avec une faible opportunité de CTR
+# Une page à trafic élevé présente une opportunité de CTR faible
 
-![Page à trafic élevé Avec une faible opportunité de CTR](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
+![La page à trafic élevé présente une faible opportunité de CTR](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
 
 La page à trafic élevé présente une opportunité de CTR faible identifie les pages de votre site web qui reçoivent un trafic important, mais avec un faible taux de clic publicitaire (CTR). En analysant ces pages, vous pouvez identifier les problèmes potentiels qui peuvent entraver l’interaction client et prendre des mesures pour améliorer ses performances. Cette opportunité est essentielle pour optimiser le contenu et la mise en page de votre site web, ce qui entraîne finalement des taux de conversion plus élevés et de meilleures expériences utilisateur.
 
