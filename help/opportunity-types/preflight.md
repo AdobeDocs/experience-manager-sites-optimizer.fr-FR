@@ -1,10 +1,10 @@
 ---
-title: AEM Sites Optimizer - Guide d’intégration de Preflight
-description: Découvrez les opportunités de Preflight et comment configurer l’analyse en amont dans AEM Sites Optimizer.
-source-git-commit: 0a6ddcdfd369253500067b31617facfb7f38b656
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+title: Optimisations du contrôle en amont avec AEM Sites Optimizer
+description: Découvrez les opportunités de contrôle en amont avec AEM Sites Optimizer.
+source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 23%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunités de Preflight](./assets/preflight/hero.png){align="center"}
 
-<span class="preview">AEM Sites Optimizer Preflight analyse les données techniques et les performances de votre page pour anticiper et détecter les opportunités avant sa publication. Il utilise l’IA générative pour suggérer des optimisations.</span>
+Les opportunités de contrôle en amont d’AEM Sites Optimizer permettent de s’assurer que vos pages web sont optimisées en termes de performances, d’optimisation du moteur de recherche et d’expérience utilisateur avant leur mise en ligne. En identifiant les problèmes potentiels tels que les liens rompus, les balises meta manquantes et les problèmes d’accessibilité, les vérifications en amont permettent aux auteurs de contenu et aux spécialistes marketing de résoudre ces problèmes dès le début du processus de publication. Cette approche proactive réduit le risque de publication de contenu non optimal, améliore la qualité du site et la présence numérique globale. L’utilisation des opportunités de contrôle en amont permet un workflow plus fluide, réduit les correctifs après publication et contribue à un meilleur classement dans les moteurs de recherche et à la satisfaction des utilisateurs et utilisatrices.
 
 ## Opportunités
 
@@ -157,128 +157,141 @@ ht-degree: 100%
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Méthode de configuration
+## Configuration
 
-### Configuration de l’éditeur universel
+L’identification de l’opportunité de contrôle en amont AEM Sites Optimizer nécessite la configuration de l’extension de contrôle en amont dans l’éditeur universel, l’aperçu basé sur les documents ou AEM Cloud Service afin d’exécuter des audits de contrôle en amont sur vos pages avant leur publication.
 
-1. Accédez à Extension Manager à partir de l’URL suivant : https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor.
-2. Sélectionnez l’extension AEM Sites Optimizer Preflight et sollicitez son activation.
-3. L’équipe AEM activera l’extension pour votre organisation.
-4. Une fois l’extension activée, ouvrez une page dans l’éditeur universel, par exemple : https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/site/subscription.html
-5. L’extension Preflight est visible dans le rail latéral.
-6. Cliquez sur l’extension Preflight dans le rail latéral pour lancer l’audit de contrôle en amont pour la page active.
+## Activer l’accès utilisateur
 
-### Configuration de l’aperçu basé sur les documents
+Pour utiliser l’extension de contrôle en amont, assurez-vous que votre utilisateur est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans [Adobe Admin Console ](https://adminconsole.adobe.com) :
 
-#### Étape 1 : activer le sidekick avec le bouton Contrôle en amont
+* AEM Sites Optimizer - Suggérer automatiquement l’utilisateur
+* AEM Sites Optimizer - Optimisation automatique de l’utilisateur
 
-Ajoutez la configuration suivante à `/tools/sidekick/config.json` dans votre référentiel GitHub :
+## Activation de l’extension de contrôle en amont
 
-```json
-{
-  "plugins": [
-    {
-      "id": "preflight",
-      "titleI18n": {
-        "en": "Preflight"
-      },
-      "environments": ["preview"],
-      "event": "preflight"
-    }
-  ]
-}
-```
+>[!BEGINTABS]
 
-#### Étape 2 : création du script d’intégration du sidekick
+>[!TAB Éditeur universel]
 
-Créez un fichier `/tools/sidekick/aem-sites-optimizer-preflight.js` avec le contenu suivant :
+Pour configurer le contrôle en amont dans l’éditeur universel, procédez comme suit :
+
+1. Ouvrez l’**Extension Manager** à l’adresse :
+   [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
+1. Recherchez l’extension **AEM Sites Optimizer Preflight** et envoyez une requête pour l’activer.
+1. L’équipe Adobe AEM **** examinera et activera l’extension pour votre organisation.
+1. Une fois l’extension activée, ouvrez une page dans **Éditeur universel**, par exemple :
+   `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
+1. L’**Extension de contrôle en amont**’affiche dans le **rail latéral**.
+1. Sélectionnez l’**Extension de contrôle en amont** dans le rail latéral pour lancer un **contrôle en amont** de la page active.
+
+>[!TAB Création basée sur des documents]
+
+Pour configurer le contrôle en amont pour la création basée sur des documents, procédez comme suit :
+
+1. Ajoutez la configuration suivante à `/tools/sidekick/config.json` dans le référentiel GitHub de votre projet Edge Delivery Services :
+
+   ```json
+   {
+     "plugins": [
+       {
+         "id": "preflight",
+         "titleI18n": {
+           "en": "Preflight"
+         },
+         "environments": ["preview"],
+         "event": "preflight"
+       }
+     ]
+   }
+   ```
+
+1. Créez un nouveau `/tools/sidekick/aem-sites-optimizer-preflight.js` de fichier et ajoutez le contenu suivant :
+
+   ```javascript
+   (function () {
+     let isAEMSitesOptimizerPreflightAppLoaded = false;
+     function loadAEMSitesOptimizerPreflightApp() {
+       const script = document.createElement('script');
+       script.src = 'https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=plugin';
+       script.onload = function () {
+         isAEMSitesOptimizerPreflightAppLoaded = true;
+       };
+       script.onerror = function () {
+         console.error('Error loading AEMSitesOptimizerPreflightApp.');
+       };
+       document.head.appendChild(script);
+     }
+   
+     function handlePluginButtonClick() {
+       if (!isAEMSitesOptimizerPreflightAppLoaded) {
+         loadAEMSitesOptimizerPreflightApp();
+       }
+     }
+   
+     // Sidekick V1 extension support
+     const sidekick = document.querySelector('helix-sidekick');
+     if (sidekick) {
+       sidekick.addEventListener('custom:preflight', handlePluginButtonClick);
+     } else {
+       document.addEventListener('sidekick-ready', () => {
+         document.querySelector('helix-sidekick')
+           .addEventListener('custom:preflight', handlePluginButtonClick);
+       }, { once: true });
+     }
+   
+     // Sidekick V2 extension support
+     const sidekickV2 = document.querySelector('aem-sidekick');
+     if (sidekickV2) {
+       sidekickV2.addEventListener('custom:preflight', handlePluginButtonClick);
+     } else {
+       document.addEventListener('sidekick-ready', () => {
+         document.querySelector('aem-sidekick')
+           .addEventListener('custom:preflight', handlePluginButtonClick);
+       }, { once: true });
+     }
+   }());
+   ```
+
+1. Mettez à jour la fonction `loadLazy()` dans `/scripts/scripts.js` pour importer le script de contrôle en amont pour les URL de prévisualisation :
+
+   ```javascript
+   if (window.location.href.includes('.aem.page')) {
+      import('../tools/sidekick/aem-sites-optimizer-preflight.js');
+   }
+   ```
+
+1. Ouvrez l’URL d’aperçu (`*.aem.page`) de la page à auditer.
+1. Dans **Sidekick**, cliquez sur le bouton **Contrôle en amont** pour démarrer l’audit de la page active.
+
+>[!TAB Éditeur de page AEM Sites]
+
+Pour utiliser le contrôle en amont dans l’éditeur de page d’AEM Sites, vous pouvez créer un signet dans votre navigateur web. Procédez comme suit :
+
+1. Affichez la **barre de signets** dans votre navigateur web :
+
+   * Appuyez sur **Ctrl+Maj+B** (Windows) ou **Cmd+Maj+B** (Mac).
+
+!. Créez un signet dans votre navigateur :
+
+* Cliquez avec le bouton droit sur la barre des signets et sélectionnez **Nouvelle page** ou **Ajouter un signet**.
+* Dans le champ **Adresse (URL)** collez le code suivant :
 
 ```javascript
-(function () {
-  let isAEMSitesOptimizerPreflightAppLoaded = false;
-  function loadAEMSitesOptimizerPreflightApp() {
-    const script = document.createElement('script');
-    script.src = 'https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=plugin';
-    script.onload = function () {
-      isAEMSitesOptimizerPreflightAppLoaded = true;
-    };
-    script.onerror = function () {
-      console.error('Error loading AEMSitesOptimizerPreflightApp.');
-    };
-    document.head.appendChild(script);
-  }
-
-  function handlePluginButtonClick() {
-    if (!isAEMSitesOptimizerPreflightAppLoaded) {
-      loadAEMSitesOptimizerPreflightApp();
-    }
-  }
-
-  // Sidekick V1 extension support
-  const sidekick = document.querySelector('helix-sidekick');
-  if (sidekick) {
-    sidekick.addEventListener('custom:preflight', handlePluginButtonClick);
-  } else {
-    document.addEventListener('sidekick-ready', () => {
-      document.querySelector('helix-sidekick')
-        .addEventListener('custom:preflight', handlePluginButtonClick);
-    }, { once: true });
-  }
-
-  // Sidekick V2 extension support
-  const sidekickV2 = document.querySelector('aem-sidekick');
-  if (sidekickV2) {
-    sidekickV2.addEventListener('custom:preflight', handlePluginButtonClick);
-  } else {
-    document.addEventListener('sidekick-ready', () => {
-      document.querySelector('aem-sidekick')
-        .addEventListener('custom:preflight', handlePluginButtonClick);
-    }, { once: true });
-  }
-}());
-```
-
-#### Étape 3 : mettre à jour le fichier de scripts
-
-Ajoutez l’instruction d’importation suivante à la fonction `loadLazy()` dans `/scripts/scripts.js` pour les URL d’aperçu, comme illustré ci-dessous :
-
-```javascript
-if (window.location.href.includes('.aem.page')) {
-   import('../tools/sidekick/aem-sites-optimizer-preflight.js');
-}
-```
-
-Désormais, le bouton Contrôle en amont devrait apparaître dans le sidekick.
-
-#### Étape 4 : lancer l’audit
-
-Ouvrez l’URL d’aperçu (*.aem.page) de la page auditée. Cliquez sur le bouton Contrôle en amont du sidekick.
-
-### Configuration d’AEM Cloud Service
-
-Vous pouvez utiliser l’option bookmarklet pour tester le contrôle en amont dans les environnements de sandbox et les éditeurs de page d’AEM Cloud Service.
-
-<!-- Drag the button below to your Bookmarks Bar to get started. -->
-
-Appuyez sur **Ctrl+Maj+B** (Windows) ou **Cmd+Maj+B** (Mac) pour afficher la barre des signets. Cliquez avec le bouton droit sur la barre des signets et sélectionnez « Nouvelle page » ou « Ajouter un signet ». Dans le champ d’adresse, copiez le code ci-dessous.
-
-<!-- **Drag this link to your Bookmarks Bar:**
-
-<a href="javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();">Preflight</a> -->
-
-**Copiez ce code et créez un signet :**
-
-```
 javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
 ```
 
-Une fois le bookmarklet ajouté, ouvrez l’URL d’aperçu (*.aem.page) de la page auditée. Cliquez sur le signet Contrôle en amont pour lancer l’audit.
+1. Nommez le signet **Contrôle en amont** (ou tout autre nom de votre choix).
+1. Ouvrez l’URL d’aperçu (`*.aem.page`) de la page que vous souhaitez auditer dans l’éditeur de page d’AEM Sites ****.
+1. Cliquez sur le signet **Contrôle en amont** dans la barre des signets pour lancer l’audit de la page active.
+
+>[!ENDTABS]
 
 ## Bonnes pratiques
 
-Lors de l’utilisation du contrôle en amont, tenez compte des points suivants :
+Lors de l’exécution des audits de contrôle en amont, gardez à l’esprit les instructions suivantes :
 
-* Exécutez les audits de contrôle en amont sur toutes les pages de préproduction/d’aperçu avant de les publier.
-* Traitez d’abord les problèmes à fort impact (liens rompus, balises H1 manquantes, liens non sécurisés).
-* Activez l’authentification pour les environnements de préproduction protégés.
-* Examinez et implémentez les suggestions de balises de métadonnées pour améliorer les performances du SEO.
+* Exécutez toujours des audits sur **les pages d’évaluation ou de prévisualisation** avant de les publier en production.
+* Donner la priorité à la résolution **problèmes à fort impact** tels que des liens rompus, des balises H1 manquantes ou des liens non sécurisés.
+* Assurez-vous **l’authentification est activée** pour les environnements d’évaluation protégés avant d’exécuter des audits.
+* Examinez et appliquez les **recommandations de balises meta** pour améliorer les performances d’optimisation du moteur de recherche.
