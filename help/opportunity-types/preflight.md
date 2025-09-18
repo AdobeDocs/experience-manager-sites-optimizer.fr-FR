@@ -179,7 +179,7 @@ Pour configurer le contrôle en amont dans l’éditeur universel, procédez com
 1. Ouvrez l’**Extension Manager** à l’adresse :
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
 1. Recherchez l’extension **AEM Sites Optimizer Preflight** et envoyez une requête pour l’activer.
-1. L’équipe Adobe AEM **** examinera et activera l’extension pour votre organisation.
+1. L’équipe Adobe AEM **&#x200B;**&#x200B;examinera et activera l’extension pour votre organisation.
 1. Une fois l’extension activée, ouvrez une page dans **Éditeur universel**, par exemple :
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. L’**Extension de contrôle en amont**’affiche dans le **rail latéral**.
@@ -282,7 +282,7 @@ javascript:(function(){const script=document.createElement('script');script.src=
 ```
 
 1. Nommez le signet **Contrôle en amont** (ou tout autre nom de votre choix).
-1. Ouvrez l’URL d’aperçu (`*.aem.page`) de la page que vous souhaitez auditer dans l’éditeur de page d’AEM Sites ****.
+1. Ouvrez l’URL d’aperçu (`*.aem.page`) de la page que vous souhaitez auditer dans l’éditeur de page d’AEM Sites **&#x200B;**.
 1. Cliquez sur le signet **Contrôle en amont** dans la barre des signets pour lancer l’audit de la page active.
 
 >[!ENDTABS]
