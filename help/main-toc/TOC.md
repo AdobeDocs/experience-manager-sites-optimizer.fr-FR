@@ -5,7 +5,7 @@ user-guide-description: Voici une description du guide d’utilisation qui s’a
 source-git-commit: 214a9d7d4c7e498a8c2f39009e93c4c1f8f772b1
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
       + [Configuration CORS](/help/documentation/opportunities/cors-configuration.md)
       + [Cross-site scripting](/help/documentation/opportunities/cross-site-scripting.md)
       + [Taux de rebond élevé](/help/documentation/opportunities/high-bounce-rate.md)
-      + [Le taux de clics de la page à trafic élevé est faible](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
+      + [Page à trafic élevé avec faible CTR](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
       + [Métadonnées non valides ou manquantes](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Données structurées manquantes ou non valides](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Texte secondaire manquant](/help/documentation/opportunities/missing-alt-text.md)
