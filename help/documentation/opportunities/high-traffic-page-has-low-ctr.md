@@ -3,16 +3,16 @@ title: Documentation de l’opportunité Page à trafic élevé avec faible CTR
 description: Découvrez l’opportunité Page à trafic élevé avec faible CTR et comment l’utiliser pour augmenter l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
 source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Une page à trafic élevé présente une opportunité de CTR faible
+# Opportunité Page à trafic élevé avec faible CTR
 
-![La page à trafic élevé présente une faible opportunité de CTR](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
+![Opportunité Page à trafic élevé avec faible CTR](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
 
 L’opportunité Page à trafic élevé avec faible CTR identifie les pages de votre site web qui reçoivent un trafic important, mais qui ont un faible taux de clic (CTR). En analysant ces pages, vous pouvez identifier les problèmes potentiels qui peuvent entraver l’interaction client et prendre des mesures pour améliorer ses performances. Cette opportunité est essentielle pour optimiser le contenu et la mise en page de votre site web, afin d’augmenter vos taux de conversion et d’améliorer les expériences d’utilisation.
 
@@ -20,7 +20,7 @@ L’opportunité Page à trafic élevé avec faible CTR identifie les pages de v
 
 ![Identification automatique des problèmes de page à trafic élevé avec faible CTR](./assets/high-traffic-page-has-low-ctr/auto-identify.png){align="center"}
 
-La **page à trafic élevé avec une opportunité de CTR faible** identifie les pages à trafic élevé avec un CTR faible sur votre site web et inclut les éléments suivants :
+L’**opportunité Page à trafic élevé avec faible CTR** identifie les pages à trafic élevé avec un CTR faible sur votre site web et inclut les éléments suivants :
 
 * **Recommandation** : action suggérée pour améliorer le CTR de la page.
 * **Informations** : explication de la raison pour laquelle le CTR de la page est faible.
