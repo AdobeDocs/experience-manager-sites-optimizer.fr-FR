@@ -1,10 +1,10 @@
 ---
-title: Optimisations du contrôle en amont avec AEM Sites Optimizer
-description: Découvrez les opportunités de contrôle en amont avec AEM Sites Optimizer.
+title: Optimisations du Preflight avec AEM Sites Optimizer
+description: Découvrez les opportunités de Preflight avec AEM Sites Optimizer.
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 18%
+ht-degree: 61%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 18%
 
 ![Opportunités de Preflight](./assets/preflight/hero.png){align="center"}
 
-AEM Sites Optimizer [opportunités de contrôle en amont](../documentation/preflight/overview.md) permet de s’assurer que vos pages web sont optimisées en termes de performances, d’optimisation du moteur de recherche et d’expérience utilisateur avant leur mise en ligne. En identifiant les problèmes potentiels tels que les liens rompus, les balises meta manquantes et les problèmes d’accessibilité, les vérifications en amont permettent aux auteurs de contenu et aux spécialistes marketing de résoudre ces problèmes dès le début du processus de publication. Cette approche proactive réduit le risque de publication de contenu non optimal, améliore la qualité du site et la présence numérique globale. L’utilisation des opportunités de contrôle en amont permet un workflow plus fluide, réduit les correctifs après publication et contribue à un meilleur classement dans les moteurs de recherche et à la satisfaction des utilisateurs et utilisatrices.
+AEM Sites Optimizer [opportunités de contrôle en amont](../documentation/preflight/overview.md) permet de s’assurer que vos pages web sont optimisées en termes de performances, d’optimisation du moteur de recherche et d’expérience utilisateur avant leur mise en ligne. En identifiant les problèmes potentiels tels que les liens rompus, les balises meta manquantes et les problèmes d’accessibilité, les vérifications en amont permettent aux créateurs et créatrices de contenu et aux spécialistes marketing de résoudre ces problèmes dès le début du processus de publication. Cette approche proactive réduit le risque de publication de contenu non optimal, améliore la qualité du site et la présence numérique globale. L’utilisation des opportunités de contrôle en amont permet un workflow plus fluide, réduit les correctifs après publication, contribue à un meilleur classement dans les moteurs de recherche et améliore la satisfaction des utilisateurs et utilisatrices.
 
 ## Opportunités
 

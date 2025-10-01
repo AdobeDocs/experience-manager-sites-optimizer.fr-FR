@@ -4,16 +4,16 @@ description: 'Améliorez les performances de votre site web avec Sites Optimize
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
 # AEM Sites Optimizer
 
->[!VIDEO](https://video.tv.adobe.com/v/3455087/?learn=on&enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3455085/?learn=on&enablevpops)
 
-Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le cloud qui analyse et améliore les performances des sites web créés sur AEM. Sites Optimizer identifie les domaines à améliorer en termes de chargement de page, d’utilisation des composants et de diffusion de contenu. Cette fonctionnalité permet d’améliorer les performances de votre site web tout en réduisant les coûts de maintenance et de mise à jour. En utilisant Sites Optimizer, vous pouvez garantir une expérience en ligne fluide et fiable, ce qui est important pour maintenir l’engagement et les conversions.
+Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le cloud qui analyse et améliore les performances des sites web créés sur AEM. Sites Optimizer identifie les domaines à améliorer en termes de chargement de page, d’utilisation des composants et de diffusion de contenu. Cette fonctionnalité permet d’améliorer les performances de votre site web tout en réduisant les coûts de maintenance et de mise à jour. En utilisant Sites Optimizer, vous pouvez garantir une expérience en ligne fluide et fiable, ce qui est important pour maintenir l’engagement et les conversions.
 
 ## Commencer avec Sites Optimizer
 
@@ -81,10 +81,10 @@ Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le 
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## En savoir plus sur Sites Optimizer
+## En savoir plus sur Sites Optimizer
 
 <!-- CARDS 
-* https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
+* https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html
     {title=Packages and licensing}
     {description=Learn about AEM Sites Optimizer packages and licensing.}
     {image=./assets/home/licensing.png}
@@ -114,7 +114,7 @@ Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le 
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" target="_blank" rel="referrer" title="Packages et licences">Packages et licences</a>
                     </p>
-                    <p class="is-size-6">Découvrez les packages et les licences AEM Sites Optimizer.</p>
+                    <p class="is-size-6">Découvrez les packages et les licences AEM Sites Optimizer.</p>
                 </div>
                 <a href="https://helpx.adobe.com/fr/legal/product-descriptions/adobe-experience-manager-sites-optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -126,8 +126,8 @@ Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le 
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://business.adobe.com/products/experience-manager/sites/optimizer.html" title="Explorer les fonctionnalités d’AEM Sites Optimizer" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="./assets/home/business-adobe-com.png" alt="Explorer les fonctionnalités d’AEM Sites Optimizer"
+                    <a href="https://business.adobe.com/fr/products/experience-manager/sites/optimizer.html" title="Explorer les fonctionnalités d’AEM Sites Optimizer" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/home/business-adobe-com.png" alt="Explorer les fonctionnalités d’AEM Sites Optimizer"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -135,11 +135,11 @@ Adobe Experience Manager (AEM) Sites Optimizer est un service basé sur le 
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://business.adobe.com/products/experience-manager/sites/optimizer.html" target="_blank" rel="referrer" title="Explorer les fonctionnalités d’AEM Sites Optimizer">Explorer les fonctionnalités d’AEM Sites Optimizer</a>
+                        <a href="https://business.adobe.com/fr/products/experience-manager/sites/optimizer.html" target="_blank" rel="referrer" title="Explorer les fonctionnalités d’AEM Sites Optimizer">Explorer les fonctionnalités d’AEM Sites Optimizer</a>
                     </p>
-                    <p class="is-size-6">Découvrez ce qu’AEM Site Optimizer peut faire pour votre entreprise.</p>
+                    <p class="is-size-6">Découvrez ce qu’AEM Sites Optimizer peut faire pour votre entreprise.</p>
                 </div>
-                <a href="https://business.adobe.com/products/experience-manager/sites/optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://business.adobe.com/fr/products/experience-manager/sites/optimizer.html" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
 </a>
             </div>

@@ -21,7 +21,7 @@ ht-degree: 99%
    + [Posture de sécurité](/help/opportunity-types/security-posture.md)
    + [Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
    + [Accessibilité des formulaires](/help/opportunity-types/form-accesibility.md)
-   + [Preflight](/help/opportunity-types/preflight.md)
+   + [Contrôle en amont](/help/opportunity-types/preflight.md)
 + Documentation{#documentation}
    + [Vue d’ensemble](/help/documentation/overview.md)
    + [Concepts de base](/help/documentation/basics.md)
