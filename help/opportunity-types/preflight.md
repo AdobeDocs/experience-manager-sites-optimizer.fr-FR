@@ -2,18 +2,18 @@
 title: Optimisations du Preflight avec AEM Sites Optimizer
 description: Découvrez les opportunités de Preflight avec AEM Sites Optimizer.
 source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
-# Opportunités de Preflight
+# Opportunités de contrôle en amont
 
 ![Opportunités de Preflight](./assets/preflight/hero.png){align="center"}
 
-AEM Sites Optimizer [opportunités de contrôle en amont](../documentation/preflight/overview.md) permet de s’assurer que vos pages web sont optimisées en termes de performances, d’optimisation du moteur de recherche et d’expérience utilisateur avant leur mise en ligne. En identifiant les problèmes potentiels tels que les liens rompus, les balises meta manquantes et les problèmes d’accessibilité, les vérifications en amont permettent aux créateurs et créatrices de contenu et aux spécialistes marketing de résoudre ces problèmes dès le début du processus de publication. Cette approche proactive réduit le risque de publication de contenu non optimal, améliore la qualité du site et la présence numérique globale. L’utilisation des opportunités de contrôle en amont permet un workflow plus fluide, réduit les correctifs après publication, contribue à un meilleur classement dans les moteurs de recherche et améliore la satisfaction des utilisateurs et utilisatrices.
+Les [opportunités de contrôle en amont](../documentation/preflight/overview.md) d’AEM Sites Optimizer vous permettent de vous s’assurer que vos pages web sont optimisées en termes de performances, d’optimisation du moteur de recherche et d’expérience clientèle avant leur mise en ligne. En identifiant les problèmes potentiels tels que les liens rompus, les balises meta manquantes et les problèmes d’accessibilité, les vérifications en amont permettent aux créateurs et créatrices de contenu et aux spécialistes marketing de résoudre ces problèmes dès le début du processus de publication. Cette approche proactive réduit le risque de publication de contenu non optimal, améliore la qualité du site et la présence numérique globale. L’utilisation des opportunités de contrôle en amont permet un workflow plus fluide, réduit les correctifs après publication, contribue à un meilleur classement dans les moteurs de recherche et améliore la satisfaction des utilisateurs et utilisatrices.
 
 ## Opportunités
 
@@ -53,7 +53,7 @@ AEM Sites Optimizer [opportunités de contrôle en amont](../documentation/prefl
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/accessibility.md" target="_blank" rel="referrer" title="Accessibilité">Accessibilité</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité d’accessibilité du contrôle en amont dans Sites Optimizer.</p>
+                    <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de l’accessibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -76,7 +76,7 @@ AEM Sites Optimizer [opportunités de contrôle en amont](../documentation/prefl
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/h1-count.md" target="_blank" rel="referrer" title="Nombre de H1">Nombre de H1</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité d’accessibilité du contrôle en amont dans Sites Optimizer.</p>
+                    <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de l’accessibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -99,7 +99,7 @@ AEM Sites Optimizer [opportunités de contrôle en amont](../documentation/prefl
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/links.md" target="_blank" rel="referrer" title="Liens">Liens</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité Liens de contrôle en amont dans Sites Optimizer.</p>
+                    <p class="is-size-6">Découvrez l’opportunité de contrôle en amont des liens dans Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -145,7 +145,7 @@ AEM Sites Optimizer [opportunités de contrôle en amont](../documentation/prefl
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/preflight/readability.md" target="_blank" rel="referrer" title="Lisibilité">Lisibilité</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité de lisibilité du contrôle en amont dans Sites Optimizer.</p>
+                    <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de la lisibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="../documentation/preflight/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
