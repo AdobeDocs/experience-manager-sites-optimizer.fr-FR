@@ -1,8 +1,8 @@
 ---
 title: Configuration de Preflight
 description: Découvrez comment configurer l’extension Preflight pour AEM Sites Optimizer.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
+source-git-commit: 210acc5337796707ced10f2b84d473503fc06088
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -124,14 +124,14 @@ Pour utiliser le contrôle en amont dans l’éditeur de page d’AEMSites, vous
 
    * Appuyez sur **Ctrl + Maj + B** (Windows) ou **Cmd + Maj + B** (Mac).
 
-!. Créez un signet dans votre navigateur.
+1. Créez un signet dans votre navigateur.
 
-* Cliquez avec le bouton droit sur la barre des signets et sélectionnez **Nouvelle page** ou **Ajouter un signet**.
-* Dans le champ **Adresse (URL)**, collez le code suivant :
+   * Cliquez avec le bouton droit sur la barre des signets et sélectionnez **Nouvelle page** ou **Ajouter un signet**.
+   * Dans le champ **Adresse (URL)**, collez le code suivant :
 
-```javascript
-javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
-```
+   ```javascript
+   javascript:(function(){const script=document.createElement('script');script.src='https://experience.adobe.com/solutions/OneAdobe-aem-sites-optimizer-preflight-mfe/static-assets/resources/sidekick/client.js?source=bookmarklet&target-source=aem-cloud-service';document.head.appendChild(script);})();
+   ```
 
 1. Nommez le signet **Contrôle en amont** (ou tout autre nom de votre choix).
 1. Ouvrez l’URL de prévisualisation (`*.aem.page`) de la page que vous souhaitez auditer dans l’**éditeur de page d’AEM Sites**.
