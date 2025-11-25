@@ -15,7 +15,7 @@ L’identification de l’opportunité de contrôle en amont AEM Sites Optimizer
 
 ## Activer l’accès des utilisateurs et des utilisatrices
 
-Pour utiliser l’extension de contrôle en amont, assurez-vous que votre utilisateur est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans [Adobe Admin Console ](https://adminconsole.adobe.com) :
+Pour utiliser l’extension de contrôle en amont, assurez-vous que votre utilisateur est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans [Adobe Admin Console &#x200B;](https://adminconsole.adobe.com) :
 
 * AEM Sites Optimizer - Suggestion automatique de l’utilisateur ou de l’utilisatrice
 * AEM Sites Optimizer - Optimisation automatique de l’utilisateur ou de l’utilisatrice
@@ -134,7 +134,7 @@ Pour utiliser le contrôle en amont dans l’éditeur de page d’AEMSites, vous
    ```
 
 1. Nommez le signet **Contrôle en amont** (ou tout autre nom de votre choix).
-1. Ouvrez l’URL d’aperçu (`*.aem.page`) de la page que vous souhaitez contrôler dans l’éditeur de page d’AEM Sites ****.
+1. Ouvrez l’URL d’aperçu (`*.aem.page`) de la page que vous souhaitez contrôler dans l’éditeur de page d’AEM Sites **&#x200B;**.
 1. Cliquez sur le signet **Contrôle en amont** dans la barre des signets pour lancer l’audit de la page active.
 
 >[!ENDTABS]
