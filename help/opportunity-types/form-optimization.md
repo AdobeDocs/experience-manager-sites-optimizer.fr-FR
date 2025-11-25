@@ -3,23 +3,23 @@ title: Optimisation des formulaires avec Sites Optimizer
 description: Découvrez l’optimisation des formulaires avec Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 66%
 
 ---
 
 
 # Opportunités d’optimisation des formulaires
 
-<span class="preview"> La fonctionnalité d’optimisation de formulaires est disponible dans le cadre du programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
+<span class="preview"> La fonctionnalité Optimisation de Forms est disponible dans un programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Opportunités d’optimisation des formulaires](./assets/form-optimization/hero.png){align="center"}
 
-Les opportunités d’optimisation des formulaires permettent aux entreprises d’améliorer systématiquement les interactions des utilisateurs et des utilisatrices et d’augmenter les conversions pour les formulaires. En détectant des problèmes tels qu’un faible nombre de vues et un faible taux de conversion et de navigation, les équipes peuvent apporter des ajustements pilotés par des données à la conception du formulaire, ainsi qu’à son emplacement et son contenu. Ces optimisations permettent d’optimiser l’expérience d’utilisation afin de faciliter la saisie des formulaires et l’obtention des résultats souhaités par les utilisateurs et les utilisatrices. L’utilisation des informations issues de l’optimisation des formulaires permet d’identifier et de résoudre en continu les écarts de performances, ce qui se traduit par des formulaires plus efficaces et de meilleurs résultats commerciaux.
+Les opportunités d’optimisation de Forms permettent aux entreprises d’améliorer systématiquement les interactions utilisateur et d’augmenter les conversions de formulaires. En détectant des problèmes, tels que des vues faibles, des conversions faibles et des taux de navigation faibles, les équipes peuvent apporter des ajustements, pilotés par les données, à la conception du formulaire, à l’emplacement et au contenu. Ces optimisations permettent d’optimiser l’expérience d’utilisation afin de faciliter la saisie des formulaires et l’obtention des résultats souhaités par les utilisateurs et les utilisatrices. L’utilisation des informations issues de l’optimisation de Forms permet d’identifier et de résoudre en continu les écarts de performances, ce qui se traduit par des formulaires plus efficaces et de meilleurs résultats commerciaux.
 
 ## Opportunités
 

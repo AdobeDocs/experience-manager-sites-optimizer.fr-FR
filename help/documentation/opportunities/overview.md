@@ -1,10 +1,10 @@
 ---
 title: Documentation sur les opportunités Sites Optimizer
 description: Découvrez toutes les opportunités de Sites Optimizer disponibles et comment les utiliser pour améliorer les performances de votre site.
-source-git-commit: bac5199a6082a2070080cef9421d39f8b22dc697
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '883'
+ht-degree: 96%
 
 ---
 
@@ -60,7 +60,7 @@ Chaque opportunité fournit une brève description du problème, son impact pote
 * **Nombre de problèmes** : nombre d’occurrences du problème identifié sur votre site.
 * **Types d’opportunités** : [types d’opportunités](/help/opportunity-types/overview.md) dont fait partie cette opportunité (par exemple, acquisition du trafic, engagement ou intégrité du site).
 
-Les informations récapitulatives de chaque opportunité varient selon le type et peuvent inclure des détails sur l’impact sur le chiffre d’affaires, le trafic, l’interaction client ou les menaces pour la sécurité.
+Les informations récapitulatives de chaque opportunité varient selon le type et peuvent inclure des détails sur l’impact sur le chiffre d’affaires, le trafic, l’engagement client ou les menaces pour la sécurité.
 
 Pour afficher les détails d’une opportunité, cliquez sur le bouton **Détails**.
 
@@ -366,7 +366,7 @@ Explorez toutes les opportunités disponibles dans Sites Optimizer :
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-navigation.md" target="_blank" rel="referrer" title="Faible taux de navigation pour les formulaires">Faible taux de navigation pour les formulaires</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité de faible taux de navigation pour les formulaires et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
+                    <p class="is-size-6">Découvrez la faible opportunité de navigation et comment l’utiliser pour améliorer l’engagement des formulaires sur votre site web.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -389,7 +389,7 @@ Explorez toutes les opportunités disponibles dans Sites Optimizer :
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problèmes d’accessibilité des formulaires">Problèmes d’accessibilité des formulaires</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité des problèmes d’accessibilité des formulaires et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
+                    <p class="is-size-6">Découvrez les problèmes d’accessibilité de Forms et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>

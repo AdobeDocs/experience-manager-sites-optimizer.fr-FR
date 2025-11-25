@@ -3,22 +3,22 @@ title: Optimisation des formulaires avec Sites Optimizer
 description: Découvrez l’optimisation des formulaires avec Sites Optimizer.
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 59%
 
 ---
 
 
-# Opportunités d’accessibilité des formulaires
+# Opportunités d’accessibilité Forms
 
-<span class="preview"> La fonctionnalité d’optimisation de formulaires est disponible dans le cadre du programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
+<span class="preview"> La fonctionnalité Optimisation de Forms est disponible dans un programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
 
 ![Opportunités d’accessibilité des formulaires](./assets/form-accesibility/hero.png){align="center"}
 
 
-Les opportunités d’accessibilité des formulaires sont essentielles pour améliorer les interactions des utilisateurs et des utilisatrices et augmenter les conversions. L’évaluation de la conformité de vos formulaires aux directives d’accessibilité du contenu web (WCAG) permet de garantir une expérience inclusive pour les utilisateurs et les utilisatrices atteints de handicaps visuels, auditifs, cognitifs et moteurs. Cela permet non seulement de répondre aux exigences éthiques et juridiques, mais également d’améliorer les taux de remplissage des formulaires et d’élargir votre audience, ce qui se traduit par une meilleure expérience d’utilisation et de meilleurs résultats commerciaux.
+Les opportunités d’accessibilité des formulaires sont essentielles pour améliorer les interactions des utilisateurs et des utilisatrices et augmenter les conversions. L’évaluation de la conformité de vos formulaires aux directives d’accessibilité du contenu web (WCAG) permet de garantir une expérience inclusive pour les utilisateurs et les utilisatrices atteints de handicaps visuels, auditifs, cognitifs et moteurs. Cette fonctionnalité répond non seulement aux exigences éthiques et juridiques, mais améliore également les taux de remplissage des formulaires et élargit votre audience, ce qui se traduit par une meilleure expérience utilisateur et de meilleurs résultats commerciaux.
 
 ## Opportunités
 
@@ -49,7 +49,7 @@ Les opportunités d’accessibilité des formulaires sont essentielles pour amé
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problèmes d’accessibilité des formulaires">Problèmes d’accessibilité des formulaires</a>
                     </p>
-                    <p class="is-size-6">Découvrez les problèmes d’accessibilité des formulaires et comment les utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
+                    <p class="is-size-6">Découvrez les problèmes d’accessibilité des formulaires et comment les utiliser pour améliorer l’engagement des formulaires sur votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>

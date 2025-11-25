@@ -4,21 +4,22 @@ description: Découvrez l’opportunité de faible taux de navigation et comment
 badgeFormOptimization: label="Optimisation des formulaires" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimisation des formulaires"
 hide: true
 hidefromtoc: true
-source-git-commit: 954409fb1ad41b016ddc4dd2058e69db98ca6654
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 90%
 
 ---
 
 
 # Opportunité de faible taux de navigation dans les formulaires
 
-<span class="preview"> La fonctionnalité d’optimisation de formulaires est disponible dans le cadre du programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
+<span class="preview"> La fonctionnalité Optimisation de Forms est disponible dans un programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
 
 ![Opportunité de faible taux de navigation](./assets/low-navigation/hero.png){align="center"}
 
-L’opportunité de faible taux de navigation identifie les formulaires de votre site web qui présentent un faible taux de navigation. Ce type d’opportunité vous aide à comprendre quels formulaires ne sont pas découverts ou consultés par les utilisateurs et les utilisatrices et fournit des suggestions sur la manière d’améliorer leur visibilité.
+L’opportunité de faible taux de navigation identifie les formulaires de votre site web qui présentent un faible taux de navigation. Ce type d’opportunité identifie les formulaires que les utilisateurs ne découvrent pas ou auxquels ils n’ont pas accès et suggère des moyens d’améliorer leur capacité de découverte.
+
 
 ## Identification automatique
 

@@ -1,10 +1,10 @@
 ---
 title: Opportunités de contrôle en amont
-description: Documentation sur les opportunités de contrôle en amont dans Sites Optimizer.
-source-git-commit: 6e177ef6b9d121ac7484ae118037c7e542f981d8
-workflow-type: ht
+description: Documentation sur les opportunités de contrôle en amont dans Sites Optimizer.
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ![Opportunités de Preflight](./assets/overview/hero.png){align="center"}
 
-Les opportunités de contrôle en amont de Sites Optimizer se composent d’un ensemble d’évaluations qui analysent différents aspects du contenu et de la structure de votre site web avant la publication de la page web. Ces évaluations permettent d’identifier les problèmes potentiels et fournissent des recommandations exploitables pour améliorer la qualité globale et les performances de votre site.
+Les opportunités de contrôle en amont de Sites Optimizer sont composées d’un ensemble d’évaluations qui analysent différents aspects du contenu et de la structure de votre site web avant la publication de la page web. Ces évaluations permettent d’identifier les problèmes potentiels et fournissent des recommandations exploitables pour améliorer la qualité globale et les performances de votre site.
 
 ## Configuration de Preflight
 

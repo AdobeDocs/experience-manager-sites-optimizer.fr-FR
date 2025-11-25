@@ -1,10 +1,10 @@
 ---
 title: Types d’opportunité de Sites Optimizer
 description: Découvrez les principaux types d’opportunité de Sites Optimizer et comment ils peuvent vous aider à améliorer les performances de votre site.
-source-git-commit: 469370cfcb19e25bf8da5f7f9e08b8b0da52dbb9
-workflow-type: ht
-source-wordcount: '343'
-ht-degree: 100%
+source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 92%
 
 ---
 
@@ -211,4 +211,4 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<span class="preview"> Les fonctionnalités d’optimisation des formulaires et d’accessibilité des formulaires sont disponibles dans le cadre du programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
+<span class="preview"> Les fonctionnalités Forms Optimization et Forms Accessibility sont disponibles sous le programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
