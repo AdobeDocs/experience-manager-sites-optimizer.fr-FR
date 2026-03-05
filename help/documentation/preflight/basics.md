@@ -1,9 +1,9 @@
 ---
 title: Concepts de base du contrôle en amont
 description: Découvrez les principes de base du contrôle en amont et comment utiliser son interface.
-source-git-commit: b73458e4d575547ccb9220105a5f72090431221c
+source-git-commit: d669706909eeed61c6d0803e2b37df81ece987e1
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Pour exécuter le contrôle en amont :
 ## Résultats de l’audit
 
 Une fois l’audit terminé, le contrôle en amont affiche les opportunités détectées. Chaque opportunité est organisée par type et comprend des détails sur la façon de résoudre le problème.
+
+En haut de la boîte de dialogue de contrôle en amont d’AEM se trouve une barre de Progression de l’utilisateur qui reflète les résultats d’audit globaux. Il indique le pourcentage d’opportunités qui se sont passées sans problème, ainsi que le nombre total d’problèmes trouvés pour toutes les opportunités. La barre de progression de l’utilisateur permet aux auteurs d’évaluer rapidement l’intégrité globale de la page.
 
 ## À propos des opportunités de contrôle en amont
 
