@@ -1,9 +1,9 @@
 ---
 title: Optimisation de la posture de sécurité avec Sites Optimizer
 description: Découvrez comment améliorer la sécurité de votre site avec Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '212'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,9 @@ Conserver une posture de sécurité solide dans AEM Sites Optimizer est essent
 ## Opportunités
 
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/cors-configuration.md
   {title=CORS configuration}

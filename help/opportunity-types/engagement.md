@@ -1,9 +1,9 @@
 ---
 title: Optimisation de l’engagement avec Sites Optimizer
 description: Découvrez comment améliorer l’engagement avec Sites Optimizer.
-source-git-commit: b471cb120d456805d5195cd990bdc9b8d3967d15
-workflow-type: ht
-source-wordcount: '285'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
@@ -13,11 +13,13 @@ ht-degree: 100%
 
 ![Opportunités d’engagement](./assets/engagement/hero.png){align="center"}
 
-Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles pour améliorer les expériences numériques en fournissant des informations exploitables sur la manière dont les utilisateurs et utilisatrices interagissent avec les pages web. En identifiant les points à améliorer, tels que les problèmes d’accessibilité, les liens internes rompus, les taux de rebond élevés et le texte secondaire manquant, les spécialistes du marketing et les créateurs et créatrices de contenu peuvent optimiser leurs sites pour de meilleures performances et une meilleure interaction client. Ces opportunités permettent de s’assurer que le contenu est efficace, détectable et attrayant, ce qui entraîne des conversions plus élevées et un parcours client plus transparent. L’utilisation des recommandations d’AEM Sites Optimizer permet aux équipes d’affiner en permanence leur stratégie numérique et de fournir des expériences à fort impact et à grande échelle.
+Les opportunités d’engagement dans AEM Sites Optimizer sont essentielles pour améliorer les expériences numériques en fournissant des informations exploitables sur la manière dont les utilisateurs et utilisatrices interagissent avec les pages web. En identifiant les points à améliorer, tels que les problèmes d’accessibilité, les liens internes rompus, les taux de rebond élevés et le texte secondaire manquant, les spécialistes du marketing et les créateurs et créatrices de contenu peuvent optimiser leurs sites pour de meilleures performances et un meilleur engagement client. Ces opportunités permettent de s’assurer que le contenu est efficace, détectable et attrayant, ce qui entraîne des conversions plus élevées et un parcours client plus transparent. L’utilisation des recommandations d’AEM Sites Optimizer permet aux équipes d’affiner en permanence leur stratégie numérique et de fournir des expériences à fort impact et à grande échelle.
 
 ## Opportunités
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/accessibility-issues.md
   {title=Accessibility issues}

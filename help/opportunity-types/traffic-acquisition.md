@@ -1,8 +1,8 @@
 ---
 title: Optimisation de l’acquisition du trafic avec Sites Optimizer
 description: Découvrez comment augmenter l’acquisition du trafic avec Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
+source-git-commit: fe5da3da1f08d061829b21f367a1bbc3a9be1714
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -17,7 +17,9 @@ L’acquisition du trafic pousse les clientes et clients potentiels vers votre s
 
 ## Opportunités
 
-<!-- CARDS
+<!--
+CARDS
+
  
 * ../documentation/opportunities/broken-backlinks.md
   {title=Broken backlinks}
@@ -32,7 +34,7 @@ L’acquisition du trafic pousse les clientes et clients potentiels vers votre s
   {title=Sitemap issues}
   {image=../assets/common/card-relationship.png}
 
---->
+-->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Broken backlinks">

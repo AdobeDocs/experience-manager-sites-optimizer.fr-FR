@@ -1,27 +1,29 @@
 ---
 solution: Experience Manager
 product: adobe experience manager
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
 description: Documentation AEM Sites Optimizer.
-index: y
-git-repo: https://github.com/AdobeDocs/experience-manager-sites-optimizer.fr-FR
+index: true
+git-repo: https://github.com/AdobeDocs/experience-manager-sites-optimizer.en
 feature-set: Experience Manager Assets,Experience Manager Sites,Experience Manager, Experience Manager Forms, Experience Manager Cloud Manager
 cloud: Experience Cloud
 recommendations: noDisplay
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 29%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
 
 
-# Métadonnées pour utilisation interne
+# Métadonnées à usage interne
 
 Le système de création GitHub organise les métadonnées de manière hiérarchique, en utilisant les niveaux de précédent croissants suivants.
 
 1. metadata.md
-1. Table des matières
+1. ToC
 1. Article
 
 Les métadonnées définies dans le fichier metadata.md s’appliquent à l’ensemble du référentiel, mais elles peuvent être remplacées au niveau de la table des matières et de l’article. Tout remplacement des métadonnées doit être effectué au niveau le plus bas possible.
@@ -40,7 +42,7 @@ metadata.md
 * `tutorials-title`
 * `tutorials-url`
 
-Tables des matières
+ToCs
 
 * `sub-product`
 * `user-guide-title`

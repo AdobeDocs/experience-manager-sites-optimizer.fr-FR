@@ -1,9 +1,9 @@
 ---
 title: Optimisation de l’intégrité du site avec Sites Optimizer
 description: Découvrez comment améliorer l’intégrité de votre site avec Sites Optimizer.
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '126'
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+workflow-type: tm+mt
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,9 @@ Conserver une bonne intégrité de votre site dans AEM Sites Optimizer est ess
 
 ## Opportunités
 
-<!-- CARDS
+<!--
+CARDS
+
 
 * ../documentation/opportunities/core-web-vitals.md
   {title=Core web vitals}

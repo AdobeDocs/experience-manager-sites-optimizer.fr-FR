@@ -1,9 +1,9 @@
 ---
 title: Types d’opportunité de Sites Optimizer
 description: Découvrez les principaux types d’opportunité de Sites Optimizer et comment ils peuvent vous aider à améliorer les performances de votre site.
-source-git-commit: 2f4ef1c6f44d602bfe365a52eb692fe7faa7f05f
+source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '348'
 ht-degree: 92%
 
 ---
@@ -28,7 +28,8 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
 
 ## Types d’opportunité
 
-<!-- CARDS 
+<!--
+CARDS 
 
 * ./engagement.md
    { title = Engagement }
@@ -197,7 +198,7 @@ Faire appel à ces opportunités améliore l’expérience clientèle, attire l�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./preflight.md" target="_blank" rel="referrer" title="Preflight">Contrôle en amont</a>
+                        <a href="./preflight.md" target="_blank" rel="referrer" title="Contrôle en amont">Contrôle en amont</a>
                     </p>
                     <p class="is-size-6">Découvrez l’analyse en amont et comment configurer les opportunités de contrôle en amont dans Sites Optimizer.</p>
                 </div>
