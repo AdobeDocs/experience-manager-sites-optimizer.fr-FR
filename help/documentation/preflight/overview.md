@@ -1,34 +1,40 @@
 ---
-title: Opportunités de contrôle en amont
-description: Documentation sur les opportunités de contrôle en amont dans Sites Optimizer.
-source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+title: Contrôle en amont d’AEM Sites Optimizer
+description: Découvrez le contrôle en amont et les types d’opportunité qu’il évalue avant publication.
+source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 81%
+source-wordcount: '307'
+ht-degree: 40%
 
 ---
 
 
-# Opportunités de contrôle en amont
+# Contrôle en amont d’AEM Sites Optimizer
 
 ![Opportunités de Preflight](./assets/overview/hero.png){align="center"}
 
-Les opportunités de contrôle en amont de Sites Optimizer sont composées d’un ensemble d’évaluations qui analysent différents aspects du contenu et de la structure de votre site web avant la publication de la page web. Ces évaluations permettent d’identifier les problèmes potentiels et fournissent des recommandations exploitables pour améliorer la qualité globale et les performances de votre site.
+Le contrôle en amont dans AEM Sites Optimizer vous permet de valider et d’optimiser les pages avant leur mise en ligne en analysant le contenu et la structure et en signalant les problèmes avec des recommandations exploitables. Il est conçu pour les auteurs, les spécialistes du marketing et les développeurs qui souhaitent s’assurer que les pages sont de haute qualité, performantes et prêtes à être publiées tout en réduisant la refonte.
 
-## Configuration de Preflight
+Au cœur du contrôle en amont se trouvent les opportunités, qui sont identifiées au moyen d’un ensemble d’audits qui évaluent les principaux aspects de votre page avant sa publication. Ces audits mettent en évidence les problèmes potentiels et fournissent des recommandations claires et exploitables pour améliorer la qualité globale et le rendement.
 
-Suivez les étapes du guide [Configuration de Preflight](./setup.md) pour configurer l’extension de contrôle en amont Preflight pour votre site web.
+## Prise en main du contrôle en amont
+
+La prise en main du contrôle en amont est simple. Il vous suffit de configurer le contrôle en amont, de l’ouvrir dans votre environnement de création et d’exécuter un audit sur votre page. Le contrôle en amont effectue le reste.
+
+1. [Configuration du contrôle en amont](./setup.md) - Découvrez comment configurer le contrôle en amont pour votre instance AEM
+1. [Accéder au contrôle en amont](./access-preflight.md) - Découvrez où le contrôle en amont apparaît dans votre environnement de création.
+1. [Exécuter des audits](./audits.md) - Découvrez comment démarrer un audit de contrôle en amont
+1. [Résultats d’audit et opportunités](./audit-results.md) - Découvrez comment interpréter les résultats d’audit
 
 ## Opportunités de contrôle en amont
 
-<!--
-CARDS
+<!-- CARDS
 
-* ./accessibility.md
-* ./h1-count.md
-* ./links.md
-* ./meta-data.md
-* ./readability.md
+* ./opportunities/accessibility.md
+* ./opportunities/h1-count.md
+* ./opportunities/links.md
+* ./opportunities/meta-data.md
+* ./opportunities/readability.md
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -36,8 +42,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./accessibility.md" title="Opportunité de contrôle en amont de l’accessibilité" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/accessibility/hero.png" alt="Opportunité de contrôle en amont de l’accessibilité"
+                    <a href="./opportunities/accessibility.md" title="Opportunité de contrôle en amont de l’accessibilité" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/accessibility/hero.png" alt="Opportunité de contrôle en amont de l’accessibilité"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -45,11 +51,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./accessibility.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont de l’accessibilité">Opportunité de contrôle en amont de l’accessibilité</a>
+                        <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont de l’accessibilité">Opportunité de contrôle en amont de l’accessibilité</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de l’accessibilité dans Sites Optimizer.</p>
                 </div>
-                <a href="./accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
 </a>
             </div>
@@ -59,8 +65,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./h1-count.md" title="Opportunité de contrôle en amont du nombre de H1" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/h1-count/hero.png" alt="Opportunité de contrôle en amont du nombre de H1"
+                    <a href="./opportunities/h1-count.md" title="Opportunité de contrôle en amont du nombre de H1" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/h1-count/hero.png" alt="Opportunité de contrôle en amont du nombre de H1"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -68,11 +74,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./h1-count.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont du nombre de H1">Opportunité de contrôle en amont du nombre de H1</a>
+                        <a href="./opportunities/h1-count.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont du nombre de H1">Opportunité de contrôle en amont du nombre de H1</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de l’accessibilité dans Sites Optimizer.</p>
                 </div>
-                <a href="./h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
 </a>
             </div>
@@ -82,8 +88,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./links.md" title="Opportunité de contrôle en amont des liens" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/links/hero.png" alt="Opportunité de contrôle en amont des liens"
+                    <a href="./opportunities/links.md" title="Opportunité de contrôle en amont des liens" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/links/hero.png" alt="Opportunité de contrôle en amont des liens"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -91,11 +97,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./links.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont des liens">Opportunité de contrôle en amont des liens</a>
+                        <a href="./opportunities/links.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont des liens">Opportunité de contrôle en amont des liens</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont des liens dans Sites Optimizer.</p>
                 </div>
-                <a href="./links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
 </a>
             </div>
@@ -105,8 +111,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./meta-data.md" title="Opportunité de contrôle en amont des métadonnées" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/metadata/hero.png" alt="Opportunité de contrôle en amont des métadonnées"
+                    <a href="./opportunities/meta-data.md" title="Opportunité de contrôle en amont des métadonnées" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/metadata/hero.png" alt="Opportunité de contrôle en amont des métadonnées"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -114,11 +120,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./meta-data.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont des métadonnées">Opportunité de contrôle en amont des métadonnées</a>
+                        <a href="./opportunities/meta-data.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont des métadonnées">Opportunité de contrôle en amont des métadonnées</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont des métadonnées dans Sites Optimizer.</p>
                 </div>
-                <a href="./meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
 </a>
             </div>
@@ -128,8 +134,8 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="./readability.md" title="Opportunité de contrôle en amont de la lisibilité" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/readability/hero.png" alt="Opportunité de contrôle en amont de la lisibilité"
+                    <a href="./opportunities/readability.md" title="Opportunité de contrôle en amont de la lisibilité" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="opportunities/assets/readability/hero.png" alt="Opportunité de contrôle en amont de la lisibilité"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -137,11 +143,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./readability.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont de la lisibilité">Opportunité de contrôle en amont de la lisibilité</a>
+                        <a href="./opportunities/readability.md" target="_blank" rel="referrer" title="Opportunité de contrôle en amont de la lisibilité">Opportunité de contrôle en amont de la lisibilité</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de la lisibilité dans Sites Optimizer.</p>
                 </div>
-                <a href="./readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="./opportunities/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
 <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
 </a>
             </div>
