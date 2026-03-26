@@ -1,7 +1,7 @@
 ---
 title: Contrôle en amont d’AEM Sites Optimizer
 description: Découvrez le contrôle en amont et les types d’opportunité qu’il évalue avant publication.
-source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
+source-git-commit: 626de60c72579fd6ed96f259fbf524ed0a7103ba
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 40%
@@ -28,7 +28,8 @@ La prise en main du contrôle en amont est simple. Il vous suffit de configurer 
 
 ## Opportunités de contrôle en amont
 
-<!-- CARDS
+<!--
+CARDS
 
 * ./opportunities/accessibility.md
 * ./opportunities/h1-count.md
