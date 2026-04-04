@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Voici une description du guide d’utilisation qui s’affichera sur la page de destination.
-source-git-commit: d0fda0afad66289298e79edd1f84be251433a9f1
+source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 94%
+ht-degree: 91%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 94%
    + [Engagement](/help/opportunity-types/engagement.md)
    + [Intégrité du site](/help/opportunity-types/site-health.md)
    + [Posture de sécurité](/help/opportunity-types/security-posture.md)
-   + [Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
-   + [Accessibilité des formulaires](/help/opportunity-types/form-accesibility.md)
+   + {hide-from-toc}[Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
+   + {hide-from-toc}[Accessibilité des formulaires](/help/opportunity-types/form-accesibility.md)
 + Documentation{#documentation}
    + [Vue d’ensemble](/help/documentation/overview.md)
    + [Concepts de base](/help/documentation/basics.md)
@@ -39,10 +39,10 @@ ht-degree: 94%
       + [Métadonnées non valides ou manquantes](/help/documentation/opportunities/invalid-or-missing-metadata.md)
       + [Données structurées manquantes ou non valides](/help/documentation/opportunities/missing-invalid-structured-data.md)
       + [Texte secondaire manquant](/help/documentation/opportunities/missing-alt-text.md)
-      + [Conversions faibles pour les formulaires](/help/documentation/opportunities/low-conversions.md)
-      + [Faible nombre de vues pour les formulaires](/help/documentation/opportunities/low-views.md)
-      + [Faible taux de navigation pour les formulaires](/help/documentation/opportunities/low-navigation.md)
-      + [Problème d’accessibilité des formulaires](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + {hide-from-toc}[Conversions faibles pour les formulaires](/help/documentation/opportunities/low-conversions.md)
+      + {hide-from-toc}[Faible nombre de vues pour les formulaires](/help/documentation/opportunities/low-views.md)
+      + {hide-from-toc}[Faible taux de navigation pour les formulaires](/help/documentation/opportunities/low-navigation.md)
+      + {hide-from-toc}[Problème d’accessibilité de &#x200B;](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Problèmes de plan de site](/help/documentation/opportunities/sitemap-issues.md)
       + [Autorisations du site web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnérabilités du site web](/help/documentation/opportunities/website-vulnerabilities.md)
