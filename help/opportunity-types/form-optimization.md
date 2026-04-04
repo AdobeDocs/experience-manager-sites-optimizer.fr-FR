@@ -2,11 +2,10 @@
 title: Optimisation des formulaires avec Sites Optimizer
 description: Découvrez l’optimisation des formulaires avec Sites Optimizer.
 hide: true
-hidefromtoc: true
-source-git-commit: fe5da3da1f08d061829b21f367a1bbc3a9be1714
+source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 67%
+ht-degree: 64%
 
 ---
 
@@ -55,8 +54,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de faible nombre de vues et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
@@ -78,8 +77,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de conversions faibles et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
@@ -101,8 +100,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de faible taux de navigation et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
