@@ -14,7 +14,7 @@ ht-degree: 0%
 Le contrôle en amont effectue un audit de votre page afin d’identifier les opportunités d’amélioration de votre contenu avant publication. Pour exécuter des audits de contrôle en amont pour une page :
 
 1. Ouvrez la page à auditer dans votre [environnement de création](./access-preflight.md) (éditeur universel, création basée sur les documents ou éditeur de page AEM Sites).
-1. Ouvrez le panneau [ Contrôle en amont ](./access-preflight.md).
+1. Ouvrez le panneau [&#x200B; Contrôle en amont &#x200B;](./access-preflight.md).
 1. Le contrôle en amont effectue automatiquement tous les audits de la page ouverte dans l’éditeur et affiche toutes les opportunités trouvées.
 
 Pour interpréter les résultats, ouvrir les problèmes dans l’aperçu et appliquer les suggestions générées par l’IA, consultez [Audit des résultats dans le contrôle en amont](./audit-results.md).
