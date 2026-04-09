@@ -2,10 +2,10 @@
 title: Documentation sur l’opportunité de backlinks rompus
 description: Découvrez l’opportunité des backlinks rompus et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 33%
 
 ---
 
@@ -14,29 +14,31 @@ ht-degree: 100%
 
 ![Opportunité de backlinks rompus](./assets/broken-backlinks/hero.png){align="center"}
 
-L’opportunité de backlinks rompus identifie les liens d’autres sites web vers votre site qui entraînent une erreur 404. Comme les moteurs de recherche utilisent des backlinks pour déterminer la pertinence de la recherche, les liens rompus peuvent avoir un impact négatif sur l’optimisation du moteur de recherche et la visibilité de votre site. Ces problèmes peuvent être dus à des facteurs tels que les modifications d’URL ou la suppression de la page liée.
-
-L’opportunité des backlinks rompus affiche un résumé en haut de la page, y compris une synthèse du problème et de son impact sur votre site et votre entreprise.
-
-* **Trafix projeté perdu** : estimation de la perte de trafic due aux backlinks rompus.
-* **Valeur de trafic projetée** : valeur estimée du trafic perdu.
+L’opportunité Liens entrants rompus identifie les liens externes pointant vers des pages inexistantes (404) sur votre site. Ces liens entraînent une perte de trafic de recommandation et une valeur SEO réduite, car les moteurs de recherche s&#39;appuient sur des liens rétroactifs pour évaluer la pertinence et l&#39;autorité. Ces problèmes se produisent lorsque les URL sont modifiées, que le contenu est supprimé ou que les pages ne sont plus disponibles sans redirection appropriée. AEM Sites Optimizer identifie tous les backlinks rompus, fournit des recommandations d’IA spécifiques et permet un déploiement en un clic pour les corriger, le tout dans une vue centralisée unique.
 
 ## Identification automatique
 
 ![Identifier automatiquement les backlinks rompus](./assets/broken-backlinks/auto-identify.png){align="center"}
 
-L’opportunité de backlinks rompus répertorie tous les backlinks rompus de votre site, y compris les éléments suivants :
+AEM Sites Optimizer analyse en permanence les sources de données externes pour détecter les liens renvoyant à des pages 404 inexistantes sur votre site. Les données sont agrégées à partir de plusieurs sources, notamment la console de recherche Google, la [télémétrie opérationnelle](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) et des plateformes de référencement tierces. L’opportunité d’identification automatique identifie les domaines externes liés à des URL rompues et les classe par priorité en fonction de l’impact, y compris l’autorité de domaine et le trafic attendu, ainsi que les pertes de capitaux propres liées.
 
-* **Page de référence** : domaine du site web contenant le lien rompu.
-* **Priorité** : élevée, moyenne ou faible, indiquant l’impact du lien rompu sur l’optimisation du moteur de recherche en fonction des tâches.
-* **URL cible rompue** : URL non existante sur votre site à laquelle est associé le lien.
+Cette opportunité répertorie tous les problèmes identifiés, y compris les détails suivants :
+
+* **Domaine et page de référence** - Page ou domaine externe contenant le lien rompu.
+* **Priorité** - Élevée, moyenne ou faible indiquant l’impact du lien rompu sur le processus d’optimisation du moteur de recherche.
+* **URL cible endommagée** - URL inexistante sur votre site à laquelle est associé le lien.
 
 ## Suggestion automatique
 
 ![Suggestion automatique pour les backlinks rompus](./assets/broken-backlinks/auto-suggest.png){align="center"}
 
-L’opportunité de backlinks rompus fournit également des suggestions générées par l’IA sur la page de votre site web vers laquelle l’URL rompue doit être redirigée. Les suggestions sont basées sur le texte qui comprend l’URL rompue et le contenu de la page suggérée.
+Pour chaque lien retour interrompu identifié, AEM Sites Optimizer recommande la destination la plus appropriée pour restaurer le trafic et la valeur SEO. Il détermine l’intention du lien retour en analysant les éléments suivants :
 
+* Structure de l’URL et jetons
+* Texte d’ancrage
+* Titre et contexte de la page de référence
+
+Cette intention est mise en correspondance avec le contenu du site existant afin d’identifier la page de destination la plus pertinente. Chaque URL rompue est mappée à une page de remplacement exacte ou à la page pertinente la plus proche. Si aucune destination appropriée ne peut être déterminée, le problème est soumis à une révision manuelle.
 
 >[!BEGINTABS]
 
@@ -56,7 +58,7 @@ Si vous n’êtes pas d’accord avec la suggestion générée par l’IA, vous 
 
 ![Ignorer les backlinks rompus](./assets/broken-backlinks/ignore.png){align="center"}
 
-Vous pouvez choisir d’ignorer les entrées avec l’URL cible rompue. Sélectionner l’![icône Supprimer ou Ignorer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) supprime le lien retour rompu de la liste des opportunités. Les backlinks rompus ignorés peuvent être à nouveau traités à partir de l’onglet **Ignoré** en haut de la page des opportunités.
+Vous pouvez choisir d’ignorer les entrées avec les URL rompues ciblées. Sélectionner l’![icône Supprimer ou Ignorer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) supprime le lien retour rompu de la liste des opportunités. Les backlinks rompus ignorés peuvent être à nouveau traités à partir de l’onglet **Ignoré** en haut de la page des opportunités.
 
 >[!ENDTABS]
 
@@ -64,22 +66,12 @@ Vous pouvez choisir d’ignorer les entrées avec l’URL cible rompue. Sélecti
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Optimiser automatiquement les backlinks rompus](./assets/broken-backlinks/auto-optimize.png){align="center"}
+Une fois les suggestions examinées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer applique ensuite les correctifs dans l’environnement de création, en fonction de la manière dont les redirections sont gérées dans votre implémentation. L’auteur AEM peut ensuite publier les modifications à partir du système de gestion de contenu (CMS).
 
-Sites Optimizer Ultimate permet de déployer l’optimisation automatique pour les backlinks rompus. Cliquer sur le bouton **Optimisation automatique** met automatiquement à jour les règles de redirection du site AEM pour mapper l’**URL cible rompue** à l’**URL suggérée**. Cela permet de s’assurer que les visiteurs et visiteuses du site web et les robots de recherche qui suivent les liens rompus sur les **pages de référence** sont redirigés vers la bonne page de votre site, ce qui améliore l’optimisation du moteur de recherche et l’expérience clientèle.
+Selon la configuration, des correctifs sont appliqués sous forme de modifications de contenu ou de code dans les workflows de déploiement existants. Le processus d’optimisation comprend les étapes suivantes :
 
->[!BEGINTABS]
+* **Validation** - S’assure que les modifications fonctionnent comme prévu et n’introduisent pas de régressions avant le déploiement.
+* **Déploiement** - Applique les modifications par le biais de processus existants, tels que les mises à jour de contenu dans AEM ou le déploiement de code via des pipelines CI/CD.
+* **Vérification des autorisations** - Vérifie que l’utilisateur dispose des autorisations appropriées pour déployer les modifications. Dans le cas contraire, d’autres sorties, telles que des listes de redirection téléchargeables ou des correctifs de code, sont fournies.
 
->[!TAB Déployer l’optimisation]
-
-![Déployer l’optimisation des backlinks rompus](./assets/broken-backlinks/deploy-optimization.png){align="center"}
-
-Sélectionner **Déployer l’optimisation** met à jour les règles de redirection d’AEM Sites pour mapper l’**URL cible rompue** à l’**URL suggérée**. Cela permet de s’assurer que les visiteurs et visiteuses du site web et les robots de recherche qui suivent les liens rompus sur les **pages de référence** sont redirigés vers la bonne page de votre site, ce qui améliore l’optimisation du moteur de recherche et l’expérience clientèle.
-
->[!TAB Demande d’approbation]
-
-![Demander l’approbation des backlinks rompus](./assets/broken-backlinks/request-approval.png){align="center"}
-
-{{auto-optimize-request-approval}}
-
->[!ENDTABS]
+Ce processus permet de s’assurer que les redirections sont implémentées avec précision, validées avant la publication et alignées sur les configurations et les processus de gouvernance existants.
