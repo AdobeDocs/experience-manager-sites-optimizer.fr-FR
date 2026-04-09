@@ -69,6 +69,6 @@ Les mises à jour sont versionnées lorsqu’elles sont prises en charge, offran
 
 AEM Sites Optimizer applique automatiquement les mises à jour de texte de remplacement en fonction de votre configuration :
 
-* **** - Met à jour le document source (par exemple, Google Docs ou SharePoint).
-* **** - Écrit des mises à jour directement via l’API de contenu avec le contrôle de version et la prise en charge de secours.
+* **&#x200B;**&#x200B;- Met à jour le document source (par exemple, Google Docs ou SharePoint).
+* **&#x200B;**&#x200B;- Écrit des mises à jour directement via l’API de contenu avec le contrôle de version et la prise en charge de secours.
 * **Digital Asset Management (facultatif)** - Met à jour le texte secondaire au niveau des ressources, le cas échéant.
