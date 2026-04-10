@@ -1,9 +1,9 @@
 ---
 title: Exécuter des audits en contrôle en amont
 description: Découvrez comment démarrer un audit de contrôle en amont sur votre page.
-source-git-commit: e7c34d27bd34b3c9db1e6a999007e9d36dc1fb21
+source-git-commit: f513d2bb8ff8af203333bd0c27bd00092f69d014
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -17,4 +17,4 @@ Le contrôle en amont effectue un audit de votre page afin d’identifier les op
 1. Ouvrez le panneau [&#x200B; Contrôle en amont &#x200B;](./access-preflight.md).
 1. Le contrôle en amont effectue automatiquement tous les audits de la page ouverte dans l’éditeur et affiche toutes les opportunités trouvées.
 
-Pour interpréter les résultats, ouvrir les problèmes dans l’aperçu et appliquer les suggestions générées par l’IA, consultez [Audit des résultats dans le contrôle en amont](./audit-results.md).
+Pour interpréter les résultats et ouvrir les problèmes dans l’aperçu, voir [Résultats d’audit dans le contrôle en amont](./audit-results.md).
