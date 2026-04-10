@@ -2,10 +2,10 @@
 title: Documentation sur le texte secondaire manquant
 description: Découvrez l’opportunité de texte secondaire manquant et comment l’utiliser pour améliorer l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: ba3f15903a3f551bd64351a3bb002b43cf5cb2cd
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 36%
+source-wordcount: '694'
+ht-degree: 37%
 
 ---
 
@@ -67,8 +67,20 @@ Selon la configuration, les mises à jour peuvent être appliquées directement 
 
 Les mises à jour sont versionnées lorsqu’elles sont prises en charge, offrant visibilité et capacité de restauration. Cela permet de s’assurer que les mises à jour du texte secondaire sont appliquées avec précision, alignées sur les implémentations existantes et conformes aux normes de gouvernance et d’accessibilité.
 
-AEM Sites Optimizer applique automatiquement les mises à jour de texte de remplacement en fonction de votre configuration :
+AEM Sites Optimizer applique automatiquement les mises à jour de texte de remplacement en fonction de votre configuration, comme suit :
 
-* **&#x200B;**&#x200B;- Met à jour le document source (par exemple, Google Docs ou SharePoint).
-* **&#x200B;**&#x200B;- Écrit des mises à jour directement via l’API de contenu avec le contrôle de version et la prise en charge de secours.
-* **Digital Asset Management (facultatif)** - Met à jour le texte secondaire au niveau des ressources, le cas échéant.
+>[!BEGINTABS]
+
+>[!TAB Edge Delivery Services]
+
+Met à jour le document source (par exemple, Google Docs ou SharePoint).
+
+>[!TAB AEM as a Cloud Service]
+
+Écrit des mises à jour directement via l’API de contenu avec le contrôle de version et la prise en charge de secours.
+
+>[!TAB Gestion des ressources numériques (facultatif)]
+
+Met à jour le texte secondaire au niveau des ressources, le cas échéant.
+
+>[!ENDTABS]
