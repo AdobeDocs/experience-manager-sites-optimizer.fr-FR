@@ -3,7 +3,7 @@ title: Documentation sur l’opportunité de problèmes d’accessibilité des f
 description: Découvrez l’opportunité de problèmes d’accessibilité des formulaires et comment l’utiliser pour améliorer l’accessibilité des formulaires et l’expérience d’utilisation de votre site web.
 badgeFormOptimization: label="Optimisation des formulaires" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimisation des formulaires"
 hide: true
-source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
+source-git-commit: 06ab4dd17748f7ac97a3292deacce01c1c0331cf
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 65%
