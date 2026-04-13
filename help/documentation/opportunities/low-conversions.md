@@ -3,7 +3,7 @@ title: Documentation sur les opportunités de conversions faibles
 description: Découvrez l’opportunité de conversions faibles et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.
 badgeFormOptimization: label="Optimisation des formulaires" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimisation des formulaires"
 hide: true
-source-git-commit: c05518af996465226105421a8ea8dc3aaf04b8e3
+source-git-commit: 06ab4dd17748f7ac97a3292deacce01c1c0331cf
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 96%
