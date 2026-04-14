@@ -1,9 +1,9 @@
 ---
 title: Résultats de l’audit dans le contrôle en amont
 description: Découvrez comment interpréter les résultats de l’audit de contrôle en amont et la barre de progression de l’utilisateur, et accédez aux problèmes dans l’aperçu.
-source-git-commit: f513d2bb8ff8af203333bd0c27bd00092f69d014
+source-git-commit: 30060044e558774ab1e17684945f29d3e76dc3a7
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,14 @@ La barre a un code couleur :
 
 Consultez la [liste complète des types d’opportunités disponibles et comment les traiter](./overview.md#preflight-opportunities).
 
-## Accéder aux événements
+## Mettre en évidence les opportunités
 
-Une fois l’audit terminé, vous pouvez passer rapidement aux problèmes identifiés dans l’aperçu.
+Une fois l’audit terminé, vous pouvez rapidement localiser et comprendre les opportunités en les mettant en surbrillance directement sur la page.
 
-![Aperçu du contrôle en surbrillance d’un problème](./assets/audit-results/highlight-issue.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
 
-### Accès à un événement
+Le contrôle en amont met en évidence chaque opportunité en contexte, en connectant les résultats du panneau à l’emplacement exact dans votre contenu. Il est ainsi plus facile de vérifier et de résoudre les opportunités sans effectuer de recherche manuelle dans la page.
 
-1. Sélectionnez un événement dans la liste des événements du panneau Contrôle en amont.
-1. L’aperçu fait automatiquement défiler la page jusqu’à l’emplacement correspondant et le met en surbrillance, afin que vous puissiez examiner le problème en contexte sans le rechercher manuellement.
+1. Ouvrez le panneau Contrôle en amont dans le contexte de la page à contrôler et exécutez les contrôles.
+1. Sélectionnez une opportunité spécifique dans la liste du panneau Contrôle en amont.
+1. L’aperçu défile automatiquement vers la zone appropriée et met en surbrillance l’élément correspondant, ce qui vous permet d’identifier et d’optimiser facilement l’opportunité en contexte.
