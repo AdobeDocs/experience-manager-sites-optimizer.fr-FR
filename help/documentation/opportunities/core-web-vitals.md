@@ -2,10 +2,10 @@
 title: Documentation sur l’opportunité des valeurs web principales
 description: Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeSiteHealth: label="Intégrité du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Intégrité du site"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: 3a5354a8306c8700bdf63858da70f26b5c72e58d
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 10%
+source-wordcount: '550'
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ Lorsque vous cliquez sur le bouton de suggestion, une nouvelle fenêtre s’affi
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Optimisation automatique de l’opportunité des valeurs web principales](./assets/core-web-vitals/auto-optimize.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483373/?captions=fre_fr&learn=on&enablevpops)
 
 Une fois les recommandations examinées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer génère des correctifs de code en fonction des problèmes identifiés et les rend disponibles par le biais de processus de contrôle de version. Le processus d’optimisation comprend les étapes suivantes :
 

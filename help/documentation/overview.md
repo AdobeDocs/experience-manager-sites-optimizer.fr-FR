@@ -1,10 +1,10 @@
 ---
 title: Documentation de Sites Optimizer
 description: Documentation d’Experience Manager Sites Optimizer.
-source-git-commit: 4cf02d5c9d44ed00bb3b284330b2d553d54ba8d3
+source-git-commit: 7784534e1d3628ca18da45c1e95fcce613adc7c3
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 82%
 
 ---
 
@@ -29,6 +29,9 @@ CARDS
   {title = Opportunities}
 * ./settings.md
   {title = Settings}
+* ./trial.md
+  {title = Trial}
+  {image = ./assets/basics/card.png}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -51,8 +54,8 @@ CARDS
                     <p class="is-size-6">Découvrez les concepts de base de Sites Optimizer et comment y naviguer.</p>
                 </div>
                 <a href="./basics.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
@@ -74,8 +77,8 @@ CARDS
                     <p class="is-size-6">Découvrez toutes les opportunités de Sites Optimizer disponibles et comment les utiliser pour améliorer les performances de votre site.</p>
                 </div>
                 <a href="./opportunities/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
@@ -97,8 +100,31 @@ CARDS
                     <p class="is-size-6">Découvrez comment configurer les paramètres de Sites Optimizer et les intégrer à d’autres outils.</p>
                 </div>
                 <a href="./settings.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Trial">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="./trial.md" title="Essai" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="./assets/basics/card.png" alt="Essai"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="./trial.md" target="_blank" rel="referrer" title="Essai">Version d’essai</a>
+                    </p>
+                    <p class="is-size-6">Commencez avec la version d’essai de Sites Optimizer, y compris les étapes, les limites et les questions fréquentes pour les clients AEM Sites existants.</p>
+                </div>
+                <a href="./trial.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>

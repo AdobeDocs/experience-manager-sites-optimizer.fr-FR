@@ -2,9 +2,9 @@
 title: Documentation sur l’opportunité de backlinks rompus
 description: Découvrez l’opportunité des backlinks rompus et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: 643a639a233417b3295b7b66c1a6a12ef37abab0
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '678'
 ht-degree: 33%
 
 ---
@@ -65,6 +65,8 @@ Vous pouvez choisir d’ignorer les entrées avec les URL rompues ciblées. Sél
 ## Optimiser automatiquement
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483255/?captions=fre_fr&learn=on&enablevpops)
 
 Une fois les suggestions examinées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer applique ensuite les correctifs dans l’environnement de création, en fonction de la manière dont les redirections sont gérées dans votre implémentation. L’auteur AEM peut ensuite publier les modifications à partir du système de gestion de contenu (CMS).
 
