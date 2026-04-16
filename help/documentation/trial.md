@@ -1,7 +1,7 @@
 ---
 title: Version d’essai de Sites Optimizer
 description: Commencez avec la version d’essai d’AEM Sites Optimizer pour les clients AEM Sites existants.
-source-git-commit: 0c9acea024f436166c467d55a3d3697f3eaf08b6
+source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 15%
@@ -23,7 +23,7 @@ Commencez avec Sites Optimizer à l’aide de cette version d’essai pour les c
 
 Pour commencer votre version d’évaluation, procédez comme suit :
 
-1. Connectez-vous à l’aide de votre ID d’organisation AEM Sites IMS à [www.sitesoptimizer.now](https://www.sitesoptimizer.now).
+1. Connectez-vous à l’aide de votre ID d’organisation AEM Sites IMS à [www.sitesoptimizer.live](http://www.sitesoptimizer.live/).
 2. Affichez les mesures clés telles que les pages vues, le temps de chargement et le taux d’engagement, ainsi que vos principales opportunités d’optimisation hiérarchisées par impact.
 3. Explorez les trois types d’opportunités disponibles : [liens retour rompus](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) et [texte secondaire manquant](./opportunities/missing-alt-text.md).
 4. Pour chaque opportunité, passez en revue jusqu’à trois problèmes identifiés. Utilisez les suggestions générées par l’IA et déployez des optimisations directement dans votre environnement AEM lorsqu’il est prêt.
@@ -56,7 +56,7 @@ Clients AEM Sites existants (Edge Delivery Services, Cloud Services et Managed S
 +++
 +++Comment puis-je accéder à l’évaluation ?
 
-Accédez à [www.sitesoptimizer.now](https://www.sitesoptimizer.now) et connectez-vous à l’aide de votre ID d’organisation AEM Sites IMS.
+Accédez à [www.sitesoptimizer.live](http://www.sitesoptimizer.live/) et connectez-vous à l’aide de votre ID d’organisation AEM Sites IMS.
 
 +++
 +++L&#39;essai a-t-il coûté quelque chose ?
