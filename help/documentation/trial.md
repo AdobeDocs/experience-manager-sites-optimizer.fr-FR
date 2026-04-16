@@ -17,7 +17,7 @@ Commencez avec Sites Optimizer à l’aide de cette version d’essai pour les c
 
 >[!TIP]
 >
-> Contactez [](mailto:siteoptimizer-now@adobe.com) pour toute question ou demande.
+> Contactez [&#128279;](mailto:siteoptimizer-now@adobe.com) pour toute question ou demande.
 
 ## Commencez votre version d’évaluation dès maintenant !
 
@@ -46,7 +46,7 @@ Lisez ce qui suit pour obtenir des réponses aux questions fréquentes sur l’�
 
 +++Qu’est-ce qu’AEM Sites Optimizer ?
 
-[](/help/home.md) est une application IA-first qui identifie les problèmes sur votre site web, fournit des recommandations prescriptives et vous aide à les résoudre pour augmenter l&#39;acquisition, l&#39;engagement et la conversion du trafic.
+[&#128279;](/help/home.md) est une application IA-first qui identifie les problèmes sur votre site web, fournit des recommandations prescriptives et vous aide à les résoudre pour augmenter l&#39;acquisition, l&#39;engagement et la conversion du trafic.
 
 +++
 +++Qui peut participer à cet essai ?
@@ -75,7 +75,7 @@ Sites Optimizer identifie en permanence les problèmes qui affectent vos perform
 +++
 +++Comment puis-je accéder à davantage d’opportunités ?
 
-Utilisez les appels à l’action de mise à niveau ou contactez l’équipe commerciale par le biais de l’expérience produit ou par e-mail [](mailto:siteoptimizer-now@adobe.com).
+Utilisez les appels à l’action de mise à niveau ou contactez l’équipe commerciale par le biais de l’expérience produit ou par e-mail [&#128279;](mailto:siteoptimizer-now@adobe.com).
 
 +++
 
