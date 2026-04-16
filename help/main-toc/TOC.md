@@ -43,7 +43,7 @@ ht-degree: 91%
       + {hide-from-toc}[Conversions faibles pour les formulaires](/help/documentation/opportunities/low-conversions.md)
       + {hide-from-toc}[Faible nombre de vues pour les formulaires](/help/documentation/opportunities/low-views.md)
       + {hide-from-toc}[Faible taux de navigation pour les formulaires](/help/documentation/opportunities/low-navigation.md)
-      + {hide-from-toc}[Problème d’accessibilité de ](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + {hide-from-toc}[Problème d’accessibilité de &#x200B;](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Problèmes de plan de site](/help/documentation/opportunities/sitemap-issues.md)
       + [Autorisations du site web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnérabilités du site web](/help/documentation/opportunities/website-vulnerabilities.md)

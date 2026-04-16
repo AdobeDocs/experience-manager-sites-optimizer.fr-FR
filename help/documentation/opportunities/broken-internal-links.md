@@ -63,7 +63,7 @@ Vous pouvez choisir d’ignorer les entrées avec les URL rompues ciblées. Sél
 
 ## Optimiser automatiquement
 
-[!BADGE ]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Version d’essai de Sites Optimizer"}
+{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Version d’essai de Sites Optimizer"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 
