@@ -2,10 +2,10 @@
 title: Documentation sur l’opportunité des liens internes rompus
 description: Découvrez l’opportunité des liens rompus et comment l’utiliser pour améliorer l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+source-git-commit: 71c33f306db7c3aadb4e3884a840f45cf495ff48
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ![Opportunité de liens internes rompus](./assets/broken-internal-links/hero.png){align="center"}
 
-Les liens internes rompus affectent la capacité du moteur de recherche à indexer votre site. Ils ont une incidence négative sur l’expérience client et l’optimisation du moteur de recherche. Pour résoudre ce problème, l’opportunité de liens internes rompus signale les URL rompues et fournit des suggestions pour des mises à jour de liens valides. La résolution de ces problèmes améliorera l’interaction des clientes et clients et garantira une navigation et une accessibilité fluides.
+Les liens internes rompus affectent la capacité du moteur de recherche à indexer votre site. Ils ont une incidence négative sur l’expérience client et l’optimisation du moteur de recherche. Pour résoudre ce problème, l’opportunité de liens internes rompus signale les URL rompues et fournit des suggestions pour des mises à jour de liens valides. La résolution de ces problèmes améliorera l’engagement client et garantira une navigation et une accessibilité fluides.
 
 L’opportunité des liens internes rompus affiche un résumé en haut de la page, y compris une synthèse du problème et de son impact sur votre site et votre entreprise.
 
@@ -56,14 +56,14 @@ Si vous n’êtes pas d’accord avec la suggestion générée par l’IA, vous 
 
 <!--![Ignore broken links](./assets/broken-internal-links/ignore.png){align="center"}-->
 
-Vous pouvez choisir d’ignorer les entrées avec les URL rompues ciblées. Sélectionner l’![icône Supprimer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) efface l’entrée de la liste des opportunités. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignoré** en haut de la page des opportunités.
+Vous pouvez choisir d’ignorer les entrées avec les URL rompues ciblées. Sélectionner l’![icône Supprimer](https://spectrum.adobe.com/static/icons/ui_18/CrossSize500.svg) supprime l’entrée de la liste des opportunités. Les entrées ignorées peuvent être à nouveau traitées à partir de l’onglet **Ignoré** en haut de la page des opportunités.
 
 >[!ENDTABS]
 
 
 ## Optimiser automatiquement
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
+[!BADGE ]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Version d’essai de Sites Optimizer"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 

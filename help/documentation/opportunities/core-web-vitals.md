@@ -2,10 +2,10 @@
 title: Documentation sur l’opportunité des valeurs web principales
 description: Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeSiteHealth: label="Intégrité du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Intégrité du site"
-source-git-commit: 42f67f8ca52aa8e17ab780702023c0987e457f76
+source-git-commit: 3a5354a8306c8700bdf63858da70f26b5c72e58d
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 10%
+source-wordcount: '550'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ AEM Sites Optimizer détecte les pages affectées par ces problèmes, fournit de
 
 ![Identification automatique des valeurs web principales](./assets/core-web-vitals/auto-identify.png){align="center"}
 
-AEM Sites Optimizer surveille en permanence les performances du site à l’aide de la [télémétrie opérationnelle](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) pour détecter les régressions dans les mesures Core Web Vitals telles que Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) et Interaction to Next Paint (INP). Il utilise des données utilisateur réelles pour identifier les régressions de performances et hiérarchise les problèmes en fonction de leur impact sur l’expérience utilisateur.
+AEM Sites Optimizer surveille en permanence les performances du site à l’aide de la [télémétrie opérationnelle](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) pour détecter les régressions dans les mesures Core Web Vitals telles que Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) et Interaction to Next Paint (INP). Il utilise des données utilisateur réelles pour identifier les régressions de performances et hiérarchise les problèmes en fonction de leur impact sur l’expérience utilisateur.
 
 AEM Sites Optimizer affiche la liste de tous les problèmes courants, détaillée par mobile et poste de travail. La colonne **Page** indique l’entrée de page concernée et les problèmes sont classés par LCP, INP et CLS.
 
@@ -38,7 +38,7 @@ Lorsque vous cliquez sur le bouton de suggestion, une nouvelle fenêtre s’affi
 
 [!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
 
-![Optimisation automatique de l’opportunité des valeurs web principales](./assets/core-web-vitals/auto-optimize.png){align="center"}
+>[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
 
 Une fois les recommandations examinées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer génère des correctifs de code en fonction des problèmes identifiés et les rend disponibles par le biais de processus de contrôle de version. Le processus d’optimisation comprend les étapes suivantes :
 
