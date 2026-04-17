@@ -2,17 +2,19 @@
 title: Documentation sur l’opportunité des valeurs web principales
 description: Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeSiteHealth: label="Intégrité du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Intégrité du site"
-source-git-commit: 3a5354a8306c8700bdf63858da70f26b5c72e58d
+source-git-commit: fd992e5f4508ccd4236757167a16c744d98cc6ae
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 9%
+source-wordcount: '533'
+ht-degree: 6%
 
 ---
 
 
 # Opportunité des valeurs web principales
 
-![opportunité des valeurs web principales](./assets/core-web-vitals/hero.png){align="center"}
+<!--![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}-->
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483373/?captions=fre_fr&learn=on&enablevpops)
 
 L’opportunité Core Web Vitals identifie les pages de votre site web qui ne sont pas performantes, ce qui a un impact sur l’expérience utilisateur et les performances de recherche organiques. Ces problèmes peuvent provenir de facteurs tels que les polices personnalisées, les dépendances JavaScript non optimisées et les scripts tiers. Core Web Vitals mesure la vitesse de chargement du contenu, la stabilité de la mise en page et la réactivité de la page aux interactions utilisateur.
 
@@ -20,7 +22,7 @@ AEM Sites Optimizer détecte les pages affectées par ces problèmes, fournit de
 
 ## Identification automatique
 
-![Identification automatique des valeurs web principales](./assets/core-web-vitals/auto-identify.png){align="center"}
+<!--![Auto-identify core web vitals](./assets/core-web-vitals/auto-identify.png){align="center"}-->
 
 AEM Sites Optimizer surveille en permanence les performances du site à l’aide de la [télémétrie opérationnelle](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) pour détecter les régressions dans les mesures Core Web Vitals telles que Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) et Interaction to Next Paint (INP). Il utilise des données utilisateur réelles pour identifier les régressions de performances et hiérarchise les problèmes en fonction de leur impact sur l’expérience utilisateur.
 
@@ -28,7 +30,7 @@ AEM Sites Optimizer affiche la liste de tous les problèmes courants, détaillé
 
 ## Suggestion automatique
 
-![Suggestion automatique de l’opportunité des valeurs web principales](./assets/core-web-vitals/auto-suggest.png){align="center"}
+<!--![Auto-suggest core web vitals opportunity](./assets/core-web-vitals/auto-suggest.png){align="center"}-->
 
 Pour chaque problème identifié, AEM Sites Optimizer génère des recommandations normatives au niveau du code afin d’améliorer les performances de Core Web Vitals. Il évalue l’implémentation sous-jacente en accédant à votre référentiel de code. Cela permet au système d’analyser la manière dont les composants, les scripts et les styles sont implémentés et d’identifier la cause première des problèmes de performances. Sur la base de cette analyse, le système fournit des recommandations ciblées et génère des correctifs de code qui spécifient les modifications nécessaires pour améliorer les performances. Chaque recommandation peut être examinée avant d’être appliquée.
 
@@ -36,9 +38,7 @@ Lorsque vous cliquez sur le bouton de suggestion, une nouvelle fenêtre s’affi
 
 ## Optimiser automatiquement
 
-[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}
-
->[!VIDEO](https://video.tv.adobe.com/v/3483373/?captions=fre_fr&learn=on&enablevpops)
+<!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
 Une fois les recommandations examinées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer génère des correctifs de code en fonction des problèmes identifiés et les rend disponibles par le biais de processus de contrôle de version. Le processus d’optimisation comprend les étapes suivantes :
 
