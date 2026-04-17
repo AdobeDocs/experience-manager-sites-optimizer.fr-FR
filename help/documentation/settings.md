@@ -1,9 +1,9 @@
 ---
 title: Paramètres de Sites Optimizer
 description: Découvrez comment configurer les paramètres de Sites Optimizer et les intégrer à d’autres outils.
-source-git-commit: 93f802beee074f4de2f2438c85c2880def5aad69
+source-git-commit: b71d5510162864ee76931cf754164ea637cadd92
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '749'
 ht-degree: 12%
 
 ---
@@ -41,8 +41,6 @@ Dans AEM Sites Optimizer, accédez à **Paramètres → Se connecter à AEM Site
 
 - **URL de Source de contenu** : URL du dossier SharePoint ou du dossier du lecteur Google qui soutient votre site EDS, par exemple :
   `https://drive.google.com/drive/folders/...` ou `https://myorg.sharepoint.com/...`
-
-Cette URL doit correspondre à ce qui est configuré dans le `fstab.yaml` de votre site EDS.
 
 Une fois que vous avez saisi l’URL de Source de contenu, AEM Sites Optimizer détecte votre type de source de contenu et affiche les instructions d’accès appropriées ci-dessous.
 
@@ -100,7 +98,7 @@ Si l’URL de Source de contenu utilise le domaine SharePoint de votre entrepris
 
 Vous pouvez accorder l’accès à l’application à l’aide de l’explorateur Microsoft Graph, de PowerShell ou des appels directs de l’API Graph.
 
-Accédez à l’explorateur de graphiques Microsoft [&#128279;](https://developer.microsoft.com/graph/graph-explorer), connectez-vous avec votre compte Microsoft et exécutez les requêtes suivantes :
+Accédez à l’explorateur de graphiques Microsoft [](https://developer.microsoft.com/graph/graph-explorer), connectez-vous avec votre compte Microsoft et exécutez les requêtes suivantes :
 
 1. Trouver l’ID de votre site :
 
