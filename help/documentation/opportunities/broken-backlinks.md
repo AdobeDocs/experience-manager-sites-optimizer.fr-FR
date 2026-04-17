@@ -14,7 +14,7 @@ ht-degree: 30%
 
 <!--![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483255/?captions=fre_fr&learn=on&enablevpops)
 
 L’opportunité Liens entrants rompus identifie les liens externes pointant vers des pages inexistantes (404) sur votre site. Ces liens entraînent une perte de trafic de recommandation et une valeur SEO réduite, car les moteurs de recherche s&#39;appuient sur des liens rétroactifs pour évaluer la pertinence et l&#39;autorité. Ces problèmes se produisent lorsque les URL sont modifiées, que le contenu est supprimé ou que les pages ne sont plus disponibles sans redirection appropriée. AEM Sites Optimizer identifie tous les backlinks rompus, fournit des recommandations d’IA spécifiques et permet un déploiement en un clic pour les corriger, le tout dans une vue centralisée unique.
 

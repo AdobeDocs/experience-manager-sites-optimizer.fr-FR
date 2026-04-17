@@ -14,7 +14,7 @@ ht-degree: 35%
 
 <!--![Missing alt text opportunity](./assets/missing-alt-text/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483251/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483266/?captions=fre_fr&learn=on&enablevpops)
 
 L’opportunité de texte secondaire manquant identifie les images de votre site web qui n’ont pas de texte secondaire descriptif. Sans texte secondaire, les utilisateurs qui dépendent des lecteurs d’écran ne peuvent pas interpréter le contenu visuel, ce qui crée des barrières à l’accessibilité. Il limite également la façon dont les moteurs de recherche comprennent et indexent les images, ce qui réduit la capacité de découverte du contenu et les performances de recherche. AEM Sites Optimizer identifie les problèmes de texte de remplacement manquants, fournit des recommandations d’IA spécifiques et permet un déploiement en un clic pour les résoudre, le tout dans une vue centralisée unique.
 
