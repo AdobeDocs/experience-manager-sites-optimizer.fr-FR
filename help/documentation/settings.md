@@ -100,7 +100,7 @@ Si l’URL de Source de contenu utilise le domaine SharePoint de votre entrepris
 
 Vous pouvez accorder l’accès à l’application à l’aide de l’explorateur Microsoft Graph, de PowerShell ou des appels directs de l’API Graph.
 
-Accédez à l’explorateur de graphiques Microsoft [](https://developer.microsoft.com/graph/graph-explorer), connectez-vous avec votre compte Microsoft et exécutez les requêtes suivantes :
+Accédez à l’explorateur de graphiques Microsoft [&#128279;](https://developer.microsoft.com/graph/graph-explorer), connectez-vous avec votre compte Microsoft et exécutez les requêtes suivantes :
 
 1. Trouver l’ID de votre site :
 
