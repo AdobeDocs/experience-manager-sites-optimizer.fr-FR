@@ -3,9 +3,9 @@ user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Voici une description du guide d’utilisation qui s’affichera sur la page de destination.
 source-git-commit: 8052c94f778829012f023fe470411dfe77ef46b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
    + [Concepts de base](/help/documentation/basics.md)
    + [Essai](/help/documentation/trial.md)
    + Configurer{#set-up}
-      + [Intégration d’utilisateurs](/help/documentation/setup/onboard-users.md)
+      + [Intégrer des utilisateurs et utilisatrices](/help/documentation/setup/onboard-users.md)
    + Opportunités{#opportunities}
       + [Vue d’ensemble](/help/documentation/opportunities/overview.md)
       + [Problèmes d’accessibilité](/help/documentation/opportunities/accessibility-issues.md)
@@ -43,14 +43,14 @@ ht-degree: 91%
       + {hide-from-toc}[Conversions faibles pour les formulaires](/help/documentation/opportunities/low-conversions.md)
       + {hide-from-toc}[Faible nombre de vues pour les formulaires](/help/documentation/opportunities/low-views.md)
       + {hide-from-toc}[Faible taux de navigation pour les formulaires](/help/documentation/opportunities/low-navigation.md)
-      + {hide-from-toc}[Problème d’accessibilité de &#x200B;](/help/documentation/opportunities/forms-accessibility-issues.md)
+      + {hide-from-toc}[Problème d’accessibilité des formulaires](/help/documentation/opportunities/forms-accessibility-issues.md)
       + [Problèmes de plan de site](/help/documentation/opportunities/sitemap-issues.md)
       + [Autorisations du site web](/help/documentation/opportunities/website-permissions.md)
       + [Vulnérabilités du site web](/help/documentation/opportunities/website-vulnerabilities.md)
-   + Preflight{#preflight}
+   + Contrôle en amont{#preflight}
       + [Vue d’ensemble](/help/documentation/preflight/overview.md)
       + [Configuration](/help/documentation/preflight/setup.md)
-      + [Accès au contrôle en amont](/help/documentation/preflight/access-preflight.md)
+      + [Accéder au contrôle en amont](/help/documentation/preflight/access-preflight.md)
       + [Audits](/help/documentation/preflight/audits.md)
       + [Résultats de l’audit](/help/documentation/preflight/audit-results.md)
       + Opportunités{#preflight-opportunities}
