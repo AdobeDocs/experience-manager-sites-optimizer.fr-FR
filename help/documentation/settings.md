@@ -2,8 +2,10 @@
 title: Paramètres de Sites Optimizer
 description: Découvrez comment configurer les paramètres de Sites Optimizer et les intégrer à d’autres outils.
 TQID: https://experienceleague.adobe.com/eznjSHZgAmCh-ek-XE-lLtuoGJxC0yY4UVrmPjc0KYo
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 749
@@ -100,7 +102,7 @@ Si l’URL de Source de contenu utilise le domaine SharePoint de votre entrepris
 
 Vous pouvez accorder l’accès à l’application à l’aide de l’explorateur Microsoft Graph, de PowerShell ou des appels directs de l’API Graph.
 
-Accédez à l’explorateur de graphiques Microsoft [](https://developer.microsoft.com/graph/graph-explorer), connectez-vous avec votre compte Microsoft et exécutez les requêtes suivantes :
+Accédez à l’explorateur de graphiques Microsoft [&#128279;](https://developer.microsoft.com/graph/graph-explorer), connectez-vous avec votre compte Microsoft et exécutez les requêtes suivantes :
 
 1. Trouver l’ID de votre site :
 
