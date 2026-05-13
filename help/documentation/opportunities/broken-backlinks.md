@@ -26,7 +26,7 @@ L’opportunité Liens entrants rompus identifie les liens externes pointant ver
 
 <!--![Auto-identify broken backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer analyse en permanence les sources de données externes pour détecter les liens renvoyant à des pages 404 inexistantes sur votre site. Les données sont agrégées à partir de plusieurs sources, notamment la console de recherche Google, la [télémétrie opérationnelle](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) et des plateformes de référencement tierces. L’opportunité d’identification automatique identifie les domaines externes liés à des URL rompues et les classe par priorité en fonction de l’impact, y compris l’autorité de domaine et le trafic attendu, ainsi que les pertes de capitaux propres liées.
+AEM Sites Optimizer analyse en permanence les sources de données externes pour détecter les liens renvoyant à des pages 404 inexistantes sur votre site. Les données sont agrégées à partir de plusieurs sources, notamment la console de recherche Google, la [télémétrie opérationnelle](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) et des plateformes de référencement tierces. L’opportunité d’identification automatique identifie les domaines externes liés à des URL rompues et les classe par priorité en fonction de l’impact, y compris l’autorité de domaine et le trafic attendu, ainsi que les pertes de capitaux propres liées.
 
 Cette opportunité répertorie tous les problèmes identifiés, y compris les détails suivants :
 
