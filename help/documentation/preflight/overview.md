@@ -1,13 +1,15 @@
 ---
 title: Contrôle en amont d’AEM Sites Optimizer
 description: Découvrez le contrôle en amont et les types d’opportunité qu’il évalue avant publication.
-source-git-commit: 626de60c72579fd6ed96f259fbf524ed0a7103ba
+TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 40%
+source-wordcount: 307
+ht-degree: 36%
 
 ---
-
 
 # Contrôle en amont d’AEM Sites Optimizer
 
@@ -57,8 +59,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de l’accessibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
@@ -80,8 +82,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de l’accessibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
@@ -103,8 +105,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont des liens dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
@@ -126,8 +128,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont des métadonnées dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>
@@ -149,8 +151,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de la lisibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                </a>
             </div>
         </div>
     </div>

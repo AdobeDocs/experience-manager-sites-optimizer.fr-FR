@@ -2,19 +2,21 @@
 title: Documentation de l’opportunité Page à trafic élevé avec faible CTR
 description: Découvrez l’opportunité Page à trafic élevé avec faible CTR et comment l’utiliser pour augmenter l’engagement sur votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: 5c3b4eb9941c82273c017602202b74d7911f7cc5
-workflow-type: ht
-source-wordcount: '266'
+TQID: https://experienceleague.adobe.com/pnOZaaoYn5nIWwc2Qt3Xs-wyCygoRgMEHsD8P0Rq-6U
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 274
 ht-degree: 100%
 
 ---
-
 
 # Opportunité Page à trafic élevé avec faible CTR
 
 ![Opportunité Page à trafic élevé avec faible CTR](./assets/high-traffic-page-has-low-ctr/hero.png){align="center"}
 
-L’opportunité Page à trafic élevé avec faible CTR identifie les pages de votre site web qui reçoivent un trafic important, mais qui ont un faible taux de clic (CTR). En analysant ces pages, vous pouvez identifier les problèmes potentiels qui peuvent entraver l’interaction client et prendre des mesures pour améliorer ses performances. Cette opportunité est essentielle pour optimiser le contenu et la mise en page de votre site web, afin d’augmenter vos taux de conversion et d’améliorer les expériences d’utilisation.
+L’opportunité Page à trafic élevé avec faible CTR identifie les pages de votre site web qui reçoivent un trafic important, mais qui ont un faible taux de clic (CTR). En analysant ces pages, vous pouvez identifier les problèmes potentiels qui peuvent entraver l’engagement client et prendre des mesures pour améliorer les performances. Cette opportunité est essentielle pour optimiser le contenu et la mise en page de votre site web, afin d’augmenter vos taux de conversion et d’améliorer les expériences d’utilisation.
 
 ## Identification automatique
 

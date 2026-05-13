@@ -1,13 +1,15 @@
 ---
 title: Concepts de base de Sites Optimizer
 description: Découvrez les concepts de base de Sites Optimizer et comment y naviguer.
-source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: ht
-source-wordcount: '511'
+TQID: https://experienceleague.adobe.com/YnwwraMgmwnA7IuSnFdggMovi-PNgfxYN-rEYGh8V7I
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 532
 ht-degree: 100%
 
 ---
-
 
 # Concepts de base de Sites Optimizer
 
@@ -64,7 +66,7 @@ Chaque opportunité fournit une brève description du problème, son impact pote
 * **Nombre de problèmes** : nombre d’occurrences du problème identifié sur votre site.
 * **Types d’opportunités** : [types d’opportunités](../opportunity-types/overview.md) dont fait partie cette opportunité (par exemple, acquisition du trafic, engagement ou intégrité du site).
 
-Les informations récapitulatives de chaque opportunité varient selon le type et peuvent inclure des détails sur l’impact sur le chiffre d’affaires, le trafic, l’interaction client ou les menaces pour la sécurité.
+Les informations récapitulatives de chaque opportunité varient selon le type et peuvent inclure des détails sur l’impact sur le chiffre d’affaires, le trafic, l’engagement client ou les menaces pour la sécurité.
 
 Pour afficher les détails d’une opportunité, cliquez sur le bouton **Détails**.
 

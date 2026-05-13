@@ -2,19 +2,21 @@
 title: Documentation sur l’opportunité des valeurs web principales
 description: Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeSiteHealth: label="Intégrité du site" type="Caution" url="../../opportunity-types/site-health.md" tooltip="Intégrité du site"
-source-git-commit: fd992e5f4508ccd4236757167a16c744d98cc6ae
+TQID: https://experienceleague.adobe.com/3h-Xas767zUk-Sod7JEr9Lh767r5S3LKpbwJZFZU2kg
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 533
 ht-degree: 6%
 
 ---
-
 
 # Opportunité des valeurs web principales
 
 <!--![core web vitals opportunity](./assets/core-web-vitals/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483373/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483371/?learn=on&enablevpops)
 
 L’opportunité Core Web Vitals identifie les pages de votre site web qui ne sont pas performantes, ce qui a un impact sur l’expérience utilisateur et les performances de recherche organiques. Ces problèmes peuvent provenir de facteurs tels que les polices personnalisées, les dépendances JavaScript non optimisées et les scripts tiers. Core Web Vitals mesure la vitesse de chargement du contenu, la stabilité de la mise en page et la réactivité de la page aux interactions utilisateur.
 
@@ -24,7 +26,7 @@ AEM Sites Optimizer détecte les pages affectées par ces problèmes, fournit de
 
 <!--![Auto-identify core web vitals](./assets/core-web-vitals/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer surveille en permanence les performances du site à l’aide de la [télémétrie opérationnelle](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) pour détecter les régressions dans les mesures Core Web Vitals telles que Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) et Interaction to Next Paint (INP). Il utilise des données utilisateur réelles pour identifier les régressions de performances et hiérarchise les problèmes en fonction de leur impact sur l’expérience utilisateur.
+AEM Sites Optimizer surveille en permanence les performances du site à l’aide de la [télémétrie opérationnelle](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) pour détecter les régressions dans les mesures Core Web Vitals telles que Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) et Interaction to Next Paint (INP). Il utilise des données utilisateur réelles pour identifier les régressions de performances et hiérarchise les problèmes en fonction de leur impact sur l’expérience utilisateur.
 
 AEM Sites Optimizer affiche la liste de tous les problèmes courants, détaillée par mobile et poste de travail. La colonne **Page** indique l’entrée de page concernée et les problèmes sont classés par LCP, INP et CLS.
 

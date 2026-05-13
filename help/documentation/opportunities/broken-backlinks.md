@@ -2,19 +2,21 @@
 title: Documentation sur l’opportunité de backlinks rompus
 description: Découvrez l’opportunité des backlinks rompus et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
-source-git-commit: 97e61d3061fb68225eece98ba0f94affb08be9e3
+TQID: https://experienceleague.adobe.com/HTgcPKBO-r-NRgdUdqS6ZOklYRaLM8pQbr3KbaYD4nQ
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 655
 ht-degree: 30%
 
 ---
-
 
 # Opportunité de backlinks rompus
 
 <!--![Broken backlinks opportunity](./assets/broken-backlinks/hero.png){align="center"}-->
 
->[!VIDEO](https://video.tv.adobe.com/v/3483255/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483250/?learn=on&enablevpops)
 
 L’opportunité Liens entrants rompus identifie les liens externes pointant vers des pages inexistantes (404) sur votre site. Ces liens entraînent une perte de trafic de recommandation et une valeur SEO réduite, car les moteurs de recherche s&#39;appuient sur des liens rétroactifs pour évaluer la pertinence et l&#39;autorité. Ces problèmes se produisent lorsque les URL sont modifiées, que le contenu est supprimé ou que les pages ne sont plus disponibles sans redirection appropriée. AEM Sites Optimizer identifie tous les backlinks rompus, fournit des recommandations d’IA spécifiques et permet un déploiement en un clic pour les corriger, le tout dans une vue centralisée unique.
 
@@ -22,7 +24,7 @@ L’opportunité Liens entrants rompus identifie les liens externes pointant ver
 
 <!--![Auto-identify broken backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer analyse en permanence les sources de données externes pour détecter les liens renvoyant à des pages 404 inexistantes sur votre site. Les données sont agrégées à partir de plusieurs sources, notamment la console de recherche Google, la [télémétrie opérationnelle](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) et des plateformes de référencement tierces. L’opportunité d’identification automatique identifie les domaines externes liés à des URL rompues et les classe par priorité en fonction de l’impact, y compris l’autorité de domaine et le trafic attendu, ainsi que les pertes de capitaux propres liées.
+AEM Sites Optimizer analyse en permanence les sources de données externes pour détecter les liens renvoyant à des pages 404 inexistantes sur votre site. Les données sont agrégées à partir de plusieurs sources, notamment la console de recherche Google, la [télémétrie opérationnelle](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) et des plateformes de référencement tierces. L’opportunité d’identification automatique identifie les domaines externes liés à des URL rompues et les classe par priorité en fonction de l’impact, y compris l’autorité de domaine et le trafic attendu, ainsi que les pertes de capitaux propres liées.
 
 Cette opportunité répertorie tous les problèmes identifiés, y compris les détails suivants :
 

@@ -1,13 +1,15 @@
 ---
 title: Paramètres de Sites Optimizer
 description: Découvrez comment configurer les paramètres de Sites Optimizer et les intégrer à d’autres outils.
-source-git-commit: b71d5510162864ee76931cf754164ea637cadd92
+TQID: https://experienceleague.adobe.com/eznjSHZgAmCh-ek-XE-lLtuoGJxC0yY4UVrmPjc0KYo
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 12%
+source-wordcount: 749
+ht-degree: 13%
 
 ---
-
 
 # Paramètres de Sites Optimizer
 
@@ -23,7 +25,7 @@ Le connecteur de paramètres de Google Search Console dans AEM Sites Optimiz
 
 Pour configurer ce connecteur, vous devez disposer d’informations d’identification disposant d’un accès administratif à Google Search Console pour le domaine.
 
-## Connexion à AEM Sites
+## Connectez-vous à AEM Sites
 
 Ce guide explique comment connecter votre site Edge Delivery Services (EDS) existant à AEM Sites Optimizer. Avant de commencer, assurez-vous que votre site EDS est déjà configuré et fonctionnel. Cette connexion est réservée à AEM Sites Optimizer pour accéder à votre contenu.
 
@@ -98,7 +100,7 @@ Si l’URL de Source de contenu utilise le domaine SharePoint de votre entrepris
 
 Vous pouvez accorder l’accès à l’application à l’aide de l’explorateur Microsoft Graph, de PowerShell ou des appels directs de l’API Graph.
 
-Accédez à l’explorateur de graphiques Microsoft [&#128279;](https://developer.microsoft.com/graph/graph-explorer), connectez-vous avec votre compte Microsoft et exécutez les requêtes suivantes :
+Accédez à l’explorateur de graphiques Microsoft [](https://developer.microsoft.com/graph/graph-explorer), connectez-vous avec votre compte Microsoft et exécutez les requêtes suivantes :
 
 1. Trouver l’ID de votre site :
 
@@ -138,7 +140,7 @@ De retour dans la boîte de dialogue **Connexion à AEM Sites**, saisissez ce qu
 
 Cliquez sur **Valider la connexion** pour confirmer l’accès, puis sur **Enregistrer**.
 
-#### Google Drive
+#### Google Drive
 
 ![Boîte de dialogue Connexion à AEM Sites affichant le compte de service Google Drive pour le partage de l’accès](./assets/settings/validate-eds-google.png){align="center"}
 
