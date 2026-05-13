@@ -7,7 +7,7 @@ product_v2:
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 182
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ CARDS
                     <p class="is-size-6">Découvrez les opportunités de Sites Optimizer disponibles et comment les utiliser pour améliorer les performances de votre site.</p>
                 </div>
                 <a href="./opportunity-types/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -73,10 +73,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" title="Documentation de contrôle en amont">Documentation de contrôle en amont</a>
                     </p>
-                    <p class="is-size-6">Découvrez le contrôle en amont dans Sites Optimizer et comment optimiser vos pages web avant leur publication.</p>
+                    <p class="is-size-6">Découvrez le contrôle en amont dans Sites Optimizer et comment optimiser vos pages web avant leur publication.</p>
                 </div>
                 <a href="./documentation/preflight/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -94,12 +94,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Documentation de Sites Optimizer">Documentation </a>
+                        <a href="./documentation/overview.md" target="_blank" rel="referrer" title="Documentation de Sites Optimizer">Documentation de Sites Optimizer</a>
                     </p>
                     <p class="is-size-6">Consultez la documentation de Sites Optimizer pour en savoir plus sur toutes ses fonctionnalités.</p>
                 </div>
                 <a href="./documentation/overview.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>

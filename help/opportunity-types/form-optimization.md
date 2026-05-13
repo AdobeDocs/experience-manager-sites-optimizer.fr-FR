@@ -12,19 +12,19 @@ hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 219
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Opportunités d’optimisation des formulaires
 
-<span class="preview"> La fonctionnalité Optimisation de Forms est disponible dans un programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
+<span class="preview"> La fonctionnalité d’optimisation de formulaires est disponible dans le cadre du programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
 
 <!-- [!VIDEO](https://video.tv.adobe.com/v/3469472/) -->
 
 ![Opportunités d’optimisation des formulaires](./assets/form-optimization/hero.png){align="center"}
 
-Les opportunités d’optimisation de Forms permettent aux entreprises d’améliorer systématiquement les interactions utilisateur et d’augmenter les conversions de formulaires. En détectant des problèmes, tels que des vues faibles, des conversions faibles et des taux de navigation faibles, les équipes peuvent apporter des ajustements, pilotés par les données, à la conception du formulaire, à l’emplacement et au contenu. Ces optimisations permettent d’optimiser l’expérience d’utilisation afin de faciliter la saisie des formulaires et l’obtention des résultats souhaités par les utilisateurs et les utilisatrices. L’utilisation des informations issues de l’optimisation de Forms permet d’identifier et de résoudre en continu les écarts de performances, ce qui se traduit par des formulaires plus efficaces et de meilleurs résultats commerciaux.
+Les opportunités d’optimisation des formulaires permettent aux entreprises d’améliorer systématiquement les interactions des utilisateurs et des utilisatrices et d’augmenter les conversions pour les formulaires. En détectant des problèmes tels qu’un faible nombre de vues et un faible taux de conversion et de navigation, les équipes peuvent apporter des ajustements pilotés par des données à la conception du formulaire, ainsi qu’à son emplacement et son contenu. Ces optimisations permettent d’optimiser l’expérience d’utilisation afin de faciliter la saisie des formulaires et l’obtention des résultats souhaités par les utilisateurs et les utilisatrices. L’utilisation des informations issues de l’optimisation des formulaires permet d’identifier et de résoudre en continu les écarts de performances, ce qui se traduit par des formulaires plus efficaces et de meilleurs résultats commerciaux.
 
 ## Opportunités
 
@@ -47,7 +47,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../documentation/opportunities/low-views.md" title="Vues basses" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Vues basses"
+                        <img class="is-bordered-r-small" src="../assets/common/card-conversion.png" alt="Faible nombre de vues"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -55,12 +55,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" title="Vues basses">Vues basses</a>
+                        <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" title="Faible nombre de vues">Vues basses</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de faible nombre de vues et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -83,7 +83,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de conversions faibles et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -106,7 +106,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de faible taux de navigation et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>

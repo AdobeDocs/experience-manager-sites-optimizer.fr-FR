@@ -12,7 +12,7 @@ topic_v2:
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 478
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Vous pouvez choisir d’ignorer les entrées avec les URL rompues ciblées. Sél
 
 ## Optimiser automatiquement
 
-{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Version d’essai de Sites Optimizer"}
+[!BADGE Ultimate]{type=Positive tooltip="Ultimate"} [!BADGE Ultimate]{type=Positive tooltip="Essai de Sites Optimizer"}
 
 <!---![Auto-optimize suggested invalid or missing metadata](./assets/broken-internal-links/auto-optimize.png){align="center"}-->
 

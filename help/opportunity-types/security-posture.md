@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 220
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de configuration CORS et identifiez et corrigez les vulnérabilités de sécurité du site.</p>
                 </div>
                 <a href="../documentation/opportunities/cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -84,7 +84,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de cross-site scripting et identifiez et corrigez les vulnérabilités de sécurité du site.</p>
                 </div>
                 <a href="../documentation/opportunities/cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -107,7 +107,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des autorisations du site web et comment l’utiliser pour renforcer la sécurité de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -130,7 +130,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des vulnérabilités du site web et comment l’utiliser pour renforcer la sécurité de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities//website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>

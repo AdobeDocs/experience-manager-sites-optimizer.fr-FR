@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 655
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -20,31 +20,31 @@ ht-degree: 30%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483255/?captions=fre_fr&learn=on&enablevpops)
 
-L’opportunité Liens entrants rompus identifie les liens externes pointant vers des pages inexistantes (404) sur votre site. Ces liens entraînent une perte de trafic de recommandation et une valeur SEO réduite, car les moteurs de recherche s&#39;appuient sur des liens rétroactifs pour évaluer la pertinence et l&#39;autorité. Ces problèmes se produisent lorsque les URL sont modifiées, que le contenu est supprimé ou que les pages ne sont plus disponibles sans redirection appropriée. AEM Sites Optimizer identifie tous les backlinks rompus, fournit des recommandations d’IA spécifiques et permet un déploiement en un clic pour les corriger, le tout dans une vue centralisée unique.
+L’opportunité de backlinks rompus identifie les liens externes renvoyant vers des pages inexistantes (404) sur votre site. Ces liens entraînent une perte de trafic de recommandation et une valeur SEO réduite, car les moteurs de recherche s’appuient sur les backlinks pour évaluer la pertinence et l’autorité. Ces problèmes se produisent lorsque les URL sont modifiées, que le contenu est supprimé ou que les pages ne sont plus disponibles sans redirections appropriées. AEM Sites Optimizer identifie tous les backlinks rompus, fournit des recommandations d’IA spécifiques et permet un déploiement en un clic pour les corriger, le tout dans une vue centralisée unique.
 
 ## Identification automatique
 
 <!--![Auto-identify broken backlinks](./assets/broken-backlinks/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer analyse en permanence les sources de données externes pour détecter les liens renvoyant à des pages 404 inexistantes sur votre site. Les données sont agrégées à partir de plusieurs sources, notamment la console de recherche Google, la [télémétrie opérationnelle](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) et des plateformes de référencement tierces. L’opportunité d’identification automatique identifie les domaines externes liés à des URL rompues et les classe par priorité en fonction de l’impact, y compris l’autorité de domaine et le trafic attendu, ainsi que les pertes de capitaux propres liées.
+AEM Sites Optimizer analyse en permanence les sources de données externes pour détecter les backlinks renvoyant à des pages 404 inexistantes sur votre site. Les données sont agrégées à partir de plusieurs sources, notamment Google Search Console, la [télémétrie opérationnelle](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/operational-telemetry-for-aem-as-a-cloud-service) et des plateformes SEO. L’opportunité d’identification automatique identifie les domaines externes renvoyant vers des URL rompues et les classe par priorité en fonction de l’impact, y compris l’autorité du domaine, le trafic attendu, et la perte de valeur des liens.
 
-Cette opportunité répertorie tous les problèmes identifiés, y compris les détails suivants :
+Cette opportunité répertorie tous les problèmes identifiés, y compris les détails suivants :
 
-* **Domaine et page de référence** - Page ou domaine externe contenant le lien rompu.
-* **Priorité** - Élevée, moyenne ou faible indiquant l’impact du lien rompu sur le processus d’optimisation du moteur de recherche.
-* **URL cible endommagée** - URL inexistante sur votre site à laquelle est associé le lien.
+* **Page ou domaine référent** : page ou domaine externe contenant le lien rompu.
+* **Priorité** : élevée, moyenne ou faible, indiquant l’impact du lien rompu sur le processus SEO.
+* **URL cible rompue** : URL non existante sur votre site à laquelle est associé un lien.
 
 ## Suggestion automatique
 
 <!--![Auto-suggest broken backlinks](./assets/broken-backlinks/auto-suggest.png){align="center"}-->
 
-Pour chaque lien retour interrompu identifié, AEM Sites Optimizer recommande la destination la plus appropriée pour restaurer le trafic et la valeur SEO. Il détermine l’intention du lien retour en analysant les éléments suivants :
+Pour chaque backlink rompu identifié, AEM Sites Optimizer recommande la destination la plus appropriée pour restaurer le trafic et la valeur SEO. Il détermine l’intention du backlink en analysant les éléments suivants :
 
 * Structure de l’URL et jetons
 * Texte d’ancrage
 * Titre et contexte de la page de référence
 
-Cette intention est mise en correspondance avec le contenu du site existant afin d’identifier la page de destination la plus pertinente. Chaque URL rompue est mappée à une page de remplacement exacte ou à la page pertinente la plus proche. Si aucune destination appropriée ne peut être déterminée, le problème est soumis à une révision manuelle.
+Cette intention est mise en correspondance avec le contenu du site existant pour identifier la page de destination la plus pertinente. Chaque URL rompue est mappée à une page de remplacement exacte ou à la page la plus pertinente. Si aucune destination appropriée ne peut être déterminée, le problème est soumis à une révision manuelle.
 
 >[!BEGINTABS]
 
@@ -72,12 +72,12 @@ Vous pouvez choisir d’ignorer les entrées avec les URL rompues ciblées. Sél
 
 <!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
-Une fois les suggestions examinées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer applique ensuite les correctifs dans l’environnement de création, en fonction de la manière dont les redirections sont gérées dans votre implémentation. L’auteur AEM peut ensuite publier les modifications à partir du système de gestion de contenu (CMS).
+Une fois les suggestions vérifiées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer applique ensuite les correctifs dans l’environnement de création, en fonction de la manière dont les redirections sont gérées dans votre mise en œuvre. L’auteur ou l’autrice AEM peut ensuite publier les modifications à partir du système de gestion de contenu (CMS).
 
-Selon la configuration, des correctifs sont appliqués sous forme de modifications de contenu ou de code dans les workflows de déploiement existants. Le processus d’optimisation comprend les étapes suivantes :
+Selon la configuration, des correctifs sont appliqués sous forme de modifications de contenu ou de code dans les workflows de déploiement existants. Le processus d’optimisation comprend les étapes suivantes :
 
-* **Validation** - S’assure que les modifications fonctionnent comme prévu et n’introduisent pas de régressions avant le déploiement.
-* **Déploiement** - Applique les modifications par le biais de processus existants, tels que les mises à jour de contenu dans AEM ou le déploiement de code via des pipelines CI/CD.
-* **Vérification des autorisations** - Vérifie que l’utilisateur dispose des autorisations appropriées pour déployer les modifications. Dans le cas contraire, d’autres sorties, telles que des listes de redirection téléchargeables ou des correctifs de code, sont fournies.
+* **Validation** : permet de s’assurer que les modifications fonctionnent comme prévu et n’introduisent pas de régressions avant le déploiement.
+* **Déploiement** : permet d’appliquer les modifications par le biais de processus existants, tels que les mises à jour de contenu dans AEM ou le déploiement de code via des pipelines CI/CD.
+* **Vérification des autorisations** : permet de vérifier que l’utilisateur ou l’utilisatrice dispose des autorisations appropriées pour déployer les modifications. Dans le cas contraire, d’autres sorties, telles que des listes de redirection téléchargeables ou des correctifs de code, sont fournies.
 
-Ce processus permet de s’assurer que les redirections sont implémentées avec précision, validées avant la publication et alignées sur les configurations et les processus de gouvernance existants.
+Ce processus permet de s’assurer que les redirections sont mises en œuvre avec précision, validées avant la publication et alignées sur les configurations et les processus de gouvernance existants.

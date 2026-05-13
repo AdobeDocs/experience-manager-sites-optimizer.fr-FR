@@ -13,7 +13,7 @@ topic_v2:
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
 workflow-type: tm+mt
 source-wordcount: 891
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des problèmes d’accessibilité et comment l’utiliser pour renforcer la sécurité de votre site web.</p>
                 </div>
                 <a href="./accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -170,7 +170,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des backlinks rompus et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -193,7 +193,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des liens rompus et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="./broken-internal-links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -216,7 +216,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de configuration CORS et identifiez et corrigez les vulnérabilités de sécurité du site.</p>
                 </div>
                 <a href="./cors-configuration.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -239,7 +239,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -262,7 +262,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de cross-site scripting et identifiez et corrigez les vulnérabilités de sécurité du site.</p>
                 </div>
                 <a href="./cross-site-scripting.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -285,7 +285,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de faible nombre de vues et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="./high-bounce-rate.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -308,7 +308,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des métadonnées non valides ou manquantes et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./invalid-or-missing-metadata.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -331,7 +331,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de conversions faibles et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="./low-conversions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -341,7 +341,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="./low-views.md" title="Faible nombre de vues pour les formulaires" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Vues basses"
+                        <img class="is-bordered-r-small" src="../../assets/common/card-conversion.png" alt="Faible nombre de vues"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -349,12 +349,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="./low-views.md" target="_blank" rel="referrer" title="Vues basses">Faible nombre de vues pour les formulaires</a>
+                        <a href="./low-views.md" target="_blank" rel="referrer" title="Faible nombre de vues">Faible nombre de vues pour les formulaires</a>
                     </p>
                     <p class="is-size-6">Découvrez l’opportunité de faible nombre de vues pour les formulaires et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="./low-views.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -374,10 +374,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./low-navigation.md" target="_blank" rel="referrer" title="Faible taux de navigation pour les formulaires">Faible taux de navigation pour les formulaires</a>
                     </p>
-                    <p class="is-size-6">Découvrez la faible opportunité de navigation et comment l’utiliser pour améliorer l’engagement des formulaires sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité de faible taux de navigation et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="./low-navigation.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -397,10 +397,10 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" title="Problèmes d’accessibilité des formulaires">Problèmes d’accessibilité des formulaires</a>
                     </p>
-                    <p class="is-size-6">Découvrez les problèmes d’accessibilité de Forms et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
+                    <p class="is-size-6">Découvrez les problèmes d’accessibilité des formulaires et comment les utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="./forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -423,7 +423,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de texte secondaire manquant et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="./missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -446,7 +446,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des données structurées manquantes ou non valides et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./missing-invalid-structured-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -469,7 +469,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des problèmes de plan de site et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./sitemap-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -492,7 +492,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des autorisations du site web et comment l’utiliser pour renforcer la sécurité de votre site web.</p>
                 </div>
                 <a href="./website-permissions.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>
@@ -515,7 +515,7 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des vulnérabilités du site web et comment l’utiliser pour renforcer la sécurité de votre site web.</p>
                 </div>
                 <a href="./website-vulnerabilities.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> En savoir plus </span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
                 </a>
             </div>
         </div>

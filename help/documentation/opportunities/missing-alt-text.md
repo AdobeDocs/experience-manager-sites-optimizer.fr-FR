@@ -10,7 +10,7 @@ topic_v2:
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 669
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 35%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483266/?captions=fre_fr&learn=on&enablevpops)
 
-L’opportunité de texte secondaire manquant identifie les images de votre site web qui n’ont pas de texte secondaire descriptif. Sans texte secondaire, les utilisateurs qui dépendent des lecteurs d’écran ne peuvent pas interpréter le contenu visuel, ce qui crée des barrières à l’accessibilité. Il limite également la façon dont les moteurs de recherche comprennent et indexent les images, ce qui réduit la capacité de découverte du contenu et les performances de recherche. AEM Sites Optimizer identifie les problèmes de texte de remplacement manquants, fournit des recommandations d’IA spécifiques et permet un déploiement en un clic pour les résoudre, le tout dans une vue centralisée unique.
+L’opportunité de texte secondaire manquant identifie les images de votre site web qui n’ont pas de texte secondaire descriptif. Sans texte secondaire, les utilisateurs et utilisatrices qui dépendent des lecteurs d’écran ne peuvent pas interpréter le contenu visuel, ce qui crée des obstacles à l’accessibilité. Cela limite également la façon dont les moteurs de recherche comprennent et indexent les images, ce qui réduit la capacité de découverte du contenu et les performances de recherche. AEM Sites Optimizer identifie les problèmes de texte secondaire manquant, fournit des recommandations d’IA spécifiques et permet un déploiement en un clic pour les résoudre, le tout dans une vue centralisée unique.
 
 ## Identification automatique
 
 <!--![Auto-identify missing alt text](./assets/missing-alt-text/auto-identify.png){align="center"}-->
 
-AEM Sites Optimizer analyse votre site web à l’aide d’un audit en plusieurs étapes qui associe l’explore du site, les données réelles de trafic utilisateur et une analyse de l’IA afin d’identifier les images qui nécessitent un texte secondaire, mais pour lesquelles il n’est pas défini. Il évalue également les images de la page pour déterminer si le texte secondaire est nécessaire, à l’exclusion des images décoratives ou non conformément aux directives d’accessibilité du contenu web (WCAG). Les images sont analysées en fonction de leur rôle et de leur pertinence au sein de la page. La priorité est donnée aux correctifs qui ont le plus grand impact sur l’accessibilité et le SEO.
+AEM Sites Optimizer analyse votre site web à l’aide d’un audit en plusieurs étapes qui associe l’exploration du site, les données réelles de trafic des utilisateurs et utilisatrices et une analyse basée sur l’IA afin d’identifier les images qui nécessitent un texte secondaire, mais pour lesquelles il n’est pas défini. Il évalue également les images de la page pour déterminer si le texte secondaire est nécessaire, à l’exclusion des images décoratives ou sans valeur informative conformément aux directives d’accessibilité du contenu web (WCAG). Les images sont analysées en fonction de leur rôle et de leur pertinence au sein de la page. La priorité est donnée aux correctifs qui ont le plus grand impact sur l’accessibilité et le SEO.
 
-Cette opportunité fournit une liste des problèmes identifiés, notamment :
+Cette opportunité fournit une liste des problèmes identifiés, notamment :
 
 * **Page** : chemin d’accès à la page qui contient le texte secondaire manquant.
 * **Image** : image sans texte secondaire descriptif.
@@ -37,7 +37,7 @@ Cette opportunité fournit une liste des problèmes identifiés, notamment :
 
 <!--![Auto-suggest missing alt text](./assets/missing-alt-text/auto-suggest.png){align="center"}-->
 
-Pour chaque problème identifié, AEM Sites Optimizer propose un texte de remplacement descriptif pour l’image. Il utilise des modèles de vision basés sur l’IA pour analyser l’image et générer une description qui reflète son contenu et son rôle dans la page. Les recommandations sont concises, pertinentes et conformes aux bonnes pratiques en matière d’accessibilité. Chaque suggestion peut être examinée et modifiée avant d’être appliquée.
+Pour chaque problème identifié, AEM Sites Optimizer propose un texte secondaire descriptif pour l’image. Il utilise des modèles de vision basés sur l’IA pour analyser l’image et générer une description qui reflète son contenu et son rôle dans la page. Les recommandations sont concises, pertinentes et conformes aux bonnes pratiques en matière d’accessibilité. Chaque suggestion peut être vérifiée et modifiée avant d’être appliquée.
 
 >[!BEGINTABS]
 
@@ -61,29 +61,29 @@ Vous pouvez choisir d’ignorer les entrées de la liste des opportunités. Sél
 
 <!--[!BADGE Ultimate]{type=Positive tooltip="Ultimate"}-->
 
-Une fois les suggestions examinées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer applique ensuite les correctifs dans l’environnement de création, en fonction de la gestion du texte secondaire dans votre implémentation. L’auteur AEM peut ensuite publier les modifications à partir du système de gestion de contenu (CMS).
+Une fois les suggestions vérifiées et approuvées, vous pouvez cliquer sur **Déployer l’optimisation**. AEM Sites Optimizer applique ensuite les correctifs dans l’environnement de création, en fonction de la gestion du texte secondaire dans votre mise en œuvre. L’auteur ou l’autrice AEM peut ensuite publier les modifications à partir du système de gestion de contenu (CMS).
 
-Selon la configuration, les mises à jour peuvent être appliquées directement au contenu de la page, aux métadonnées des ressources ou aux modèles de contenu pris en charge. Le processus d’optimisation comprend les étapes suivantes :
+Selon la configuration, les mises à jour peuvent être appliquées directement au contenu de la page, aux métadonnées des ressources ou aux modèles de contenu associés. Le processus d’optimisation comprend les étapes suivantes :
 
-* **Validation** - S’assure que les mises à jour sont appliquées en toute sécurité sans affecter les fonctionnalités existantes.
-* **Déploiement** - Applique les mises à jour par le biais de processus existants, tels que les mises à jour de contenu dans AEM ou l’intégration aux API de contenu.
-* **Vérification des autorisations** - Vérifie que l’utilisateur dispose des autorisations appropriées pour appliquer les modifications. Dans le cas contraire, d’autres sorties, telles que des mises à jour téléchargeables, peuvent être utilisées pour la remise.
+* **Validation** : permet de s’assurer que les mises à jour sont appliquées en toute sécurité sans affecter les fonctionnalités existantes.
+* **Déploiement** : permet d’appliquer les mises à jour par le biais de processus existants, tels que les mises à jour de contenu dans AEM ou l’intégration aux API de contenu.
+* **Vérification des autorisations** : permet de vérifier que l’utilisateur ou l’utilisatrice dispose des autorisations appropriées pour appliquer les modifications. Dans le cas contraire, d’autres sorties, telles que des mises à jour téléchargeables, peuvent être utilisées pour la remise.
 
-Les mises à jour sont versionnées lorsqu’elles sont prises en charge, offrant visibilité et capacité de restauration. Cela permet de s’assurer que les mises à jour du texte secondaire sont appliquées avec précision, alignées sur les implémentations existantes et conformes aux normes de gouvernance et d’accessibilité.
+Les mises à jour sont versionnées lorsque cela est pris en charge, offrant visibilité et capacité de restauration. Cela permet de s’assurer que les mises à jour de texte secondaire sont appliquées avec précision, alignées sur les mises en œuvre existantes et conformes aux normes de gouvernance et d’accessibilité.
 
-AEM Sites Optimizer applique automatiquement les mises à jour de texte de remplacement en fonction de votre configuration, comme suit :
+AEM Sites Optimizer applique automatiquement les mises à jour de texte secondaire en fonction de votre configuration, comme suit :
 
 >[!BEGINTABS]
 
 >[!TAB Edge Delivery Services]
 
-Met à jour le document source (par exemple, Google Docs ou SharePoint).
+Met à jour le document source (par exemple, Google Docs ou SharePoint).
 
 >[!TAB AEM as a Cloud Service]
 
-Écrit des mises à jour directement via l’API de contenu avec le contrôle de version et la prise en charge de secours.
+Écrit des mises à jour directement via l’API de contenu avec prise en charge du contrôle de version et des options de secours.
 
->[!TAB Gestion des ressources numériques (facultatif)]
+>[!TAB Gestion des actifs digitaux (facultatif)]
 
 Met à jour le texte secondaire au niveau des ressources, le cas échéant.
 

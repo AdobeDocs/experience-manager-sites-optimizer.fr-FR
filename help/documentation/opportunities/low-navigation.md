@@ -12,17 +12,17 @@ hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 333
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Opportunité de faible taux de navigation dans les formulaires
 
-<span class="preview"> La fonctionnalité Optimisation de Forms est disponible dans un programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
+<span class="preview"> La fonctionnalité d’optimisation de formulaires est disponible dans le cadre du programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
 
 ![Opportunité de faible taux de navigation](./assets/low-navigation/hero.png){align="center"}
 
-L’opportunité de faible taux de navigation identifie les formulaires de votre site web qui présentent un faible taux de navigation. Ce type d’opportunité identifie les formulaires que les utilisateurs ne découvrent pas ou auxquels ils n’ont pas accès et suggère des moyens d’améliorer leur capacité de découverte.
+L’opportunité de faible taux de navigation identifie les formulaires de votre site web qui présentent un faible taux de navigation. Ce type d’opportunité identifie les formulaires que les utilisateurs et utilisatrices ne trouvent pas ou auxquels ils n’ont pas accès et suggère des moyens d’améliorer leur visibilité.
 
 
 ## Identification automatique
