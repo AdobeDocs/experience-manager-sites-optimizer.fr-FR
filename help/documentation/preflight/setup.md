@@ -4,10 +4,10 @@ description: Découvrez comment configurer l’extension Preflight pour AEM Sit
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
-source-wordcount: 596
-ht-degree: 100%
+source-git-commit: 511e784d7d484b18942ac4b711df1c802debfec9
+workflow-type: tm+mt
+source-wordcount: 587
+ht-degree: 97%
 
 ---
 
@@ -32,8 +32,8 @@ Pour configurer le contrôle en amont dans l’éditeur universel, procédez com
 
 1. Ouvrez **Extension Manager** à l’adresse :
    [https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor](https://experience.adobe.com/#/@org/aem/extension-manager/universal-editor)
-1. Recherchez l’**extension AEM Sites Optimizer Preflight** et envoyez une demande pour l’activer.
-1. L’**équipe Adobe AEM** vérifie et active l’extension pour votre organisation.
+1. Recherchez l’extension **AEM Sites Optimizer Preflight**.
+1. L’administrateur système de l’organisation devra activer cette extension.
 1. Une fois l’extension activée, ouvrez une page dans l’**éditeur universel**, par exemple :
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. L’**extension de contrôle en amont** s’affiche dans le **rail latéral**.
