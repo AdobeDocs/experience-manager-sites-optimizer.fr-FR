@@ -30,7 +30,7 @@ Consultez la [liste complète des types d’opportunités disponibles et comment
 
 Une fois l’audit terminé, vous pouvez rapidement localiser et comprendre les opportunités en les mettant en évidence directement sur la page.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483412/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483414/?captions=fre_fr&learn=on&enablevpops)
 
 Le contrôle en amont met en évidence chaque opportunité dans son contexte, en reliant les résultats du panneau à l’emplacement exact dans votre contenu.Il est ainsi plus facile de vérifier et de résoudre les opportunités sans effectuer de recherche manuelle dans la page.
 
