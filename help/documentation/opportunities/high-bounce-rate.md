@@ -2,13 +2,17 @@
 title: Documentation sur l’opportunité de taux de rebond élevé
 description: Découvrez l’opportunité de faible nombre de vues et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.
 badgeEngagement: label="Engagement" type="Caution" url="../../opportunity-types/engagement.md" tooltip="Engagement"
-source-git-commit: 48bba918b5b822091ca28bfb5342277207d780ed
-workflow-type: ht
-source-wordcount: '350'
+TQID: https://experienceleague.adobe.com/0P8QzHWJHZ21We0T8o3s3Bj60syHXSl2dmfUS85uXoE
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 359
 ht-degree: 100%
 
 ---
-
 
 # Opportunité de taux de rebond élevé
 
@@ -46,7 +50,7 @@ Cliquez sur chaque variation pour la prévisualiser dans la partie droite de l�
 
 * **Modifications** : résumé des modifications apportées à cette variation par rapport à la variation de **contrôle**.
 * **Augmentation du taux de clic prévue** : augmentation estimée du taux de clic si cette variation est implémentée.
-* **Modifier** : cliquez pour modifier la variation dans l’instance de création AEM.
+* **Modifier** - Cliquez pour modifier la variation dans l’instance de création AEM.
 
 >[!ENDTABS]
 

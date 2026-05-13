@@ -2,19 +2,24 @@
 title: Documentation sur l’opportunité de métadonnées non valides ou manquantes
 description: Découvrez l’opportunité des métadonnées non valides ou manquantes et comment l’utiliser pour améliorer l’acquisition du trafic.
 badgeTrafficAcquisition: label="Acquisition de trafic" type="Caution" url="../../opportunity-types/traffic-acquisition.md" tooltip="Acquisition de trafic"
-source-git-commit: cb64a34b758de8f5dcea298014ddd0ba79a24c17
-workflow-type: ht
-source-wordcount: '521'
+TQID: https://experienceleague.adobe.com/mNGZuKaPU9sxVOgXi4dRXPW1yU6FqHf9DC9WW9BsVBI
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
+workflow-type: tm+mt
+source-wordcount: 550
 ht-degree: 100%
 
 ---
-
 
 # Opportunité de métadonnées non valides ou manquantes
 
 ![Opportunité de métadonnées non valides ou manquantes](./assets/missing-or-invalid-metadata/hero.png){align="center"}
 
-L’opportunité de métadonnées non valides ou manquantes identifie les métadonnées manquantes ou défectueuses sur vos pages web. La résolution des problèmes de métadonnées permet d’obtenir un meilleur référencement grâce à une visibilité supérieure du contenu, un meilleur classement dans les résultats de recherche et l’augmentation des interactions client. Ces problèmes peuvent provenir de facteurs tels que des balises manquantes ou non valides, des descriptions trop longues ou trop courtes, etc.
+L’opportunité de métadonnées non valides ou manquantes identifie les métadonnées manquantes ou défectueuses sur vos pages web. La résolution des problèmes de métadonnées permet d’obtenir un meilleur référencement grâce à une visibilité supérieure du contenu, un meilleur classement dans les résultats de recherche et l’augmentation de l’engagement client. Ces problèmes peuvent provenir de facteurs tels que des balises manquantes ou non valides, des descriptions trop longues ou trop courtes, etc.
 
 L’opportunité de métadonnées non valides ou manquantes affiche un résumé en haut de la page, y compris une synthèse du problème et de son impact sur votre site et votre entreprise.
 

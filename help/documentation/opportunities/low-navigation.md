@@ -2,14 +2,19 @@
 title: Documentation sur l’opportunité de faible taux de navigation
 description: Découvrez l’opportunité de faible taux de navigation et comment l’utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.
 badgeFormOptimization: label="Optimisation des formulaires" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimisation des formulaires"
+TQID: https://experienceleague.adobe.com/l7dAFUhhqSI8O8YyboY49-4ahofWelfozBU5hejsVlA
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
-source-git-commit: 06ab4dd17748f7ac97a3292deacce01c1c0331cf
+source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: 333
 ht-degree: 90%
 
 ---
-
 
 # Opportunité de faible taux de navigation dans les formulaires
 
