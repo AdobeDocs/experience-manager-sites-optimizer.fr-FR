@@ -3,26 +3,23 @@ title: Documentation sur l’opportunité de problèmes d’accessibilité des f
 description: Découvrez l’opportunité de problèmes d’accessibilité des formulaires et comment l’utiliser pour améliorer l’accessibilité des formulaires et l’expérience d’utilisation de votre site web.
 badgeFormOptimization: label="Optimisation des formulaires" type="Caution" url="../../opportunity-types/form-optimization.md" tooltip="Optimisation des formulaires"
 TQID: https://experienceleague.adobe.com/LsxxwR0UUBZEB1AJDXwE8zHbPRJcrOqwn25xdsesPhg
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
 workflow-type: tm+mt
 source-wordcount: 311
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Opportunité de problèmes d’accessibilité des formulaires
 
-<span class="preview"> La fonctionnalité Optimisation de Forms est disponible dans un programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
+<span class="preview"> La fonctionnalité d’optimisation de formulaires est disponible dans le cadre du programme d’accès anticipé. Vous pouvez écrire à l’adresse aem-forms-ea@adobe.com à partir de votre identifiant e-mail officiel pour rejoindre le programme d’accès anticipé et demander l’accès à cette fonctionnalité. </span>
 
 ![Opportunité de problèmes d’accessibilité des formulaires](./assets/forms-accessibility-issues/hero.png){align="center"}
 
-L’opportunité des problèmes d’accessibilité des formulaires identifie dans quelle mesure vos formulaires sont conformes aux besoins des personnes en situation de handicap et s’ils respectent les [Directives d’accessibilité du contenu web (WCAG)](https://www.w3.org/TR/WCAG21/). En évaluant la conformité de vos formulaires au WCAG, vous contribuez à créer une expérience de formulaires inclusive. Cela permet aux personnes ayant des déficiences visuelles, auditives, cognitives et motrices de naviguer dans vos formulaires, d’interagir avec eux et de les remplir avec succès. Non seulement elle est essentielle pour des raisons éthiques, mais elle favorise également le respect des exigences légales. Elle améliore également les taux de remplissage des formulaires et peut augmenter la portée de votre audience, améliorant à la fois l’expérience utilisateur et les performances commerciales.
+L’opportunité des problèmes d’accessibilité des formulaires identifie dans quelle mesure vos formulaires sont conformes aux besoins des personnes en situation de handicap et s’ils respectent les [Directives d’accessibilité du contenu web (WCAG)](https://www.w3.org/TR/WCAG21/). En évaluant la conformité de vos formulaires aux directives WCAG, vous contribuez à créer une expérience de formulaires inclusive. Cela permet aux personnes ayant des déficiences visuelles, auditives, cognitives et motrices de naviguer dans vos formulaires, d’interagir avec eux et de bien les remplir. Non seulement cela est essentiel pour des raisons éthiques, mais cela favorise également le respect des exigences légales. Cela améliore également les taux de remplissage des formulaires et peut élargir votre audience, améliorant à la fois l’expérience cliente et les performances commerciales.
 
 ## Identification automatique
 
@@ -40,7 +37,7 @@ L’**opportunité de problèmes d’accessibilité des formulaires** identifie 
 
 ![Suggestion automatique des problèmes d’accessibilité des formulaires](./assets/forms-accessibility-issues/auto-suggest.png){align="center"}
 
-La suggestion automatique fournit des recommandations générées par l’IA dans le champ **Suggestions**, qui fournit des conseils normatifs sur la marche à suivre pour résoudre le problème d’accessibilité des formulaires.
+La suggestion automatique fournit des recommandations générées par l’IA dans le champ **Suggestions**, qui fournit des directives sur la marche à suivre pour résoudre le problème d’accessibilité du formulaire.
 
 <!-- 
 
