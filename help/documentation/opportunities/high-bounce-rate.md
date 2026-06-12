@@ -8,7 +8,7 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 359
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Cliquez sur chaque variation pour la prévisualiser dans la partie droite de l�
 
 * **Modifications** : résumé des modifications apportées à cette variation par rapport à la variation de **contrôle**.
 * **Augmentation du taux de clic prévue** : augmentation estimée du taux de clic si cette variation est implémentée.
-* **Modifier** - Cliquez pour modifier la variation dans l’instance de création AEM.
+* **Modifier** : cliquez pour modifier la variation dans l’instance de création AEM.
 
 >[!ENDTABS]
 

@@ -8,8 +8,8 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 252f5292d6dc62711b4ebeb8ce5a2707857fd674
-workflow-type: ht
-source-wordcount: 307
+workflow-type: tm+mt
+source-wordcount: 297
 ht-degree: 100%
 
 ---
@@ -62,8 +62,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de l’accessibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -85,8 +85,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de l’accessibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/h1-count.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -108,8 +108,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont des liens dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/links.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -131,8 +131,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont des métadonnées dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/meta-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -154,8 +154,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de contrôle en amont de la lisibilité dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/readability.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
