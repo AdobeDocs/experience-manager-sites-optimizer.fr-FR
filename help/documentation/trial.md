@@ -2,8 +2,8 @@
 title: Essai de Sites Optimizer
 description: Commencez avec la version d’essai d’AEM Sites Optimizer pour les clientes et clients AEM Sites existants.
 source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
-workflow-type: ht
-source-wordcount: '541'
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 100%
 
 # Essai de Sites Optimizer
 
-Commencez avec Sites Optimizer à l’aide de cette version d’essai pour les clientes et clients AEM Sites existants (Edge Delivery Services, Cloud Services et Managed Services).Les données de votre domaine sont déjà pré-intégrées, vous pouvez donc commencer l’optimisation immédiatement.La vidéo ci-dessous vous guide tout au long de la période d’essai et vous montre comment commencer.
+Commencez avec Sites Optimizer à l’aide de cette version d’essai pour les clientes et clients AEM Sites existants (Edge Delivery Services, Cloud Services et Managed Services). Les données de votre domaine sont déjà pré-intégrées, vous pouvez donc commencer l’optimisation immédiatement. La vidéo ci-dessous vous guide tout au long de la période d’essai et vous montre comment commencer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483289/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ Pour commencer votre version d’évaluation, procédez comme suit :
 1. Connectez-vous avec votre ID d’organisation IMS AEM Sites à [www.sitesoptimizer.live](http://www.sitesoptimizer.live/).
 2. Affichez les mesures clés telles que les pages vues, le temps de chargement et le taux d’engagement, ainsi que vos principales opportunités d’optimisation classées par importance.
 3. Explorez les trois types d’opportunités disponibles : [backlinks rompus](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) et [texte secondaire manquant](./opportunities/missing-alt-text.md).
-4. Pour chaque opportunité, vérifiez jusqu’à trois problèmes identifiés.Utilisez les suggestions générées par l’IA et déployez des optimisations directement dans votre environnement AEM lorsqu’il est prêt.
+4. Pour chaque opportunité, vérifiez jusqu’à trois problèmes identifiés. Utilisez les suggestions générées par l’IA et déployez des optimisations directement dans votre environnement AEM lorsqu’il est prêt.
 5. Débloquez davantage d’opportunités en effectuant une mise à niveau vers la licence complète à tout moment.
 
 ## Éléments disponibles dans la version d’essai
@@ -38,7 +38,7 @@ Les éléments suivants sont inclus dans la version d’essai :
 * Workflow complet par problème : identification automatique, suggestion automatique et optimisation automatique.
    * **Identification automatique** : détecte les problèmes sur votre site à l’aide de plusieurs sources de données.
    * **Suggestion automatique** : fournit des recommandations personnalisées générées par l’IA pour chaque problème.
-   * **Optimisation automatique** : après approbation, déployez les correctifs directement dans votre environnement de création.Les mises à jour suivent vos workflows existants, ce qui permet à votre équipe de les réviser et de les publier via AEM.
+   * **Optimisation automatique** : après approbation, déployez les correctifs directement dans votre environnement de création. Les mises à jour suivent vos workflows existants, ce qui permet à votre équipe de les réviser et de les publier via AEM.
 
 ## Questions fréquentes
 
@@ -66,11 +66,11 @@ Non. Cette version d’essai est disponible gratuitement pour les clientes et cl
 +++
 +++Existe-t-il une date d’expiration ?
 
-Non. La version d’essai n’est pas limité dans le temps.Son utilisation est limitée par le nombre de types d’opportunités et de problèmes disponibles.
+Non. La version d’essai n’est pas limité dans le temps. Son utilisation est limitée par le nombre de types d’opportunités et de problèmes disponibles.
 +++
 +++Que se passe-t-il une fois tous les problèmes résolus ?
 
-Sites Optimizer identifie en permanence les problèmes qui affectent vos performances.Dans l’essai gratuit, les problèmes ne sont ajoutés qu’une fois par mois.Mettez à niveau pour un audit et une optimisation continus.
+Sites Optimizer identifie en permanence les problèmes qui affectent vos performances. Dans l’essai gratuit, les problèmes ne sont ajoutés qu’une fois par mois. Mettez à niveau pour un audit et une optimisation continus.
 
 +++
 +++Comment accéder à davantage d’opportunités ?
@@ -112,8 +112,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -135,8 +135,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de texte secondaire manquant et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -158,8 +158,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des backlinks rompus et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>

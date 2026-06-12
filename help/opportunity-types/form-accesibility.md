@@ -2,15 +2,12 @@
 title: Optimisation des formulaires avec Sites Optimizer
 description: Découvrez l’optimisation des formulaires avec Sites Optimizer.
 TQID: https://experienceleague.adobe.com/PgP-AIbcKZr7nH-jmKe7B7VPGm1K6-oi8EVXYkHeZBI
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 hide: true
 source-git-commit: 84a1ae98d67bc02ab272131194511efbeccab492
-workflow-type: ht
-source-wordcount: 154
+workflow-type: tm+mt
+source-wordcount: 152
 ht-degree: 100%
 
 ---
@@ -58,8 +55,8 @@ CARDS
                     <p class="is-size-6">Découvrez les problèmes d’accessibilité des formulaires et comment les utiliser afin d’améliorer l’engagement pour les formulaires de votre site web.</p>
                 </div>
                 <a href="../documentation/opportunities/forms-accessibility-issues.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
