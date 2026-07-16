@@ -1,28 +1,27 @@
 ---
 title: Configuration de Preflight
-description: Découvrez comment configurer l’extension Preflight pour AEM Sites Optimizer.
+description: Découvrez comment configurer le contrôle en amont pour AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 511e784d7d484b18942ac4b711df1c802debfec9
-workflow-type: ht
-source-wordcount: 587
-ht-degree: 100%
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+workflow-type: tm+mt
+source-wordcount: 577
+ht-degree: 72%
 
 ---
 
 # Configuration de Preflight
 
-L’identification de l’opportunité de contrôle en amont AEM Sites Optimizer nécessite la configuration de l’extension de contrôle en amont. Vous pouvez la configurer dans l’éditeur universel, l’aperçu basé sur les documents ou AEM Cloud Service afin de pouvoir exécuter des audits de contrôle en amont sur vos pages avant leur publication.
+L’exécution du contrôle en amont nécessite de le configurer dans votre environnement de création. Vous pouvez configurer le contrôle en amont pour l’éditeur universel, la création basée sur des documents, l’éditeur de page d’AEM Sites ou Adobe Managed Services afin de pouvoir exécuter des audits de contrôle en amont sur vos pages avant leur publication.
 
 ## Activer l’accès des utilisateurs et des utilisatrices
 
-Pour utiliser l’extension de contrôle en amont, assurez-vous que votre utilisateur ou utilisatrice est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans l’[Adobe Admin Console](https://adminconsole.adobe.com) :
+Pour utiliser le contrôle en amont, assurez-vous que votre utilisateur est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans [Adobe Admin Console ](https://adminconsole.adobe.com) :
 
 * AEM Sites Optimizer - Suggestion automatique de l’utilisateur ou de l’utilisatrice
 * AEM Sites Optimizer - Optimisation automatique de l’utilisateur ou de l’utilisatrice
 
-## Activer l’extension de contrôle en amont
+## Activer le contrôle en amont
 
 >[!BEGINTABS]
 
@@ -37,7 +36,7 @@ Pour configurer le contrôle en amont dans l’éditeur universel, procédez com
 1. Une fois l’extension activée, ouvrez une page dans l’**éditeur universel**, par exemple :
    `https://author-p12345-e123456.adobeaemcloud.com/ui#/@org/aem/universal-editor/canvas/author-p12345-e123456.adobeaemcloud.com/content/en/example/home.html`
 1. L’**extension de contrôle en amont** s’affiche dans le **rail latéral**.
-1. Sélectionnez l’**extension Preflight** dans le rail latéral pour lancer un **audit de contrôle en amont** pour la page active.
+1. Sélectionnez l’extension **Contrôle en amont** dans le rail latéral pour ouvrir le contrôle en amont de la page active.
 
 >[!TAB Création basée sur des documents]
 
@@ -116,7 +115,7 @@ Pour configurer le contrôle en amont pour la création basée sur des documents
    ```
 
 1. Ouvrez l’URL de prévisualisation (`*.aem.page`) de la page à auditer.
-1. Dans le **sidekick**, cliquez sur le bouton **Contrôle en amont** pour démarrer l’audit de la page active.
+1. Dans ****, cliquez sur le bouton **Contrôle en amont** pour ouvrir le contrôle en amont de la page active.
 
 >[!TAB Éditeur de pages d’AEM Sites]
 
@@ -137,7 +136,7 @@ Pour utiliser le contrôle en amont dans l’éditeur de page d’AEMSites, vous
 
 1. Nommez le signet **Contrôle en amont** (ou tout autre nom de votre choix).
 1. Ouvrez l’URL de prévisualisation (`*.aem.page`) de la page que vous souhaitez auditer dans l’**éditeur de page d’AEM Sites**.
-1. Cliquez sur le signet **Contrôle en amont** dans la barre des signets pour lancer l’audit de la page active.
+1. Cliquez sur le signet **Contrôle en amont** dans la barre des signets pour ouvrir le contrôle en amont de la page active.
 
 >[!TAB Adobe Managed Services]
 
@@ -145,7 +144,7 @@ Pour utiliser le contrôle en amont dans l’éditeur de page d’AEMSites, vous
 >
 >Seuls les environnements Adobe Managed Services (AMS) qui utilisent le fournisseur d’identité Adobe (IMS) pour l’authentification sur l’instance de création AEM sont pris en charge. Le contrôle en amont ne fonctionne pas si votre organisation utilise un autre fournisseur d’identité pour l’authentification AMS.
 
-Pour utiliser le contrôle en amont dans l’éditeur de page d’AEM Sites dans un environnement AMS, créez un signet dans votre navigateur web, en procédant comme suit :
+Pour utiliser le contrôle en amont dans l’éditeur de page d’AEM Sites dans un environnement AMS, créez un signet dans votre navigateur web, en procédant comme suit :
 
 1. Affichez la **barre de signets** dans votre navigateur web :
 
@@ -162,7 +161,7 @@ Pour utiliser le contrôle en amont dans l’éditeur de page d’AEM Sites dan
 
 1. Nommez le signet **Contrôle en amont** (ou tout autre nom de votre choix).
 1. Ouvrez la page à auditer dans l’**éditeur de page d’AEM Sites**.
-1. Cliquez sur le signet **Contrôle en amont** dans la barre des signets pour lancer l’audit de la page active.
+1. Cliquez sur le signet **Contrôle en amont** dans la barre des signets pour ouvrir le contrôle en amont de la page active.
 
 >[!ENDTABS]
 
