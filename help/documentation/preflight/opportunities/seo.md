@@ -20,7 +20,7 @@ La catégorie SEO comprend les audits suivants :
 
 * [Metatags](./seo/metatags.md) - Vérifie le titre de la page et les balises de méta-description.
 * [En-têtes](./seo/headings.md) - Vérifie la structure et l’ordre des en-têtes de la page.
-* [Nombre H1 ](./seo/h1-count.md) - Vérifie le nombre d’en-têtes H1 sur la page.
+* [Nombre H1 &#x200B;](./seo/h1-count.md) - Vérifie le nombre d’en-têtes H1 sur la page.
 * [Liens](./seo/links.md) - Vérifie les liens de la page.
 * [Lisibilité](./seo/readability.md) - Indique à quel point le contenu de la page est facile à lire.
 * [Canonique](./seo/canonical.md) - Vérifie le lien canonique de la page.
