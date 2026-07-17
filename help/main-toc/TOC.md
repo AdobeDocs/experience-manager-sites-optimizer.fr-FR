@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Voici une description du guide d’utilisation qui s’affichera sur la page de destination.
-source-git-commit: d17008c39f231c45a9ba41ca7f0aa96b9878f674
+source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 96%
 
 ---
 
@@ -53,11 +53,17 @@ ht-degree: 100%
       + [Accéder au contrôle en amont](/help/documentation/preflight/access-preflight.md)
       + [Audits](/help/documentation/preflight/audits.md)
       + [Résultats de l’audit](/help/documentation/preflight/audit-results.md)
-      + Opportunités{#preflight-opportunities}
+      + Catégories d’audit{#preflight-opportunities}
          + [Accessibilité](/help/documentation/preflight/opportunities/accessibility.md)
-         + [Nombre de H1](/help/documentation/preflight/opportunities/h1-count.md)
-         + [Liens](/help/documentation/preflight/opportunities/links.md)
-         + [Métadonnées](/help/documentation/preflight/opportunities/meta-data.md)
-         + [Lisibilité](/help/documentation/preflight/opportunities/readability.md)
+         + SEO{#preflight-seo}
+            + [Vue d’ensemble](/help/documentation/preflight/opportunities/seo.md)
+            + [Metatags](/help/documentation/preflight/opportunities/seo/metatags.md)
+            + [Titres](/help/documentation/preflight/opportunities/seo/headings.md)
+            + [Nombre de H1](/help/documentation/preflight/opportunities/seo/h1-count.md)
+            + [Liens](/help/documentation/preflight/opportunities/seo/links.md)
+            + [Lisibilité](/help/documentation/preflight/opportunities/seo/readability.md)
+            + [Canonique](/help/documentation/preflight/opportunities/seo/canonical.md)
+            + [Taille du corps](/help/documentation/preflight/opportunities/seo/body-size.md)
+            + [Lorem ipsum](/help/documentation/preflight/opportunities/seo/lorem-ipsum.md)
    + [Paramètres](/help/documentation/settings.md)
    + [Notes de mise à jour](/help/documentation/release-notes.md)
