@@ -17,7 +17,7 @@ Commencez avec Sites Optimizer à l’aide de cette version d’évaluation pour
 >
 >La version d’évaluation d’AEM Sites Optimizer ne prend actuellement pas en charge les sites web découplés. Pour utiliser la version d’évaluation, intégrez un site web qui utilise la diffusion frontale d’AEM Sites.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483289/?captions=fre_fr&learn=on&enablevpops)
 
 >[!TIP]
 >
