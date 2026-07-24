@@ -1,17 +1,21 @@
 ---
 title: Essai de Sites Optimizer
 description: Commencez avec la version d’essai d’AEM Sites Optimizer pour les clientes et clients AEM Sites existants.
-source-git-commit: 9fae4c52a977c34419037b131d2a70b404511502
+source-git-commit: 225f039d88627a88b8c3989f963d5602cbaaab57
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 92%
 
 ---
 
 
 # Essai de Sites Optimizer
 
-Commencez avec Sites Optimizer à l’aide de cette version d’essai pour les clientes et clients AEM Sites existants (Edge Delivery Services, Cloud Services et Managed Services). Les données de votre domaine sont déjà pré-intégrées, vous pouvez donc commencer l’optimisation immédiatement. La vidéo ci-dessous vous guide tout au long de la période d’essai et vous montre comment commencer.
+Commencez avec Sites Optimizer à l’aide de cette version d’évaluation pour les **clients AEM Sites existants (Edge Delivery Services, Cloud Services et Managed Services)**. Les données de votre domaine sont déjà pré-intégrées, vous pouvez donc commencer l’optimisation immédiatement. La vidéo ci-dessous vous guide tout au long de la période d’essai et vous montre comment commencer.
+
+>[!NOTE]
+>
+>La version d’évaluation d’AEM Sites Optimizer ne prend actuellement pas en charge les sites web découplés. Pour utiliser la version d’évaluation, intégrez un site web qui utilise la diffusion frontale d’AEM Sites.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483289/?captions=fre_fr&learn=on&enablevpops)
 
@@ -36,9 +40,9 @@ Les éléments suivants sont inclus dans la version d’essai :
 * Trois types d’opportunités : [backlinks rompus](./opportunities/broken-backlinks.md), [Core Web Vitals](./opportunities/core-web-vitals.md) et [texte secondaire manquant](./opportunities/missing-alt-text.md).
 * Jusqu’à trois événements par opportunité chaque mois.
 * Workflow complet par problème : identification automatique, suggestion automatique et optimisation automatique.
-   * **Identification automatique** : détecte les problèmes sur votre site à l’aide de plusieurs sources de données.
-   * **Suggestion automatique** : fournit des recommandations personnalisées générées par l’IA pour chaque problème.
-   * **Optimisation automatique** : après approbation, déployez les correctifs directement dans votre environnement de création. Les mises à jour suivent vos workflows existants, ce qui permet à votre équipe de les réviser et de les publier via AEM.
+  * **Identification automatique** : détecte les problèmes sur votre site à l’aide de plusieurs sources de données.
+  * **Suggestion automatique** : fournit des recommandations personnalisées générées par l’IA pour chaque problème.
+  * **Optimisation automatique** : après approbation, déployez les correctifs directement dans votre environnement de création. Les mises à jour suivent vos workflows existants, ce qui permet à votre équipe de les réviser et de les publier via AEM.
 
 ## Questions fréquentes
 
