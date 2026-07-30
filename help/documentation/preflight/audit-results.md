@@ -1,10 +1,10 @@
 ---
 title: Résultats de l’audit dans le contrôle en amont
 description: Découvrez comment interpréter les résultats de l’audit de contrôle en amont, le compteur de préparation et les catégories d’audit, et accédez aux opportunités dans l’aperçu.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 5%
+source-wordcount: '671'
+ht-degree: 4%
 
 ---
 
@@ -13,13 +13,20 @@ ht-degree: 5%
 
 Une fois les audits terminés, le contrôle en amont affiche les résultats dans le tableau de bord de préparation. Le tableau de bord présente un indicateur de préparation globale et les opportunités trouvées, regroupées par catégorie d’audit. Au sein de chaque catégorie, les audits individuels identifient des éléments spécifiques à examiner ou à corriger.
 
+## Barre d’outils
+
+La barre d’outils située en haut du tableau de bord de préparation fournit des actions pour l’exécution en cours. Le **Autres actions** (**...**) le menu propose :
+
+* **Réanalyser** - Lancez une toute nouvelle exécution d’audit sur la page active. L’option Réanalyser ignore toujours les résultats affichés et exécute à nouveau chaque audit. Vous devez donc l’utiliser chaque fois que vous souhaitez de nouveaux résultats, par exemple, après avoir modifié la page.
+* **Exporter (CSV)** - Téléchargez les résultats actuels au format CSV, y compris les opportunités et les métadonnées de l’exécution d’audit en cours.
+
 ## Compteur de préparation
 
 En haut du tableau de bord, le compteur de préparation reflète les résultats d’audit globaux. Il affiche un score de préparation sous forme de pourcentage, en fonction de la proportion d’audits qui se sont terminés sans opportunités, ainsi que le nombre total d’opportunités trouvées dans tous les audits. Le compteur de préparation vous permet d’évaluer l’état de santé global de la page en un coup d’œil.
 
 ![Compteur de préparation et catégories d’audit dans le tableau de bord Contrôle en amont](./assets/overview/hero.png){align="center"}
 
-Pendant que les audits sont toujours en cours, le compteur de préparation affiche une barre de progression avec un statut tel que **Audits en cours d’exécution** ou le nombre d’audits toujours en cours. Une fois les audits terminés, le compteur affiche le pourcentage de préparation final et le nombre d’opportunités.
+Pendant que les audits sont toujours en cours, le compteur de préparation affiche une barre de progression avec un statut court en dessous, qui indique l’étape en cours. Une fois les audits terminés, le compteur affiche le pourcentage de préparation final et le nombre d’opportunités.
 
 ## Catégories d’audit
 
