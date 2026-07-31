@@ -2,21 +2,22 @@
 title: Contrôle en amont AEM Sites Optimizer
 description: Découvrez le contrôle en amont et les audits qu’il exécute pour évaluer votre page avant publication.
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 49%
+source-wordcount: 300
+ht-degree: 28%
 
 ---
 
 # Contrôle en amont AEM Sites Optimizer
 
 ![Tableau de bord de préparation du contrôle en amont](./assets/overview/hero.png){align="center"}
+
+>[!NOTE]
+>
+>À compter de [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites. Voir [Configuration du contrôle en amont](./setup.md) pour plus d’informations.
 
 Le contrôle en amont dans AEM Sites Optimizer vous permet de valider et d’optimiser les pages avant leur mise en ligne en analysant le contenu et la structure et en faisant apparaître les opportunités avec des recommandations exploitables. Il est conçu pour les auteurs et autrices, les responsables marketing et les développeurs et développeuses qui souhaitent s’assurer que les pages sont de haute qualité, performantes et prêtes à être publiées, tout en réduisant les retouches.
 
@@ -59,8 +60,8 @@ CARDS
                     <p class="is-size-6">Découvrez les audits d’accessibilité en amont dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
@@ -82,8 +83,8 @@ CARDS
                     <p class="is-size-6">Découvrez les audits SEO de contrôle en amont dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/seo.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-                </a>
+<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+</a>
             </div>
         </div>
     </div>
