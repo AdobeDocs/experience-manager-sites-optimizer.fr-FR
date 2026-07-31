@@ -37,7 +37,7 @@ Référence de syntaxe complète avec chaque shortcode et règle : [reference.md
 | Liste à puces | `* item` (choisissez l’une des options `*`/`-`/`+`, restez cohérent) | Ligne vide avant/après la liste ; marqueurs de mélange = erreur de validation |
 | Liste numérotée | `1. item` (répétez `1.` chaque ligne) | GitHub effectue le rendu des nombres réels |
 | Code (inline) | `` `code` `` | Pour les noms de fichiers, les commandes, les valeurs et les exemples d’URL non validés |
-| Code (clôturé) | ` ```language ` ... ` ``` ` | Toujours spécifier une langue ; ligne vide avant/après ; `{line-numbers="true" start-line="n" highlight="n-m"}` facultatif |
+| Code (clôturé) | ` `&#x200B;``language ` ... ` ``&#x200B;` ` | Toujours spécifier une langue ; ligne vide avant/après ; `{line-numbers="true" start-line="n" highlight="n-m"}` facultatif |
 | Badge (intégré) | `[!BADGE Beta]{type=Informative url="..." tooltip="..."}` | `type` : Informatif/Positif/Négatif/Neutre/Prudence |
 | Réductible | `+++Summary` ... `+++` | Aucun élément réductible imbriqué ; lignes vides autour des listes/codes internes |
 | Ligne vierge vers l&#39;arrière | `<br>&nbsp;` sur sa propre ligne | Les lignes vides supplémentaires simples sont réduites/ignorées par le moteur de rendu |

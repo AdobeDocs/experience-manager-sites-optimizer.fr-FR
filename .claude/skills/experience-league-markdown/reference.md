@@ -156,17 +156,19 @@ Inline : `` `code` `` — ou placez en triple backticks inline si vous avez beso
 
 Clôturé :
 
-````markdown
+&grave;&grave;&grave;&grave;markdown
+
 ```javascript
 var x = 1;
 ```
-````
+
+&grave;&grave;&grave;&grave;
 
 - Spécifiez toujours une langue pour la mise en surbrillance de la syntaxe + le bouton Copier .
 - Ligne vierge requise au-dessus et au-dessous du bloc clôturé.
-- Numéros de ligne : `` ```html {line-numbers="true"} ``
-- Commencer la numérotation ailleurs : `` ```html {line-numbers="true" start-line="7"} ``
-- Lignes de surbrillance : `` ```html {line-numbers="true" start-line="7" highlight="11-13, 16"} ``
+- Numéros de ligne : `` ``&#x200B;`html {line-numbers="true"} `&#x200B;&grave;
+- Commencer la numérotation ailleurs : `` ``&#x200B;`html {line-numbers="true" start-line="7"} `&#x200B;&grave;
+- Lignes de surbrillance : `` ``&#x200B;`html {line-numbers="true" start-line="7" highlight="11-13, 16"} `&#x200B;&grave;
 - Le contenu du bloc de code n’est jamais localisé (à l’exception des balises `!UICONTROL`/`!DNL`, qui sont supprimées au moment de la publication).
 - Aucune mise en forme Markdown/HTML (comme `<i>`) ne fonctionne dans les blocs de code : utilisez des crochets ou du texte brut pour les espaces réservés.
 

@@ -2,7 +2,8 @@
 title: Configuration de Preflight
 description: Découvrez comment configurer le contrôle en amont pour AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
 source-wordcount: 785
@@ -16,7 +17,7 @@ L’exécution du contrôle en amont nécessite de le configurer dans votre envi
 
 ## Activer l’accès des utilisateurs et des utilisatrices
 
-Pour utiliser le contrôle en amont, assurez-vous que votre utilisateur est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans [Adobe Admin Console ](https://adminconsole.adobe.com) :
+Pour utiliser le contrôle en amont, assurez-vous que votre utilisateur est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans [Adobe Admin Console &#x200B;](https://adminconsole.adobe.com) :
 
 * AEM Sites Optimizer - Suggestion automatique de l’utilisateur ou de l’utilisatrice
 * AEM Sites Optimizer - Optimisation automatique de l’utilisateur ou de l’utilisatrice
@@ -115,7 +116,7 @@ Pour configurer le contrôle en amont pour la création basée sur des documents
    ```
 
 1. Ouvrez l’URL de prévisualisation (`*.aem.page`) de la page à auditer.
-1. Dans ****, cliquez sur le bouton **Contrôle en amont** pour ouvrir le contrôle en amont de la page active.
+1. Dans **&#x200B;**, cliquez sur le bouton **Contrôle en amont** pour ouvrir le contrôle en amont de la page active.
 
 >[!TAB Éditeur de pages d’AEM Sites]
 
