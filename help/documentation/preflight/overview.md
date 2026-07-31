@@ -20,7 +20,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->À compter de [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites. Voir [Configuration du contrôle en amont](./setup.md) pour plus d’informations.
+>À compter de [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites. Voir [Configuration du contrôle en amont](./setup.md) pour plus d’informations.
 
 Le contrôle en amont dans AEM Sites Optimizer vous permet de valider et d’optimiser les pages avant leur mise en ligne en analysant le contenu et la structure et en faisant apparaître les opportunités avec des recommandations exploitables. Il est conçu pour les auteurs et autrices, les responsables marketing et les développeurs et développeuses qui souhaitent s’assurer que les pages sont de haute qualité, performantes et prêtes à être publiées, tout en réduisant les retouches.
 

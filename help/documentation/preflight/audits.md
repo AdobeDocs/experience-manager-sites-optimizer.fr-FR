@@ -25,7 +25,7 @@ Pour comprendre les résultats de la prévisualisation et identifier les opportu
 
 ## Utiliser le bouton de contrôle en amont intégré
 
-Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites. Sélectionnez l’icône **Contrôle en amont** (le bouton de lecture) pour ouvrir le panneau de la page active, puis sélectionnez **Analyser la page** pour exécuter les audits.
+Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites. Sélectionnez l’icône **Contrôle en amont** (le bouton de lecture) pour ouvrir le panneau de la page active, puis sélectionnez **Analyser la page** pour exécuter les audits.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
 

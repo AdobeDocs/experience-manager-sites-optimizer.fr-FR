@@ -120,7 +120,7 @@ Pour configurer le contrôle en amont pour la création basée sur des documents
 
 >[!TAB Éditeur de pages d’AEM Sites]
 
-Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à l’éditeur de page d’AEM Sites et aucun signet n’est requis. Procédez comme suit :
+Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à l’éditeur de page d’AEM Sites et aucun signet n’est requis. Procédez comme suit :
 
 1. Ouvrez la page à auditer dans l’**éditeur de page d’AEM Sites**.
 1. Dans la barre d’outils de l’éditeur, sélectionnez l’icône **Contrôle en amont** (le bouton de lecture, mis en surbrillance ci-dessous) pour ouvrir le panneau Contrôle en amont de la page active.
