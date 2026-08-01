@@ -1,10 +1,10 @@
 ---
 title: Exécuter des audits dans le contrôle en amont
 description: Découvrez comment démarrer un audit de contrôle en amont sur votre page.
-source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 21%
+source-wordcount: '366'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,12 @@ Pour exécuter des audits de contrôle en amont sur une page :
 1. Sélectionnez **Analyser la page**. Le contrôle en amont exécute tous ses audits sur la page active et ouvre le tableau de bord de préparation, où il affiche un score de préparation et les opportunités qu’il détecte, regroupés par catégorie.
 
 Pour comprendre les résultats de la prévisualisation et identifier les opportunités d’optimisation, consultez [Résultats d’audit en contrôle en amont](./audit-results.md).
+
+## Utiliser le bouton de contrôle en amont intégré
+
+Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites. Sélectionnez l’icône **Contrôle en amont** (le bouton de lecture) pour ouvrir le panneau de la page active, puis sélectionnez **Analyser la page** pour exécuter les audits.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
 
 ## Poursuivre une session précédente
 

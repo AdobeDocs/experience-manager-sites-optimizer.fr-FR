@@ -1,10 +1,10 @@
 ---
 title: Accéder au contrôle en amont
 description: Découvrez où le contrôle en amont apparaît dans votre environnement de création.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 20%
+source-wordcount: '156'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ Le contrôle en amont est disponible dans les environnements de création AEM Si
 
 * **Éditeur universel** : l’extension de contrôle en amont s’affiche dans le **rail latéral**. Sélectionnez-la pour ouvrir le panneau Contrôle en amont .
 * **Création basée sur des documents** - Ouvrez le panneau Contrôle en amont à partir du Sidekick ou d’un signet dans le contenu de la page prévisualisé.
-* **Éditeur de page AEM Sites** - Utilisez le signet Contrôle en amont dans votre navigateur pour ouvrir le panneau Contrôle en amont.
+* **Éditeur de page d’AEM Sites** - Dans AEM 2026.7.0 (version 27083) ou une version ultérieure, sélectionnez l’icône **Contrôle en amont** dans la barre d’outils de l’éditeur pour ouvrir le panneau Contrôle en amont. Dans les versions antérieures, utilisez plutôt le signet Contrôle en amont dans votre navigateur .
 
 Une fois le panneau ouvert, sélectionnez **Analyser la page** pour lancer un audit de la page active.
 
