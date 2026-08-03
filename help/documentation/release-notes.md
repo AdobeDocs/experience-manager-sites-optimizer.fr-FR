@@ -1,13 +1,11 @@
 ---
 title: Notes de mise à jour
 description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Experience Manager Sites Optimizer.
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8e4fe6595fc7e872a00387d92892710c61e8632b
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: c3279d62d56503108a6c28389cfbf14b95cd5a1a
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1803
 ht-degree: 1%
 
 ---
@@ -16,6 +14,8 @@ ht-degree: 1%
 # Notes de mise à jour
 
 Cette page présente les dernières mises à jour, les nouvelles fonctionnalités et les améliorations de Adobe Experience Manager Sites Optimizer.
+
+Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
 
 ## Du 1Er Au 19 Juillet 2026
 
@@ -41,7 +41,7 @@ Cette page présente les dernières mises à jour, les nouvelles fonctionnalité
 
 ### Nouvelles fonctionnalités
 
-- **Rapport sur les alertes de site** — Un nouveau rapport sur les alertes de site de 90 jours fournit une vue trimestrielle de l&#39;état de votre site, en utilisant des blocs quotidiens à code-couleur pour mettre en évidence les périodes d&#39;alertes élevées afin que vous puissiez rapidement identifier et étudier les tendances au fil du temps.
+- **Rapport sur les alertes sur le site (accès anticipé)** — Un nouveau rapport sur les alertes sur le site de 90 jours fournit une vue trimestrielle de l&#39;état de votre site, en utilisant des blocs quotidiens codés par couleur pour mettre en évidence les périodes d&#39;alertes élevées afin que vous puissiez rapidement identifier et étudier les tendances au fil du temps.
 - **Intégration de la télémétrie opérationnelle** — Les sites qui n’ont pas encore connecté les données de télémétrie opérationnelle reçoivent désormais une bannière persistante sur la page d’accueil et une boîte de dialogue d’intégration guidée pour terminer la configuration, ce qui vous garantit une visibilité complète des performances en temps réel de l’utilisateur.
 - **Texte de remplacement : sensibilisation à Multi-Site Manager** — Lors de la génération de correctifs de texte de remplacement pour les sites qui utilisent AEM Multi-Site Manager ou la copie de langue, Sites Optimizer vérifie désormais si les correctifs peuvent être appliqués en toute sécurité à chaque variante de langue avant de les suggérer.
 
@@ -78,7 +78,7 @@ Cette page présente les dernières mises à jour, les nouvelles fonctionnalité
 - **Intégration d’essais** — Les nouveaux utilisateurs d’essais bénéficient désormais d’un flux de configuration guidé : saisissez votre domaine, attendez l’analyse, puis explorez vos premières opportunités. Aucune configuration n’est nécessaire pour commencer.
 - **Page des opportunités d’évaluation** — Les utilisateurs de la version d’évaluation peuvent rechercher, trier et filtrer les opportunités. Trois suggestions sont déverrouillées et les suggestions restantes s’affichent dans un aperçu verrouillé avec une invite de mise à niveau.
 - **Progression de l’optimisation mensuelle** — Une barre de progression sur la page d’accueil effectue le suivi du nombre d’actions d’optimisation effectuées ce mois-ci, ce qui vous permet de respecter les objectifs d’intégrité de votre site.
-- **URL de la cible d’audit** — Sous Paramètres, vous pouvez désormais spécifier jusqu’à 100 URL personnalisées pour vous assurer que ces pages sont toujours incluses dans les audits.
+- **URL de la cible d’audit (accès anticipé)** — Sous Paramètres, vous pouvez désormais spécifier jusqu’à 100 URL personnalisées pour vous assurer que ces pages sont toujours incluses dans les audits.
 - **Configuration du type de diffusion** — Les paramètres vous permettent désormais de spécifier le type de diffusion de votre site (Edge Delivery Services, AEM Cloud Service ou AEM Managed Services) et de connecter votre fournisseur de contenu.
 - **Reconception de Core Web Vitals** — L’opportunité Core Web Vitals a été repensée avec la liaison Jira, le téléchargement CSV et la prise en charge multi-sélection des actions par lots.
 - **Tableau unifié de liens retour rompus** — Les liens retour rompus provenant de toutes les sources sont désormais affichés dans un seul tableau unifié, avec la possibilité d’exporter directement des règles de redirection CDN.
@@ -124,7 +124,7 @@ Cette page présente les dernières mises à jour, les nouvelles fonctionnalité
 - **Mode de maintenance** — Sites Optimizer gère désormais les fenêtres de maintenance planifiée avec élégance, affichant un message d’état clair au lieu de données incomplètes ou trompeuses pendant les temps d’arrêt.
 - **Affichage déployé pour les liens retour rompus** — Les liens retour fixes sont désormais suivis dans un onglet Déployé, regroupés par date, afin que vous puissiez voir votre historique de correction en un coup d&#39;œil.
 - **Pas de CTA au-dessus du pli de l’opportunité** — Un nouveau type d’opportunité survole les pages où aucun call-to-action clair n’est visible au-dessus du pli, ce qui vous permet d’identifier et d’améliorer les pages à faible potentiel de conversion.
-- **Intégration Jira pour l’accessibilité et le contraste des couleurs** — Les opportunités d’accessibilité de Forms et du contraste des couleurs peuvent désormais être liées directement aux tickets Jira pour un suivi des problèmes rationalisé dans votre workflow existant.
+- **Intégration Jira pour l’accessibilité et le contraste des couleurs (accès anticipé)** — Les opportunités d’accessibilité de Forms et du contraste des couleurs peuvent désormais être liées directement aux tickets Jira pour un suivi des problèmes rationalisé dans votre workflow existant.
 
 ### Améliorations
 
