@@ -1,8 +1,8 @@
 ---
 description: Convertissez les notes de mise à jour internes du sprint ASO au format Experience League destiné aux clients et ajoutez-les à la page des notes de mise à jour.
-source-git-commit: d17008c39f231c45a9ba41ca7f0aa96b9878f674
+source-git-commit: 5f400c37283d1a3d8285b4d2ac5246761a7275e6
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Appelez cette compétence, puis collez le contenu des notes de mise à jour inte
 
 5. **Portée précise.** N’incluez que les modifications qu’un client verra dans l’interface utilisateur du produit ou l’expérience dans ses workflows. Les modifications d’infrastructure, d’outils et d’expérience des développeurs sont exclues.
 
+6. **Signaler les fonctionnalités d’accès anticipé.** Si une fonctionnalité est expédiée derrière un indicateur de fonctionnalité qui est désactivé par défaut (opt-in par organisation/site, par exemple via LaunchDarkly `FeatureGate`/`isEnabledByDefault={false}`), ajoutez des `(Early Access)` au nom de la fonctionnalité en gras — reflétant la convention de `(General Availability)` existante utilisée pour les fonctionnalités graduées. En cas de doute, vérifiez si la fonctionnalité est activée par défaut pour tous les clients ; sinon, il s’agit d’un accès anticipé. Vérifiez par rapport à l&#39;indicateur de fonctionnalité par défaut dans le code — ne devinez pas.
+
 ### Modèle de structure de page
 
 Chaque entrée de version suit cette structure :
@@ -54,7 +56,7 @@ Chaque entrée de version suit cette structure :
 
 ### New Features
 
-- **[Feature Name]** — [One-sentence benefit statement. One sentence of business context if needed.]
+- **[Feature Name]** — [One-sentence benefit statement. One sentence of business context if needed.] (append `(Early Access)` or `(General Availability)` to the feature name when the feature's availability status is notable)
 
 ### Enhancements
 
