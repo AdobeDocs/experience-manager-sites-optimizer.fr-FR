@@ -1,14 +1,12 @@
 ---
 title: Notes de mise à jour
 description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Experience Manager Sites Optimizer.
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d5cc34fd40395fc13ce3554a0b80c0216d859157
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8e4fe6595fc7e872a00387d92892710c61e8632b
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 2%
+source-wordcount: 1775
+ht-degree: 1%
 
 ---
 
@@ -16,6 +14,26 @@ ht-degree: 2%
 # Notes de mise à jour
 
 Cette page présente les dernières mises à jour, les nouvelles fonctionnalités et les améliorations de Adobe Experience Manager Sites Optimizer.
+
+## Du 1Er Au 19 Juillet 2026
+
+### Nouvelles fonctionnalités
+
+- **Gestion des autorisations** — Les utilisateurs dotés de la fonctionnalité Gérer les utilisateurs peuvent désormais contrôler l’accès au site à partir d’un nouvel onglet Autorisations — rechercher des personnes par nom ou adresse électronique et accorder ou révoquer des fonctionnalités spécifiques. Les actions qu’un utilisateur n’est pas autorisé à effectuer apparaissent désactivées avec une info-bulle expliquant comment demander l’accès.
+- **Badges d’état de déploiement** — Les correctifs marqués comme déployés manuellement affichent désormais un badge « Marqués comme déployés » distinct dans la vue Déployé, ce qui facilite la distinction entre les mises à jour manuelles et les déploiements automatiques.
+
+### Améliorations
+
+- **Correctif automatique pour GitHub (Cloud Manager)** — Le correctif automatique de correctif de code pour des opportunités telles que Core Web Vitals, la sécurité et l’accessibilité des formulaires peut désormais générer des demandes d’extraction sur des référentiels Git Cloud Manager apportez votre propre contenu hébergé sur GitHub, ce qui correspond à la prise en charge existante de GitLab, Bitbucket et Azure DevOps. Le nouveau bouton (bascule) Paramètres permet de contrôler la confirmation de configuration unique de votre site.
+- **Correction automatique par branche (Cloud Manager Standard)** : la fonction de correction automatique par branche est désormais disponible pour les référentiels Cloud Manager standard lorsqu’elle est activée pour votre site.
+- **Vue déployée : effectuée par** — La vue déployée indique désormais qui a marqué chaque correctif comme déployé et quand son statut a été mis à jour pour la dernière fois, via les nouvelles colonnes « Effectué par » et « Dernier statut mis à jour ».
+- **Commentaires sur la déconnexion de Google Ads** — La déconnexion d’un compte Google Ads dans les paramètres affiche désormais l’état « Déconnexion... », avec un message d’erreur « Annulation » si la déconnexion échoue pour que vous puissiez réessayer.
+
+### Correctifs
+
+- L’opportunité Corriger les libellés ARIA affiche désormais l’URL de page correcte dans la boîte de dialogue Détails lorsqu’un correctif s’étend sur plusieurs pages.
+- Le message d’information de la boîte de dialogue Ignorer s’affiche désormais correctement, avec le texte correctement aligné, en coréen, en chinois simplifié et en chinois traditionnel.
+- Les boîtes de dialogue des pages associées pour Texte de remplacement et Métadonnées non valides ou manquantes se chargent désormais de manière fiable. La vue déployée Métadonnées non valide ou manquante et les correctifs de balises de métadonnées fonctionnent désormais correctement avec le dernier format de suggestion.
 
 ## 11-22 Mai 2026
 
