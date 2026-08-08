@@ -1,13 +1,11 @@
 ---
 title: Notes de mise à jour
 description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Experience Manager Sites Optimizer.
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c3279d62d56503108a6c28389cfbf14b95cd5a1a
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9af59e18de7ce016778f25d4add450b50e0b1fde
 workflow-type: tm+mt
-source-wordcount: 1803
+source-wordcount: 1805
 ht-degree: 1%
 
 ---
@@ -23,7 +21,7 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 
 ### Nouvelles fonctionnalités
 
-- **Gestion des autorisations** — Les utilisateurs dotés de la fonctionnalité Gérer les utilisateurs peuvent désormais contrôler l’accès au site à partir d’un nouvel onglet Autorisations — rechercher des personnes par nom ou adresse électronique et accorder ou révoquer des fonctionnalités spécifiques. Les actions qu’un utilisateur n’est pas autorisé à effectuer apparaissent désactivées avec une info-bulle expliquant comment demander l’accès.
+- **Gestion des autorisations (accès anticipé)** — Les utilisateurs dotés de la fonctionnalité Gérer les utilisateurs peuvent désormais contrôler l’accès au site à partir d’un nouvel onglet Autorisations — Rechercher des personnes par nom ou adresse e-mail et accorder ou révoquer des fonctionnalités spécifiques. Les actions qu’un utilisateur n’est pas autorisé à effectuer apparaissent désactivées avec une info-bulle expliquant comment demander l’accès.
 - **Badges d’état de déploiement** — Les correctifs marqués comme déployés manuellement affichent désormais un badge « Marqués comme déployés » distinct dans la vue Déployé, ce qui facilite la distinction entre les mises à jour manuelles et les déploiements automatiques.
 
 ### Améliorations
