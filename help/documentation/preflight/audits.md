@@ -1,10 +1,10 @@
 ---
 title: Exécuter des audits dans le contrôle en amont
 description: Découvrez comment démarrer un audit de contrôle en amont sur votre page.
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 17%
+source-wordcount: '422'
+ht-degree: 14%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 17%
 
 Le contrôle en amont effectue un audit de votre page afin d’identifier les opportunités d’amélioration de votre contenu avant sa publication. Contrairement à une analyse automatique, vous choisissez quand exécuter les audits, de sorte que vous pouvez analyser une page chaque fois que vous êtes prêt.
 
-![Écran d’atterrissage de contrôle en amont avec le bouton Analyser la page &#x200B;](./assets/audits/hero.png){align="center"}
+![Écran d’atterrissage de contrôle en amont avec le bouton Analyser la page ](./assets/audits/hero.png){align="center"}
 
 Pour exécuter des audits de contrôle en amont sur une page :
 
 1. Ouvrez la page à auditer dans votre [environnement de création](./access-preflight.md) (éditeur universel, création basée sur les documents ou éditeur de page AEM Sites).
-1. Ouvrez le [panneau Contrôle en amont &#x200B;](./access-preflight.md). Le contrôle en amont s’ouvre sur l’écran d’entrée **Exécuter l’audit de préparation des performances**.
+1. Ouvrez le [panneau Contrôle en amont ](./access-preflight.md). Le contrôle en amont s’ouvre sur l’écran d’entrée **Exécuter l’audit de préparation des performances**.
 1. Sélectionnez **Analyser la page**. Le contrôle en amont exécute tous ses audits sur la page active et ouvre le tableau de bord de préparation, où il affiche un score de préparation et les opportunités qu’il détecte, regroupés par catégorie.
 
 Pour comprendre les résultats de la prévisualisation et identifier les opportunités d’optimisation, consultez [Résultats d’audit en contrôle en amont](./audit-results.md).
 
 ## Utiliser le bouton de contrôle en amont intégré
 
-Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites. Sélectionnez l’icône **Contrôle en amont** (le bouton de lecture) pour ouvrir le panneau de la page active, puis sélectionnez **Analyser la page** pour exécuter les audits.
+Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites. Sélectionnez l’icône **Contrôle en amont** (le bouton de lecture) pour ouvrir le panneau de la page active, puis sélectionnez **Analyser la page** pour exécuter les audits.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496629?learn=on&enablevpops)
 
@@ -38,5 +38,7 @@ Le contrôle en amont mémorise votre exécution la plus récente, de sorte que 
 
 Le contrôle en amont effectue le suivi de la dernière exécution séparément pour chaque page. Par conséquent, la **Continuer la dernière session** recharge toujours la dernière exécution pour la page sur laquelle vous vous trouvez.
 
-Une fois les audits terminés et les résultats affichés, sélectionnez **Réanalyser** dans le **Autres actions** (**...**) dans la barre d’outils pour ignorer les résultats et réexécuter chaque audit. Voir [&#x200B; Résultats de l’audit en contrôle en amont &#x200B;](./audit-results.md#toolbar).
+Lorsque vous rechargez une exécution précédente, l’en-tête indique depuis combien de temps cette exécution a été effectuée (par exemple, il y a *2 minutes* ou *hier*) afin que vous puissiez déterminer en un coup d’œil l’état actuel des résultats. Le libellé se met à jour au fil du temps et reste visible lorsque vous passez du tableau de bord de préparation aux pages de détails d’audit.
+
+Une fois les audits terminés et les résultats affichés, sélectionnez **Réanalyser** dans le **Autres actions** (**...**) dans la barre d’outils pour ignorer les résultats et réexécuter chaque audit. Voir [ Résultats de l’audit en contrôle en amont ](./audit-results.md#toolbar).
 

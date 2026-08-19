@@ -1,10 +1,10 @@
 ---
 title: Résultats de l’audit dans le contrôle en amont
 description: Découvrez comment interpréter les résultats de l’audit de contrôle en amont, le compteur de préparation et les catégories d’audit, et accédez aux opportunités dans l’aperçu.
-source-git-commit: 9989144c429da97e3ea303c0c8caf5a9b38e2634
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 4%
+source-wordcount: '930'
+ht-degree: 3%
 
 ---
 
@@ -15,16 +15,27 @@ Une fois les audits terminés, le contrôle en amont affiche les résultats dans
 
 ## Barre d’outils
 
-La barre d’outils située en haut du tableau de bord de préparation fournit des actions pour l’exécution en cours. Le **Autres actions** (**...**) le menu propose :
+La barre d’outils située en haut du tableau de bord de préparation fournit des actions pour l’exécution en cours :
 
-* **Réanalyser** - Lancez une toute nouvelle exécution d’audit sur la page active. L’option Réanalyser ignore toujours les résultats affichés et exécute à nouveau chaque audit. Vous devez donc l’utiliser chaque fois que vous souhaitez de nouveaux résultats, par exemple, après avoir modifié la page.
-* **Exporter (CSV)** - Téléchargez les résultats actuels au format CSV, y compris les opportunités et les métadonnées de l’exécution d’audit en cours.
+* **Réanalyser** - Lancez une toute nouvelle exécution d’audit sur la page active. L’option Réanalyser ignore toujours les résultats affichés et exécute à nouveau chaque audit. Vous devez donc l’utiliser chaque fois que vous souhaitez de nouveaux résultats, par exemple, après avoir modifié la page. La réanalyse se trouve dans le **Autres actions** (**...**) menu.
+* **Exporter** - Téléchargez l’exécution actuelle au format **CSV** (feuille de calcul conviviale) ou **PDF** (document formaté). En fonction de votre environnement, sélectionnez **Exporter** dans la barre d’outils ou dans l’**Autres actions** (**...**) menu.
+
+Lors de l’exportation, vous pouvez également choisir les éléments à inclure :
+
+* **Inclure le tableau des métadonnées** - Ajoutez un tableau des détails d’exécution, tels que les détails de l’hôte, du chemin de contenu et de la génération.
+* **Inclure les audits réussis** - Inclure les audits réussis sans opportunités, pas seulement les opportunités trouvées.
+
+>[!NOTE]
+>
+>Les exportations PDF sont toujours générées en anglais, quelle que soit la langue de l’interface. Les exportations de fichiers CSV suivent votre langue d’interface aussi étroitement que possible.
 
 ## Compteur de préparation
 
 En haut du tableau de bord, le compteur de préparation reflète les résultats d’audit globaux. Il affiche un score de préparation sous forme de pourcentage, en fonction de la proportion d’audits qui se sont terminés sans opportunités, ainsi que le nombre total d’opportunités trouvées dans tous les audits. Le compteur de préparation vous permet d’évaluer l’état de santé global de la page en un coup d’œil.
 
 ![Compteur de préparation et catégories d’audit dans le tableau de bord Contrôle en amont](./assets/overview/hero.png){align="center"}
+
+Lorsque vous affichez une exécution qui a été rechargée à partir d’une session précédente, l’en-tête indique la durée de son exécution (par exemple, *hier*. Pour plus d’informations, voir [Poursuivre une session précédente](./audits.md#continue-a-previous-session).
 
 Pendant que les audits sont toujours en cours, le compteur de préparation affiche une barre de progression avec un statut court en dessous, qui indique l’étape en cours. Une fois les audits terminés, le compteur affiche le pourcentage de préparation final et le nombre d’opportunités.
 
@@ -38,7 +49,7 @@ Pour obtenir la liste complète des catégories d&#39;audit et les audits de cha
 
 ## Détails de l’opportunité
 
-La page des détails affiche les opportunités trouvées par l’audit sélectionné. Lorsque le même problème se produit à plusieurs endroits, chaque occurrence est appelée instance . Utilisez le navigateur (**Instance précédente** et **Instance suivante**) pour les parcourir. Il indique votre position, par exemple *1 des 5 instances trouvées*.
+La page des détails affiche les opportunités trouvées par l’audit sélectionné. Lorsque le même problème se produit à plusieurs endroits, chaque occurrence est appelée instance . Utilisez le navigateur (**Instance précédente** et **Instance suivante**) pour les parcourir. Il indique votre position, par exemple *1 des 5 instances trouvées*. Pour revenir au tableau de bord de préparation, sélectionnez la flèche vers l’arrière à côté du titre de l’audit ; le tableau de bord s’ouvre à nouveau et la catégorie de l’audit est développée.
 
 ![Page de détail d’un audit, présentant une opportunité et sa suggestion](./assets/audit-results/audit-detail.png){align="center"}
 
@@ -46,7 +57,7 @@ Chaque opportunité comprend :
 
 * Badge de gravité ou d’impact indiquant l’importance de l’opportunité.
 * Détails sur l’opportunité, tels qu’une description du problème, une recommandation et, pour l’accessibilité, la règle WCAG associée et le niveau de conformité.
-* Une section **Élément** qui affiche l’élément concerné sur la page, avec un bouton **Mettre en surbrillance sur la page**.
+* Une section **Élément** qui identifie l’élément affecté sur la page, avec un bouton **Mettre en surbrillance sur la page**. Lorsque l’élément comporte du texte lisible, la section s’intitule **Élément : Texte** et affiche ce texte, ce qui facilite la reconnaissance de l’élément ; sélectionnez **En savoir plus** pour développer un texte long. Lorsque l’élément n’a pas de texte lisible (par exemple, un lien d’icône uniquement), la section s’intitule **Élément : sélecteur** et affiche le sélecteur CSS de l’élément à la place. Pour copier la valeur, sélectionnez l’icône de copie en mode sélecteur ou ouvrez le **Autres actions** (**...**) dans le menu en mode texte et choisissez **Copier le texte** ou **Copier le sélecteur**.
 * Une section **Suggestion** avec un correctif recommandé. Lorsque la suggestion est générée par l’IA, elle est marquée comme étant générée par l’IA et peut inclure une brève justification expliquant la correction suggérée.
 
 ## Surligner sur la page
@@ -62,3 +73,5 @@ Le contrôle en amont met en surbrillance l’élément concerné dans son conte
 ## Identifiant du traitement
 
 Chaque exécution de contrôle en amont possède un identifiant de tâche unique, affiché au bas du panneau. Elle s’avère principalement utile lorsqu’un administrateur résout un problème d’exécution spécifique. Pointez sur l’ID et sélectionnez l’icône Copier qui s’affiche à droite ; l’ID est copié dans le presse-papiers et un message de confirmation s’affiche. Incluez cet identifiant lorsque vous signalez un problème.
+
+Lorsque vous utilisez le contrôle en amont en dehors de l’éditeur universel (par exemple, via le Sidekick ou un signet), le pied de page du panneau affiche également le nom de votre organisation au-dessus de l’ID de tâche. Dans l’éditeur universel, votre organisation s’affiche dans l’en-tête AEM à la place.
