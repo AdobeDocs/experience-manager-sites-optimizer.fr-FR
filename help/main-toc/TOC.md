@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Sites Optimizer
 breadcrumb-title: AEM Sites Optimizer
 user-guide-description: Voici une description du guide d’utilisation qui s’affichera sur la page de destination.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+source-git-commit: a86d83ee226055e6401b13fd421b40d449b96fa8
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 96%
+source-wordcount: '140'
+ht-degree: 95%
 
 ---
 
@@ -14,56 +14,58 @@ ht-degree: 96%
 
 + [Sites Optimizer](/help/home.md)
 + Types d’opportunités{#opportunity-types}
-   + [Vue d’ensemble](/help/opportunity-types/overview.md)
-   + [Acquisition de trafic](/help/opportunity-types/traffic-acquisition.md)
-   + [Engagement](/help/opportunity-types/engagement.md)
-   + [Intégrité du site](/help/opportunity-types/site-health.md)
-   + [Posture de sécurité](/help/opportunity-types/security-posture.md)
-   + {hide-from-toc}[Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
-   + {hide-from-toc}[Accessibilité des formulaires](/help/opportunity-types/form-accesibility.md)
+  + [Vue d’ensemble](/help/opportunity-types/overview.md)
+  + [Acquisition de trafic](/help/opportunity-types/traffic-acquisition.md)
+  + [Engagement](/help/opportunity-types/engagement.md)
+  + [Intégrité du site](/help/opportunity-types/site-health.md)
+  + [Posture de sécurité](/help/opportunity-types/security-posture.md)
+  + {hide-from-toc}[Optimisation des formulaires](/help/opportunity-types/form-optimization.md)
+  + {hide-from-toc}[Accessibilité des formulaires](/help/opportunity-types/form-accesibility.md)
 + Documentation{#documentation}
-   + [Vue d’ensemble](/help/documentation/overview.md)
-   + [Concepts de base](/help/documentation/basics.md)
-   + [Essai](/help/documentation/trial.md)
-   + Configurer{#set-up}
-      + [Intégrer des utilisateurs et utilisatrices](/help/documentation/setup/onboard-users.md)
-   + Opportunités{#opportunities}
-      + [Vue d’ensemble](/help/documentation/opportunities/overview.md)
-      + [Problèmes d’accessibilité](/help/documentation/opportunities/accessibility-issues.md)
-      + [Liens internes rompus](/help/documentation/opportunities/broken-internal-links.md)
-      + [Backlinks rompus](/help/documentation/opportunities/broken-backlinks.md)
-      + [Valeurs web principales](/help/documentation/opportunities/core-web-vitals.md)
-      + [Configuration CORS](/help/documentation/opportunities/cors-configuration.md)
-      + [Cross-site scripting](/help/documentation/opportunities/cross-site-scripting.md)
-      + [Taux de rebond élevé](/help/documentation/opportunities/high-bounce-rate.md)
-      + [Page à trafic élevé avec faible CTR](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
-      + [Métadonnées non valides ou manquantes](/help/documentation/opportunities/invalid-or-missing-metadata.md)
-      + [Données structurées manquantes ou non valides](/help/documentation/opportunities/missing-invalid-structured-data.md)
-      + [Texte secondaire manquant](/help/documentation/opportunities/missing-alt-text.md)
-      + {hide-from-toc}[Conversions faibles pour les formulaires](/help/documentation/opportunities/low-conversions.md)
-      + {hide-from-toc}[Faible nombre de vues pour les formulaires](/help/documentation/opportunities/low-views.md)
-      + {hide-from-toc}[Faible taux de navigation pour les formulaires](/help/documentation/opportunities/low-navigation.md)
-      + {hide-from-toc}[Problème d’accessibilité des formulaires](/help/documentation/opportunities/forms-accessibility-issues.md)
-      + [Problèmes de plan de site](/help/documentation/opportunities/sitemap-issues.md)
-      + [Autorisations du site web](/help/documentation/opportunities/website-permissions.md)
-      + [Vulnérabilités du site web](/help/documentation/opportunities/website-vulnerabilities.md)
-   + Preflight{#preflight}
-      + [Vue d’ensemble](/help/documentation/preflight/overview.md)
-      + [Configuration](/help/documentation/preflight/setup.md)
-      + [Accéder au contrôle en amont](/help/documentation/preflight/access-preflight.md)
-      + [Audits](/help/documentation/preflight/audits.md)
-      + [Résultats de l’audit](/help/documentation/preflight/audit-results.md)
-      + Catégories d’audit{#preflight-opportunities}
-         + [Accessibilité](/help/documentation/preflight/opportunities/accessibility.md)
-         + SEO{#preflight-seo}
-            + [Vue d’ensemble](/help/documentation/preflight/opportunities/seo.md)
-            + [Metatags](/help/documentation/preflight/opportunities/seo/metatags.md)
-            + [Titres](/help/documentation/preflight/opportunities/seo/headings.md)
-            + [Nombre de H1](/help/documentation/preflight/opportunities/seo/h1-count.md)
-            + [Liens](/help/documentation/preflight/opportunities/seo/links.md)
-            + [Lisibilité](/help/documentation/preflight/opportunities/seo/readability.md)
-            + [Canonique](/help/documentation/preflight/opportunities/seo/canonical.md)
-            + [Taille du corps](/help/documentation/preflight/opportunities/seo/body-size.md)
-            + [Lorem ipsum](/help/documentation/preflight/opportunities/seo/lorem-ipsum.md)
-   + [Paramètres](/help/documentation/settings.md)
-   + [Notes de mise à jour](/help/documentation/release-notes.md)
+  + [Vue d’ensemble](/help/documentation/overview.md)
+  + [Concepts de base](/help/documentation/basics.md)
+  + [Essai](/help/documentation/trial.md)
+  + Configurer{#set-up}
+    + [Intégrer des utilisateurs et utilisatrices](/help/documentation/setup/onboard-users.md)
+  + Opportunités{#opportunities}
+    + [Vue d’ensemble](/help/documentation/opportunities/overview.md)
+    + [Déploiement sur l’auteur](/help/documentation/opportunities/deploying-to-author.md)
+    + [Préparation des correctifs de code](/help/documentation/opportunities/preparing-code-patches.md)
+    + [Problèmes d’accessibilité](/help/documentation/opportunities/accessibility-issues.md)
+    + [Liens internes rompus](/help/documentation/opportunities/broken-internal-links.md)
+    + [Backlinks rompus](/help/documentation/opportunities/broken-backlinks.md)
+    + [Valeurs web principales](/help/documentation/opportunities/core-web-vitals.md)
+    + [Configuration CORS](/help/documentation/opportunities/cors-configuration.md)
+    + [Cross-site scripting](/help/documentation/opportunities/cross-site-scripting.md)
+    + [Taux de rebond élevé](/help/documentation/opportunities/high-bounce-rate.md)
+    + [Page à trafic élevé avec faible CTR](/help/documentation/opportunities/high-traffic-page-has-low-ctr.md)
+    + [Métadonnées non valides ou manquantes](/help/documentation/opportunities/invalid-or-missing-metadata.md)
+    + [Données structurées manquantes ou non valides](/help/documentation/opportunities/missing-invalid-structured-data.md)
+    + [Texte secondaire manquant](/help/documentation/opportunities/missing-alt-text.md)
+    + {hide-from-toc}[Conversions faibles pour les formulaires](/help/documentation/opportunities/low-conversions.md)
+    + {hide-from-toc}[Faible nombre de vues pour les formulaires](/help/documentation/opportunities/low-views.md)
+    + {hide-from-toc}[Faible taux de navigation pour les formulaires](/help/documentation/opportunities/low-navigation.md)
+    + {hide-from-toc}[Problème d’accessibilité des formulaires](/help/documentation/opportunities/forms-accessibility-issues.md)
+    + [Problèmes de plan de site](/help/documentation/opportunities/sitemap-issues.md)
+    + [Autorisations du site web](/help/documentation/opportunities/website-permissions.md)
+    + [Vulnérabilités du site web](/help/documentation/opportunities/website-vulnerabilities.md)
+  + Preflight{#preflight}
+    + [Vue d’ensemble](/help/documentation/preflight/overview.md)
+    + [Configuration](/help/documentation/preflight/setup.md)
+    + [Accéder au contrôle en amont](/help/documentation/preflight/access-preflight.md)
+    + [Audits](/help/documentation/preflight/audits.md)
+    + [Résultats de l’audit](/help/documentation/preflight/audit-results.md)
+    + Catégories d’audit{#preflight-opportunities}
+      + [Accessibilité](/help/documentation/preflight/opportunities/accessibility.md)
+      + SEO{#preflight-seo}
+        + [Vue d’ensemble](/help/documentation/preflight/opportunities/seo.md)
+        + [Métadonnées](/help/documentation/preflight/opportunities/seo/metatags.md)
+        + [Titres](/help/documentation/preflight/opportunities/seo/headings.md)
+        + [Nombre de H1](/help/documentation/preflight/opportunities/seo/h1-count.md)
+        + [Liens](/help/documentation/preflight/opportunities/seo/links.md)
+        + [Lisibilité](/help/documentation/preflight/opportunities/seo/readability.md)
+        + [Canonique](/help/documentation/preflight/opportunities/seo/canonical.md)
+        + [Taille du corps](/help/documentation/preflight/opportunities/seo/body-size.md)
+        + [Lorem ipsum](/help/documentation/preflight/opportunities/seo/lorem-ipsum.md)
+  + [Paramètres](/help/documentation/settings.md)
+  + [Notes de mise à jour](/help/documentation/release-notes.md)
