@@ -2,12 +2,11 @@
 title: Configuration de Preflight
 description: Découvrez comment configurer le contrôle en amont pour AEM Sites Optimizer.
 TQID: https://experienceleague.adobe.com/GfLmEEBoSP2481ZZUjRyyfMjExGgI0l9yMAqTF8ObcY
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+source-git-commit: 9edf940bffa7407ca58ea9f504ea8afe4bdd7a50
 workflow-type: tm+mt
-source-wordcount: 785
-ht-degree: 52%
+source-wordcount: 896
+ht-degree: 47%
 
 ---
 
@@ -17,7 +16,7 @@ L’exécution du contrôle en amont nécessite de le configurer dans votre envi
 
 ## Activer l’accès des utilisateurs et des utilisatrices
 
-Pour utiliser le contrôle en amont, assurez-vous que votre utilisateur est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans [Adobe Admin Console &#x200B;](https://adminconsole.adobe.com) :
+Pour utiliser le contrôle en amont, assurez-vous que votre utilisateur est affecté à au moins l’un des profils de produit AEM Sites Optimizer suivants dans [Adobe Admin Console ](https://adminconsole.adobe.com) :
 
 * AEM Sites Optimizer - Suggestion automatique de l’utilisateur ou de l’utilisatrice
 * AEM Sites Optimizer - Optimisation automatique de l’utilisateur ou de l’utilisatrice
@@ -116,11 +115,11 @@ Pour configurer le contrôle en amont pour la création basée sur des documents
    ```
 
 1. Ouvrez l’URL de prévisualisation (`*.aem.page`) de la page à auditer.
-1. Dans **&#x200B;**, cliquez sur le bouton **Contrôle en amont** pour ouvrir le contrôle en amont de la page active.
+1. Dans ****, cliquez sur le bouton **Contrôle en amont** pour ouvrir le contrôle en amont de la page active.
 
 >[!TAB Éditeur de pages d’AEM Sites]
 
-Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à l’éditeur de page d’AEM Sites et aucun signet n’est requis. Procédez comme suit :
+Si votre environnement de création exécute [AEM 2026.7.0 (version 27083)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/maintenance/2026/2026-7-0#release-27083) ou une version ultérieure, le contrôle en amont est intégré à l’éditeur de page d’AEM Sites et aucun signet n’est requis. Procédez comme suit :
 
 1. Ouvrez la page à auditer dans l’**éditeur de page d’AEM Sites**.
 1. Dans la barre d’outils de l’éditeur, sélectionnez l’icône **Contrôle en amont** (le bouton de lecture, mis en surbrillance ci-dessous) pour ouvrir le panneau Contrôle en amont de la page active.
@@ -161,7 +160,18 @@ Pour utiliser le contrôle en amont dans l’éditeur de page d’AEM Sites dans
 >
 >Seuls les environnements Adobe Managed Services (AMS) qui utilisent le fournisseur d’identité Adobe (IMS) pour l’authentification sur l’instance de création AEM sont pris en charge. Le contrôle en amont ne fonctionne pas si votre organisation utilise un autre fournisseur d’identité pour l’authentification AMS.
 
-Pour utiliser le contrôle en amont dans l’éditeur de page d’AEM Sites dans un environnement AMS, créez un signet dans votre navigateur web, en procédant comme suit :
+Lorsque le contrôle en amont est intégré à la barre d’outils de l’éditeur de page d’AEM Sites, aucun signet n’est requis. Contactez Adobe pour l’installer pour votre organisation. Une fois installé, procédez comme suit :
+
+1. Ouvrez la page à auditer dans l’**éditeur de page d’AEM Sites**.
+1. Dans la barre d’outils de l’éditeur, sélectionnez l’icône **Contrôle en amont** (le bouton de lecture, mis en surbrillance ci-dessous) pour ouvrir le panneau Contrôle en amont de la page active.
+
+   ![Icône Contrôle en amont dans la barre d’outils de l’éditeur de page d’AEM Sites](./assets/setup/toolbar-preflight-button.png){align="center"}
+
+>[!NOTE]
+>
+>L’icône **Contrôle en amont** n’apparaît pas dans la barre d’outils ? Le bouton intégré n’est peut-être pas encore installé pour votre organisation. Contactez Adobe pour l’installer ou utilisez la méthode bookmarklet ci-dessous.
+
+Pour utiliser le contrôle en amont dans l’éditeur de page d’AEM Sites dans un environnement AMS sans l’icône de barre d’outils, créez un signet dans votre navigateur web, en procédant comme suit :
 
 1. Affichez la **barre de signets** dans votre navigateur web :
 
