@@ -1,10 +1,10 @@
 ---
 title: Exécuter des audits dans le contrôle en amont
 description: Découvrez comment démarrer un audit de contrôle en amont sur votre page.
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 17%
+source-wordcount: '422'
+ht-degree: 14%
 
 ---
 
@@ -37,6 +37,8 @@ Le contrôle en amont mémorise votre exécution la plus récente, de sorte que 
 * Si vous revenez **dans un nouvel onglet ou après la fermeture du navigateur**, l’écran d’entrée affiche un bouton **Continuer la dernière session** en regard de **Analyser la page**. Sélectionnez **Continuer la dernière session** pour recharger vos résultats les plus récents, ou sélectionnez **Analyser la page** pour démarrer une nouvelle exécution.
 
 Le contrôle en amont effectue le suivi de la dernière exécution séparément pour chaque page. Par conséquent, la **Continuer la dernière session** recharge toujours la dernière exécution pour la page sur laquelle vous vous trouvez.
+
+Lorsque vous rechargez une exécution précédente, l’en-tête indique depuis combien de temps cette exécution a été effectuée (par exemple, il y a *2 minutes* ou *hier*) afin que vous puissiez déterminer en un coup d’œil l’état actuel des résultats. Le libellé se met à jour au fil du temps et reste visible lorsque vous passez du tableau de bord de préparation aux pages de détails d’audit.
 
 Une fois les audits terminés et les résultats affichés, sélectionnez **Réanalyser** dans le **Autres actions** (**...**) dans la barre d’outils pour ignorer les résultats et réexécuter chaque audit. Voir [&#x200B; Résultats de l’audit en contrôle en amont &#x200B;](./audit-results.md#toolbar).
 
