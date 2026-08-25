@@ -76,7 +76,7 @@ en vérifiant tous ces éléments avant d&#39;écrire quoi que ce soit, dans cet
 
 1. **Code Source** (`research.code_repos` dans config.yml) : le `*OpportunityAdapter.tsx`/`*SuggestionAdapter.tsx` de la fonctionnalité, son hook `use*Data.ts`, ses chaînes `.l10n.ts`. Vérité de base pour la forme, la catégorie et la copie de produits réels.
 2. **Wiki** (`mcp__Adobe-Wiki__search_wiki_content` / `get_wiki_content`) — intention de conception, spécifications, terminologie, captures d&#39;écran existantes.
-3. **** (`mcp__Slack__slack_search_messages`) — annonces, discussion de conception, tout ce qui a changé récemment.
+3. **&#x200B;**&#x200B;(`mcp__Slack__slack_search_messages`) — annonces, discussion de conception, tout ce qui a changé récemment.
 4. **Relations publiques GitHub fusionnées** (`gh search prs`/`gh pr list --search`, à travers `research.code_repos`) : justification de l’implémentation, discussion de révision, captures d’écran dans les descriptions des relations publiques.
 5. **Analogies de tons** — 2 à 3 pages sœurs sous `help/documentation/opportunities/` (les procédures pratiques par opportunité s’affichent ici) `help/opportunity-types/*.md` sont des pages de destination de catégorie avec des grilles de cartes, et non le contenu pratique lui-même) ou ailleurs sous `help/documentation/` pour les tickets d’absence d’opportunité.
 6. **`references/review-learnings.md`** — leçons accumulées des commentaires antérieurs sur l&#39;examen des relations publiques.

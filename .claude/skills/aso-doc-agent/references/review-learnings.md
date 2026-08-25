@@ -42,7 +42,7 @@ ne généralisez pas à de futures versions, de sorte qu’une entrée durable n
 Entrées les plus récentes en haut. Si une leçon ultérieure remplace ou réduit une leçon antérieure, modifiez
 l’entrée précédente pour noter que plutôt que de laisser deux règles en conflit dans le fichier .
 
----
+&#x200B;---
 
 Aucune entrée pour le moment : ce fichier reçoit sa première entrée la première fois qu&#39;un utilisateur modifie une demande
 sur un des RP de cet agent.
