@@ -1,9 +1,9 @@
 ---
 title: Résultats de l’audit dans le contrôle en amont
 description: Découvrez comment interpréter les résultats de l’audit de contrôle en amont, le compteur de préparation et les catégories d’audit, et accédez aux opportunités dans l’aperçu.
-source-git-commit: 7224badecd83652a0971f669e23ff325b26892f3
+source-git-commit: 56a56991a262d9f19a228dc9ca6ec440acdc2999
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ Chaque opportunité comprend :
 
 * Badge de gravité ou d’impact indiquant l’importance de l’opportunité.
 * Détails sur l’opportunité, tels qu’une description du problème, une recommandation et, pour l’accessibilité, la règle WCAG associée et le niveau de conformité.
-* Une section **Élément** qui identifie l’élément affecté sur la page, avec un bouton **Mettre en surbrillance sur la page**. Lorsque l’élément comporte du texte lisible, la section s’intitule **Élément : Texte** et affiche ce texte, ce qui facilite la reconnaissance de l’élément ; sélectionnez **En savoir plus** pour développer un texte long. Lorsque l’élément n’a pas de texte lisible (par exemple, un lien d’icône uniquement), la section s’intitule **Élément : sélecteur** et affiche le sélecteur CSS de l’élément à la place. Pour copier la valeur, sélectionnez l’icône de copie en mode sélecteur ou ouvrez le **Autres actions** (**...**) dans le menu en mode texte et choisissez **Copier le texte** ou **Copier le sélecteur**.
+* Une section **Élément** qui identifie l’élément affecté sur la page, avec un bouton **Mettre en surbrillance sur la page**. Lorsque l’élément comporte du texte lisible, la section est intitulée **Élément : Texte** et affiche ce texte ; dans le cas contraire, elle est intitulée **Élément : Sélecteur** et affiche le sélecteur CSS de l’élément. Pour les opportunités **Liens** et **Canoniques**, une section **URL actuelle** affiche également l’URL impliquée, que vous pouvez si possible ouvrir dans un nouvel onglet.
 * Une section **Suggestion** avec un correctif recommandé. Lorsque la suggestion est générée par l’IA, elle est marquée comme étant générée par l’IA et peut inclure une brève justification expliquant la correction suggérée.
 
 ## Surligner sur la page
@@ -69,6 +69,12 @@ Le contrôle en amont met en surbrillance l’élément concerné dans son conte
 1. Ouvrez le panneau Contrôle en amont dans le contexte de la page à contrôler, puis sélectionnez **Analyser la page** pour exécuter les contrôles.
 1. Sélectionnez un audit dans le tableau de bord de préparation, puis sélectionnez une opportunité à examiner.
 1. Sélectionnez **Mettre en surbrillance sur la page**. L’aperçu fait automatiquement défiler la page jusqu’à la zone appropriée et met en surbrillance l’élément correspondant, afin que vous puissiez facilement identifier et optimiser l’opportunité en contexte.
+
+La mise en surbrillance n’est pas possible pour chaque opportunité. Par exemple, lorsqu’une opportunité n’est pas liée à un élément spécifique, l’élément est masqué ou il ne se trouve plus sur la page. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
+
+Dans l’éditeur universel, la mise en surbrillance n’est pas encore prise en charge pour les opportunités **accessibilité** ; le bouton **Mettre en surbrillance sur la page** est grisé et vous pouvez le survoler pour en connaître la raison.
+
+Dans l’éditeur de page d’AEM Sites et Adobe Managed Services (AMS), la mise en surbrillance nécessite également le **mode d’édition**. Dans le **mode Aperçu**, le contrôle en amont affiche un **mise en surbrillance des problèmes non disponibles** notez-le ; passez en **mode d’édition** pour mettre en surbrillance les éléments de la page.
 
 ## Identifiant du traitement
 
