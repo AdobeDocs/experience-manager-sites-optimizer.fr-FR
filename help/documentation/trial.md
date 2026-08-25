@@ -1,10 +1,10 @@
 ---
 title: Essai de Sites Optimizer
 description: Commencez avec la version d’essai d’AEM Sites Optimizer pour les clientes et clients AEM Sites existants.
-source-git-commit: 225f039d88627a88b8c3989f963d5602cbaaab57
+source-git-commit: da39fb8ccf51e24f5f5eb1bac33e51ecd959874a
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 92%
+source-wordcount: '728'
+ht-degree: 89%
 
 ---
 
@@ -13,11 +13,16 @@ ht-degree: 92%
 
 Commencez avec Sites Optimizer à l’aide de cette version d’évaluation pour les **clients AEM Sites existants (Edge Delivery Services, Cloud Services et Managed Services)**. Les données de votre domaine sont déjà pré-intégrées, vous pouvez donc commencer l’optimisation immédiatement. La vidéo ci-dessous vous guide tout au long de la période d’essai et vous montre comment commencer.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La version d’évaluation d’AEM Sites Optimizer ne prend actuellement pas en charge les sites web découplés. Pour utiliser la version d’évaluation, intégrez un site web qui utilise la diffusion frontale d’AEM Sites.
+>Avant de commencer, assurez-vous que votre site répond à ces exigences :
+>
+>* Il repose sur AEM Sites (Edge Delivery Services, Cloud Service ou Managed Services).
+>* Il s’agit d’un site de production et non d’un environnement de développement, d’assurance qualité, d’évaluation, de création ou de prévisualisation.
+>* Il est accessible au public et ne se trouve pas derrière un identifiant de connexion.
+>* Il utilise la diffusion front-end d’AEM Sites. La diffusion découplée n’est actuellement pas prise en charge.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483289/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -116,8 +121,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+                </a>
             </div>
         </div>
     </div>
@@ -139,8 +144,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité de texte secondaire manquant et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+                </a>
             </div>
         </div>
     </div>
@@ -162,8 +167,8 @@ CARDS
                     <p class="is-size-6">Découvrez l’opportunité des backlinks rompus et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+                </a>
             </div>
         </div>
     </div>
