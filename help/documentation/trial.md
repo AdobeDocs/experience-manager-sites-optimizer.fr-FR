@@ -59,7 +59,7 @@ Découvrez comment les clients d’évaluation activent l’action **Déployer p
 
 Les clients en version d’évaluation doivent faire partie du groupe IMS **ASO-EDS-Autofix-Users**. Si le groupe n’existe pas, l’administrateur de votre organisation peut le créer et vous ajouter.
 
-1. Connectez-vous à [](https://adminconsole.adobe.com/).
+1. Connectez-vous à [&#128279;](https://adminconsole.adobe.com/).
 1. Sélectionnez **Utilisateurs** > **Groupes d’utilisateurs**.
 1. Sélectionnez **Ajouter un groupe d’utilisateurs**.
 1. Pour **Nom du groupe d’utilisateurs**, saisissez exactement :
