@@ -1,10 +1,10 @@
 ---
 title: Essai de Sites Optimizer
 description: Commencez avec la version d’essai d’AEM Sites Optimizer pour les clientes et clients AEM Sites existants.
-source-git-commit: da39fb8ccf51e24f5f5eb1bac33e51ecd959874a
+source-git-commit: 5bd55dcc380f0721fb9818413207c22e21e8299b
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 89%
+source-wordcount: '1102'
+ht-degree: 59%
 
 ---
 
@@ -22,7 +22,7 @@ Commencez avec Sites Optimizer à l’aide de cette version d’évaluation pour
 >* Il est accessible au public et ne se trouve pas derrière un identifiant de connexion.
 >* Il utilise la diffusion front-end d’AEM Sites. La diffusion découplée n’est actuellement pas prise en charge.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483289/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -48,6 +48,40 @@ Les éléments suivants sont inclus dans la version d’essai :
   * **Identification automatique** : détecte les problèmes sur votre site à l’aide de plusieurs sources de données.
   * **Suggestion automatique** : fournit des recommandations personnalisées générées par l’IA pour chaque problème.
   * **Optimisation automatique** : après approbation, déployez les correctifs directement dans votre environnement de création. Les mises à jour suivent vos workflows existants, ce qui permet à votre équipe de les réviser et de les publier via AEM.
+
+## Activer le correctif automatique pour les sites d’évaluation d’Edge Delivery
+
+Découvrez comment les clients d’évaluation activent l’action **Déployer pour créer** pour obtenir des suggestions de correctifs automatiques sur les sites Edge Delivery Services (EDS) créés dans Google Drive ou SharePoint.
+
+>[!NOTE]
+>
+>Cette exigence s’applique uniquement aux organisations d’évaluation dont les sites sont créés dans Google Drive ou SharePoint. Les clients payants et les sites créés dans Crosswalk ou Dark Alley ne sont pas affectés.
+
+Les clients en version d’évaluation doivent faire partie du groupe IMS **ASO-EDS-Autofix-Users**. Si le groupe n’existe pas, l’administrateur de votre organisation peut le créer et vous ajouter.
+
+1. Connectez-vous à [](https://adminconsole.adobe.com/).
+1. Sélectionnez **Utilisateurs** > **Groupes d’utilisateurs**.
+1. Sélectionnez **Ajouter un groupe d’utilisateurs**.
+1. Pour **Nom du groupe d’utilisateurs**, saisissez exactement :
+
+   ```
+   ASO-EDS-Autofix-Users
+   ```
+
+   >[!IMPORTANT]
+   >
+   > Le nom du groupe doit correspondre exactement, majuscules comprises. Elle est mise en correspondance en respectant la casse. Par conséquent, une orthographe ou une casse différente (par exemple, `ASO-EDS-Autofix-users`) ne fonctionne pas. Ne renommez pas le groupe après l’avoir créé.
+
+1. Sélectionnez **Enregistrer**.
+
+   ![Créer une boîte de dialogue de groupe d’utilisateurs dans Adobe Admin Console, avec le champ Nom du groupe d’utilisateurs défini sur ASO-EDS-Autofix-Users](./assets/trial/create-user-group.png){align="center"}
+
+1. Ouvrez le nouveau groupe et sélectionnez **Ajouter des utilisateurs**.
+1. Saisissez l’adresse e-mail ou le nom d’utilisateur de chaque personne qui doit pouvoir déployer des correctifs automatiques, puis sélectionnez **Enregistrer**.
+
+   ![Boîte de dialogue Ajouter des utilisateurs à ce groupe d’utilisateurs dans le Adobe Admin Console](./assets/trial/add-users-to-group.png){align="center"}
+
+Si vous êtes membre du groupe , le bouton **Déployer vers l’auteur** est activé. Si vous n’êtes pas encore membre, l’option **Déployer vers l’auteur** est désactivée et une info-bulle vous demande de contacter votre administrateur pour vous ajouter au groupe. Une fois que votre administrateur vous a ajouté au groupe, déconnectez-vous et reconnectez-vous à Sites Optimizer afin que votre session prenne en compte la nouvelle appartenance au groupe.
 
 ## Questions fréquentes
 
@@ -87,6 +121,16 @@ Sites Optimizer identifie en permanence les problèmes qui affectent vos perfor
 Utilisez les appels à l’action Mettre à niveau ou Contacter l’équipe commerciale dans l’expérience produit ou envoyez un e-mail à l’adresse [siteoptimizer-now@adobe.com](mailto:siteoptimizer-now@adobe.com).
 
 +++
++++Je suis dans le groupe ASO-EDS-Autofix-Users, mais Déployer vers l’auteur est toujours désactivé. Que dois-je vérifier ?
+
+Déconnectez-vous et reconnectez-vous. L’appartenance à un groupe est lue lorsque vous vous connectez. Vérifiez également que le nom du groupe est orthographié et en majuscules de manière `ASO-EDS-Autofix-Users`, et qu’il a été créé dans la même organisation que le site.
+
++++
++++L’exigence du groupe ASO-EDS-Autofix-Users s’applique-t-elle à tous les sites Edge Delivery Services ?
+
+Non. Elle s’applique uniquement aux sites d’évaluation créés dans **Google Drive** ou **SharePoint**. Les sites créés dans **Crosswalk** ou **Dark Alley**, ainsi que tous les sites **pay** ne sont pas affectés.
+
++++
 
 <!--
 CARDS
@@ -118,7 +162,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Valeurs web principales">Valeurs web principales</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité des valeurs web principales et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
+                    <p class="is-size-6">Découvrez l’opportunité liée aux Core Web Vitals et comment l’exploiter pour améliorer l’acquisition de trafic.</p>
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -141,7 +185,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" title="Texte secondaire manquant">Texte secondaire manquant</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité de texte secondaire manquant et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité liée au texte alternatif (alt) manquant et comment l’exploiter pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -164,7 +208,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" title="Backlinks rompus">Backlinks rompus</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité des backlinks rompus et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
+                    <p class="is-size-6">Découvrez l’opportunité liée aux backlinks cassés et comment l’exploiter pour améliorer l’acquisition de trafic.</p>
                 </div>
                 <a href="./opportunities/broken-backlinks.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
