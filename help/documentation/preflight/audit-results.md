@@ -1,13 +1,11 @@
 ---
 title: Résultats de l’audit dans le contrôle en amont
 description: Découvrez comment interpréter les résultats de l’audit de contrôle en amont, le compteur de préparation et les catégories d’audit, et accédez aux opportunités dans l’aperçu.
-source-git-commit: 56a56991a262d9f19a228dc9ca6ec440acdc2999
+source-git-commit: dd2637e61e15a6b8364456ae7d11717a0b81ad09
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 3%
-
+source-wordcount: '1066'
+ht-degree: 2%
 ---
-
 
 # Résultats de l’audit dans le contrôle en amont
 
@@ -73,6 +71,8 @@ Le contrôle en amont met en surbrillance l’élément concerné dans son conte
 La mise en surbrillance n’est pas possible pour chaque opportunité. Par exemple, lorsqu’une opportunité n’est pas liée à un élément spécifique, l’élément est masqué ou il ne se trouve plus sur la page. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
 
 Dans l’éditeur universel, la mise en surbrillance n’est pas encore prise en charge pour les opportunités **accessibilité** ; le bouton **Mettre en surbrillance sur la page** est grisé et vous pouvez le survoler pour en connaître la raison.
+
+Dans l’éditeur universel, le contrôle en amont ne peut que mettre en surbrillance le contenu modifiable. Si l’élément concerné ne fait pas partie du contenu modifiable, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi. Si l’élément lui-même n’est pas directement modifiable, mais que le bloc modifiable le plus proche l’est, le contrôle en amont met en surbrillance ce bloc et ajoute une note expliquant pourquoi.
 
 Dans l’éditeur de page d’AEM Sites et Adobe Managed Services (AMS), la mise en surbrillance nécessite également le **mode d’édition**. Dans le **mode Aperçu**, le contrôle en amont affiche un **mise en surbrillance des problèmes non disponibles** notez-le ; passez en **mode d’édition** pour mettre en surbrillance les éléments de la page.
 
