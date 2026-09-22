@@ -20,7 +20,7 @@ Commencez avec Sites Optimizer à l’aide de cette version d’évaluation pour
 >* Il est accessible au public et ne se trouve pas derrière un identifiant de connexion.
 >* Il utilise la diffusion front-end d’AEM Sites. La diffusion découplée n’est actuellement pas prise en charge.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483289/?captions=fre_fr&learn=on&enablevpops)
 
 >[!TIP]
 >
