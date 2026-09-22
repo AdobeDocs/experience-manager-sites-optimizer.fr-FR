@@ -1,13 +1,11 @@
 ---
 title: Essai de Sites Optimizer
 description: Commencez avec la version d’essai d’AEM Sites Optimizer pour les clientes et clients AEM Sites existants.
-source-git-commit: 5bd55dcc380f0721fb9818413207c22e21e8299b
+source-git-commit: 052faac621530a5b9e74bd8e4790a604887515f7
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 59%
-
+source-wordcount: '1481'
+ht-degree: 45%
 ---
-
 
 # Essai de Sites Optimizer
 
@@ -22,7 +20,7 @@ Commencez avec Sites Optimizer à l’aide de cette version d’évaluation pour
 >* Il est accessible au public et ne se trouve pas derrière un identifiant de connexion.
 >* Il utilise la diffusion front-end d’AEM Sites. La diffusion découplée n’est actuellement pas prise en charge.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483289/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3483253/?learn=on&enablevpops)
 
 >[!TIP]
 >
@@ -49,6 +47,25 @@ Les éléments suivants sont inclus dans la version d’essai :
   * **Suggestion automatique** : fournit des recommandations personnalisées générées par l’IA pour chaque problème.
   * **Optimisation automatique** : après approbation, déployez les correctifs directement dans votre environnement de création. Les mises à jour suivent vos workflows existants, ce qui permet à votre équipe de les réviser et de les publier via AEM.
 
+## Autoriser Sites Optimizer à accéder à votre site
+
+Sites Optimizer analyse votre site pour identifier les opportunités d’optimisation. Si votre site se trouve derrière un pare-feu, un réseau de diffusion de contenu (CDN) ou une autre configuration de sécurité qui bloque les clients non reconnus, l’analyseur ne peut pas atteindre vos pages. Dans ce cas, l’intégration affiche un message **Action requise** indiquant que Sites Optimizer ne peut pas accéder à votre site web, et l’analyse est suspendue jusqu’à ce que vous autorisiez l’accès.
+
+![ Boîte de dialogue d’intégration indiquant que Sites Optimizer ne peut pas accéder au site web, répertoriant les adresses IP de l’agent utilisateur et de l’analyseur à placer sur la liste autorisée, chacune avec un bouton Copier et un bouton Actualiser pour revérifier l’accès](./assets/trial/ip-allowlist-action-required.png){align="center"}
+
+Pour laisser passer l&#39;analyseur, effectuez les deux opérations suivantes dans votre pare-feu, votre fournisseur d&#39;hébergement ou votre configuration de sécurité. Pour les sites AEM Cloud Service, ajoutez une règle d’autorisation pour l’analyseur à vos [règles de filtrage du trafic CDN](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) dans Cloud Manager, qui peuvent correspondre à la fois sur la chaîne Agent-utilisateur et l’adresse IP. Si vous restreignez l&#39;accès à l&#39;aide de [listes autorisées IP Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), ajoutez également les adresses IP de l&#39;analyseur à la liste autorisée appliquée.
+
+* **User-Agent** — Le moteur d&#39;analyse s&#39;identifie avec un User-Agent qui contient le jeton `Spacecat/1.0`. Placez sur la liste autorisée ce jeton, idéalement en tant que correspondance « contains », afin qu’il continue à fonctionner même si la chaîne complète Agent-utilisateur change.
+* **Adresses IP de l&#39;analyseur** — les adresses IP sortantes de l&#39;analyseur.
+
+L’écran d’intégration affiche les adresses IP et le User-Agent exacts à placer sur la liste autorisée, chacun avec un bouton **Copier** afin que vous puissiez copier les valeurs actives directement dans votre configuration.
+
+Après avoir placé sur la liste autorisée l’analyseur, sélectionnez **Actualiser** sur l’écran d’intégration. Une fois l’accès accordé, l’analyse reprend automatiquement et fait apparaître vos opportunités d’optimisation.
+
+>[!NOTE]
+>
+>Ces adresses IP ne sont utilisées que pour analyser votre site. Les Placer sur la liste autorisée n’accorde aucun autre accès.
+
 ## Activer le correctif automatique pour les sites d’évaluation d’Edge Delivery
 
 Découvrez comment les clients d’évaluation activent l’action **Déployer pour créer** pour obtenir des suggestions de correctifs automatiques sur les sites Edge Delivery Services (EDS) créés dans Google Drive ou SharePoint.
@@ -59,7 +76,7 @@ Découvrez comment les clients d’évaluation activent l’action **Déployer p
 
 Les clients en version d’évaluation doivent faire partie du groupe IMS **ASO-EDS-Autofix-Users**. Si le groupe n’existe pas, l’administrateur de votre organisation peut le créer et vous ajouter.
 
-1. Connectez-vous à [&#128279;](https://adminconsole.adobe.com/).
+1. Connectez-vous à [](https://adminconsole.adobe.com/).
 1. Sélectionnez **Utilisateurs** > **Groupes d’utilisateurs**.
 1. Sélectionnez **Ajouter un groupe d’utilisateurs**.
 1. Pour **Nom du groupe d’utilisateurs**, saisissez exactement :
@@ -129,6 +146,11 @@ Déconnectez-vous et reconnectez-vous. L’appartenance à un groupe est lue lor
 +++L’exigence du groupe ASO-EDS-Autofix-Users s’applique-t-elle à tous les sites Edge Delivery Services ?
 
 Non. Elle s’applique uniquement aux sites d’évaluation créés dans **Google Drive** ou **SharePoint**. Les sites créés dans **Crosswalk** ou **Dark Alley**, ainsi que tous les sites **pay** ne sont pas affectés.
+
++++
++++Sites Optimizer dit ne pas pouvoir accéder à mon site. Que dois-je faire ?
+
+Votre site se trouve probablement derrière une configuration de pare-feu, de réseau CDN ou de sécurité qui bloque l’analyseur. le User-Agent (jeton `Spacecat/1.0`) et les adresses IP de l’analyseur dans votre configuration de sécurité ou, pour les sites AEM Cloud Service, dans les listes autorisées de réseau CDN Cloud Manager. Sélectionnez ensuite **Actualiser**. Voir [Autoriser Sites Optimizer à accéder à votre site](#allow-sites-optimizer-to-access-your-site).
 
 +++
 
