@@ -51,7 +51,7 @@ Les éléments suivants sont inclus dans la version d’essai :
 
 Sites Optimizer analyse votre site pour identifier les opportunités d’optimisation. Si votre site se trouve derrière un pare-feu, un réseau de diffusion de contenu (CDN) ou une autre configuration de sécurité qui bloque les clients non reconnus, l’analyseur ne peut pas atteindre vos pages. Dans ce cas, l’intégration affiche un message **Action requise** indiquant que Sites Optimizer ne peut pas accéder à votre site web, et l’analyse est suspendue jusqu’à ce que vous autorisiez l’accès.
 
-![ Boîte de dialogue d’intégration indiquant que Sites Optimizer ne peut pas accéder au site web, répertoriant les adresses IP de l’agent utilisateur et de l’analyseur à placer sur la liste autorisée, chacune avec un bouton Copier et un bouton Actualiser pour revérifier l’accès](./assets/trial/ip-allowlist-action-required.png){align="center"}
+![&#x200B; Boîte de dialogue d’intégration indiquant que Sites Optimizer ne peut pas accéder au site web, répertoriant les adresses IP de l’agent utilisateur et de l’analyseur à placer sur la liste autorisée, chacune avec un bouton Copier et un bouton Actualiser pour revérifier l’accès](./assets/trial/ip-allowlist-action-required.png){align="center"}
 
 Pour laisser passer l&#39;analyseur, effectuez les deux opérations suivantes dans votre pare-feu, votre fournisseur d&#39;hébergement ou votre configuration de sécurité. Pour les sites AEM Cloud Service, ajoutez une règle d’autorisation pour l’analyseur à vos [règles de filtrage du trafic CDN](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/security/traffic-filter-rules-including-waf) dans Cloud Manager, qui peuvent correspondre à la fois sur la chaîne Agent-utilisateur et l’adresse IP. Si vous restreignez l&#39;accès à l&#39;aide de [listes autorisées IP Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction), ajoutez également les adresses IP de l&#39;analyseur à la liste autorisée appliquée.
 
@@ -76,7 +76,7 @@ Découvrez comment les clients d’évaluation activent l’action **Déployer p
 
 Les clients en version d’évaluation doivent faire partie du groupe IMS **ASO-EDS-Autofix-Users**. Si le groupe n’existe pas, l’administrateur de votre organisation peut le créer et vous ajouter.
 
-1. Connectez-vous à [](https://adminconsole.adobe.com/).
+1. Connectez-vous à [&#128279;](https://adminconsole.adobe.com/).
 1. Sélectionnez **Utilisateurs** > **Groupes d’utilisateurs**.
 1. Sélectionnez **Ajouter un groupe d’utilisateurs**.
 1. Pour **Nom du groupe d’utilisateurs**, saisissez exactement :
