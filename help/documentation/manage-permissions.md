@@ -42,7 +42,7 @@ L’accès à l’échelle de l’organisation provient de l’un des deux **rô
 
 Pour attribuer un rôle, vous devez être un **administrateur système** pour l’organisation ou un **administrateur de produit** pour AEM Sites Optimizer.
 
-1. Connectez-vous à [](https://adminconsole.adobe.com/).
+1. Connectez-vous à [&#128279;](https://adminconsole.adobe.com/).
 1. Accédez à **Produits** et sélectionnez **AEM Sites Optimizer**.
 1. Ouvrez l’onglet **Utilisateurs** et ajoutez l’utilisateur par e-mail (ou sélectionnez un utilisateur existant).
 1. Cliquez sur l’icône **+** (ajouter) pour ajouter un profil de produit, puis choisissez le profil de produit.
