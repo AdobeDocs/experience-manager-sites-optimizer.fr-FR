@@ -3,21 +3,48 @@ title: Notes de mise à jour
 description: Découvrez les dernières fonctionnalités, améliorations et correctifs de bugs dans Adobe Experience Manager Sites Optimizer.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9af59e18de7ce016778f25d4add450b50e0b1fde
+    internal-label: Optimization
+source-git-commit: 42f44053eae27ad9068c1a34fc19288f59e77b7e
 workflow-type: tm+mt
-source-wordcount: 1805
+source-wordcount: '2120'
 ht-degree: 1%
-
 ---
-
 
 # Notes de mise à jour
 
 Cette page présente les dernières mises à jour, les nouvelles fonctionnalités et les améliorations de Adobe Experience Manager Sites Optimizer.
 
 Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
+
+## 20-27 Août 2026
+
+### Nouvelles fonctionnalités
+
+- **Vue Alertes** — Examinez une chronologie de 90 jours des incidents d&#39;intégrité du site détectés automatiquement, corrélez les modifications avec les déploiements et les mises à jour de contenu, et examinez les pages affectées et les mesures de performances au même endroit.
+- **Rapports et succès** : utilisez la section Rapports pour consulter l&#39;historique d&#39;optimisation, les tendances de performances et les succès avant et après qui vous aident à communiquer l&#39;impact de votre travail d&#39;optimisation.
+- **Nouveautés et Centre d’aide** — Découvrez les fonctionnalités récemment publiées, ouvrez la documentation du produit et accédez directement aux notes de mise à jour depuis le Centre d’aide in-app.
+- **Connexion Google Ads (accès anticipé)** — Connectez un compte Google Ads pour importer des données de performances de trafic payant dans les opportunités et recommandations Sites Optimizer.
+
+### Améliorations
+
+- **Contrôles de liste d’opportunités** — Filtrez et triez les opportunités par URL, statut marqué, priorité ou récence, enregistrez les vues dans l’URL pour le partage et exportez les données de suggestion au format CSV.
+- **Contrôles de workflow de suggestions** — Modifiez les suggestions générées par l’IA avant le déploiement, ignorez les suggestions individuelles, ignorez les opportunités complètes et restaurez les opportunités ignorées lorsqu’elles redeviennent pertinentes.
+- **Historique de déploiement** — Examinez l&#39;historique de déploiement par date, faites la distinction entre les déploiements automatiques et les modifications marquées comme déployées manuellement, et suivez les liens de demande d&#39;extraction pour les correctifs basés sur du code.
+- **Intégrations de marque et Slack** : sélectionnez une marque Adobe GenStudio pour la génération de contenu sur la marque et partagez les mises à jour d’optimisation pertinentes avec un canal Slack configuré.
+
+## 6-19 Août 2026
+
+### Nouvelles fonctionnalités
+
+- **Contrôle en amont dans l’éditeur de page d’AEM Sites** — Si votre environnement de création exécute AEM version 2026.7.0 ou ultérieure, vous pouvez ouvrir le contrôle en amont directement depuis la barre d’outils de l’éditeur de page pour analyser la page active sans quitter votre workflow de création.
+- **Options d&#39;exportation de contrôle en amont** : exportez les résultats du contrôle en amont au format CSV ou PDF, avec des options permettant d&#39;inclure les métadonnées d&#39;exécution et les audits réussis, ce qui facilite le partage des résultats et le suivi de la préparation.
+
+### Améliorations
+
+- **Détails de la session de contrôle en amont** : lorsque vous poursuivez une session d’audit précédente, le contrôle en amont indique le moment où l’exécution a été effectuée et rend les éléments concernés plus faciles à identifier en affichant du texte lisible ou un sélecteur CSS.
 
 ## Du 1Er Au 19 Juillet 2026
 
