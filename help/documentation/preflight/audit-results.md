@@ -1,9 +1,9 @@
 ---
 title: Résultats de l’audit dans le contrôle en amont
 description: Découvrez comment interpréter les résultats de l’audit de contrôle en amont, le compteur de préparation et les catégories d’audit, et accédez aux opportunités dans l’aperçu.
-source-git-commit: dd2637e61e15a6b8364456ae7d11717a0b81ad09
+source-git-commit: d87b607248efdeecf1ba29ede03bf1628d1dff30
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 2%
 ---
 
@@ -49,13 +49,17 @@ Pour obtenir la liste complète des catégories d&#39;audit et les audits de cha
 
 La page des détails affiche les opportunités trouvées par l’audit sélectionné. Lorsque le même problème se produit à plusieurs endroits, chaque occurrence est appelée instance . Utilisez le navigateur (**Instance précédente** et **Instance suivante**) pour les parcourir. Il indique votre position, par exemple *1 des 5 instances trouvées*. Pour revenir au tableau de bord de préparation, sélectionnez la flèche vers l’arrière à côté du titre de l’audit ; le tableau de bord s’ouvre à nouveau et la catégorie de l’audit est développée.
 
+Pour les audits qui identifient une URL spécifique sur la page, la section **Élément** s’affiche en haut de la carte pour présenter l’élément, et le reste de l’opportunité la suit dans sa propre section.
+
+Lorsque plusieurs opportunités affectent le même élément (par exemple, plusieurs problèmes avec le même lien), le contrôle en amont les affiche ensemble sur une carte, chacune dans sa propre section intitulée avec son numéro d’instance, tel que **Instance 3**. Le navigateur affiche ensuite une plage au lieu d’une seule position, par exemple *3-5 sur 12 instances trouvées*.
+
 ![Page de détail d’un audit, présentant une opportunité et sa suggestion](./assets/audit-results/audit-detail.png){align="center"}
 
 Chaque opportunité comprend :
 
 * Badge de gravité ou d’impact indiquant l’importance de l’opportunité.
 * Détails sur l’opportunité, tels qu’une description du problème, une recommandation et, pour l’accessibilité, la règle WCAG associée et le niveau de conformité.
-* Une section **Élément** qui identifie l’élément affecté sur la page, avec un bouton **Mettre en surbrillance sur la page**. Lorsque l’élément comporte du texte lisible, la section est intitulée **Élément : Texte** et affiche ce texte ; dans le cas contraire, elle est intitulée **Élément : Sélecteur** et affiche le sélecteur CSS de l’élément. Pour les opportunités **Liens** et **Canoniques**, une section **URL actuelle** affiche également l’URL impliquée, que vous pouvez si possible ouvrir dans un nouvel onglet.
+* Une section **Élément** qui identifie l’élément affecté sur la page, avec un bouton **Mettre en surbrillance sur la page**. Lorsque l’élément comporte du texte lisible, la section est intitulée **Élément : Texte** et affiche ce texte ; dans le cas contraire, elle est intitulée **Élément : Sélecteur** et affiche le sélecteur CSS de l’élément. Pour les opportunités **Liens internes** et **Canonique**, une section **URL actuelle** affiche également l’URL impliquée. Sélectionnez **Copier l’URL** pour la copier dans le presse-papiers, ou **Ouvrir dans un nouvel onglet** pour l’ouvrir.
 * Une section **Suggestion** avec un correctif recommandé. Lorsque la suggestion est générée par l’IA, elle est marquée comme étant générée par l’IA et peut inclure une brève justification expliquant la correction suggérée.
 
 ## Surligner sur la page
