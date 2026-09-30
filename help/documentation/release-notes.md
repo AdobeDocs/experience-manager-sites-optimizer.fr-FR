@@ -7,10 +7,10 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 42f44053eae27ad9068c1a34fc19288f59e77b7e
+source-git-commit: 5399b579133dc11cd8a8154b55467b8bc5291b4d
 workflow-type: tm+mt
-source-wordcount: '2120'
-ht-degree: 1%
+source-wordcount: '2510'
+ht-degree: 2%
 ---
 
 # Notes de mise à jour
@@ -18,6 +18,72 @@ ht-degree: 1%
 Cette page présente les dernières mises à jour, les nouvelles fonctionnalités et les améliorations de Adobe Experience Manager Sites Optimizer.
 
 Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
+
+## 28-29 Septembre 2026
+
+### Améliorations
+
+- **Déploiement du lien interne rompu (accès anticipé)** — Fournissez une URL de remplacement pour un lien qui ne peut pas être corrigé automatiquement et déployez la mise à jour validée.
+- **Statut de déploiement publié** — Vérifiez quand une modification déployée est confirmée en direct sur la page publiée tout en conservant les statuts d’échec et de nouvelle détection.
+
+### Correctifs
+
+- Les opportunités d’accessibilité Forms prennent désormais en charge la création de problèmes Jira.
+- Les liens de suivi du déploiement ouvrent désormais le référentiel de code configuré.
+
+## 21-27 Septembre 2026
+
+### Améliorations
+
+- **FAQ sur le déploiement des données structurées (accès anticipé)** — Pour les pages gérées avec AEM Multi-Site Manager, choisissez d’appliquer des mises à jour de données structurées à la page source ou uniquement à la page locale.
+- **Déploiement de formulaire** — Déployez de manière fiable le correctif associé à la variation de formulaire sélectionnée.
+- **Expériences localisées** — Les libellés d’autorisation et le contenu du tableau tronqué sont plus clairs dans les langues prises en charge.
+
+### Correctifs
+
+- Les téléchargements de correctifs Core Web Vitals sont disponibles chaque fois qu’un correctif existe.
+- Les exportations CSV conservent désormais les caractères localisés dans Excel.
+- Les mesures de performances ne restent plus bloquées lors du chargement lorsque les données sources sont incomplètes.
+
+## 14-20 Septembre 2026
+
+### Améliorations
+
+- **Autorisations granulaires** — Les administrateurs peuvent accorder aux membres l’accès aux types d’opportunités sélectionnés tout en gérant séparément les autorisations à l’échelle du site.
+
+### Correctifs
+
+- Le déploiement des métadonnées restaure désormais l’avertissement affiché lors de la correction de l’héritage des sauts de page locaux.
+
+## 7-13 Septembre 2026
+
+### Nouvelles fonctionnalités
+
+- **Exclusions d’emplacement Google Ads** — Examinez les risques d’emplacement pour les comptes Google Ads connectés et téléchargez des listes d’exclusion spécifiques au site pour les campagnes automatisées et Performances Max.
+
+### Améliorations
+
+- **Conseils en cas d’échec de déploiement** — Les messages d’échec expliquent désormais si une mise à jour de contenu nécessite un accès à la connexion, une nouvelle analyse ou une prise en charge.
+
+### Correctifs
+
+- Les valeurs et les dispositions des rapports d’accessibilité s’affichent désormais plus clairement dans les langues prises en charge.
+- Les totaux des canaux de trafic payant et des plateformes incluent désormais le trafic précédemment non classé.
+- Le nombre de liens descendants déployés rompus correspond désormais aux lignes affichées, y compris les états de déploiement restaurés et renvoyés.
+- Les sites Edge Delivery Services éligibles ne sont plus incorrectement bloqués à partir du déploiement avec lien rompu.
+
+## Du 31 Août Au 6 Septembre 2026
+
+### Améliorations
+
+- **Connexions à du contenu AEM** — Les paramètres reconnaissent désormais les configurations Edge Delivery Services créées par AEM, conservent leurs détails sources et bloquent les URL sources non prises en charge avant d’enregistrer.
+- **Intégration d’évaluation** — L’entrée de domaine explique désormais les exigences prises en charge pour le site de production avant l’ajout d’un site d’évaluation.
+
+### Correctifs
+
+- Les libellés et sélecteurs de mois de trafic payant s’affichent désormais correctement dans les langues prises en charge.
+- Les exportations CSV utilisent désormais l’URL de page correcte de chaque problème d’accessibilité.
+- Les sites Edge Delivery Services éligibles ne sont plus bloqués de manière incorrecte du déploiement Texte de remplacement.
 
 ## 20-27 Août 2026
 
