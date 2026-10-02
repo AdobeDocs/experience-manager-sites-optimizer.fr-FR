@@ -1,9 +1,9 @@
 ---
 title: Contrôles SEO en amont
 description: Découvrez les audits d’optimisation du moteur de recherche (SEO) que Preflight exécute sur votre page dans AEM Sites Optimizer.
-source-git-commit: d87b607248efdeecf1ba29ede03bf1628d1dff30
+source-git-commit: 8a465f3ef54dbd295255f326eda2e8f37a114ace
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # Audits d’optimisation pour les moteurs de recherche
@@ -18,8 +18,9 @@ La catégorie SEO comprend les audits suivants :
 
 * [Metatags](./seo/metatags.md) - Vérifie le titre de la page et les balises de méta-description.
 * [En-têtes](./seo/headings.md) - Vérifie la structure et l’ordre des en-têtes de la page.
-* [Nombre H1 &#x200B;](./seo/h1-count.md) - Vérifie le nombre d’en-têtes H1 sur la page.
+* [Nombre H1 ](./seo/h1-count.md) - Vérifie le nombre d’en-têtes H1 sur la page.
 * [Liens internes](./seo/internal-links.md) - passe en revue les liens de la page qui renvoient à votre propre site.
+* [Liens externes](./seo/external-links.md) - Passe en revue les liens de la page qui pointent vers d’autres sites.
 * [Lisibilité](./seo/readability.md) - Indique à quel point le contenu de la page est facile à lire.
 * [Canonique](./seo/canonical.md) - Vérifie le lien canonique de la page.
 * [Taille du corps](./seo/body-size.md) - Vérifie la quantité de contenu du corps sur la page.
