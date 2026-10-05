@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 5399b579133dc11cd8a8154b55467b8bc5291b4d
+source-git-commit: 8d6936c2c577d7a98937cb8ddf90d18a6e82a9bb
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2628'
 ht-degree: 2%
 ---
 
@@ -19,17 +19,26 @@ Cette page présente les dernières mises à jour, les nouvelles fonctionnalité
 
 Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
 
-## 28-29 Septembre 2026
+## 28 Septembre Au 4 Octobre 2026 {#september-28-october-4-2026}
+
+### Nouvelles fonctionnalités
+
+- **Opportunités des agents d’IA personnels (accès anticipé)** filtrez les opportunités qui aident les agents d’IA personnels à lire et à interagir avec votre site, à l’aide de badges et de conseils expliquant les avantages.
 
 ### Améliorations
 
 - **Déploiement du lien interne rompu (accès anticipé)** — Fournissez une URL de remplacement pour un lien qui ne peut pas être corrigé automatiquement et déployez la mise à jour validée.
-- **Statut de déploiement publié** — Vérifiez quand une modification déployée est confirmée en direct sur la page publiée tout en conservant les statuts d’échec et de nouvelle détection.
+- **Statut de publication du texte de remplacement** — Vérifiez quand une modification du texte de remplacement est confirmée en direct sur la page publiée tout en conservant les statuts d’échec et de nouvelle détection.
+- **Correctifs de code Core Web Vitals** — Examinez les correctifs fichier par fichier avec les numéros de ligne et les ajouts et suppressions en surbrillance.
+- **Déploiement du code Core Web Vitals (accès anticipé)** — Envoyez les correctifs de code éligibles en tant que demande d’extraction dans votre référentiel de code configuré.
 
 ### Correctifs
 
 - Les opportunités d’accessibilité Forms prennent désormais en charge la création de problèmes Jira.
 - Les liens de suivi du déploiement ouvrent désormais le référentiel de code configuré.
+- Les rapports d’accessibilité détaillés s’ouvrent et affichent désormais leur contenu au lieu d’être redirigés vers la page d’accueil ou d’apparaître vides.
+- Le nombre de textes de remplacement déployés et les groupes de dates correspondent désormais aux correctifs affichés, sans groupes de déploiement en échec vides.
+- La restauration des suggestions de plan de site et de Core Web Vitals ignorées met désormais à jour leur statut de manière fiable.
 
 ## 21-27 Septembre 2026
 
