@@ -1,13 +1,14 @@
 ---
 title: Contrôle de la lisibilité en amont
 description: Découvrez l’audit de lisibilité dans Contrôle en amont pour AEM Sites Optimizer.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 6%
-
 ---
-
 # Audit de lisibilité
 
 L’audit **Lisibilité** examine à quel point le contenu de votre page est facile à lire. Un contenu clair et bien structuré maintient l’engagement des lecteurs et aide un public plus large à comprendre votre message. L’audit évalue le contenu et fournit des recommandations d’amélioration exploitables.

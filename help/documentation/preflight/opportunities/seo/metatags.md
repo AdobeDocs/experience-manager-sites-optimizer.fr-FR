@@ -1,13 +1,14 @@
 ---
 title: Contrôle en amont de l’audit des métadonnées
 description: Découvrez l’audit des balises de métadonnées dans la section Contrôle en amont pour AEM Sites Optimizer.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
-
 ---
-
 # Audit des métadonnées
 
 L’audit **Metatags** examine les balises de métadonnées de votre page, telles que le titre de la page et la méta-description. Des métadonnées bien formées aident les moteurs de recherche à comprendre votre contenu et à améliorer l’affichage de votre page dans les résultats de recherche. L’audit signale les balises manquantes, dupliquées ou situées en dehors de la longueur recommandée.

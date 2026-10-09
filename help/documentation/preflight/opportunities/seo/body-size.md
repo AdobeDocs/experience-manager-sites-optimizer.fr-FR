@@ -1,7 +1,10 @@
 ---
 title: Contrôle en amont de l’audit de la taille du corps
 description: Découvrez l’audit de la taille du corps dans Contrôle en amont pour AEM Sites Optimizer.
-source-git-commit: c85cfb84b315b64ab5fcddfaa192ce78dd8d1a67
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%

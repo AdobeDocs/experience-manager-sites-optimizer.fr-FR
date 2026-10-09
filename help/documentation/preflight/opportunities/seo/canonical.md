@@ -1,13 +1,14 @@
 ---
 title: Contrôle canonique en amont
 description: Découvrez l’audit canonique dans Contrôle en amont pour AEM Sites Optimizer.
-source-git-commit: f19dd2eec5cef95f406111d2250ff1101a4fd430
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
-
 ---
-
 # Audit canonique
 
 L’audit **canonique** examine le lien canonique sur votre page. Un lien canonique correct indique aux moteurs de recherche quelle URL est la version faisant autorité d’une page, ce qui permet d’éviter les problèmes de contenu en double. L’audit signale les liens canoniques manquants ou incorrects.
