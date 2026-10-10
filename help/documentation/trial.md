@@ -1,7 +1,10 @@
 ---
 title: Essai de Sites Optimizer
 description: Commencez avec la version d’essai d’AEM Sites Optimizer pour les clientes et clients AEM Sites existants.
-source-git-commit: 052faac621530a5b9e74bd8e4790a604887515f7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 45%
@@ -184,7 +187,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" title="Valeurs web principales">Valeurs web principales</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité liée aux Core Web Vitals et comment l’exploiter pour améliorer l’acquisition de trafic.</p>
+                    <p class="is-size-6">Découvrez l’opportunité Core Web Vitals et comment l’utiliser pour améliorer l’acquisition du trafic.</p>
                 </div>
                 <a href="./opportunities/core-web-vitals.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
@@ -207,7 +210,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" title="Texte secondaire manquant">Texte secondaire manquant</a>
                     </p>
-                    <p class="is-size-6">Découvrez l’opportunité liée au texte alternatif (alt) manquant et comment l’exploiter pour améliorer l’engagement sur votre site web.</p>
+                    <p class="is-size-6">Découvrez l’opportunité de texte alternatif manquant et comment l’utiliser pour améliorer l’engagement sur votre site web.</p>
                 </div>
                 <a href="./opportunities/missing-alt-text.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
