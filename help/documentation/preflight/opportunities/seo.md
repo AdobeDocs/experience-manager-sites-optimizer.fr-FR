@@ -4,9 +4,9 @@ description: Découvrez les audits d’optimisation du moteur de recherche (SEO)
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '211'
 ht-degree: 0%
 ---
 # Audits d’optimisation pour les moteurs de recherche
@@ -19,7 +19,7 @@ Dans le tableau de bord de préparation, développez la catégorie **SEO** pour 
 
 La catégorie SEO comprend les audits suivants :
 
-* [Metatags](./seo/metatags.md) - Vérifie le titre de la page et les balises de méta-description.
+* [Metatags](./seo/metatags.md) - Vérifie le titre de la page, la méta-description et l’en-tête H1.
 * [En-têtes](./seo/headings.md) - Vérifie la structure et l’ordre des en-têtes de la page.
 * [Liens internes](./seo/internal-links.md) - passe en revue les liens de la page qui renvoient à votre propre site.
 * [Liens externes](./seo/external-links.md) - Passe en revue les liens de la page qui pointent vers d’autres sites.
