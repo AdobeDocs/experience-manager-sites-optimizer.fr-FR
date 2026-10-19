@@ -1,20 +1,20 @@
 ---
 title: Gérer les autorisations utilisateur
-description: Découvrez comment gérer l’accès et les fonctionnalités des utilisateurs dans AEM Sites Optimizer.
+description: Découvrez comment gérer l’accès et les fonctionnalités pour les utilisateurs et les groupes d’utilisateurs dans AEM Sites Optimizer.
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: c372679073253df686a77daccb6cb548622181f5
+source-git-commit: 99cab67b45300bb89cec79e714761e67e19bc2dc
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1708'
 ht-degree: 1%
 ---
 # Gestion des autorisations utilisateur
 
-Contrôlez qui peut accéder à un site dans Sites Optimizer et ce qu’il peut en faire. Access est construit à partir d&#39;un petit ensemble de *fonctionnalités* indépendantes — Afficher, Modifier, Déployer, Configurer et Gérer les utilisateurs — que vous accordez à chaque personne.
+Contrôlez qui peut accéder à un site dans Sites Optimizer et ce qu’il peut en faire. Access est construit à partir d&#39;un petit ensemble de *fonctionnalités* indépendantes — Afficher, Modifier, Déployer, Configurer et Gérer les utilisateurs — que vous accordez à des personnes individuelles ou à des groupes d&#39;utilisateurs.
 
 L’accès est **additif** : les autorisations d’une personne représentent la somme de tout ce qui lui a été accordé. Il n&#39;y a pas de « refus », donc les subventions ne se contredisent jamais ou ne s&#39;annulent jamais. Pour accorder moins d’accès à quelqu’un, supprimez une autorisation plutôt que d’essayer de la remplacer.
 
@@ -42,7 +42,7 @@ L’accès à l’échelle de l’organisation provient de l’un des deux **rô
 
 Pour attribuer un rôle, vous devez être un **administrateur système** pour l’organisation ou un **administrateur de produit** pour AEM Sites Optimizer.
 
-1. Connectez-vous à [&#128279;](https://adminconsole.adobe.com/).
+1. Connectez-vous à [](https://adminconsole.adobe.com/).
 1. Accédez à **Produits** et sélectionnez **AEM Sites Optimizer**.
 1. Ouvrez l’onglet **Utilisateurs** et ajoutez l’utilisateur par e-mail (ou sélectionnez un utilisateur existant).
 1. Cliquez sur l’icône **+** (ajouter) pour ajouter un profil de produit, puis choisissez le profil de produit.
@@ -66,7 +66,7 @@ Pour plus d’informations sur l’ajout d’utilisateurs, voir [Intégration d�
 
 Chaque fonctionnalité contrôle un type d’action. Ils sont indépendants ; par exemple, vous pouvez accorder Déployer sans modifier.
 
-| Fonction | Ce que cela permet | Ce qu’il ne permet pas |
+| Fonction | Description | Ce qu’il ne permet pas |
 |---|---|---|
 | Mode | Affichez les données du site (opportunités, suggestions, correctifs, rapports et configuration) sans rien modifier. | Toute modification. |
 | Modifier | Créer et modifier des opportunités et des suggestions (ce qui doit changer). | Publier des modifications, modifier des paramètres ou gérer des utilisateurs. |
@@ -91,11 +91,26 @@ Chaque subvention étendue apparaît comme sa propre ligne pour le membre, avec 
 >
 >La définition de la portée limite uniquement ce que *cette subvention* donne : elle ne supprime jamais l’accès qu’une autre subvention fournit. Si une personne dispose également d’un accès à l’échelle de l’organisation ou d’une autorisation de type **Tous**, cet accès plus large s’applique toujours. Donc, pour vraiment limiter quelqu&#39;un à des types d&#39;opportunités spécifiques, assurez-vous qu&#39;il ne détient pas également un rôle plus large ou une subvention **tous** types.
 
+## Octroi de l’accès aux groupes d’utilisateurs
+
+Outre les personnes individuelles, vous pouvez accorder un accès au niveau du site à un **groupe d’utilisateurs** à partir du [Adobe Admin Console](https://adminconsole.adobe.com/) de votre entreprise. Tous les membres du groupe bénéficient des fonctionnalités que vous accordez au groupe sur ce site, ce qui vous permet de gérer l’accès de toute une équipe avec une seule subvention.
+
+- Les groupes d’utilisateurs sont créés et gérés dans Admin Console, sous **Utilisateurs** > **Groupes d’utilisateurs**. Sites Optimizer répertorie les groupes qui existent déjà dans votre organisation. Vous ne pouvez pas créer de groupe à partir de l’onglet **Autorisations**.
+- Lorsque des personnes rejoignent ou quittent le groupe dans Admin Console, leur accès au site change avec celui-ci. Vous n’avez pas besoin de mettre à jour quoi que ce soit dans Sites Optimizer.
+- Un groupe se voit accorder des fonctionnalités et des types d’opportunité exactement comme une personne et apparaît dans le tableau **Membres** avec un libellé **Groupe**. Vous pouvez la modifier ou la supprimer de la même manière.
+- L’accès de groupe s’ajoute à tout ce qu’une personne possède. Une personne qui appartient à un groupe et qui a également sa propre subvention obtient la combinaison des deux.
+
+>[!NOTE]
+>
+>Si le nom d’un groupe ne peut pas être chargé, sa ligne dans le tableau **Membres** affiche un ID de groupe raccourci à la place. Passez la souris sur l’ID ou concentrez-vous dessus pour l’afficher en entier. La subvention s&#39;applique toujours.
+
 ## Ajouter un membre
+
+Un membre est une personne ou un groupe d’utilisateurs.
 
 1. Ouvrez l’onglet **Autorisations** (l’icône de cadenas dans le volet de navigation de gauche) et sélectionnez le site.
 1. Cliquez sur **Ajouter des membres**.
-1. Effectuez une recherche par nom ou adresse e-mail et sélectionnez une ou plusieurs personnes.
+1. Dans **Personnes et groupes**, recherchez des personnes par nom ou adresse e-mail, ou des groupes d’utilisateurs par nom. Sélectionner une ou plusieurs personnes ou groupes — les groupes sont marqués d&#39;un libellé **Groupe**.
 1. Sélectionnez le ou les **type(s) d’opportunité)** auxquels l’accès s’applique (ou **tous**), puis sélectionnez les fonctionnalités à accorder.
 1. Cliquez sur **Ajouter**.
 
@@ -105,6 +120,8 @@ Dans le tableau **Membres** :
 
 - Cliquez sur **Modifier les fonctionnalités** sur la ligne d’un membre pour modifier ce qu’il peut faire. Lorsque vous modifiez une subvention existante, son type d’opportunité reste fixe : vous modifiez uniquement les fonctionnalités et au moins une fonctionnalité doit rester sélectionnée.
 - Cliquez sur **Supprimer** pour révoquer l&#39;accès de ce membre au site.
+
+Une personne qui ne fait plus partie de votre organisation, par exemple une personne qui a quitté, apparaît dans le tableau **Membres** avec un libellé **Utilisateur inactif** et son identifiant à la place d’un nom. Vous ne pouvez pas modifier leur accès, mais vous pouvez supprimer le membre pour nettoyer l’entrée.
 
 >[!NOTE]
 >
@@ -156,6 +173,10 @@ La création d’un rôle à l’échelle de l’organisation est une action Adm
 **Comment puis-je révoquer l’accès d’une personne à un site ?**
 
 Supprimez leur octroi dans l’onglet **Autorisations**. Cela diffère des fonctionnalités d’édition, qui doivent toujours conserver au moins une fonctionnalité.
+
+**Puis-je accorder l’accès à toute une équipe à la fois ?**
+
+Oui. Ajoutez un groupe d’utilisateurs Admin Console en tant que membre sur l’onglet **Autorisations**. Toutes les personnes du groupe bénéficient des fonctionnalités du groupe sur ce site et l’accès suit l’appartenance du groupe à Admin Console. Voir [Octroi de l’accès aux groupes d’utilisateurs](#grant-access-to-user-groups).
 
 **Puis-je limiter une personne à des types d’opportunités spécifiques ?**
 
