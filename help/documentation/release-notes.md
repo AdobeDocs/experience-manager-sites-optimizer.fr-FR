@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 8d6936c2c577d7a98937cb8ddf90d18a6e82a9bb
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2920'
 ht-degree: 2%
 ---
 
@@ -18,6 +18,23 @@ ht-degree: 2%
 Cette page présente les dernières mises à jour, les nouvelles fonctionnalités et les améliorations de Adobe Experience Manager Sites Optimizer.
 
 Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
+
+## 5-20 Octobre 2026 {#october-5-20-2026}
+
+### Nouvelles fonctionnalités
+
+- **Paramètre Contrôle en amont des liens de navigation du site** — Choisissez si l&#39;audit des liens internes vérifie les liens dans les menus de navigation du site. Le paramètre est désactivé par défaut, de sorte que les audits se terminent plus rapidement, et **Réanalyser** s’affiche lorsqu’un paramètre modifié n’a pas encore été appliqué.
+
+### Améliorations
+
+- **Progression de l’audit de contrôle en amont** — L’indicateur de préparation indique désormais le pourcentage d’audits réussis, et chaque catégorie indique le moment où ses audits sont toujours en cours, avec un décompte « réussi jusqu’à présent » jusqu’à ce que ses résultats soient définitifs.
+- **Couverture des liens internes de contrôle en amont** — L’audit des liens internes vérifie désormais tous les liens éligibles du même hôte sur la page, y compris les liens dans les composants répétés tels que les listes de cartes. Les liens de navigation de site sont inclus uniquement lorsque **Afficher les liens de navigation de site** est sélectionné. Les liens en dehors de la navigation sur le site sont répertoriés en premier et le contrôle en amont signale clairement lorsqu’une page comporte trop de liens pour être archivée à temps.
+- **Détails du lien de contrôle en amont** — Les liens rompus marqués par le vérificateur de lien d’AEM affichent désormais le texte visible du lien au lieu d’un sélecteur CSS.
+- **Actions d’en-tête de contrôle en amont** — **Réanalyser** et **Fermer** restent toujours visibles dans l’en-tête de contrôle en amont et **Exporter** et **Paramètres** se déplacent dans le menu **Plus d’actions** lorsque l’espace est limité.
+- **Correspondance de sites en contrôle en amont** — Lorsqu’une page correspond à plusieurs sites intégrés, le contrôle en amont explique le problème et vous permet de continuer avec l’un des sites correspondants.
+- **Suggestions de texte de remplacement pour le contrôle en amont** — Les opportunités de texte de remplacement affichent le texte de remplacement suggéré comme une suggestion prête à l&#39;emploi, suivie de la raison de la suggestion lorsqu&#39;elle est disponible.
+- **Détails Ipsum du lorem de contrôle en amont** — Lorsque du texte d’espace réservé est trouvé dans un attribut, comme le texte de remplacement d’une image, l’opportunité affiche l’attribut correspondant.
+- **Contrôle en amont dans l’éditeur universel** : les audits dans l’éditeur universel utilisent désormais le contenu rendu de la page, ce qui les rend plus rapides et plus fiables.
 
 ## 28 Septembre Au 4 Octobre 2026 {#september-28-october-4-2026}
 

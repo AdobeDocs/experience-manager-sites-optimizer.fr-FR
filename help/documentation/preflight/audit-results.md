@@ -4,9 +4,9 @@ description: Découvrez comment interpréter les résultats de l’audit de cont
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1362'
 ht-degree: 2%
 ---
 
@@ -18,8 +18,11 @@ Une fois les audits terminés, le contrôle en amont affiche les résultats dans
 
 La barre d’outils située en haut du tableau de bord de préparation fournit des actions pour l’exécution en cours :
 
-* **Réanalyser** - Lancez une toute nouvelle exécution d’audit sur la page active. L’option Réanalyser ignore toujours les résultats affichés et exécute à nouveau chaque audit. Vous devez donc l’utiliser chaque fois que vous souhaitez de nouveaux résultats, par exemple, après avoir modifié la page. La réanalyse se trouve dans le **Autres actions** (**...**) menu.
+* **Réanalyser** - Lancez une toute nouvelle exécution d’audit sur la page active. L’option Réanalyser ignore toujours les résultats affichés et exécute à nouveau chaque audit. Vous devez donc l’utiliser chaque fois que vous souhaitez de nouveaux résultats, par exemple, après avoir modifié la page. Sélectionnez **Réanalyser** dans la barre d’outils.
 * **Exporter** - Téléchargez l’exécution actuelle au format **CSV** (feuille de calcul conviviale) ou **PDF** (document formaté). En fonction de votre environnement, sélectionnez **Exporter** dans la barre d’outils ou dans l’**Autres actions** (**...**) menu.
+* **Paramètres** - Utilisez **Afficher les liens de navigation du site** pour inclure des liens de navigation du site (actuellement Liens internes uniquement). Sélectionnez l’icône d’engrenage ou ouvrez **Autres actions** (**...**). et sélectionnez **Paramètres**. Les paramètres sont disponibles avant une exécution ou une fois celle-ci terminée, mais pas pendant que les audits sont en cours d’exécution ni dans l’éditeur universel. Voir [Inclure des liens de navigation de site](./opportunities/seo/internal-links.md#include-site-navigation-links).
+
+Si vous modifiez un paramètre après une exécution, un point sur **Réanalyser** et le libellé **Réanalyser pour appliquer de nouveaux paramètres** indiquent que les résultats affichés utilisaient un paramètre différent. Sélectionnez **Réanalyser** pour appliquer le paramètre enregistré à une nouvelle exécution.
 
 Lors de l’exportation, vous pouvez également choisir les éléments à inclure :
 
@@ -32,19 +35,21 @@ Lors de l’exportation, vous pouvez également choisir les éléments à inclur
 
 ## Compteur de préparation
 
-En haut du tableau de bord, le compteur de préparation reflète les résultats d’audit globaux. Il affiche un score de préparation sous forme de pourcentage, en fonction de la proportion d’audits qui se sont terminés sans opportunités, ainsi que le nombre total d’opportunités trouvées dans tous les audits. Le compteur de préparation vous permet d’évaluer l’état de santé global de la page en un coup d’œil.
+En haut du tableau de bord, le compteur de préparation reflète les résultats d’audit globaux. Il indique le pourcentage d’audits qui se sont terminés sans opportunités, étiquetés **% réussis** ainsi que le nombre total d’opportunités trouvées dans tous les audits. Par exemple, le taux de réussite de **85 %** signifie que 85 % des vérifications terminées n&#39;ont trouvé aucune occasion. Ce pourcentage décrit les résultats de l’audit, et non la progression de l’exécution.
 
 ![Compteur de préparation et catégories d’audit dans le tableau de bord Contrôle en amont](./assets/overview/hero.png){align="center"}
 
 Lorsque vous affichez une exécution qui a été rechargée à partir d’une session précédente, l’en-tête indique la durée de son exécution (par exemple, *hier*. Pour plus d’informations, voir [Poursuivre une session précédente](./audits.md#continue-a-previous-session).
 
-Pendant que les audits sont toujours en cours, le compteur de préparation affiche une barre de progression avec un statut court en dessous, qui indique l’étape en cours. Une fois les audits terminés, le compteur affiche le pourcentage de préparation final et le nombre d’opportunités.
+Pendant que les audits sont toujours en cours d’exécution, le tableau de bord affiche **Page d’analyse** avec un statut court en dessous. Une barre de progression s’affiche initialement, avant l’arrivée des catégories d’audit nommées. Une fois que les catégories apparaissent, leurs indicateurs de traitement individuels indiquent les catégories pour lesquelles un travail est toujours en cours. Une fois tous les audits terminés, le compteur affiche le pourcentage final de réussite et le nombre d’opportunités.
 
 ## Catégories d’audit
 
 Le contrôle en amont regroupe les audits associés dans des catégories, telles que **SEO** et **Accessibilité**. Chaque catégorie s’affiche sous la forme d’une carte qui indique le nombre d’opportunités trouvées ou indique que tous ses audits ont réussi sans opportunité.
 
 Développez une catégorie pour afficher ses audits individuels. Chaque audit indique s’il a réussi ou trouvé des opportunités, une brève description et un nombre d’opportunités trouvées. Sélectionnez un audit qui a trouvé des opportunités d’ouvrir sa page de détails.
+
+Une catégorie peut afficher des résultats alors que certains de ses audits sont toujours en cours. Son icône affiche un indicateur de traitement et son état indique, par exemple, que les audits **3/3 ont réussi jusqu’à présent**. Ce nombre inclut uniquement les audits qui ont renvoyé des résultats. Il peut donc changer à mesure que d’autres résultats arrivent. Développez la catégorie pour afficher les audits individuels en cours de traitement. Une catégorie sans opportunités n’affiche sa coche entièrement effacée qu’une fois son travail en attente terminé.
 
 Pour obtenir la liste complète des catégories d&#39;audit et les audits de chacune d&#39;elles, voir [Catégories d&#39;audit de contrôle en amont](./overview.md#preflight-audit-categories).
 
@@ -56,7 +61,7 @@ Pour les audits qui identifient une URL spécifique sur la page, la section **É
 
 Lorsque plusieurs opportunités affectent le même élément (par exemple, plusieurs problèmes avec le même lien), le contrôle en amont les affiche ensemble sur une carte, chacune dans sa propre section intitulée avec son numéro d’instance, tel que **Instance 3**. Le navigateur affiche ensuite une plage au lieu d’une seule position, par exemple *3-5 sur 12 instances trouvées*.
 
-![Page de détail d’un audit, présentant une opportunité et sa suggestion](./assets/audit-results/audit-detail.png){align="center"}
+![Page de détails de l’audit des liens internes, présentant une opportunité et la section URL actuelle](./assets/audit-results/audit-detail.png){align="center"}
 
 Chaque opportunité comprend :
 
