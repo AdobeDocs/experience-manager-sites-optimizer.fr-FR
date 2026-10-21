@@ -14,12 +14,12 @@ ht-degree: 17%
 
 Le contrôle en amont effectue un audit de votre page afin d’identifier les opportunités d’amélioration de votre contenu avant sa publication. Contrairement à une analyse automatique, vous choisissez quand exécuter les audits, de sorte que vous pouvez analyser une page chaque fois que vous êtes prêt.
 
-![Écran d’atterrissage de contrôle en amont avec le bouton Analyser la page ](./assets/audits/hero.png){align="center"}
+![Écran d’atterrissage de contrôle en amont avec le bouton Analyser la page &#x200B;](./assets/audits/hero.png){align="center"}
 
 Pour exécuter des audits de contrôle en amont sur une page :
 
 1. Ouvrez la page à auditer dans votre [environnement de création](./access-preflight.md) (éditeur universel, création basée sur les documents ou éditeur de page AEM Sites).
-1. Ouvrez le [panneau Contrôle en amont ](./access-preflight.md). Le contrôle en amont s’ouvre sur l’écran d’entrée **Exécuter l’audit de préparation des performances**.
+1. Ouvrez le [panneau Contrôle en amont &#x200B;](./access-preflight.md). Le contrôle en amont s’ouvre sur l’écran d’entrée **Exécuter l’audit de préparation des performances**.
 1. Si nécessaire, ouvrez **Paramètres** (icône d’engrenage) pour inclure des liens de navigation sur le site dans l’audit des liens internes. Ce paramètre est désactivé par défaut et n’est pas disponible dans l’éditeur universel. Selon votre environnement, la mention **Paramètres** apparaît dans l’en-tête ou dans **Autres actions** (**...**). Voir [Inclure des liens de navigation de site](./opportunities/seo/internal-links.md#include-site-navigation-links).
 1. Sélectionnez **Analyser la page**. Le contrôle en amont exécute tous ses audits sur la page active et ouvre le tableau de bord de préparation, où il affiche le pourcentage d’audits réussis et les opportunités trouvées, regroupées par catégorie.
 
@@ -42,4 +42,4 @@ Le contrôle en amont effectue le suivi de la dernière exécution séparément 
 
 Lorsque vous rechargez une exécution précédente, l’en-tête indique depuis combien de temps cette exécution a été effectuée (par exemple, il y a *2 minutes* ou *hier*) afin que vous puissiez déterminer en un coup d’œil l’état actuel des résultats. Le libellé se met à jour au fil du temps et reste visible lorsque vous passez du tableau de bord de préparation aux pages de détails d’audit.
 
-Une fois les audits terminés et les résultats affichés, sélectionnez **Réanalyser** dans la barre d’outils pour ignorer les résultats et réexécuter chaque audit. Voir [ Résultats de l’audit en contrôle en amont ](./audit-results.md#toolbar).
+Une fois les audits terminés et les résultats affichés, sélectionnez **Réanalyser** dans la barre d’outils pour ignorer les résultats et réexécuter chaque audit. Voir [&#x200B; Résultats de l’audit en contrôle en amont &#x200B;](./audit-results.md#toolbar).
