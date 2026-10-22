@@ -4,9 +4,9 @@ description: Découvrez l’audit Titres dans Contrôle en amont pour AEM Sites 
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '649'
 ht-degree: 0%
 ---
 # Audit des titres
@@ -23,8 +23,6 @@ L&#39;audit signale une opportunité pour chacun des problèmes suivants :
 
 * **En-tête vide :** un H2, H3, H4, H5 ou H6 qui n’a pas de texte. Un en-tête qui contient uniquement des espaces ou une image est comptabilisé comme vide.
 * **Niveau de titre ignoré :** un titre qui est plus d’un niveau plus profond que le titre qui le précède, par exemple un H2 suivi d’un H4, ou un H1 suivi d’un H3. L’opportunité est signalée dans le titre plus profond.
-
-Les deux cas sont signalés à impact modéré.
 
 Les en-têtes H1 sont examinés par l’audit [Metatags](./metatags.md), qui recherche un H1 manquant, vide ou trop long et plusieurs H1 sur une page.
 

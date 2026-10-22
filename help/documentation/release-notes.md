@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '3026'
 ht-degree: 2%
 ---
 
@@ -18,6 +18,22 @@ ht-degree: 2%
 Cette page présente les dernières mises à jour, les nouvelles fonctionnalités et les améliorations de Adobe Experience Manager Sites Optimizer.
 
 Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
+
+## 21-22 Octobre 2026 {#october-21-22-2026}
+
+### Nouvelles fonctionnalités
+
+- **Filtres d’instance de contrôle en amont** — Dans les pages de détails Liens internes et Liens externes, filtrez les instances par **Interrompu** ou **Vérification requise**.
+
+### Améliorations
+
+- **Reprises des liens internes de contrôle en amont** — L&#39;audit des liens internes tente désormais de reproduire les liens qui échouent temporairement, de sorte qu&#39;une courte panne est moins susceptible d&#39;être signalée comme un lien rompu.
+- **Indicateurs de progression du contrôle en amont** — Les indicateurs de traitement s’affichent désormais uniquement sur les audits toujours en cours, et non sur leurs catégories.
+- **Détails de l’opportunité de contrôle en amont** — Les opportunités n’affichent plus les badges de gravité et les exportations CSV et PDF n’incluent plus la gravité.
+
+### Correctifs
+
+- Les URL longues dans les détails des opportunités de contrôle en amont s’encapsulent désormais au lieu d’élargir la carte.
 
 ## 5-20 Octobre 2026 {#october-5-20-2026}
 
