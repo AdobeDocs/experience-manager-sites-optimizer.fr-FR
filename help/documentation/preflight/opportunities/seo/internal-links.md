@@ -4,9 +4,9 @@ description: Découvrez l’audit des liens internes dans la section Contrôle e
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 9fd898e905bf843b4d39891c5875497a01569791
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '889'
 ht-degree: 0%
 ---
 # Audit des liens internes
@@ -36,6 +36,28 @@ L’audit vérifie les liens de votre session de création afin qu’ils soient 
 Les liens que le vérificateur de liens d’AEM a déjà marqués comme non valides sont inclus dans l’audit, même si l’éditeur supprime le lien cliquable de la page. Ils sont ensuite revérifiés au lieu d’être acceptés en confiance, de sorte qu’un lien qui a commencé à fonctionner depuis n’est pas signalé.
 
 Une opportunité est signalée pour chaque emplacement où un lien s’affiche. Ainsi, un lien incorrect utilisé à trois endroits vous donne trois instances à corriger, chacune mettant en surbrillance sa propre place sur la page. Lorsque l’un de ces emplacements présente plusieurs problèmes, le contrôle en amont les présente ensemble sur une seule carte.
+
+## Inclure les liens de navigation du site
+
+Par défaut, l’audit des liens internes ignore les liens de navigation du site. Ces liens ne sont ni vérifiés ni signalés. La vérification d’un lien dans le corps de la page est toujours effectuée même si la même URL s’affiche également dans un menu.
+
+Un lien est considéré comme une navigation s’il est lui-même ou si un ancêtre est un élément `<nav>` ou possède un attribut `role="navigation"`.
+
+Pour inclure des liens de navigation dans la prochaine exécution d’audit :
+
+1. Avant de démarrer un audit ou une fois l’exécution terminée, ouvrez **Paramètres** (l’icône d’engrenage) dans l’en-tête de contrôle en amont. Si l’icône d’engrenage n’est pas visible, ouvrez **Autres actions** (**...**) et sélectionnez **Paramètres**.
+1. Sélectionnez **Afficher les liens de navigation du site**.
+1. Sélectionnez **Analyser la page** pour démarrer une exécution, ou **Réanalyser** si les résultats sont déjà affichés.
+
+![Menu Paramètres de contrôle en amont avec l’option Afficher les liens de navigation du site](./assets/internal-links/settings-menu.png){align="center"}
+
+**Afficher les liens de navigation sur le site** contrôle les liens qui font l&#39;objet des vérifications d&#39;audit, et pas seulement les résultats qui s&#39;affichent (actuellement Liens internes uniquement).
+
+La modification du paramètre ne lance pas d’audit et ne modifie pas les résultats déjà affichés à l’écran. Lorsque ces résultats utilisaient un paramètre différent, un point s’affiche sur **Réanalyser**, avec le libellé **Réanalyser pour appliquer les nouveaux paramètres**. Exécutez à nouveau les audits pour appliquer la modification ou restaurez le paramètre précédent pour effacer le point.
+
+Le contrôle en amont enregistre le paramètre dans votre navigateur et le conserve une fois que vous vous êtes déconnecté. Les onglets d’un même site partagent le paramètre. Pour ignorer à nouveau les liens de navigation, désélectionnez **Afficher les liens de navigation du site** avant la prochaine exécution.
+
+Le paramètre n’est pas disponible lorsque les audits sont en cours d’exécution ou dans l’éditeur universel.
 
 ## Limites connues
 

@@ -4,16 +4,17 @@ description: Découvrez le contrôle en amont et les audits qu’il exécute pou
 TQID: https://experienceleague.adobe.com/pZrPXBAaroTlpEsfSluFiLW2Noy4y5sD4dZHTsXgSfA
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 14f10c231373992c49a8bb93c043556305b6280d
+    internal-label: Accessibility
+source-git-commit: ae16300fdfd525dc5efead2f165d5a238b5ea6e1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 28%
-
+source-wordcount: '389'
+ht-degree: 48%
 ---
-
 # Contrôle en amont AEM Sites Optimizer
 
 ![Tableau de bord de préparation du contrôle en amont](./assets/overview/hero.png){align="center"}
@@ -24,7 +25,7 @@ ht-degree: 28%
 
 Le contrôle en amont dans AEM Sites Optimizer vous permet de valider et d’optimiser les pages avant leur mise en ligne en analysant le contenu et la structure et en faisant apparaître les opportunités avec des recommandations exploitables. Il est conçu pour les auteurs et autrices, les responsables marketing et les développeurs et développeuses qui souhaitent s’assurer que les pages sont de haute qualité, performantes et prêtes à être publiées, tout en réduisant les retouches.
 
-Démarrez le contrôle en amont à partir de votre environnement de création et sélectionnez **Analyser la page** pour exécuter ses audits. Un audit évalue un aspect de votre page, tel que ses métadonnées ou sa structure d’en-tête, et le contrôle en amont regroupe les audits associés dans des catégories, telles que **SEO** et **Accessibilité**. Le contrôle en amont signale ensuite un score de préparation pour la page, ainsi que les opportunités trouvées, les éléments spécifiques que vous pouvez améliorer, chacun avec une recommandation exploitable.
+Démarrez le contrôle en amont à partir de votre environnement de création et sélectionnez **Analyser la page** pour exécuter ses audits. Un audit évalue un aspect de votre page, tel que ses métadonnées ou sa structure d’en-tête, et le contrôle en amont regroupe les audits associés dans des catégories, telles que **SEO** et **Accessibilité**. Le contrôle en amont indique ensuite le pourcentage d’audits réussis pour la page, ainsi que les opportunités détectées, les éléments spécifiques que vous pouvez améliorer, chacun avec une recommandation exploitable.
 
 ## Commencer avec le contrôle en amont
 
@@ -63,8 +64,8 @@ CARDS
                     <p class="is-size-6">Découvrez les audits d’accessibilité en amont dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/accessibility.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+                </a>
             </div>
         </div>
     </div>
@@ -86,8 +87,8 @@ CARDS
                     <p class="is-size-6">Découvrez les audits SEO de contrôle en amont dans Sites Optimizer.</p>
                 </div>
                 <a href="./opportunities/seo.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-<span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
-</a>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">En savoir plus</span>
+                </a>
             </div>
         </div>
     </div>
