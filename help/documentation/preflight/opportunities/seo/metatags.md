@@ -4,9 +4,9 @@ description: Découvrez l’audit des balises de métadonnées dans la section C
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 913fd85808a08eb8f6ba7de8207d53ee7b68409e
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '801'
 ht-degree: 1%
 ---
 # Audit des métadonnées
@@ -34,12 +34,6 @@ Une valeur de quelques caractères au-dessus de la longueur idéale est signalé
 | En-tête H1 | Jusqu’à 70 caractères | 71 à 75 caractères | Plus de 75 caractères |
 
 Ces plages sont des directives recommandées et non des exigences pour les moteurs de recherche. Le contrôle en amont les utilise pour décider quand signaler une opportunité.
-
-Chaque opportunité est signalée à l’un des trois niveaux d’impact suivants :
-
-* **Élevée :** une balise manquante ou vide.
-* **Modéré :** un titre de page ou une méta-description trop court, une méta-description ou un H1 trop long, ou une page comportant plusieurs H1.
-* **Faible :** une valeur supérieure à la longueur idéale, mais pas trop longue, y compris tout titre de page de plus de 60 caractères.
 
 ## Lecture des valeurs
 

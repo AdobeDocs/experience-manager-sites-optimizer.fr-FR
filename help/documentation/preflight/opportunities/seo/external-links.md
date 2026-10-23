@@ -4,9 +4,9 @@ description: Découvrez l’audit des liens externes dans Contrôle en amont pou
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 13bc34bf4c3d31e730dbe597b84fd6d594df6fea
+source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '753'
 ht-degree: 0%
 ---
 # Audit des liens externes
@@ -23,7 +23,7 @@ L’audit signale une opportunité pour chaque lien externe présentant l’un d
 
 * **Lien rompu :** le lien renvoie `Status 404` ou `Status 410`, ou son site n’est pas accessible du tout, par exemple parce que le domaine n’existe plus. Un lien qui atteint l’erreur après une redirection est signalé de la même manière.
 * **Lien non sécurisé :** le lien utilise `http://` et le site ne le redirige pas vers `https://`. Un lien qui commence par `http://` mais est redirigé vers une page `https://` sécurisée n’est pas marqué. Mettez à jour le lien pour utiliser `https://`.
-* **Lien non vérifié :** le contrôle en amont n’a pas pu confirmer que le lien fonctionne, par exemple, car le site nécessite une connexion, bloque les vérifications automatisées, renvoie constamment une erreur de serveur, ne répond pas à temps ou redirige trop de fois. Certains réseaux sociaux, tels que LinkedIn et Instagram, signalent les pages qui existent comme manquantes aux contrôles automatisés, de sorte que les erreurs de pages manquantes de ces sites sont également signalées comme non vérifiées. Il est très probable que ces liens fonctionnent dans un navigateur. Par conséquent, le contrôle en amont ne les signale pas comme rompus. Au lieu de cela, il vous demande d’ouvrir le lien et de le confirmer vous-même, puis le signale avec un impact faible.
+* **Lien non vérifié :** le contrôle en amont n’a pas pu confirmer que le lien fonctionne, par exemple, car le site nécessite une connexion, bloque les vérifications automatisées, renvoie constamment une erreur de serveur, ne répond pas à temps ou redirige trop de fois. Certains réseaux sociaux, tels que LinkedIn et Instagram, signalent les pages qui existent comme manquantes aux contrôles automatisés, de sorte que les erreurs de pages manquantes de ces sites sont également signalées comme non vérifiées. Il est très probable que ces liens fonctionnent dans un navigateur. Par conséquent, le contrôle en amont ne les signale pas comme rompus. Au lieu de cela, il vous demande d’ouvrir le lien et de le confirmer vous-même.
 
 Un lien peut être à la fois non sécurisé et rompu, ou à la fois non sécurisé et non vérifié, auquel cas les deux opportunités sont signalées. Un lien qui est résolu avec succès n’est pas marqué, même s’il comporte des redirections en cours de route.
 
@@ -34,6 +34,18 @@ Chaque lien externe de la page est coché. Un lien externe est tout lien dont l�
 Chaque lien est signalé une fois, même s’il apparaît plusieurs fois sur la page ou avec différentes ancres, telles que `#pricing` et `#features`. L’opportunité met en évidence la première place où apparaît le lien.
 
 Les liens que le vérificateur de liens d’AEM a déjà marqués comme non valides sont inclus dans l’audit, même si l’éditeur supprime le lien cliquable de la page. Ils sont revérifiés plutôt que d’être approuvés, de sorte qu’un lien qui a commencé à fonctionner depuis n’est pas signalé.
+
+## Filtrer les résultats
+
+Sur la page de détail, utilisez le filtre en regard de l’en-tête **Instances** pour n’afficher que certaines des opportunités :
+
+| Filtrer | Opportunités affichées |
+|---|---|
+| **Tous** (par défaut) | Chaque opportunité |
+| **Cassé** | Liens rompus |
+| **Vérification requise** | Liens non vérifiés et liens non sécurisés |
+
+Si un lien comporte plusieurs opportunités, par exemple un lien non sécurisé qui est également rompu, chaque opportunité apparaît sous son propre filtre. Pour plus d’informations, voir [Filtrer les instances](../../audit-results.md#filter-instances).
 
 ## Limites connues
 
