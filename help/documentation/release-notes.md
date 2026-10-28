@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 733056458d3e34a9ef2e285adfc810a98159002b
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3666'
 ht-degree: 2%
 ---
 
@@ -19,38 +19,77 @@ Cette page présente les dernières mises à jour, les nouvelles fonctionnalité
 
 Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
 
-## 21-22 Octobre 2026 {#october-21-22-2026}
+## 26-28 Octobre 2026 {#october-26-28-2026}
 
 ### Nouvelles fonctionnalités
 
+- **Couverture d’audit dans les paramètres** — Les paramètres comprennent désormais une section **Couverture d’audit** qui répertorie les audits exécutés pour votre site, regroupés par catégorie, telle que l’optimisation pour les moteurs de recherche, l’accessibilité, la sécurité et la conversion et l’engagement.
+- **Valeur estimée (accès anticipé)** — Core Web Vitals, Texte de remplacement, accessibilité, Contraste des couleurs, Accessibilité des formulaires et opportunités de sécurité affichent désormais une valeur estimée, telle que la main-d’œuvre économisée ou le risque évité, pour vous aider à établir la priorité des correctifs. La main-d’œuvre économisée en termes d’accessibilité et de correctifs de sécurité s’affiche sous la forme d’une valeur ponctuelle. Les opportunités du plan du site et de Hreflang indiquent le nombre de problèmes signalés.
+
+### Améliorations
+
+- **Tickets Jira pour le texte de remplacement (accès anticipé)** — Créez des tickets Jira pour un ou plusieurs problèmes de texte de remplacement, avec l’URL de la page, l’URL de l’image et le texte de remplacement suggéré inclus dans chaque ticket.
+
+## 19-25 Octobre 2026 {#october-19-25-2026}
+
+### Nouvelles fonctionnalités
+
+- **Rapport d’accessibilité unifié (accès anticipé)** — Le rapport d’accessibilité rassemble désormais tous les résultats dans un seul rapport, avec une vue d’ensemble des problèmes et une analyse par type de problème, groupe de pages et page. Ouvrez un panneau latéral pour obtenir des conseils sur les correctifs au niveau des éléments, puis exportez le rapport au format CSV.
+- **Paramètre Contrôle en amont des liens de navigation du site** — Choisissez si l&#39;audit des liens internes vérifie les liens dans les menus de navigation du site. Le paramètre est désactivé par défaut, de sorte que les audits se terminent plus rapidement, et **Réanalyser** s’affiche lorsqu’un paramètre modifié n’a pas encore été appliqué.
 - **Filtres d’instance de contrôle en amont** — Dans les pages de détails Liens internes et Liens externes, filtrez les instances par **Interrompu** ou **Vérification requise**.
 
 ### Améliorations
 
+- **Redirections Dispatcher de liens descendants rompus (accès anticipé)** — Sur les sites AEM as a Cloud Service où Sites Optimizer déploie des redirections via Dispatcher, les correctifs de liens descendants rompus sont désormais étiquetés comme déployés vers Dispatcher au lieu d’AEM Author, et vous pouvez restaurer une redirection déployée.
+- **Statut de l’audit du moniteur d’intégrité du site** — Les scores d’intégrité reflètent désormais les audits activés pour votre site. Les audits désactivés sont masqués, les audits qui doivent être configurés s’affichent avec une explication et aucun des deux n’est comptabilisé dans les scores de catégorie.
+- **Pas de CTA au-dessus des propositions de pli** — Les suggestions Pas de CTA au-dessus du pli affichent désormais une proposition call-to-action structurée avec des propositions côte à côte **Contrôle** et **Proposition** et les opportunités n’apparaissent que lorsque les deux captures d’écran sont disponibles.
+- **Autorisations de groupe (accès anticipé)** — Accordez l&#39;accès au site à des groupes d&#39;utilisateurs de votre organisation, et pas seulement à des personnes individuelles, et affichez un badge **Utilisateur inactif** pour les membres qui ne figurent plus dans le répertoire de votre organisation.
+- **Données structurées restaurables ignorées** — Les problèmes de données structurées ignorées apparaissent désormais dans un onglet **Ignorées** où vous pouvez les restaurer.
+- **Questions fréquentes - Suggestions de données structurées** — Les suggestions de questions fréquentes indiquent désormais exactement les paires question-réponse qui seront déployées. Les paires individuelles ne peuvent plus être supprimées de la table.
+- **Progression de l’audit de contrôle en amont** — L’indicateur de préparation indique désormais le pourcentage d’audits réussis, et chaque catégorie indique le moment où ses audits sont toujours en cours, avec un décompte « réussi jusqu’à présent » jusqu’à ce que ses résultats soient définitifs.
+- **Couverture des liens internes de contrôle en amont** — L’audit des liens internes vérifie désormais tous les liens éligibles du même hôte sur la page, y compris les liens dans les composants répétés tels que les listes de cartes. Les liens de navigation de site sont inclus uniquement lorsque **Afficher les liens de navigation de site** est sélectionné. Les liens en dehors de la navigation sur le site sont répertoriés en premier et le contrôle en amont signale clairement lorsqu’une page comporte trop de liens pour être archivée à temps.
+- **Actions d’en-tête de contrôle en amont** — **Réanalyser** et **Fermer** restent toujours visibles dans l’en-tête de contrôle en amont et **Exporter** et **Paramètres** se déplacent dans le menu **Plus d’actions** lorsque l’espace est limité.
 - **Reprises des liens internes de contrôle en amont** — L&#39;audit des liens internes tente désormais de reproduire les liens qui échouent temporairement, de sorte qu&#39;une courte panne est moins susceptible d&#39;être signalée comme un lien rompu.
 - **Indicateurs de progression du contrôle en amont** — Les indicateurs de traitement s’affichent désormais uniquement sur les audits toujours en cours, et non sur leurs catégories.
 - **Détails de l’opportunité de contrôle en amont** — Les opportunités n’affichent plus les badges de gravité et les exportations CSV et PDF n’incluent plus la gravité.
 
 ### Correctifs
 
+- La recherche d’opportunités renvoie désormais des résultats cohérents, indépendamment de la casse des lettres, des accents, des tirets ou des espaces supplémentaires, y compris lorsque vous collez un nom d’opportunité.
+- Le Moniteur d’intégrité du site ne répertorie plus les documents PDF en tant que pages.
+- **En savoir plus** les liens de la boîte de dialogue Connexion à AEM Sites , les libellés de gravité composés et les cartes de mesures d’évaluation de l’accueil s’affichent désormais correctement dans toutes les langues prises en charge.
 - Les URL longues dans les détails des opportunités de contrôle en amont s’encapsulent désormais au lieu d’élargir la carte.
 
-## 5-20 Octobre 2026 {#october-5-20-2026}
-
-### Nouvelles fonctionnalités
-
-- **Paramètre Contrôle en amont des liens de navigation du site** — Choisissez si l&#39;audit des liens internes vérifie les liens dans les menus de navigation du site. Le paramètre est désactivé par défaut, de sorte que les audits se terminent plus rapidement, et **Réanalyser** s’affiche lorsqu’un paramètre modifié n’a pas encore été appliqué.
+## 12-18 Octobre 2026 {#october-12-18-2026}
 
 ### Améliorations
 
-- **Progression de l’audit de contrôle en amont** — L’indicateur de préparation indique désormais le pourcentage d’audits réussis, et chaque catégorie indique le moment où ses audits sont toujours en cours, avec un décompte « réussi jusqu’à présent » jusqu’à ce que ses résultats soient définitifs.
-- **Couverture des liens internes de contrôle en amont** — L’audit des liens internes vérifie désormais tous les liens éligibles du même hôte sur la page, y compris les liens dans les composants répétés tels que les listes de cartes. Les liens de navigation de site sont inclus uniquement lorsque **Afficher les liens de navigation de site** est sélectionné. Les liens en dehors de la navigation sur le site sont répertoriés en premier et le contrôle en amont signale clairement lorsqu’une page comporte trop de liens pour être archivée à temps.
-- **Détails du lien de contrôle en amont** — Les liens rompus marqués par le vérificateur de lien d’AEM affichent désormais le texte visible du lien au lieu d’un sélecteur CSS.
-- **Actions d’en-tête de contrôle en amont** — **Réanalyser** et **Fermer** restent toujours visibles dans l’en-tête de contrôle en amont et **Exporter** et **Paramètres** se déplacent dans le menu **Plus d’actions** lorsque l’espace est limité.
+- **Tickets Jira en bloc pour l’accessibilité (accès anticipé)** — Sélectionnez plusieurs problèmes d’accessibilité, de contraste des couleurs et d’accessibilité des formulaires et créez un ticket Jira avec un titre groupé et une seule pièce jointe de correctif de code combiné.
+- **Mesures du Moniteur d&#39;intégrité du site** — Le Moniteur d&#39;intégrité du site n&#39;utilise plus la mesure de taux de clic publicitaire (CTR) retirée dans sa logique d&#39;intégrité ou son tableau de bord.
 - **Correspondance de sites en contrôle en amont** — Lorsqu’une page correspond à plusieurs sites intégrés, le contrôle en amont explique le problème et vous permet de continuer avec l’un des sites correspondants.
 - **Suggestions de texte de remplacement pour le contrôle en amont** — Les opportunités de texte de remplacement affichent le texte de remplacement suggéré comme une suggestion prête à l&#39;emploi, suivie de la raison de la suggestion lorsqu&#39;elle est disponible.
 - **Détails Ipsum du lorem de contrôle en amont** — Lorsque du texte d’espace réservé est trouvé dans un attribut, comme le texte de remplacement d’une image, l’opportunité affiche l’attribut correspondant.
+
+### Correctifs
+
+- Les opportunités dont les suggestions sont obsolètes affichent désormais un statut cohérent sur les pages de liste d’opportunités et de détails.
+
+## 5-11 Octobre 2026 {#october-5-11-2026}
+
+### Nouvelles fonctionnalités
+
+- **Vue déployée de données structurées de FAQ (accès anticipé)** — Une vue **déployée** répertorie les correctifs de données structurées de FAQ déployés, affichant la page où chaque correctif a été appliqué avec un lien pour l’ouvrir dans AEM.
+
+### Améliorations
+
+- **Alertes de site et Core Web Vitals (accès anticipé)** — Passez des alertes de site aux suggestions de Core Web Vitals en un seul clic. Les incidents d’alerte renvoient vers les correctifs disponibles et les lignes de Core Web Vitals affichent un badge **Alerte** lorsque la page comporte une alerte de site.
 - **Contrôle en amont dans l’éditeur universel** : les audits dans l’éditeur universel utilisent désormais le contenu rendu de la page, ce qui les rend plus rapides et plus fiables.
+- **Détails du lien de contrôle en amont** — Les liens rompus marqués par le vérificateur de lien d’AEM affichent désormais le texte visible du lien au lieu d’un sélecteur CSS.
+
+### Correctifs
+
+- La connexion d’un compte Google Ads à partir d’Experience Cloud s’effectue désormais de manière fiable, le sélecteur de compte ne se rouvre plus après l’enregistrement de votre sélection et la carte de connexion est mise à jour après votre déconnexion.
+- **Déployer** sur une ligne de données structurées de FAQ individuelle ouvre désormais la boîte de dialogue Multi-Site Manager afin que vous puissiez choisir de mettre à jour la page source ou uniquement la page locale.
 
 ## 28 Septembre Au 4 Octobre 2026 {#september-28-october-4-2026}
 
