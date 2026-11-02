@@ -4,10 +4,10 @@ description: Découvrez comment interpréter les résultats de l’audit de cont
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 1%
+source-wordcount: '1653'
+ht-degree: 0%
 ---
 
 # Résultats de l’audit dans le contrôle en amont
@@ -92,15 +92,15 @@ Le filtre ne modifie pas le nombre d’opportunités dans le tableau de bord des
 
 Une fois les audits terminés, vous pouvez rapidement localiser et comprendre une opportunité en la mettant en surbrillance directement sur la page.
 
-Le contrôle en amont met en surbrillance l’élément concerné dans son contexte et connecte le résultat du panneau à l’emplacement exact dans votre contenu. Il est ainsi plus facile de vérifier et de résoudre les opportunités sans effectuer de recherche manuelle dans la page.
+Le contrôle en amont met en surbrillance l’élément concerné dans son contexte et associe le résultat du panneau à son emplacement dans votre contenu. Dans l’éditeur universel, le contrôle en amont utilise le contour de sélection de l’éditeur. Dans d’autres environnements de création, la mise en surbrillance utilise des anneaux de contour contrastés pour rester visible en arrière-plan de la page.
 
 1. Ouvrez le panneau Contrôle en amont dans le contexte de la page à contrôler, puis sélectionnez **Analyser la page** pour exécuter les contrôles.
 1. Sélectionnez un audit dans le tableau de bord des résultats, puis sélectionnez une opportunité à examiner.
-1. Sélectionnez **Mettre en surbrillance sur la page**. L’aperçu fait automatiquement défiler la page jusqu’à la zone appropriée et met en surbrillance l’élément correspondant, afin que vous puissiez facilement identifier et optimiser l’opportunité en contexte.
+1. Sélectionnez **Mettre en surbrillance sur la page**. L’aperçu fait automatiquement défiler la page jusqu’à la zone appropriée et met en surbrillance l’élément correspondant, afin que vous puissiez facilement identifier et optimiser l’opportunité en contexte. Sélectionnez à nouveau **Mettre en surbrillance sur la page** pour supprimer la mise en surbrillance sans quitter l’opportunité.
 
 La mise en surbrillance n’est pas possible pour chaque opportunité. Par exemple, lorsqu’une opportunité n’est pas liée à un élément spécifique, l’élément est masqué ou il ne se trouve plus sur la page. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
 
-Dans l’éditeur universel, la mise en surbrillance n’est pas encore prise en charge pour les opportunités **accessibilité** ; le bouton **Mettre en surbrillance sur la page** est grisé et vous pouvez le survoler pour en connaître la raison.
+Dans l’éditeur universel, la mise en surbrillance est prise en charge pour les opportunités **SEO** et **Texte de remplacement** dans la catégorie **Accessibilité**. Les autres opportunités **accessibilité** ne sont pas encore prises en charge. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
 
 Dans l’éditeur universel, le contrôle en amont ne peut que mettre en surbrillance le contenu modifiable. Si l’élément concerné ne fait pas partie du contenu modifiable, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi. Si l’élément lui-même n’est pas directement modifiable, mais que le bloc modifiable le plus proche l’est, le contrôle en amont met en surbrillance ce bloc et ajoute une note expliquant pourquoi.
 
