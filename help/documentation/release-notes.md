@@ -7,10 +7,10 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 733056458d3e34a9ef2e285adfc810a98159002b
+source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
 workflow-type: tm+mt
-source-wordcount: '3666'
-ht-degree: 2%
+source-wordcount: '3815'
+ht-degree: 1%
 ---
 
 # Notes de mise à jour
@@ -29,6 +29,10 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 ### Améliorations
 
 - **Tickets Jira pour le texte de remplacement (accès anticipé)** — Créez des tickets Jira pour un ou plusieurs problèmes de texte de remplacement, avec l’URL de la page, l’URL de l’image et le texte de remplacement suggéré inclus dans chaque ticket.
+- **Vérifications en amont qui n’ont pas pu être effectuées** — Une vérification qui n’a pas pu être effectuée maintenant indique sa raison au lieu d’apparaître comme réussie. Il est comptabilisé comme n’ayant pas été transmis dans le chiffre **% transmis** et les exportations CSV et PDF le répertorient toujours.
+- **Progression du texte de remplacement du contrôle en amont** — Pendant que la vérification IA d’une image est toujours en cours, son opportunité de texte de remplacement s’affiche avec un indicateur **Génération de suggestions**. La vue des détails de l’opportunité reste également sur l’opportunité que vous visualisez lorsque les résultats changent.
+- **Contrôle en amont des raisons des liens externes** — L&#39;audit des liens externes explique désormais d&#39;autres types d&#39;échec, notamment les erreurs de serveur, les boucles de redirection, les liens qui nécessitent une connexion et les liens indisponibles pour des raisons juridiques. Les liens qui expirent ou bloquent les contrôles automatisés vous demandent désormais de les confirmer manuellement.
+- **Capture de page de contrôle en amont** — Le contrôle en amont attend désormais jusqu’à 30 secondes pour qu’une page lente se charge avant d’analyser la page, en dehors de l’éditeur universel.
 
 ## 19-25 Octobre 2026 {#october-19-25-2026}
 

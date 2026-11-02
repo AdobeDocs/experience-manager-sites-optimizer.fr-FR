@@ -4,10 +4,10 @@ description: Découvrez comment interpréter les résultats de l’audit de cont
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 2%
+source-wordcount: '1616'
+ht-degree: 1%
 ---
 
 # Résultats de l’audit dans le contrôle en amont
@@ -28,6 +28,8 @@ Lors de l’exportation, vous pouvez également choisir les éléments à inclur
 
 * **Inclure le tableau des métadonnées** - Ajoutez un tableau des détails d’exécution, tels que les détails de l’hôte, du chemin de contenu et de la génération.
 * **Inclure les audits réussis** - Inclure les audits réussis sans opportunités, pas seulement les opportunités trouvées.
+
+Les vérifications qui n&#39;ont pas pu être effectuées sont toujours incluses, peu importe ce que vous choisissez. Pour plus d’informations, voir [Audits qui n’ont pas pu être effectués](#audits-that-could-not-be-completed).
 
 >[!NOTE]
 >
@@ -50,6 +52,15 @@ Le contrôle en amont regroupe les audits associés dans des catégories, telles
 Développez une catégorie pour afficher ses audits individuels. Chaque audit indique s’il a réussi ou trouvé des opportunités, une brève description et un nombre d’opportunités trouvées. Sélectionnez un audit qui a trouvé des opportunités d’ouvrir sa page de détails.
 
 Une catégorie peut afficher des résultats alors que certains de ses audits sont toujours en cours. Son statut indique, par exemple, que les audits **3/3 ont été réalisés jusqu&#39;à présent**. Ce nombre inclut uniquement les audits qui ont renvoyé des résultats. Il peut donc changer à mesure que d’autres résultats arrivent. Développez la catégorie pour voir quels audits sont toujours en cours. Une catégorie sans opportunités n’affiche sa coche entièrement effacée qu’une fois son travail en attente terminé.
+
+### Audits qui n’ont pas pu être menés à bien
+
+Il arrive parfois qu’un audit ne puisse pas être terminé pour une page, par exemple parce que la vérification n’a pas pu évaluer la page ou a rencontré une erreur. Le contrôle en amont n’affiche pas un tel audit comme réussi. Au lieu de cela :
+
+* La ligne d&#39;audit affiche une icône neutre et la raison pour laquelle l&#39;audit n&#39;a pas pu être terminé, à la place de sa description habituelle. Lorsque le motif le suggère, exécutez à nouveau le contrôle en amont pour réessayer.
+* L’audit est comptabilisé comme non réussi dans le chiffre **% réussi** et dans le nombre d’audits réussis de sa catégorie.
+* Sa catégorie n’affiche pas la coche entièrement effacée.
+* Le rapport exporté répertorie toujours l’audit et sa raison, même lorsque l’option **Inclure les audits réussis** n’est pas sélectionnée. Le résumé du rapport ne dit jamais que toutes les vérifications ont réussi.
 
 Pour obtenir la liste complète des catégories d&#39;audit et les audits de chacune d&#39;elles, voir [Catégories d&#39;audit de contrôle en amont](./overview.md#preflight-audit-categories).
 
