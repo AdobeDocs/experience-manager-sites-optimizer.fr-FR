@@ -4,9 +4,9 @@ description: Découvrez les audits d’optimisation du moteur de recherche (SEO)
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 7c362d99632758d1aba0af2bdccaa75c48abd2ec
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '201'
 ht-degree: 0%
 ---
 # Audits d’optimisation pour les moteurs de recherche
@@ -23,7 +23,6 @@ La catégorie SEO comprend les audits suivants :
 * [En-têtes](./seo/headings.md) - Vérifie la structure et l’ordre des en-têtes de la page.
 * [Liens internes](./seo/internal-links.md) - passe en revue les liens de la page qui renvoient à votre propre site.
 * [Liens externes](./seo/external-links.md) - Passe en revue les liens de la page qui pointent vers d’autres sites.
-* [Lisibilité](./seo/readability.md) - Indique à quel point le contenu de la page est facile à lire.
 * [Canonique](./seo/canonical.md) - Vérifie le lien canonique de la page.
 * [Taille du corps](./seo/body-size.md) - Vérifie la quantité de contenu du corps sur la page.
 * [Lorem ipsum](./seo/lorem-ipsum.md) - Détecte le texte d’espace réservé restant dans le contenu.
