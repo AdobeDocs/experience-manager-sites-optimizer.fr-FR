@@ -16,7 +16,7 @@ L’exécution du contrôle en amont nécessite de le configurer dans votre envi
 
 ## Activer l’accès des utilisateurs et des utilisatrices
 
-Pour utiliser le contrôle en amont, les utilisateurs doivent se voir attribuer le produit **** dans [Adobe Admin Console](https://adminconsole.adobe.com).
+Pour utiliser le contrôle en amont, les utilisateurs doivent se voir attribuer le produit **&#x200B;**&#x200B;dans [Adobe Admin Console](https://adminconsole.adobe.com).
 
 ## Activer le contrôle en amont
 
@@ -112,7 +112,7 @@ Pour configurer le contrôle en amont pour la création basée sur des documents
    ```
 
 1. Ouvrez l’URL de prévisualisation (`*.aem.page`) de la page à auditer.
-1. Dans ****, cliquez sur le bouton **Contrôle en amont** pour ouvrir le contrôle en amont de la page active.
+1. Dans **&#x200B;**, cliquez sur le bouton **Contrôle en amont** pour ouvrir le contrôle en amont de la page active.
 
 >[!TAB Éditeur de pages d’AEM Sites]
 
