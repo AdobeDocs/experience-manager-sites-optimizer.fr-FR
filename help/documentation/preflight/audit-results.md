@@ -4,10 +4,10 @@ description: Découvrez comment interpréter les résultats de l’audit de cont
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 2%
+source-wordcount: '1653'
+ht-degree: 0%
 ---
 
 # Résultats de l’audit dans le contrôle en amont
@@ -28,6 +28,8 @@ Lors de l’exportation, vous pouvez également choisir les éléments à inclur
 
 * **Inclure le tableau des métadonnées** - Ajoutez un tableau des détails d’exécution, tels que les détails de l’hôte, du chemin de contenu et de la génération.
 * **Inclure les audits réussis** - Inclure les audits réussis sans opportunités, pas seulement les opportunités trouvées.
+
+Les vérifications qui n&#39;ont pas pu être effectuées sont toujours incluses, peu importe ce que vous choisissez. Pour plus d’informations, voir [Audits qui n’ont pas pu être effectués](#audits-that-could-not-be-completed).
 
 >[!NOTE]
 >
@@ -50,6 +52,15 @@ Le contrôle en amont regroupe les audits associés dans des catégories, telles
 Développez une catégorie pour afficher ses audits individuels. Chaque audit indique s’il a réussi ou trouvé des opportunités, une brève description et un nombre d’opportunités trouvées. Sélectionnez un audit qui a trouvé des opportunités d’ouvrir sa page de détails.
 
 Une catégorie peut afficher des résultats alors que certains de ses audits sont toujours en cours. Son statut indique, par exemple, que les audits **3/3 ont été réalisés jusqu&#39;à présent**. Ce nombre inclut uniquement les audits qui ont renvoyé des résultats. Il peut donc changer à mesure que d’autres résultats arrivent. Développez la catégorie pour voir quels audits sont toujours en cours. Une catégorie sans opportunités n’affiche sa coche entièrement effacée qu’une fois son travail en attente terminé.
+
+### Audits qui n’ont pas pu être menés à bien
+
+Il arrive parfois qu’un audit ne puisse pas être terminé pour une page, par exemple parce que la vérification n’a pas pu évaluer la page ou a rencontré une erreur. Le contrôle en amont n’affiche pas un tel audit comme réussi. Au lieu de cela :
+
+* La ligne d&#39;audit affiche une icône neutre et la raison pour laquelle l&#39;audit n&#39;a pas pu être terminé, à la place de sa description habituelle. Lorsque le motif le suggère, exécutez à nouveau le contrôle en amont pour réessayer.
+* L’audit est comptabilisé comme non réussi dans le chiffre **% réussi** et dans le nombre d’audits réussis de sa catégorie.
+* Sa catégorie n’affiche pas la coche entièrement effacée.
+* Le rapport exporté répertorie toujours l’audit et sa raison, même lorsque l’option **Inclure les audits réussis** n’est pas sélectionnée. Le résumé du rapport ne dit jamais que toutes les vérifications ont réussi.
 
 Pour obtenir la liste complète des catégories d&#39;audit et les audits de chacune d&#39;elles, voir [Catégories d&#39;audit de contrôle en amont](./overview.md#preflight-audit-categories).
 
@@ -81,15 +92,15 @@ Le filtre ne modifie pas le nombre d’opportunités dans le tableau de bord des
 
 Une fois les audits terminés, vous pouvez rapidement localiser et comprendre une opportunité en la mettant en surbrillance directement sur la page.
 
-Le contrôle en amont met en surbrillance l’élément concerné dans son contexte et connecte le résultat du panneau à l’emplacement exact dans votre contenu. Il est ainsi plus facile de vérifier et de résoudre les opportunités sans effectuer de recherche manuelle dans la page.
+Le contrôle en amont met en surbrillance l’élément concerné dans son contexte et associe le résultat du panneau à son emplacement dans votre contenu. Dans l’éditeur universel, le contrôle en amont utilise le contour de sélection de l’éditeur. Dans d’autres environnements de création, la mise en surbrillance utilise des anneaux de contour contrastés pour rester visible en arrière-plan de la page.
 
 1. Ouvrez le panneau Contrôle en amont dans le contexte de la page à contrôler, puis sélectionnez **Analyser la page** pour exécuter les contrôles.
 1. Sélectionnez un audit dans le tableau de bord des résultats, puis sélectionnez une opportunité à examiner.
-1. Sélectionnez **Mettre en surbrillance sur la page**. L’aperçu fait automatiquement défiler la page jusqu’à la zone appropriée et met en surbrillance l’élément correspondant, afin que vous puissiez facilement identifier et optimiser l’opportunité en contexte.
+1. Sélectionnez **Mettre en surbrillance sur la page**. L’aperçu fait automatiquement défiler la page jusqu’à la zone appropriée et met en surbrillance l’élément correspondant, afin que vous puissiez facilement identifier et optimiser l’opportunité en contexte. Sélectionnez à nouveau **Mettre en surbrillance sur la page** pour supprimer la mise en surbrillance sans quitter l’opportunité.
 
 La mise en surbrillance n’est pas possible pour chaque opportunité. Par exemple, lorsqu’une opportunité n’est pas liée à un élément spécifique, l’élément est masqué ou il ne se trouve plus sur la page. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
 
-Dans l’éditeur universel, la mise en surbrillance n’est pas encore prise en charge pour les opportunités **accessibilité** ; le bouton **Mettre en surbrillance sur la page** est grisé et vous pouvez le survoler pour en connaître la raison.
+Dans l’éditeur universel, la mise en surbrillance est prise en charge pour les opportunités **SEO** et **Texte de remplacement** dans la catégorie **Accessibilité**. Les autres opportunités **accessibilité** ne sont pas encore prises en charge. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
 
 Dans l’éditeur universel, le contrôle en amont ne peut que mettre en surbrillance le contenu modifiable. Si l’élément concerné ne fait pas partie du contenu modifiable, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi. Si l’élément lui-même n’est pas directement modifiable, mais que le bloc modifiable le plus proche l’est, le contrôle en amont met en surbrillance ce bloc et ajoute une note expliquant pourquoi.
 
