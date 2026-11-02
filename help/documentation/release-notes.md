@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 12279cd1468a3442709cb73a8691922598a33dab
+source-git-commit: 7a1c63e47cd778635fd18113bc2b08c83447fe35
 workflow-type: tm+mt
-source-wordcount: '3815'
+source-wordcount: '3973'
 ht-degree: 1%
 ---
 
@@ -19,20 +19,28 @@ Cette page présente les dernières mises à jour, les nouvelles fonctionnalité
 
 Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
 
-## 26-28 Octobre 2026 {#october-26-28-2026}
+## 26 Octobre Au 1Er Novembre 2026 {#october-26-november-1-2026}
 
 ### Nouvelles fonctionnalités
 
-- **Couverture d’audit dans les paramètres** — Les paramètres comprennent désormais une section **Couverture d’audit** qui répertorie les audits exécutés pour votre site, regroupés par catégorie, telle que l’optimisation pour les moteurs de recherche, l’accessibilité, la sécurité et la conversion et l’engagement.
+- **Couverture d’audit dans les paramètres** — Les paramètres comprennent désormais une section **Couverture d’audit** qui répertorie les audits exécutés pour votre site, regroupés par catégorie, telle que l’optimisation pour les moteurs de recherche, l’accessibilité, la sécurité et la conversion et l’engagement, y compris les vérifications activées pour les pages d’erreur 404, le cross-site scripting et le consentement des cookies.
 - **Valeur estimée (accès anticipé)** — Core Web Vitals, Texte de remplacement, accessibilité, Contraste des couleurs, Accessibilité des formulaires et opportunités de sécurité affichent désormais une valeur estimée, telle que la main-d’œuvre économisée ou le risque évité, pour vous aider à établir la priorité des correctifs. La main-d’œuvre économisée en termes d’accessibilité et de correctifs de sécurité s’affiche sous la forme d’une valeur ponctuelle. Les opportunités du plan du site et de Hreflang indiquent le nombre de problèmes signalés.
 
 ### Améliorations
 
 - **Tickets Jira pour le texte de remplacement (accès anticipé)** — Créez des tickets Jira pour un ou plusieurs problèmes de texte de remplacement, avec l’URL de la page, l’URL de l’image et le texte de remplacement suggéré inclus dans chaque ticket.
+- **Détails du correctif de contraste des couleurs** — Sur les sites pris en charge, passez en revue une ligne distincte pour chaque page et cause première, avec un correctif partagé pour les éléments concernés et une explication de l’impact de chaque élément sur l’utilisateur.
+- **Contexte de déploiement de Cloud Manager** — La chronologie des alertes de site identifie désormais les **déploiements de Cloud Manager** et explique quels déploiements de production apparaissent.
+- **Déploiement de balises Meta** — Lorsque les informations de relation de la page sont disponibles, la boîte de dialogue de déploiement s’ouvre sans connexion supplémentaire à l’auteur AEM, ce qui rend plus fiable le choix de corriger la page source ou une copie locale dans AEM Multi-Site Manager.
 - **Vérifications en amont qui n’ont pas pu être effectuées** — Une vérification qui n’a pas pu être effectuée maintenant indique sa raison au lieu d’apparaître comme réussie. Il est comptabilisé comme n’ayant pas été transmis dans le chiffre **% transmis** et les exportations CSV et PDF le répertorient toujours.
 - **Progression du texte de remplacement du contrôle en amont** — Pendant que la vérification IA d’une image est toujours en cours, son opportunité de texte de remplacement s’affiche avec un indicateur **Génération de suggestions**. La vue des détails de l’opportunité reste également sur l’opportunité que vous visualisez lorsque les résultats changent.
 - **Contrôle en amont des raisons des liens externes** — L&#39;audit des liens externes explique désormais d&#39;autres types d&#39;échec, notamment les erreurs de serveur, les boucles de redirection, les liens qui nécessitent une connexion et les liens indisponibles pour des raisons juridiques. Les liens qui expirent ou bloquent les contrôles automatisés vous demandent désormais de les confirmer manuellement.
 - **Capture de page de contrôle en amont** — Le contrôle en amont attend désormais jusqu’à 30 secondes pour qu’une page lente se charge avant d’analyser la page, en dehors de l’éditeur universel.
+
+### Correctifs
+
+- L’historique des événements Alertes du site affiche désormais la mesure et la valeur Core Web Vitals correctes pour chaque incident, les baisses de performances sont étiquetées **Dégradation** de manière cohérente dans les alertes du site et les liens des suggestions ouvrent une suggestion disponible au lieu d’une suggestion obsolète.
+- Correction d’un problème qui empêchait de restaurer les correctifs d’opportunités déployés.
 
 ## 19-25 Octobre 2026 {#october-19-25-2026}
 
