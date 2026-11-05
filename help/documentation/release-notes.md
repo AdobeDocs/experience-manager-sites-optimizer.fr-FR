@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7a1c63e47cd778635fd18113bc2b08c83447fe35
+source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
 workflow-type: tm+mt
-source-wordcount: '3973'
+source-wordcount: '3999'
 ht-degree: 1%
 ---
 
@@ -35,6 +35,7 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 - **Vérifications en amont qui n’ont pas pu être effectuées** — Une vérification qui n’a pas pu être effectuée maintenant indique sa raison au lieu d’apparaître comme réussie. Il est comptabilisé comme n’ayant pas été transmis dans le chiffre **% transmis** et les exportations CSV et PDF le répertorient toujours.
 - **Progression du texte de remplacement du contrôle en amont** — Pendant que la vérification IA d’une image est toujours en cours, son opportunité de texte de remplacement s’affiche avec un indicateur **Génération de suggestions**. La vue des détails de l’opportunité reste également sur l’opportunité que vous visualisez lorsque les résultats changent.
 - **Contrôle en amont des raisons des liens externes** — L&#39;audit des liens externes explique désormais d&#39;autres types d&#39;échec, notamment les erreurs de serveur, les boucles de redirection, les liens qui nécessitent une connexion et les liens indisponibles pour des raisons juridiques. Les liens qui expirent ou bloquent les contrôles automatisés vous demandent désormais de les confirmer manuellement.
+- **Détails du contrôle en amont de Lorem Ipsum** — Les résultats de Lorem Ipsum indiquent désormais où apparaît le texte d’espace réservé, expliquent comment le corriger et affichent le texte dans sa balise HTML.
 - **Capture de page de contrôle en amont** — Le contrôle en amont attend désormais jusqu’à 30 secondes pour qu’une page lente se charge avant d’analyser la page, en dehors de l’éditeur universel.
 
 ### Correctifs
