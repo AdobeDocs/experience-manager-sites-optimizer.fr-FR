@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
+source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
 workflow-type: tm+mt
-source-wordcount: '3999'
+source-wordcount: '4035'
 ht-degree: 1%
 ---
 
@@ -19,28 +19,34 @@ Cette page présente les dernières mises à jour, les nouvelles fonctionnalité
 
 Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur demande. Contactez votre équipe de compte ou l’ingénieur du succès client pour les activer pour votre organisation.
 
+## 11 novembre 2026 {#november-11-2026}
+
+### Améliorations
+
+- **Panneau d’élément de contrôle en amont** — La section **Élément** affiche désormais une miniature d’image ou un texte lisible au lieu d’un sélecteur CSS lorsqu’il le peut, et vous permet de copier le texte ou le sélecteur CSS de l’élément.
+
 ## 26 Octobre Au 1Er Novembre 2026 {#october-26-november-1-2026}
 
 ### Nouvelles fonctionnalités
 
-- **Couverture d’audit dans les paramètres** — Les paramètres comprennent désormais une section **Couverture d’audit** qui répertorie les audits exécutés pour votre site, regroupés par catégorie, telle que l’optimisation pour les moteurs de recherche, l’accessibilité, la sécurité et la conversion et l’engagement, y compris les vérifications activées pour les pages d’erreur 404, le cross-site scripting et le consentement des cookies.
-- **Valeur estimée (accès anticipé)** — Core Web Vitals, Texte de remplacement, accessibilité, Contraste des couleurs, Accessibilité des formulaires et opportunités de sécurité affichent désormais une valeur estimée, telle que la main-d’œuvre économisée ou le risque évité, pour vous aider à établir la priorité des correctifs. La main-d’œuvre économisée en termes d’accessibilité et de correctifs de sécurité s’affiche sous la forme d’une valeur ponctuelle. Les opportunités du plan du site et de Hreflang indiquent le nombre de problèmes signalés.
+- **Couverture d’audit dans les paramètres** — Les paramètres comprennent désormais une section **Couverture d’audit** qui répertorie les audits exécutés pour votre site, regroupés par catégorie, telle que l’optimisation pour les moteurs de recherche, l’accessibilité, la sécurité et la conversion et l’engagement, y compris les contrôles activés pour les pages d’erreur 404, le cross-site scripting et le consentement des cookies.
+- **Valeur estimée (accès anticipé)** — Core Web Vitals, Texte de remplacement, accessibilité, Contraste des couleurs, Accessibilité du formulaire et opportunités de sécurité affichent désormais une valeur estimée, telle que la main-d’œuvre économisée ou le risque évité, pour vous aider à hiérarchiser les correctifs. La main-d’œuvre économisée en termes d’accessibilité et de correctifs de sécurité s’affiche sous la forme d’une valeur ponctuelle. Les opportunités du plan du site et de Hreflang indiquent le nombre de problèmes signalés.
 
 ### Améliorations
 
 - **Tickets Jira pour le texte de remplacement (accès anticipé)** — Créez des tickets Jira pour un ou plusieurs problèmes de texte de remplacement, avec l’URL de la page, l’URL de l’image et le texte de remplacement suggéré inclus dans chaque ticket.
-- **Détails du correctif de contraste des couleurs** — Sur les sites pris en charge, passez en revue une ligne distincte pour chaque page et cause première, avec un correctif partagé pour les éléments concernés et une explication de l’impact de chaque élément sur l’utilisateur.
-- **Contexte de déploiement de Cloud Manager** — La chronologie des alertes de site identifie désormais les **déploiements de Cloud Manager** et explique quels déploiements de production apparaissent.
+- **Détails du correctif du contraste des couleurs** — Sur les sites pris en charge, passez en revue une ligne distincte pour chaque page et cause première, avec un correctif partagé pour les éléments affectés et une explication de l’impact de chaque élément sur l’utilisateur.
+- **Contexte de déploiement de Cloud Manager** — La chronologie des alertes de site identifie désormais **Déploiements de Cloud Manager** et explique quels déploiements de production apparaissent.
 - **Déploiement de balises Meta** — Lorsque les informations de relation de la page sont disponibles, la boîte de dialogue de déploiement s’ouvre sans connexion supplémentaire à l’auteur AEM, ce qui rend plus fiable le choix de corriger la page source ou une copie locale dans AEM Multi-Site Manager.
-- **Vérifications en amont qui n’ont pas pu être effectuées** — Une vérification qui n’a pas pu être effectuée maintenant indique sa raison au lieu d’apparaître comme réussie. Il est comptabilisé comme n’ayant pas été transmis dans le chiffre **% transmis** et les exportations CSV et PDF le répertorient toujours.
-- **Progression du texte de remplacement du contrôle en amont** — Pendant que la vérification IA d’une image est toujours en cours, son opportunité de texte de remplacement s’affiche avec un indicateur **Génération de suggestions**. La vue des détails de l’opportunité reste également sur l’opportunité que vous visualisez lorsque les résultats changent.
-- **Contrôle en amont des raisons des liens externes** — L&#39;audit des liens externes explique désormais d&#39;autres types d&#39;échec, notamment les erreurs de serveur, les boucles de redirection, les liens qui nécessitent une connexion et les liens indisponibles pour des raisons juridiques. Les liens qui expirent ou bloquent les contrôles automatisés vous demandent désormais de les confirmer manuellement.
-- **Détails du contrôle en amont de Lorem Ipsum** — Les résultats de Lorem Ipsum indiquent désormais où apparaît le texte d’espace réservé, expliquent comment le corriger et affichent le texte dans sa balise HTML.
+- **Audits de contrôle en amont n&#39;ayant pas pu être effectués** — Un audit qui n&#39;a pas pu être effectué indique maintenant sa raison au lieu d&#39;apparaître comme réussi. Il est comptabilisé comme non transmis dans le chiffre **% transmis**, et les exportations CSV et PDF le répertorient toujours.
+- **Progression du texte de remplacement du contrôle en amont** — Pendant que la vérification IA d’une image est toujours en cours, son opportunité de texte de remplacement s’affiche avec un indicateur **Génération de suggestion**. La vue des détails de l’opportunité reste également sur l’opportunité que vous visualisez lorsque les résultats changent.
+- **Contrôle en amont des raisons des liens externes** — L&#39;audit des liens externes explique désormais d&#39;autres types d&#39;échecs, notamment les erreurs de serveur, les boucles de redirection, les liens qui nécessitent une connexion et les liens indisponibles pour des raisons juridiques. Les liens qui expirent ou bloquent les contrôles automatisés vous demandent désormais de les confirmer manuellement.
+- **Détails du contrôle en amont de Lorem Ipsum** — Les résultats de Lorem Ipsum identifient désormais où apparaît le texte d’espace réservé, expliquent comment le corriger et affichent le texte dans sa balise HTML.
 - **Capture de page de contrôle en amont** — Le contrôle en amont attend désormais jusqu’à 30 secondes pour qu’une page lente se charge avant d’analyser la page, en dehors de l’éditeur universel.
 
 ### Correctifs
 
-- L’historique des événements Alertes du site affiche désormais la mesure et la valeur Core Web Vitals correctes pour chaque incident, les baisses de performances sont étiquetées **Dégradation** de manière cohérente dans les alertes du site et les liens des suggestions ouvrent une suggestion disponible au lieu d’une suggestion obsolète.
+- L’historique des événements Alertes du site affiche désormais la mesure et la valeur Core Web Vitals correctes pour chaque incident, les baisses de performances sont étiquetées **Dégradation** de manière cohérente dans les alertes du site et les liens de suggestions ouvrent une suggestion disponible au lieu d’une suggestion obsolète.
 - Correction d’un problème qui empêchait de restaurer les correctifs d’opportunités déployés.
 
 ## 19-25 Octobre 2026 {#october-19-25-2026}
@@ -48,21 +54,21 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 ### Nouvelles fonctionnalités
 
 - **Rapport d’accessibilité unifié (accès anticipé)** — Le rapport d’accessibilité rassemble désormais tous les résultats dans un seul rapport, avec une vue d’ensemble des problèmes et une analyse par type de problème, groupe de pages et page. Ouvrez un panneau latéral pour obtenir des conseils sur les correctifs au niveau des éléments, puis exportez le rapport au format CSV.
-- **Paramètre Contrôle en amont des liens de navigation du site** — Choisissez si l&#39;audit des liens internes vérifie les liens dans les menus de navigation du site. Le paramètre est désactivé par défaut, de sorte que les audits se terminent plus rapidement, et **Réanalyser** s’affiche lorsqu’un paramètre modifié n’a pas encore été appliqué.
-- **Filtres d’instance de contrôle en amont** — Dans les pages de détails Liens internes et Liens externes, filtrez les instances par **Interrompu** ou **Vérification requise**.
+- **Paramètre Contrôle en amont des liens de navigation du site** — Choisissez si l&#39;audit des liens internes vérifie les liens à l&#39;intérieur des menus de navigation du site. Le paramètre est désactivé par défaut, de sorte que les audits se terminent plus rapidement, et **Réanalyser** s&#39;affiche lorsqu&#39;un paramètre modifié n&#39;a pas encore été appliqué.
+- **Filtres d’instance de contrôle en amont** — Sur les pages de détails Liens internes et Liens externes, filtrez les instances par **Interrompu** ou **Vérification nécessaire**.
 
 ### Améliorations
 
-- **Redirections Dispatcher de liens descendants rompus (accès anticipé)** — Sur les sites AEM as a Cloud Service où Sites Optimizer déploie des redirections via Dispatcher, les correctifs de liens descendants rompus sont désormais étiquetés comme déployés vers Dispatcher au lieu d’AEM Author, et vous pouvez restaurer une redirection déployée.
+- **Redirections Dispatcher de liens rétroactifs rompus (accès anticipé)** — Sur les sites AEM as a Cloud Service où Sites Optimizer déploie les redirections via Dispatcher, les correctifs de liens rétroactifs rompus sont désormais étiquetés comme déployés vers Dispatcher au lieu d’AEM Author, et vous pouvez restaurer une redirection déployée.
 - **Statut de l’audit du moniteur d’intégrité du site** — Les scores d’intégrité reflètent désormais les audits activés pour votre site. Les audits désactivés sont masqués, les audits qui doivent être configurés s’affichent avec une explication et aucun des deux n’est comptabilisé dans les scores de catégorie.
-- **Pas de CTA au-dessus des propositions de pli** — Les suggestions Pas de CTA au-dessus du pli affichent désormais une proposition call-to-action structurée avec des propositions côte à côte **Contrôle** et **Proposition** et les opportunités n’apparaissent que lorsque les deux captures d’écran sont disponibles.
-- **Autorisations de groupe (accès anticipé)** — Accordez l&#39;accès au site à des groupes d&#39;utilisateurs de votre organisation, et pas seulement à des personnes individuelles, et affichez un badge **Utilisateur inactif** pour les membres qui ne figurent plus dans le répertoire de votre organisation.
-- **Données structurées restaurables ignorées** — Les problèmes de données structurées ignorées apparaissent désormais dans un onglet **Ignorées** où vous pouvez les restaurer.
+- **Pas de CTA au-dessus des propositions de pli** — Les suggestions Pas de CTA au-dessus du pli affichent désormais une proposition call-to-action structurée avec des captures d’écran de **contrôle** et de **proposition** côte à côte, et les opportunités n’apparaissent que lorsque les deux captures d’écran sont disponibles.
+- **Autorisations de groupe (accès anticipé)** — Accordez l’accès au site à des groupes d’utilisateurs de votre organisation, et pas seulement à des personnes individuelles, et affichez un badge **Utilisateur inactif** pour les membres qui ne figurent plus dans l’annuaire de votre organisation.
+- **Ignorer les données structurées restaurables** — Les problèmes de données structurées ignorées apparaissent désormais dans un onglet **Ignorées** où vous pouvez les restaurer.
 - **Questions fréquentes - Suggestions de données structurées** — Les suggestions de questions fréquentes indiquent désormais exactement les paires question-réponse qui seront déployées. Les paires individuelles ne peuvent plus être supprimées de la table.
 - **Progression de l’audit de contrôle en amont** — L’indicateur de préparation indique désormais le pourcentage d’audits réussis, et chaque catégorie indique le moment où ses audits sont toujours en cours, avec un décompte « réussi jusqu’à présent » jusqu’à ce que ses résultats soient définitifs.
-- **Couverture des liens internes de contrôle en amont** — L’audit des liens internes vérifie désormais tous les liens éligibles du même hôte sur la page, y compris les liens dans les composants répétés tels que les listes de cartes. Les liens de navigation de site sont inclus uniquement lorsque **Afficher les liens de navigation de site** est sélectionné. Les liens en dehors de la navigation sur le site sont répertoriés en premier et le contrôle en amont signale clairement lorsqu’une page comporte trop de liens pour être archivée à temps.
-- **Actions d’en-tête de contrôle en amont** — **Réanalyser** et **Fermer** restent toujours visibles dans l’en-tête de contrôle en amont et **Exporter** et **Paramètres** se déplacent dans le menu **Plus d’actions** lorsque l’espace est limité.
-- **Reprises des liens internes de contrôle en amont** — L&#39;audit des liens internes tente désormais de reproduire les liens qui échouent temporairement, de sorte qu&#39;une courte panne est moins susceptible d&#39;être signalée comme un lien rompu.
+- **Couverture des liens internes de contrôle en amont** — L’audit des liens internes vérifie désormais chaque lien de même hôte éligible de la page, y compris les liens dans les composants répétés tels que les listes de cartes. Les liens de navigation de site sont inclus uniquement lorsque **Afficher les liens de navigation de site** est sélectionné. Les liens en dehors de la navigation sur le site sont répertoriés en premier et le contrôle en amont signale clairement lorsqu’une page comporte trop de liens pour être archivée à temps.
+- **Les actions de l’en-tête de contrôle en amont** — **Réanalyser** et **Fermer** restent toujours visibles dans l’en-tête de contrôle en amont, et **Exporter** et **Paramètres** se déplacent dans le menu **Autres actions** lorsque l’espace est limité.
+- **Tentatives de contrôle en amont des liens internes** — L&#39;audit des liens internes tente désormais de contrôler à nouveau les liens qui échouent temporairement, de sorte qu&#39;une courte panne est moins susceptible d&#39;être signalée comme un lien rompu.
 - **Indicateurs de progression du contrôle en amont** — Les indicateurs de traitement s’affichent désormais uniquement sur les audits toujours en cours, et non sur leurs catégories.
 - **Détails de l’opportunité de contrôle en amont** — Les opportunités n’affichent plus les badges de gravité et les exportations CSV et PDF n’incluent plus la gravité.
 
@@ -70,7 +76,7 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 
 - La recherche d’opportunités renvoie désormais des résultats cohérents, indépendamment de la casse des lettres, des accents, des tirets ou des espaces supplémentaires, y compris lorsque vous collez un nom d’opportunité.
 - Le Moniteur d’intégrité du site ne répertorie plus les documents PDF en tant que pages.
-- **En savoir plus** les liens de la boîte de dialogue Connexion à AEM Sites , les libellés de gravité composés et les cartes de mesures d’évaluation de l’accueil s’affichent désormais correctement dans toutes les langues prises en charge.
+- **En savoir plus** les liens de la boîte de dialogue Connexion à AEM Sites, les libellés de gravité composés et les cartes de mesure d’évaluation de l’accueil s’affichent désormais correctement dans toutes les langues prises en charge.
 - Les URL longues dans les détails des opportunités de contrôle en amont s’encapsulent désormais au lieu d’élargir la carte.
 
 ## 12-18 Octobre 2026 {#october-12-18-2026}
@@ -79,9 +85,9 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 
 - **Tickets Jira en bloc pour l’accessibilité (accès anticipé)** — Sélectionnez plusieurs problèmes d’accessibilité, de contraste des couleurs et d’accessibilité des formulaires et créez un ticket Jira avec un titre groupé et une seule pièce jointe de correctif de code combiné.
 - **Mesures du Moniteur d&#39;intégrité du site** — Le Moniteur d&#39;intégrité du site n&#39;utilise plus la mesure de taux de clic publicitaire (CTR) retirée dans sa logique d&#39;intégrité ou son tableau de bord.
-- **Correspondance de sites en contrôle en amont** — Lorsqu’une page correspond à plusieurs sites intégrés, le contrôle en amont explique le problème et vous permet de continuer avec l’un des sites correspondants.
-- **Suggestions de texte de remplacement pour le contrôle en amont** — Les opportunités de texte de remplacement affichent le texte de remplacement suggéré comme une suggestion prête à l&#39;emploi, suivie de la raison de la suggestion lorsqu&#39;elle est disponible.
-- **Détails Ipsum du lorem de contrôle en amont** — Lorsque du texte d’espace réservé est trouvé dans un attribut, comme le texte de remplacement d’une image, l’opportunité affiche l’attribut correspondant.
+- **Correspondance de sites de contrôle en amont** — Lorsqu’une page correspond à plusieurs sites intégrés, le contrôle en amont explique le problème et vous permet de continuer avec l’un des sites correspondants.
+- **Suggestions de texte de remplacement pour le contrôle en amont** — Les opportunités de texte de remplacement affichent le texte de remplacement suggéré sous la forme d’une suggestion prête à l’emploi, suivie de la raison de la suggestion lorsqu’elle est disponible.
+- **Détails Ipsum de Lorem de contrôle en amont** — Lorsque du texte d’espace réservé est trouvé dans un attribut, tel que le texte de remplacement d’une image, l’opportunité affiche l’attribut correspondant.
 
 ### Correctifs
 
@@ -96,7 +102,7 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 ### Améliorations
 
 - **Alertes de site et Core Web Vitals (accès anticipé)** — Passez des alertes de site aux suggestions de Core Web Vitals en un seul clic. Les incidents d’alerte renvoient vers les correctifs disponibles et les lignes de Core Web Vitals affichent un badge **Alerte** lorsque la page comporte une alerte de site.
-- **Contrôle en amont dans l’éditeur universel** : les audits dans l’éditeur universel utilisent désormais le contenu rendu de la page, ce qui les rend plus rapides et plus fiables.
+- **Contrôle en amont dans l’éditeur universel** — Les audits dans l’éditeur universel utilisent désormais le contenu rendu de la page, ce qui les rend plus rapides et plus fiables.
 - **Détails du lien de contrôle en amont** — Les liens rompus marqués par le vérificateur de lien d’AEM affichent désormais le texte visible du lien au lieu d’un sélecteur CSS.
 
 ### Correctifs
@@ -108,7 +114,7 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 
 ### Nouvelles fonctionnalités
 
-- **Opportunités des agents d’IA personnels (accès anticipé)** filtrez les opportunités qui aident les agents d’IA personnels à lire et à interagir avec votre site, à l’aide de badges et de conseils expliquant les avantages.
+- **Opportunités des agents d’IA personnels (accès anticipé)** — Filtrez les opportunités qui aident les agents d’IA personnels à lire et à interagir avec votre site, à l’aide de badges et de conseils expliquant les avantages.
 
 ### Améliorations
 
@@ -129,8 +135,8 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 
 ### Améliorations
 
-- **FAQ sur le déploiement des données structurées (accès anticipé)** — Pour les pages gérées avec AEM Multi-Site Manager, choisissez d’appliquer des mises à jour de données structurées à la page source ou uniquement à la page locale.
-- **Déploiement de formulaire** — Déployez de manière fiable le correctif associé à la variation de formulaire sélectionnée.
+- **FAQ Déploiement des données structurées (accès anticipé)** — Pour les pages gérées avec AEM Multi-Site Manager, choisissez d’appliquer des mises à jour de données structurées à la page source ou uniquement à la page locale.
+- **Déploiement du formulaire** — Déployez de manière fiable le correctif associé à la variation de formulaire sélectionnée.
 - **Expériences localisées** — Les libellés d’autorisation et le contenu du tableau tronqué sont plus clairs dans les langues prises en charge.
 
 ### Correctifs
@@ -184,41 +190,41 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 ### Nouvelles fonctionnalités
 
 - **Vue Alertes** — Examinez une chronologie de 90 jours des incidents d&#39;intégrité du site détectés automatiquement, corrélez les modifications avec les déploiements et les mises à jour de contenu, et examinez les pages affectées et les mesures de performances au même endroit.
-- **Rapports et succès** : utilisez la section Rapports pour consulter l&#39;historique d&#39;optimisation, les tendances de performances et les succès avant et après qui vous aident à communiquer l&#39;impact de votre travail d&#39;optimisation.
-- **Nouveautés et Centre d’aide** — Découvrez les fonctionnalités récemment publiées, ouvrez la documentation du produit et accédez directement aux notes de mise à jour depuis le Centre d’aide in-app.
+- **Rapports et succès** — Utilisez la section Rapports pour consulter l&#39;historique d&#39;optimisation, les tendances de performances et les succès avant et après qui vous aident à communiquer l&#39;impact de votre travail d&#39;optimisation.
+- **Nouveautés et Centre d&#39;aide** — Découvrez les fonctionnalités récemment publiées, ouvrez la documentation du produit et accédez aux notes de mise à jour directement depuis le Centre d&#39;aide in-app.
 - **Connexion Google Ads (accès anticipé)** — Connectez un compte Google Ads pour importer des données de performances de trafic payant dans les opportunités et recommandations Sites Optimizer.
 
 ### Améliorations
 
 - **Contrôles de liste d’opportunités** — Filtrez et triez les opportunités par URL, statut marqué, priorité ou récence, enregistrez les vues dans l’URL pour le partage et exportez les données de suggestion au format CSV.
-- **Contrôles de workflow de suggestions** — Modifiez les suggestions générées par l’IA avant le déploiement, ignorez les suggestions individuelles, ignorez les opportunités complètes et restaurez les opportunités ignorées lorsqu’elles redeviennent pertinentes.
-- **Historique de déploiement** — Examinez l&#39;historique de déploiement par date, faites la distinction entre les déploiements automatiques et les modifications marquées comme déployées manuellement, et suivez les liens de demande d&#39;extraction pour les correctifs basés sur du code.
-- **Intégrations de marque et Slack** : sélectionnez une marque Adobe GenStudio pour la génération de contenu sur la marque et partagez les mises à jour d’optimisation pertinentes avec un canal Slack configuré.
+- **Contrôles de workflow de suggestions** — Modifiez les suggestions générées par l’IA avant le déploiement, ignorez les suggestions individuelles, ignorez les opportunités terminées et restaurez les opportunités ignorées lorsqu’elles redeviennent pertinentes.
+- **Historique de déploiement** — Examinez l&#39;historique de déploiement par date, distinguez les déploiements automatiques des modifications marquées comme déployées manuellement et suivez les liens de demande d&#39;extraction pour les correctifs basés sur du code.
+- **Intégrations de marque et Slack** — Sélectionnez une marque Adobe GenStudio pour la génération de contenu sur la marque et partagez les mises à jour d’optimisation pertinentes avec un canal Slack configuré.
 
 ## 6-19 Août 2026
 
 ### Nouvelles fonctionnalités
 
-- **Contrôle en amont dans l’éditeur de page d’AEM Sites** — Si votre environnement de création exécute AEM version 2026.7.0 ou ultérieure, vous pouvez ouvrir le contrôle en amont directement depuis la barre d’outils de l’éditeur de page pour analyser la page active sans quitter votre workflow de création.
-- **Options d&#39;exportation de contrôle en amont** : exportez les résultats du contrôle en amont au format CSV ou PDF, avec des options permettant d&#39;inclure les métadonnées d&#39;exécution et les audits réussis, ce qui facilite le partage des résultats et le suivi de la préparation.
+- **Contrôle en amont dans l’éditeur de page d’AEM Sites** — Si votre environnement de création exécute AEM version 2026.7.0 ou ultérieure, vous pouvez ouvrir le contrôle en amont directement à partir de la barre d’outils de l’éditeur de page pour analyser la page active sans quitter votre workflow de création.
+- **Options d&#39;exportation du contrôle en amont** — Exportez les résultats du contrôle en amont au format CSV ou PDF, avec des options permettant d&#39;inclure les métadonnées d&#39;exécution et les audits réussis, ce qui facilite le partage des résultats et le suivi de la préparation.
 
 ### Améliorations
 
-- **Détails de la session de contrôle en amont** : lorsque vous poursuivez une session d’audit précédente, le contrôle en amont indique le moment où l’exécution a été effectuée et rend les éléments concernés plus faciles à identifier en affichant du texte lisible ou un sélecteur CSS.
+- **Détails de la session de contrôle en amont** — Lorsque vous poursuivez une session d’audit précédente, le contrôle en amont indique le moment où l’exécution a été effectuée et rend les éléments concernés plus faciles à identifier en affichant du texte lisible ou un sélecteur CSS.
 
 ## Du 1Er Au 19 Juillet 2026
 
 ### Nouvelles fonctionnalités
 
-- **Gestion des autorisations (accès anticipé)** — Les utilisateurs dotés de la fonctionnalité Gérer les utilisateurs peuvent désormais contrôler l’accès au site à partir d’un nouvel onglet Autorisations — Rechercher des personnes par nom ou adresse e-mail et accorder ou révoquer des fonctionnalités spécifiques. Les actions qu’un utilisateur n’est pas autorisé à effectuer apparaissent désactivées avec une info-bulle expliquant comment demander l’accès.
+- **Gestion des autorisations (accès anticipé)** — Les utilisateurs dotés de la fonctionnalité Gérer les utilisateurs peuvent désormais contrôler l&#39;accès au site à partir d&#39;un nouvel onglet Autorisations — Rechercher des personnes par nom ou adresse e-mail et accorder ou révoquer des fonctionnalités spécifiques. Les actions qu’un utilisateur n’est pas autorisé à effectuer apparaissent désactivées avec une info-bulle expliquant comment demander l’accès.
 - **Badges d’état de déploiement** — Les correctifs marqués comme déployés manuellement affichent désormais un badge « Marqués comme déployés » distinct dans la vue Déployé, ce qui facilite la distinction entre les mises à jour manuelles et les déploiements automatiques.
 
 ### Améliorations
 
-- **Correctif automatique pour GitHub (Cloud Manager)** — Le correctif automatique de correctif de code pour des opportunités telles que Core Web Vitals, la sécurité et l’accessibilité des formulaires peut désormais générer des demandes d’extraction sur des référentiels Git Cloud Manager apportez votre propre contenu hébergé sur GitHub, ce qui correspond à la prise en charge existante de GitLab, Bitbucket et Azure DevOps. Le nouveau bouton (bascule) Paramètres permet de contrôler la confirmation de configuration unique de votre site.
-- **Correction automatique par branche (Cloud Manager Standard)** : la fonction de correction automatique par branche est désormais disponible pour les référentiels Cloud Manager standard lorsqu’elle est activée pour votre site.
-- **Vue déployée : effectuée par** — La vue déployée indique désormais qui a marqué chaque correctif comme déployé et quand son statut a été mis à jour pour la dernière fois, via les nouvelles colonnes « Effectué par » et « Dernier statut mis à jour ».
-- **Commentaires sur la déconnexion de Google Ads** — La déconnexion d’un compte Google Ads dans les paramètres affiche désormais l’état « Déconnexion... », avec un message d’erreur « Annulation » si la déconnexion échoue pour que vous puissiez réessayer.
+- **Correctif automatique pour GitHub (Cloud Manager)** — Le correctif automatique de correctif de code pour des opportunités telles que Core Web Vitals, la sécurité et l’accessibilité des formulaires peut désormais générer des demandes d’extraction sur Cloud Manager. Apportez vos propres référentiels Git hébergés sur GitHub, ce qui correspond à la prise en charge existante de GitLab, Bitbucket et Azure DevOps. Le nouveau bouton (bascule) Paramètres permet de contrôler la confirmation de configuration unique de votre site.
+- **Correction automatique par branche (Cloud Manager Standard)** — La correction automatique par branche est désormais disponible pour les référentiels Cloud Manager standard lorsqu’elle est activée pour votre site.
+- **Vue déployée : effectuée par** — La vue déployée indique désormais qui a marqué chaque correctif comme déployé et quand son statut a été mis à jour pour la dernière fois, via les nouvelles colonnes « Effectué par » et « Dernière mise à jour du statut ».
+- **Commentaires sur la déconnexion de Google Ads** — La déconnexion d’un compte Google Ads dans les paramètres affiche désormais l’état « Déconnexion... », avec un message d’erreur Annuler en cas d’échec de la déconnexion afin que vous puissiez réessayer.
 
 ### Correctifs
 
@@ -231,7 +237,7 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 ### Nouvelles fonctionnalités
 
 - **Rapport sur les alertes sur le site (accès anticipé)** — Un nouveau rapport sur les alertes sur le site de 90 jours fournit une vue trimestrielle de l&#39;état de votre site, en utilisant des blocs quotidiens codés par couleur pour mettre en évidence les périodes d&#39;alertes élevées afin que vous puissiez rapidement identifier et étudier les tendances au fil du temps.
-- **Intégration de la télémétrie opérationnelle** — Les sites qui n’ont pas encore connecté les données de télémétrie opérationnelle reçoivent désormais une bannière persistante sur la page d’accueil et une boîte de dialogue d’intégration guidée pour terminer la configuration, ce qui vous garantit une visibilité complète des performances en temps réel de l’utilisateur.
+- **Intégration de la télémétrie opérationnelle** — Les sites qui n’ont pas encore connecté les données de télémétrie opérationnelle reçoivent désormais une bannière persistante sur la page d’accueil et une boîte de dialogue d’intégration guidée pour terminer la configuration, ce qui vous permet d’obtenir une visibilité complète sur les performances en temps réel de l’utilisateur.
 - **Texte de remplacement : sensibilisation à Multi-Site Manager** — Lors de la génération de correctifs de texte de remplacement pour les sites qui utilisent AEM Multi-Site Manager ou la copie de langue, Sites Optimizer vérifie désormais si les correctifs peuvent être appliqués en toute sécurité à chaque variante de langue avant de les suggérer.
 
 ### Améliorations
@@ -250,8 +256,8 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 
 ### Nouvelles fonctionnalités
 
-- **Aucun état d’intégration du site** — Les clients qui n’ont pas encore ajouté de site reçoivent désormais une invite claire et exploitable sur la page d’accueil pour commencer rapidement.
-- **Documentation dans le centre d’aide** — La documentation d’AEM Sites Optimizer sur Experience League est désormais accessible directement à partir du centre d’aide in-app, sans quitter le produit.
+- **Aucun état d’intégration de site** — Les clients qui n’ont pas encore ajouté de site reçoivent désormais une invite claire et exploitable sur la page d’accueil pour commencer rapidement.
+- **Documentation dans le centre d’aide** — La documentation d’AEM Sites Optimizer sur Experience League est désormais accessible directement depuis le centre d’aide in-app, sans quitter le produit.
 
 ### Correctifs
 
@@ -264,46 +270,46 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 
 ### Nouvelles fonctionnalités
 
-- **Intégration d’essais** — Les nouveaux utilisateurs d’essais bénéficient désormais d’un flux de configuration guidé : saisissez votre domaine, attendez l’analyse, puis explorez vos premières opportunités. Aucune configuration n’est nécessaire pour commencer.
+- **Intégration d’essais** — Les nouveaux utilisateurs d’essais font maintenant l’expérience d’un flux de configuration guidé : saisissez votre domaine, attendez l’analyse, puis explorez vos premières opportunités — aucune configuration requise pour commencer.
 - **Page des opportunités d’évaluation** — Les utilisateurs de la version d’évaluation peuvent rechercher, trier et filtrer les opportunités. Trois suggestions sont déverrouillées et les suggestions restantes s’affichent dans un aperçu verrouillé avec une invite de mise à niveau.
-- **Progression de l’optimisation mensuelle** — Une barre de progression sur la page d’accueil effectue le suivi du nombre d’actions d’optimisation effectuées ce mois-ci, ce qui vous permet de respecter les objectifs d’intégrité de votre site.
+- **Progression mensuelle de l’optimisation** — Une barre de progression sur la page d’accueil permet de suivre le nombre d’actions d’optimisation effectuées ce mois-ci, ce qui vous permet de respecter les objectifs d’intégrité de votre site.
 - **URL de la cible d’audit (accès anticipé)** — Sous Paramètres, vous pouvez désormais spécifier jusqu’à 100 URL personnalisées pour vous assurer que ces pages sont toujours incluses dans les audits.
 - **Configuration du type de diffusion** — Les paramètres vous permettent désormais de spécifier le type de diffusion de votre site (Edge Delivery Services, AEM Cloud Service ou AEM Managed Services) et de connecter votre fournisseur de contenu.
 - **Reconception de Core Web Vitals** — L’opportunité Core Web Vitals a été repensée avec la liaison Jira, le téléchargement CSV et la prise en charge multi-sélection des actions par lots.
-- **Tableau unifié de liens retour rompus** — Les liens retour rompus provenant de toutes les sources sont désormais affichés dans un seul tableau unifié, avec la possibilité d’exporter directement des règles de redirection CDN.
-- **Pas de CTA au-dessus du pli : déployer sur l’instance de création** — Les correctifs de l’opportunité Pas de CTA au-dessus du pli peuvent désormais être déployés directement sur l’instance de création AEM.
+- **Tableau unifié des liens retour rompus** — Les liens retour rompus provenant de toutes les sources sont désormais affichés dans un seul tableau unifié, avec la possibilité d’exporter directement des règles de redirection CDN.
+- **Pas de CTA au-dessus du pli : déployer sur l’auteur** — Les correctifs pour l’opportunité Pas de CTA au-dessus du pli peuvent désormais être déployés directement sur l’auteur AEM.
 - **Déploiement d’un correctif automatique Forms** — Les correctifs d’opportunités Forms peuvent désormais être déployés directement sur l’instance de création AEM.
 - **Prise en charge d’AEM Multi-Site Manager** — Les opportunités qui affectent plusieurs copies de langue d’un site indiquent désormais à quel site racine le correctif a été appliqué, à l’aide d’une colonne « Fixe à ».
-- **Ignorer les correctifs ayant échoué** — Vous pouvez désormais ignorer les correctifs individuels dont le déploiement a échoué, ce qui permet de débloquer votre workflow.
+- **Ignorer les correctifs ayant échoué** — Vous pouvez désormais ignorer les correctifs individuels dont le déploiement a échoué, et ainsi votre workflow ne sera plus bloqué.
 - **Ouvrir dans l’éditeur AEM** — Les suggestions d’opportunités incluent désormais un lien direct pour ouvrir la page concernée dans l’éditeur visuel AEM afin d’effectuer des modifications rapides sur la ligne.
 
 ## Du 28 Février Au 13 Mars 2026
 
 ### Nouvelles fonctionnalités
 
-- **Opportunité de correspondance d’intention d’annonce publicitaire** — Un nouveau type d’opportunité identifie les pages de destination de trafic payant qui ne sont pas converties, le taux de rebond de l’affichage, le coût par clic et les mesures de trafic afin de vous aider à hiérarchiser les améliorations des pages de destination.
-- **Pas de CTA au-dessus du pli** — Cette opportunité est désormais un type de première classe dédié avec sa propre page de détails et son propre filtrage, ce qui facilite le suivi et la hiérarchisation des améliorations de conversion.
-- **Suggestions d’URL de plan de site** — L’opportunité de plan de site suggère désormais des URL de remplacement pour les pages renvoyant des erreurs 404, ce qui facilite la correction des entrées de plan de site rompues.
-- **Reconception des liens retour rompus** — La page détaillée des liens retour rompus a été repensée pour une plus grande clarté et convivialité.
+- **Opportunité de non-correspondance de l’intention d’annonce publicitaire** — Un nouveau type d’opportunité identifie les pages de destination de trafic payant qui ne sont pas converties, le taux de rebond de l’affichage, le coût par clic et les mesures de trafic afin de vous aider à hiérarchiser les améliorations des pages de destination.
+- **Pas de CTA au-dessus du pli** — Cette opportunité est désormais un type de première classe dédié avec sa propre page de détails et son propre filtrage, ce qui facilite le suivi et la hiérarchisation des améliorations de la conversion.
+- **Suggestions d’URL de plan de site** — L’opportunité de plan de site suggère désormais des URL de remplacement pour les pages renvoyant des erreurs 404, ce qui facilite la correction des entrées de plan de site endommagées.
+- **Refonte des liens retour rompus** — La page de détails Liens retour rompus a été repensée pour plus de clarté et de convivialité.
 
 ### Améliorations
 
-- **Pages de recherche organiques les plus consultées V2** — Les données de trafic organiques proviennent désormais d’un jeu de données Ahrefs de 30 jours, ce qui fournit des informations plus complètes et exploitables sur les performances des recherches.
-- **Vulnérabilités de sécurité : arborescence des dépendances** — Les détails des vulnérabilités de sécurité incluent désormais une visualisation sous forme d’arborescence des dépendances afin que vous puissiez comprendre l’impact complet d’une vulnérabilité dans l’ensemble de votre projet.
+- **Pages de recherche organiques les plus consultées V2** — Les données de trafic organiques proviennent désormais d’un jeu de données Ahrefs de 30 jours, ce qui fournit des informations plus complètes et exploitables sur les performances de recherche.
+- **Vulnérabilités de sécurité : arborescence des dépendances** — Les détails des vulnérabilités de sécurité incluent désormais une visualisation d’arborescence des dépendances afin que vous puissiez comprendre l’impact complet d’une vulnérabilité dans l’ensemble de votre projet.
 
 ## Du 14 Au 27 Février 2026
 
 ### Nouvelles fonctionnalités
 
-- **Principales pages de recherche organiques** — Site Health Monitor comprend désormais un onglet dédié affichant les principales pages de trafic organique de votre site, ce qui vous donne une visibilité sur le contenu qui génère le plus de trafic de recherche.
+- **Pages de recherche organiques les plus consultées** — Site Health Monitor comprend désormais un onglet dédié affichant les pages de trafic organique les plus consultées sur votre site, ce qui vous donne une visibilité sur le contenu qui génère le plus de trafic de recherche.
 - **Correctif automatique de texte de remplacement V2** — Avant de déployer un correctif de texte de remplacement, vous pouvez exécuter une évaluation « Vérifier la fixabilité » avant le vol pour vérifier que le correctif peut être appliqué avec succès à votre contenu.
-- **Affichage déployé pour le texte de remplacement** — Les correctifs de texte de remplacement apparaissent désormais dans un onglet Déployé , ce qui vous donne un historique complet des améliorations d’accessibilité, ainsi que des problèmes en suspens actuels.
-- **Porte de déploiement d’organisation externe** — Lors du déploiement de correctifs sur un site géré en externe, une étape de confirmation explicite est désormais requise afin d’éviter tout changement accidentel.
+- **Affichage déployé pour le texte de remplacement** — Les correctifs du texte de remplacement apparaissent désormais dans un onglet Déployé, vous donnant ainsi un historique complet des améliorations de l’accessibilité, ainsi que des problèmes en suspens actuels.
+- **Porte de déploiement d&#39;organisation externe** — Lors du déploiement de correctifs sur un site géré en externe, une étape de confirmation explicite est désormais nécessaire pour éviter les modifications accidentelles.
 
 ### Améliorations
 
-- **Exemptions d’URL de balises Meta** — Des URL spécifiques peuvent désormais être exclues de la validation des balises Meta via la configuration, ce qui réduit les faux positifs pour les titres intentionnellement courts ou non standard.
-- **Filtrage d’URL avancé** — Les listes d’opportunités prennent désormais en charge la correspondance des préfixes de sous-itinéraire lors du filtrage par URL, ce qui facilite la mise au point sur des sections spécifiques de votre site.
+- **Exemptions d’URL des balises Meta** — Des URL spécifiques peuvent désormais être exclues de la validation des balises Meta via la configuration, ce qui réduit les faux positifs pour les titres intentionnellement courts ou non standard.
+- **Filtrage d’URL avancé** — Les listes d’opportunités prennent désormais en charge la correspondance des préfixes de sous-itinéraire lors du filtrage par URL, ce qui facilite la mise en évidence de sections spécifiques de votre site.
 - **Graphiques de tendances améliorés** — Les graphiques de tendances du trafic gèrent désormais correctement les données d&#39;une année sur l&#39;autre, supprimant les creux trompeurs aux limites de l&#39;année.
 
 ## 6-13 Février 2026
@@ -311,22 +317,22 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 ### Nouvelles fonctionnalités
 
 - **Mode de maintenance** — Sites Optimizer gère désormais les fenêtres de maintenance planifiée avec élégance, affichant un message d’état clair au lieu de données incomplètes ou trompeuses pendant les temps d’arrêt.
-- **Affichage déployé pour les liens retour rompus** — Les liens retour fixes sont désormais suivis dans un onglet Déployé, regroupés par date, afin que vous puissiez voir votre historique de correction en un coup d&#39;œil.
+- **Vue déployée pour les liens retour rompus** — Les liens retour fixes sont désormais suivis dans un onglet Déployé, regroupés par date, afin que vous puissiez voir votre historique de correction en un coup d’œil.
 - **Pas de CTA au-dessus du pli de l’opportunité** — Un nouveau type d’opportunité survole les pages où aucun call-to-action clair n’est visible au-dessus du pli, ce qui vous permet d’identifier et d’améliorer les pages à faible potentiel de conversion.
-- **Intégration Jira pour l’accessibilité et le contraste des couleurs (accès anticipé)** — Les opportunités d’accessibilité de Forms et du contraste des couleurs peuvent désormais être liées directement aux tickets Jira pour un suivi des problèmes rationalisé dans votre workflow existant.
+- **Intégration Jira pour l’accessibilité et le contraste des couleurs (accès anticipé)** — Les opportunités d’accessibilité Forms et Contraste des couleurs peuvent désormais être liées directement aux tickets Jira pour un suivi des problèmes rationalisé dans votre workflow existant.
 
 ### Améliorations
 
-- **Vues déployées pour Meta Tags et sécurité** — Les balises Meta et les opportunités de sécurité incluent désormais des onglets Déployés groupés par dates, cohérents avec les autres types d’opportunités.
-- **Suivi du déploiement du texte de remplacement** — « Marquer comme déployé » est désormais disponible pour les correctifs de texte de remplacement et le texte de remplacement modifié manuellement est conservé lors des exécutions de nouvelle analyse.
+- **Vues déployées pour Meta Tags &amp; Security** — Les balises Meta et les opportunités de sécurité incluent désormais des onglets Déployés groupés par dates, cohérents avec les autres types d&#39;opportunités.
+- **Suivi du déploiement de texte de remplacement** — « Marquer comme déployé » est désormais disponible pour les correctifs de texte de remplacement et le texte de remplacement modifié manuellement est conservé pendant les exécutions de nouvelle analyse.
 
 ## Du 26 Janvier Au 6 Février 2026
 
 ### Nouvelles fonctionnalités
 
-- **Vue déployée pour Canonique et Hreflang** — Les modifications apportées aux opportunités Canoniques et Hreflang sont désormais regroupées par date de déploiement dans un onglet Déployé, vous donnant un historique clair de ce qui a été corrigé et quand.
+- **Vue déployée pour Canonical et Hreflang** — Les modifications apportées aux opportunités Canoniques et Hreflang sont désormais regroupées par date de déploiement dans un onglet Déployé, vous donnant un historique clair de ce qui a été corrigé et quand.
 - **Exportation CSV** — Vous pouvez désormais exporter les données d’opportunité pour les opportunités High Organic Low CTR et Forms au format CSV pour une analyse et un compte rendu des performances hors ligne.
-- **Opportunités favorites** — Démarrez toute opportunité à partir de son en-tête pour l’ajouter à vos favoris, ce qui permet de revenir plus rapidement aux opportunités sur lesquelles vous travaillez activement.
+- **Opportunités mises en favoris** — Démarrez toute opportunité à partir de son en-tête pour l’ajouter à vos favoris, ce qui accélère la navigation vers les opportunités sur lesquelles vous travaillez activement.
 - **Vue déployée pour les chaînes de redirection** — Les correctifs de chaînes de redirection peuvent désormais être marqués comme Déployés directement à partir de la page de détails.
 
 ### Améliorations
@@ -337,13 +343,13 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 
 ### Nouvelles fonctionnalités
 
-- **Site Health Monitor (disponibilité générale)** — Site Health Monitor est désormais disponible pour tous les clients et fournit une vue continue de l’intégrité des performances de votre site. Les nouveaux sites sont configurés automatiquement lors de l’intégration.
-- **Prise en charge des sous-chemins d’accès au site** — Les sites étendus à des sous-chemins d’accès URL spécifiques sont désormais entièrement pris en charge dans Site Health Monitor.
+- **Moniteur d&#39;intégrité du site (disponibilité générale)** — Le Moniteur d&#39;intégrité du site est désormais disponible pour tous les clients, ce qui permet d&#39;avoir une vue continue de l&#39;intégrité des performances de votre site. Les nouveaux sites sont configurés automatiquement lors de l’intégration.
+- **Prise en charge des sous-chemins d’accès sur le site** — Les sites étendus à des sous-chemins d’accès d’URL spécifiques sont désormais entièrement pris en charge dans Site Health Monitor.
 
 ### Améliorations
 
 - **Avis de suffisance des données exploitables** — Les opportunités de trafic payant avec moins de 1 000 pages vues affichent désormais un avis de suffisance des données, ce qui vous permet de concentrer les efforts d’optimisation lorsque les données de trafic sont statistiquement significatives.
-- **Validation flexible des titres Meta** — Le nombre minimum de caractères requis pour les méta-titres a été réduit, ce qui vous offre davantage de flexibilité dans la conception de titres de page concis.
+- **Validation flexible des titres Meta** — Le nombre minimum de caractères requis pour les méta-titres a été réduit, ce qui vous donne plus de flexibilité dans la conception de titres de page concis.
 - **Boîte de dialogue Nouveautés localisée** — La boîte de dialogue Annonces des fonctionnalités in-app s’affiche désormais dans la langue de votre choix.
-- **Badge publié** — Les variations de l’opportunité Taux de clics faible organique élevé qui ont été déployées affichent désormais un badge « Publié », ce qui facilite la distinction entre les modifications actives et en attente.
-- **Liens de demande d’extraction dans l’accessibilité** — L’onglet Déployé de l’opportunité d’accessibilité affiche désormais l’URL de demande d’extraction associée à chaque correctif, ce qui facilite le suivi des modifications apportées à votre historique de contrôle de code source.
+- **Badge publié** — Les variations de l’opportunité High Organic Low CTR qui ont été déployées affichent désormais un badge « Publié », ce qui facilite la distinction entre les modifications actives et en attente.
+- **Liens de demande d’extraction dans l’accessibilité** — L’onglet Déployé de l’opportunité d’accessibilité affiche désormais l’URL de demande d’extraction associée à chaque correctif, ce qui facilite le suivi des modifications vers votre historique de contrôle de code source.
