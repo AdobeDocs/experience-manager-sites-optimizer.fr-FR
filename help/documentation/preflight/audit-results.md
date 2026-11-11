@@ -4,9 +4,9 @@ description: Découvrez comment interpréter les résultats de l’audit de cont
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 00dbc1a9033cf327da68df99c9604b50f45b43ee
+source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1703'
 ht-degree: 0%
 ---
 
@@ -18,18 +18,18 @@ Une fois les audits terminés, le contrôle en amont affiche les résultats dans
 
 La barre d’outils située en haut du tableau de bord des résultats fournit des actions pour l’exécution en cours :
 
-* **Réanalyser** - Lancez une toute nouvelle exécution d’audit sur la page active. L’option Réanalyser ignore toujours les résultats affichés et exécute à nouveau chaque audit. Vous devez donc l’utiliser chaque fois que vous souhaitez de nouveaux résultats, par exemple, après avoir modifié la page. Sélectionnez **Réanalyser** dans la barre d’outils.
-* **Exporter** - Téléchargez l’exécution actuelle au format **CSV** (feuille de calcul conviviale) ou **PDF** (document formaté). En fonction de votre environnement, sélectionnez **Exporter** dans la barre d’outils ou dans l’**Autres actions** (**...**) menu.
-* **Paramètres** - Utilisez **Afficher les liens de navigation du site** pour inclure des liens de navigation du site (actuellement Liens internes uniquement). Sélectionnez l’icône d’engrenage ou ouvrez **Autres actions** (**...**). et sélectionnez **Paramètres**. Les paramètres sont disponibles avant une exécution ou une fois celle-ci terminée, mais pas pendant que les audits sont en cours d’exécution ni dans l’éditeur universel. Voir [Inclure des liens de navigation de site](./opportunities/seo/internal-links.md#include-site-navigation-links).
+* **Réanalyser** - Démarrez une toute nouvelle exécution d’audit sur la page active. L’option Réanalyser ignore toujours les résultats affichés et exécute à nouveau chaque audit. Vous devez donc l’utiliser chaque fois que vous souhaitez de nouveaux résultats, par exemple, après avoir modifié la page. Sélectionnez **Réanalyser** dans la barre d’outils.
+* **Exporter** - Téléchargez l’exécution actuelle sous la forme d’un fichier **CSV** (pour les feuilles de calcul) ou **PDF** (un document formaté). En fonction de votre environnement, sélectionnez **Exporter** dans la barre d’outils ou **Autres actions** (**...**) menu.
+* **Paramètres** - Utilisez **Afficher les liens de navigation du site** pour inclure les liens de navigation du site (actuellement les liens internes uniquement). Sélectionnez l’icône d’engrenage ou ouvrez **Autres actions** (**...**) et sélectionnez **Paramètres**. Les paramètres sont disponibles avant une exécution ou une fois celle-ci terminée, mais pas pendant que les audits sont en cours d’exécution ni dans l’éditeur universel. Voir [Inclure les liens de navigation du site](./opportunities/seo/internal-links.md#include-site-navigation-links).
 
 Si vous modifiez un paramètre après une exécution, un point sur **Réanalyser** et le libellé **Réanalyser pour appliquer de nouveaux paramètres** indiquent que les résultats affichés utilisaient un paramètre différent. Sélectionnez **Réanalyser** pour appliquer le paramètre enregistré à une nouvelle exécution.
 
 Lors de l’exportation, vous pouvez également choisir les éléments à inclure :
 
 * **Inclure le tableau des métadonnées** - Ajoutez un tableau des détails d’exécution, tels que les détails de l’hôte, du chemin de contenu et de la génération.
-* **Inclure les audits réussis** - Inclure les audits réussis sans opportunités, pas seulement les opportunités trouvées.
+* **Inclure les audits réussis** - Incluez les audits réussis sans opportunités, pas seulement les opportunités trouvées.
 
-Les vérifications qui n&#39;ont pas pu être effectuées sont toujours incluses, peu importe ce que vous choisissez. Pour plus d’informations, voir [Audits qui n’ont pas pu être effectués](#audits-that-could-not-be-completed).
+Les vérifications qui n&#39;ont pas pu être effectuées sont toujours incluses, peu importe ce que vous choisissez. Pour plus d&#39;informations, voir [Audits qui n&#39;ont pas pu être effectués](#audits-that-could-not-be-completed).
 
 >[!NOTE]
 >
@@ -37,13 +37,13 @@ Les vérifications qui n&#39;ont pas pu être effectuées sont toujours incluses
 
 ## Outil de mesure des résultats
 
-En haut du tableau de bord, la mesure des résultats reflète les résultats d’audit globaux. Il indique le pourcentage d’audits qui se sont terminés sans opportunités, étiquetés **% réussis** ainsi que le nombre total d’opportunités trouvées dans tous les audits. Par exemple, le taux de réussite de **85 %** signifie que 85 % des vérifications terminées n&#39;ont trouvé aucune occasion. Ce pourcentage décrit les résultats de l’audit, et non la progression de l’exécution.
+En haut du tableau de bord, la mesure des résultats reflète les résultats d’audit globaux. Il indique le pourcentage d’audits qui se sont terminés sans opportunités, étiquetés **% réussi**, ainsi que le nombre total d’opportunités trouvées dans tous les audits. Par exemple, **85 % ont réussi**, ce qui signifie que 85 % des audits terminés n’ont trouvé aucune opportunité. Ce pourcentage décrit les résultats de l’audit, et non la progression de l’exécution.
 
-![Mesure des résultats et catégories d’audit dans le tableau de bord Contrôle en amont](./assets/overview/hero.png){align="center"}
+![L&#39;indicateur de résultats et les catégories d&#39;audit dans le tableau de bord de contrôle en amont](./assets/overview/hero.png){align="center"}
 
-Lorsque vous affichez une exécution qui a été rechargée à partir d’une session précédente, l’en-tête indique la durée de son exécution (par exemple, *hier*. Pour plus d’informations, voir [Poursuivre une session précédente](./audits.md#continue-a-previous-session).
+Lorsque vous consultez une exécution qui a été rechargée à partir d’une session précédente, l’en-tête indique depuis combien de temps elle a été effectuée, par exemple *hier*. Pour plus d&#39;informations, voir [Poursuivre une session précédente](./audits.md#continue-a-previous-session).
 
-Pendant que les audits sont toujours en cours d’exécution, le tableau de bord affiche **Page d’analyse** avec un statut court en dessous. Une barre de progression s’affiche initialement, avant l’arrivée des catégories d’audit nommées. Ensuite, un indicateur de traitement s’affiche uniquement à côté de chaque audit toujours en cours d’exécution, et non dans sa catégorie. Une fois tous les audits terminés, le compteur affiche le pourcentage final de réussite et le nombre d’opportunités.
+Pendant que les audits sont toujours en cours, le tableau de bord affiche **Page d&#39;analyse** avec un statut court en dessous. Une barre de progression s’affiche initialement, avant l’arrivée des catégories d’audit nommées. Ensuite, un indicateur de traitement s’affiche uniquement à côté de chaque audit toujours en cours d’exécution, et non dans sa catégorie. Une fois tous les audits terminés, le compteur affiche le pourcentage final de réussite et le nombre d’opportunités.
 
 ## Catégories d’audit
 
@@ -51,7 +51,7 @@ Le contrôle en amont regroupe les audits associés dans des catégories, telles
 
 Développez une catégorie pour afficher ses audits individuels. Chaque audit indique s’il a réussi ou trouvé des opportunités, une brève description et un nombre d’opportunités trouvées. Sélectionnez un audit qui a trouvé des opportunités d’ouvrir sa page de détails.
 
-Une catégorie peut afficher des résultats alors que certains de ses audits sont toujours en cours. Son statut indique, par exemple, que les audits **3/3 ont été réalisés jusqu&#39;à présent**. Ce nombre inclut uniquement les audits qui ont renvoyé des résultats. Il peut donc changer à mesure que d’autres résultats arrivent. Développez la catégorie pour voir quels audits sont toujours en cours. Une catégorie sans opportunités n’affiche sa coche entièrement effacée qu’une fois son travail en attente terminé.
+Une catégorie peut afficher des résultats alors que certains de ses audits sont toujours en cours. Son statut indique, par exemple, que **3/3 audits ont réussi jusqu&#39;à présent**. Ce nombre inclut uniquement les audits qui ont renvoyé des résultats. Il peut donc changer à mesure que d’autres résultats arrivent. Développez la catégorie pour voir quels audits sont toujours en cours. Une catégorie sans opportunités n’affiche sa coche entièrement effacée qu’une fois son travail en attente terminé.
 
 ### Audits qui n’ont pas pu être menés à bien
 
@@ -60,9 +60,9 @@ Il arrive parfois qu’un audit ne puisse pas être terminé pour une page, par 
 * La ligne d&#39;audit affiche une icône neutre et la raison pour laquelle l&#39;audit n&#39;a pas pu être terminé, à la place de sa description habituelle. Lorsque le motif le suggère, exécutez à nouveau le contrôle en amont pour réessayer.
 * L’audit est comptabilisé comme non réussi dans le chiffre **% réussi** et dans le nombre d’audits réussis de sa catégorie.
 * Sa catégorie n’affiche pas la coche entièrement effacée.
-* Le rapport exporté répertorie toujours l’audit et sa raison, même lorsque l’option **Inclure les audits réussis** n’est pas sélectionnée. Le résumé du rapport ne dit jamais que toutes les vérifications ont réussi.
+* Le rapport exporté répertorie toujours l’audit et sa raison, même lorsque **Inclure les audits réussis** n’est pas sélectionné. Le résumé du rapport ne dit jamais que toutes les vérifications ont réussi.
 
-Pour obtenir la liste complète des catégories d&#39;audit et les audits de chacune d&#39;elles, voir [Catégories d&#39;audit de contrôle en amont](./overview.md#preflight-audit-categories).
+Pour obtenir la liste complète des catégories d&#39;audit et des audits de chacune d&#39;elles, voir [Catégories d&#39;audit de contrôle en amont](./overview.md#preflight-audit-categories).
 
 ## Détails de l’opportunité
 
@@ -70,14 +70,20 @@ La page des détails affiche les opportunités trouvées par l’audit sélectio
 
 Pour les audits qui identifient une URL spécifique sur la page, la section **Élément** s’affiche en haut de la carte pour présenter l’élément, et le reste de l’opportunité la suit dans sa propre section.
 
-Lorsque plusieurs opportunités affectent le même élément (par exemple, plusieurs problèmes avec le même lien), le contrôle en amont les affiche ensemble sur une carte, chacune dans sa propre section intitulée avec son numéro d’instance, tel que **Instance 3**. Le navigateur affiche ensuite une plage au lieu d’une seule position, par exemple *3-5 sur 12 instances trouvées*.
+Lorsque plusieurs opportunités affectent le même élément (par exemple, plusieurs problèmes avec le même lien), le contrôle en amont les affiche ensemble sur une carte, chacune dans sa propre section intitulée avec son numéro d’instance, par exemple **Instance 3**. Le navigateur affiche ensuite une plage au lieu d’une position unique, par exemple *3-5 des 12 instances trouvées*.
 
-![Page de détails de l’audit des liens internes, affichant le filtre d’instance, une opportunité et la section URL actuelle](./assets/audit-results/audit-detail.png){align="center"}
+![Page de détails de l&#39;audit des liens internes, affichant le filtre d&#39;instance, une opportunité et la section URL actuelle](./assets/audit-results/audit-detail.png){align="center"}
 
 Chaque opportunité comprend :
 
 * Détails sur l’opportunité, tels qu’une description du problème, une recommandation et, pour l’accessibilité, la règle WCAG associée et le niveau de conformité.
-* Une section **Élément** qui identifie l’élément affecté sur la page, avec un bouton **Mettre en surbrillance sur la page**. Lorsque l’élément comporte du texte lisible, la section est intitulée **Élément : Texte** et affiche ce texte ; dans le cas contraire, elle est intitulée **Élément : Sélecteur** et affiche le sélecteur CSS de l’élément. Pour les opportunités **Liens internes** et **Canonique**, une section **URL actuelle** affiche également l’URL impliquée. Sélectionnez **Copier l’URL** pour la copier dans le presse-papiers, ou **Ouvrir dans un nouvel onglet** pour l’ouvrir.
+* Une section **Élément** qui identifie l’élément affecté. Son titre indique ce qu’il affiche :
+  * **Élément : Texte** - texte de l’élément ou adresse à laquelle il est lié.
+  * **Élément : image** - une miniature de l’image, par exemple dans **Texte de remplacement** et autres **opportunités d’accessibilité**.
+  * **Élément : sélecteur** - sélecteur CSS de l’élément, lorsqu’aucun texte ou image n’est disponible.
+
+  Pour copier, pointer ou placer le focus sur la section. **Élément : le texte** affiche **Autres actions** (**...**) menu avec **Copier le texte** et **Copier le sélecteur**. **Élément : Image** et **Élément : Sélecteur** affichent une icône de copie qui copie le sélecteur CSS. Un message de confirmation s’affiche lorsque la copie réussit.
+* Pour les **liens internes** et les **opportunités canoniques**, une section **URL actuelle** qui affiche l’URL impliquée. Sélectionnez **Copier l’URL** pour la copier ou **Ouvrir dans un nouvel onglet** pour l’ouvrir.
 * Une section **Suggestion** avec un correctif recommandé. Lorsque la suggestion est générée par l’IA, elle est marquée comme étant générée par l’IA et peut inclure une brève justification expliquant la correction suggérée.
 
 ### Filtrer les instances
@@ -94,17 +100,17 @@ Une fois les audits terminés, vous pouvez rapidement localiser et comprendre un
 
 Le contrôle en amont met en surbrillance l’élément concerné dans son contexte et associe le résultat du panneau à son emplacement dans votre contenu. Dans l’éditeur universel, le contrôle en amont utilise le contour de sélection de l’éditeur. Dans d’autres environnements de création, la mise en surbrillance utilise des anneaux de contour contrastés pour rester visible en arrière-plan de la page.
 
-1. Ouvrez le panneau Contrôle en amont dans le contexte de la page à contrôler, puis sélectionnez **Analyser la page** pour exécuter les contrôles.
+1. Ouvrez le panneau de contrôle en amont dans le contexte de la page à contrôler, puis sélectionnez **Analyser la page** pour exécuter les contrôles.
 1. Sélectionnez un audit dans le tableau de bord des résultats, puis sélectionnez une opportunité à examiner.
 1. Sélectionnez **Mettre en surbrillance sur la page**. L’aperçu fait automatiquement défiler la page jusqu’à la zone appropriée et met en surbrillance l’élément correspondant, afin que vous puissiez facilement identifier et optimiser l’opportunité en contexte. Sélectionnez à nouveau **Mettre en surbrillance sur la page** pour supprimer la mise en surbrillance sans quitter l’opportunité.
 
 La mise en surbrillance n’est pas possible pour chaque opportunité. Par exemple, lorsqu’une opportunité n’est pas liée à un élément spécifique, l’élément est masqué ou il ne se trouve plus sur la page. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
 
-Dans l’éditeur universel, la mise en surbrillance est prise en charge pour les opportunités **SEO** et **Texte de remplacement** dans la catégorie **Accessibilité**. Les autres opportunités **accessibilité** ne sont pas encore prises en charge. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
+Dans l’éditeur universel, la mise en surbrillance est prise en charge pour les **opportunités d’optimisation du moteur de recherche** et les **opportunités de texte de remplacement** dans la catégorie **Accessibilité**. Les autres **opportunités d’accessibilité** ne sont pas encore prises en charge. Dans ce cas, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi.
 
 Dans l’éditeur universel, le contrôle en amont ne peut que mettre en surbrillance le contenu modifiable. Si l’élément concerné ne fait pas partie du contenu modifiable, le bouton **Mettre en surbrillance sur la page** est grisé ; passez la souris dessus pour voir pourquoi. Si l’élément lui-même n’est pas directement modifiable, mais que le bloc modifiable le plus proche l’est, le contrôle en amont met en surbrillance ce bloc et ajoute une note expliquant pourquoi.
 
-Dans l’éditeur de page d’AEM Sites et Adobe Managed Services (AMS), la mise en surbrillance nécessite également le **mode d’édition**. Dans le **mode Aperçu**, le contrôle en amont affiche un **mise en surbrillance des problèmes non disponibles** notez-le ; passez en **mode d’édition** pour mettre en surbrillance les éléments de la page.
+Dans l’éditeur de page d’AEM Sites et Adobe Managed Services (AMS), la mise en surbrillance nécessite également le **mode d’édition**. En **mode Aperçu**, le contrôle en amont affiche un **avis de mise en surbrillance des problèmes non disponible** ; passez en **mode d’édition** pour mettre en surbrillance les éléments de la page.
 
 ## Identifiant du traitement
 
