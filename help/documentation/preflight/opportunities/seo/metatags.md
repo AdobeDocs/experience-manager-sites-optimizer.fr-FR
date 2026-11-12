@@ -1,15 +1,16 @@
 ---
 title: Contrôle en amont de l’audit des métadonnées
 description: Découvrez l’audit des balises de métadonnées dans la section Contrôle en amont pour AEM Sites Optimizer.
+badgePreflightSEO: label="Contrôle en amont - SEO" type="Caution" url="../seo.md" tooltip="Contrôle en amont - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 59c097682899889aa2a5d76333f80cc58e28ff1e
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '806'
 ht-degree: 1%
 ---
-# Audit des métadonnées
+# Contrôle en amont - Audit des métadonnées
 
 L’audit **Metatags** examine le titre de la page, la méta-description et l’en-tête principal (H1). Il signale toutes les pages qui sont manquantes, vides ou en dehors de la longueur recommandée et signale les pages comportant plusieurs en-têtes H1.
 
@@ -23,9 +24,9 @@ L&#39;audit signale une opportunité pour chacun des problèmes suivants :
 
 * **Titre de la page :** manquant, vide, trop court ou plus long que la longueur idéale.
 * **Description Meta :** manquant, vide, trop court ou plus long que la longueur idéale.
-* En-tête **H1 :** manquant, vide, plus long que la longueur idéale ou plus d’un H1 sur la page.
+* En-tête **H1 :** manquant, vide, de longueur supérieure à la longueur idéale ou plusieurs H1 sur la page.
 
-Une valeur de quelques caractères au-dessus de la longueur idéale est signalée comme **supérieure à la longueur idéale**, et une valeur supérieure au maximum de l’audit comme **trop longue**. Le contrôle en amont ne comporte pas de seuil trop long pour les titres de page.
+Une valeur de quelques caractères au-dessus de la longueur idéale est signalée comme **au-dessus de la longueur idéale**, et une valeur au-delà du maximum de l’audit comme **trop long**. Le contrôle en amont ne comporte pas de seuil trop long pour les titres de page.
 
 | Balise | Longueur idéale | Au-dessus de la longueur idéale | Trop long |
 |---|---|---|---|
@@ -37,9 +38,9 @@ Ces plages sont des directives recommandées et non des exigences pour les moteu
 
 ## Lecture des valeurs
 
-L’audit lit la page que vous modifiez : le texte de l’élément `<title>`, le contenu de la balise `<meta name="description">` et le texte visible du premier élément `<h1>`, y compris le texte en gras ou en italique.
+L’audit lit la page que vous modifiez : le texte de l’élément `<title>`, le contenu de la balise `<meta name="description">` et le texte visible du premier élément `<h1>`, y compris tout texte en gras ou en italique qu’il contient.
 
-Une balise est **manquante** quand la page ne l’a pas, et **vide** quand elle y est mais sans texte visible. Les longueurs comptent tous les caractères, y compris les espaces et la ponctuation. Seule la longueur H1 est vérifiée. Lorsqu’une page comporte plusieurs H1, chacune d’elles est répertoriée comme une instance distincte. Vous pouvez ainsi rechercher et modifier les en-têtes supplémentaires.
+Une balise est **manquante** lorsque la page ne l’a pas et **vide** lorsqu’elle y est mais qu’elle ne comporte pas de texte visible. Les longueurs comptent tous les caractères, y compris les espaces et la ponctuation. Seule la longueur H1 est vérifiée. Lorsqu’une page comporte plusieurs H1, chacune d’elles est répertoriée comme une instance distincte. Vous pouvez ainsi rechercher et modifier les en-têtes supplémentaires.
 
 ## Suggestions
 
@@ -55,15 +56,15 @@ Dans les pages Edge Delivery Services, un titre de page ou une méta-description
 
 ## Limites connues
 
-* **Les autres balises head ne sont pas cochées** telles que les balises Open Graph pour le partage sur les réseaux sociaux ou la balise robots.
-* **La longueur est comptée en caractères :** les moteurs de recherche raccourcissent les titres et les descriptions en fonction de l’espace qu’ils occupent à l’écran, de sorte qu’une valeur de la longueur idéale peut toujours être raccourcie dans les résultats de recherche.
+* **Les autres balises head ne sont pas cochées,** telles que les balises Open Graph pour le partage sur les réseaux sociaux ou la balise robots.
+* **La longueur est comptée en caractères :** les moteurs de recherche raccourcissent les titres et les descriptions en fonction de l&#39;espace qu&#39;ils occupent à l&#39;écran, de sorte qu&#39;une valeur dans la longueur idéale peut toujours être raccourcie dans les résultats de recherche.
 * **Langues sans espaces entre les mots :** sur les pages dans des langues telles que le chinois, le japonais ou le coréen, une valeur qui lit bien peut toujours être marquée et les suggestions de l’IA peuvent ne pas correspondre à la longueur idéale.
 
 ## Comment résoudre
 
 Chaque opportunité décrit le problème et la modification recommandée, et affiche la valeur actuelle du titre de la page ou de la méta-description.
 
-* **Titre de la page et méta-description :** mettez-les à jour là où votre site les définit, par exemple dans les propriétés de la page dans AEM Sites ou dans les métadonnées de la page dans Edge Delivery Services. Ces balises se trouvent dans l’en-tête de la page. Par conséquent, l’option **Mettre en surbrillance sur la page** n’est pas disponible pour elles.
-* En-tête **H1 :** utilisez **Mettre en surbrillance sur la page** pour trouver l’en-tête dans votre contenu. Dans Edge Delivery Services, l’éditeur de page d’AEM Sites et Adobe Managed Services (AMS), le contrôle en amont fait défiler l’en-tête jusqu’à le mettre en surbrillance ; l’éditeur de page et AMS nécessitent le **mode d’édition**. Dans l’éditeur universel, le contrôle en amont sélectionne l’en-tête ou le bloc modifiable le plus proche qui le contient. Un en-tête dans la navigation ou un pied de page est affiché, mais ne peut pas être sélectionné. Pour plus d’informations, voir [Surligner sur la page](../../audit-results.md#highlight-on-page).
+* **Titre de la page et méta-description :** mettez-les à jour là où votre site les définit, par exemple dans les propriétés de la page dans AEM Sites ou dans les métadonnées de la page dans Edge Delivery Services. Ces balises se trouvent dans l&#39;en-tête de la page. Par conséquent, **La mise en surbrillance de la page** n&#39;est pas disponible pour elles.
+* En-tête **H1 :** utilisez **Mettre en surbrillance sur la page** pour trouver l’en-tête dans votre contenu. Dans Edge Delivery Services, l’éditeur de page d’AEM Sites et Adobe Managed Services (AMS), le contrôle en amont fait défiler l’en-tête et le met en évidence ; l’éditeur de page et AMS nécessitent **le mode d’édition**. Dans l’éditeur universel, le contrôle en amont sélectionne l’en-tête ou le bloc modifiable le plus proche qui le contient. Un en-tête dans la navigation ou un pied de page est affiché, mais ne peut pas être sélectionné. Pour plus d&#39;informations, voir [Mettre en surbrillance sur la page](../../audit-results.md#highlight-on-page).
 
-Pour savoir comment examiner et résoudre les opportunités, voir [Résultats d’audit dans le contrôle en amont](../../audit-results.md).
+Pour savoir comment examiner et résoudre les opportunités, consultez [Résultats d’audit dans le contrôle en amont](../../audit-results.md).

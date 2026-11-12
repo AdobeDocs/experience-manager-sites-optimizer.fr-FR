@@ -7,9 +7,9 @@ product_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b17260f7dbb82fd26120fd90c1d21a22d33949b1
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '4035'
+source-wordcount: '4063'
 ht-degree: 1%
 ---
 
@@ -24,6 +24,7 @@ Les fonctionnalités marquées **(Accès anticipé)** sont disponibles sur deman
 ### Améliorations
 
 - **Panneau d’élément de contrôle en amont** — La section **Élément** affiche désormais une miniature d’image ou un texte lisible au lieu d’un sélecteur CSS lorsqu’il le peut, et vous permet de copier le texte ou le sélecteur CSS de l’élément.
+- **Vérification HTTPS canonique de contrôle en amont** — L’audit canonique marque désormais une URL canonique qui utilise `http://` au lieu de `https://`, au lieu de marquer une URL canonique dont le protocole diffère de celui de la page.
 
 ## 26 Octobre Au 1Er Novembre 2026 {#october-26-november-1-2026}
 
