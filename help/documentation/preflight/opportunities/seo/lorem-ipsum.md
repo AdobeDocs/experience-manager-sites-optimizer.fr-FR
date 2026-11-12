@@ -1,15 +1,16 @@
 ---
 title: Contrôle en amont de Lorem Ipsum
 description: Découvrez l’audit Lorem ipsum dans la section Contrôle en amont pour AEM Sites Optimizer.
+badgePreflightSEO: label="Contrôle en amont - SEO" type="Caution" url="../seo.md" tooltip="Contrôle en amont - SEO"
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
-source-git-commit: 64709247e9a900f505b47235bf303984ce918faa
+source-git-commit: 659419fa2eb570b4e1fedf87c35c5c60c46ffc8a
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '375'
 ht-degree: 1%
 ---
-# audit de Lorem ipsum
+# Contrôle en amont - contrôle Lorem ipsum
 
 L’audit **Lorem ipsum** détecte le texte d’espace réservé qui a été laissé dans le contenu de votre page.
 
@@ -36,13 +37,13 @@ L&#39;audit recherche l&#39;expression « lorem ipsum » dans toute combinaison 
 
 ## Limites connues
 
-* **Uniquement « lorem ipsum » :** aucun autre texte d’espace réservé, tel que « TBD » ou autres mots de remplissage latins sans « lorem ipsum », n’est détecté.
-* **Mettre en surbrillance sur la page :** n’est pas disponible pour le titre de la page ou les métadonnées, car ils n’apparaissent pas sur la page. Utilisez **Détails** et la zone **Élément** pour rechercher le texte.
+* **Seul « lorem ipsum » :** aucun autre texte d&#39;espace réservé, tel que « TBD » ou autres mots de remplissage latins sans « lorem ipsum », n&#39;est détecté.
+* **La mise en surbrillance de la page :** n&#39;est pas disponible pour le titre de la page ou les métadonnées, car elles n&#39;apparaissent pas sur la page. Utilisez **Détails** et la zone **Élément** pour rechercher le texte.
 
 ## Comment résoudre
 
-Cochez la case **Détails** pour l’emplacement du texte, tel qu’un titre de page, un texte secondaire ou un en-tête. **Recommandations** explique comment le corriger et la zone **Élément** affiche le texte à l’intérieur de sa balise .
+Vérifiez **Détails** pour l&#39;emplacement du texte, tel qu&#39;un titre de page, un texte secondaire ou un en-tête. **La recommandation** explique comment corriger ce problème et la zone **Élément** affiche le texte dans sa balise.
 
-Utilisez **Mettre en surbrillance sur la page** le cas échéant. Un élément masqué peut apparaître dans d’autres tailles d’écran, dans un menu ou une boîte de dialogue.
+Utiliser la mise en surbrillance **sur la page** lorsque disponible. Un élément masqué peut apparaître dans d’autres tailles d’écran, dans un menu ou une boîte de dialogue.
 
-Remplacez ou supprimez le texte d’espace réservé. Pour le texte secondaire et les libellés d’accessibilité, décrivez l’image ou le contrôle. Pour plus d’informations, consultez [Résultats d’audit en contrôle en amont](../../audit-results.md) .
+Remplacez ou supprimez le texte d’espace réservé. Pour le texte secondaire et les libellés d’accessibilité, décrivez l’image ou le contrôle. Voir [Résultats de l’audit en contrôle en amont](../../audit-results.md) pour plus d’informations.
